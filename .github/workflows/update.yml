@@ -7,8 +7,8 @@ on:
   workflow_dispatch:          # Actions 탭에서 수동 실행 가능
     inputs:
       linkareer_pages:
-        description: "링커리어 목록 조회 페이지 수"
-        default: "5"
+        description: "링커리어 목록 조회 페이지 수 (많을수록 더 많이 수집)"
+        default: "20"
       wevity_limit:
         description: "위비티 분야당 최대 조회 건수 (CI에서는 403으로 무시됨)"
         default: "15"
@@ -49,7 +49,7 @@ jobs:
         run: |
           set -o pipefail
           python scripts/update_contests.py \
-            --linkareer-pages "${{ github.event.inputs.linkareer_pages || '5' }}" \
+            --linkareer-pages "${{ github.event.inputs.linkareer_pages || '20' }}" \
             --wevity-limit    "${{ github.event.inputs.wevity_limit    || '15' }}" \
             --afc-limit       "${{ github.event.inputs.afc_limit       || '90' }}" \
             | tee run.log

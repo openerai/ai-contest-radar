@@ -27,6 +27,7 @@ import json
 import re
 import sys
 from datetime import date, datetime, timezone
+from difflib import SequenceMatcher
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -181,16 +182,24 @@ def same_contest(a: dict, b: dict) -> bool:
         return True
     if len(na) < 8 or len(nb) < 8:
         return False
-    if not (na in nb or nb in na):
-        return False
     da, db = a.get("deadline"), b.get("deadline")
-    if not da or not db:
-        return True
-    try:
-        gap = abs((date.fromisoformat(da) - date.fromisoformat(db)).days)
-    except ValueError:
-        return True
-    return gap <= 3
+
+    if na in nb or nb in na:
+        if not da or not db:
+            return True
+        try:
+            gap = abs((date.fromisoformat(da) - date.fromisoformat(db)).days)
+        except ValueError:
+            return True
+        return gap <= 3
+
+    # 포함 관계는 아니지만 거의 같은 제목인 경우.
+    # ('2026 포항시…' vs '2026년 포항시…' 처럼 소스마다 조사·표기가 조금 다름)
+    # 오탐이 나면 서로 다른 대회가 하나로 합쳐지므로, 마감일이 완전히 같을
+    # 때만 그리고 유사도 0.9 이상일 때만 인정한다.
+    if not da or da != db:
+        return False
+    return SequenceMatcher(None, na, nb).ratio() >= 0.90
 
 
 def dedupe(records: list[dict]) -> tuple[list[dict], int]:
@@ -317,7 +326,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않고 결과만 출력")
     ap.add_argument("--skip-kr", action="store_true")
     ap.add_argument("--skip-global", action="store_true")
-    ap.add_argument("--linkareer-pages", type=int, default=5,
+    ap.add_argument("--linkareer-pages", type=int, default=20,
                     help="링커리어 목록 조회 페이지 수")
     ap.add_argument("--wevity-limit", type=int, default=30,
                     help="위비티 카테고리당 최대 상세 조회 건수")

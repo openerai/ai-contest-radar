@@ -305,7 +305,7 @@ dialog.detail::backdrop { background:rgba(0,0,0,.5); backdrop-filter:blur(3px); 
   </div>
 </dialog>
 
-<script src="data/global.js?v=202608040908"></script>
+<script src="data/global.js?v=202608040922"></script>
 <script>
 /* ══════════════════════════════════════════════════════════════
    환율 (참고 환산용) — 필요 시 이 숫자만 바꾸세요
@@ -366,6 +366,15 @@ function computeScore(c) {
 /* ══════════════════════════════════════════════════════════════
    3. 유틸
    ══════════════════════════════════════════════════════════════ */
+/* 수집한 텍스트를 innerHTML 에 넣기 전 반드시 통과시킨다.
+   외부 사이트에서 긁어온 문자열이라 꺾쇠·따옴표가 그대로 들어오면
+   표시가 깨지고 스크립트 주입 경로가 된다. */
+function esc(v) {
+  return String(v ?? '')
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
 const startOfDay = d => { const x = new Date(d); x.setHours(0,0,0,0); return x; };
 const TODAY = startOfDay(new Date());
 const DOW = ['일','월','화','수','목','금','토'];
@@ -601,8 +610,8 @@ function cardHTML(c) {
         <span class="lbl">${c.deadline ? fmtDate(c.deadline).slice(5,11) + (c.tz ? '<br>' + c.tz : '') : (c.tz || '&nbsp;')}</span>
       </div>
       <div class="card-head">
-        <h2 class="card-title">${c.title}</h2>
-        <div class="card-host"><span class="tier ${c.tier}">${c.tier}</span> ${c.org}</div>
+        <h2 class="card-title">${esc(c.title)}</h2>
+        <div class="card-host"><span class="tier ${c.tier}">${c.tier}</span> ${esc(c.org)}</div>
       </div>
     </div>
     <div class="card-body">
@@ -615,21 +624,21 @@ function cardHTML(c) {
           <span class="pk">크레딧</span><span class="pv">${usd(c.credit)}</span>
           ${showKRW ? `<span class="krw">${krw(c.credit)}</span>` : ''}
         </div>` : ''}
-        <div class="prize-detail">${c.prizeText}</div>
+        <div class="prize-detail">${esc(c.prizeText)}</div>
       </div>
       <div class="meta">
-        <div><span class="mk">마감</span><span class="mv">${c.deadline ? fmtDate(c.deadline) + (c.tz ? ` <b>${c.tz}</b> 기준` : '') : (RECUR_LABEL[c.recur] || '미정') + ' 반복 · 상시'}</span></div>
-        <div><span class="mk">대상</span><span class="mv">${c.who}</span></div>
-        <div><span class="mk">응모</span><span class="mv">${c.entry} · ${c.feeText}</span></div>
+        <div><span class="mk">마감</span><span class="mv">${c.deadline ? fmtDate(c.deadline) + (c.tz ? ` <b>${esc(c.tz)}</b> 기준` : '') : (RECUR_LABEL[c.recur] || '미정') + ' 반복 · 상시'}</span></div>
+        <div><span class="mk">대상</span><span class="mv">${esc(c.who)}</span></div>
+        <div><span class="mk">응모</span><span class="mv">${esc(c.entry)} · ${esc(c.feeText)}</span></div>
       </div>
       <div class="tags">
         ${FEE_TAG[c.fee] || ''}${recurBadge}
-        ${(c.tags||[]).map(t => `<span class="tag${/초고액|최고액|최고권위|IMAX|접근성/.test(t)?' hi':''}">${t}</span>`).join('')}
+        ${(c.tags||[]).map(t => `<span class="tag${/초고액|최고액|최고권위|IMAX|접근성/.test(t)?' hi':''}">${esc(t)}</span>`).join('')}
         ${verifyBadge(c)}
       </div>
     </div>
     <div class="card-foot">
-      <a class="btn primary" href="${c.url}" target="_blank" rel="noopener">공고 보기 ↗</a>
+      <a class="btn primary" href="${esc(c.url)}" target="_blank" rel="noopener">공고 보기 ↗</a>
       <button class="btn" data-detail="${c.id}">상세</button>
       <button class="btn icon ${applied.has(c.id)?'on':''}" data-done="${c.id}" title="지원 완료">✓</button>
     </div>
@@ -643,11 +652,11 @@ function tableHTML(list) {
     <tbody>${list.map(c => `
       <tr class="${applied.has(c.id)?'done':''}">
         <td><span class="dcell ${ddayClass(c)}">${ddayText(c)}</span></td>
-        <td style="white-space:nowrap;color:var(--text-dim)">${c.deadline ? fmtDate(c.deadline) + (c.tz?` <b>${c.tz}</b>`:'') : '—'}</td>
+        <td style="white-space:nowrap;color:var(--text-dim)">${c.deadline ? fmtDate(c.deadline) + (c.tz?` <b>${esc(c.tz)}</b>`:'') : '—'}</td>
         <td><span class="tier ${c.tier}">${c.tier}</span></td>
-        <td class="t"><a href="${c.url}" target="_blank" rel="noopener">${c.title}</a>${c.verify&&c.verify.length?' <span style="color:var(--soon)">⚠</span>':''}</td>
-        <td style="color:var(--text-dim)">${c.org}</td>
-        <td style="color:var(--text-dim)">${c.cat}</td>
+        <td class="t"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>${c.verify&&c.verify.length?' <span style="color:var(--soon)">⚠</span>':''}</td>
+        <td style="color:var(--text-dim)">${esc(c.org)}</td>
+        <td style="color:var(--text-dim)">${esc(c.cat)}</td>
         <td class="num" style="color:${c.cash?'var(--cash)':'var(--text-faint)'}">${usd(c.cash)}</td>
         <td class="num" style="color:${c.credit?'var(--credit)':'var(--text-faint)'}">${c.credit?usd(c.credit):'—'}</td>
         <td style="color:var(--text-dim);white-space:nowrap">${({free:'무료',sub:'구독',paid:'유료'})[c.fee]}</td>
@@ -683,7 +692,7 @@ function calHTML(list) {
       const items = byDate[iso] || [];
       const isToday = +new Date(y, mo, d) === +TODAY;
       const dots = items.slice(0,4).map(c => `<i style="background:${tc(c.tier)}"></i>`).join('');
-      const title = items.map(c => `${c.title} — ${usd(c.cash)}`).join('\n').replace(/"/g,'&quot;');
+      const title = esc(items.map(c => `${c.title} — ${usd(c.cash)}`).join(' / '));
       cells.push(`<div class="cal-cell ${items.length?'has':''} ${isToday?'today':''}"
         ${items.length?`data-day="${iso}" title="${title}"`:''}><span>${d}</span><span class="cal-dots">${dots}</span></div>`);
     }
@@ -724,7 +733,7 @@ function openDetail(id) {
   const c = DATA.find(x => x.id === id); if (!c) return;
   document.getElementById('dlgTitle').textContent = c.title;
   document.getElementById('dlgHost').innerHTML =
-    `<span class="tier ${c.tier}">${c.tier}</span> ${c.org} · ${c.orgType} · 중요도 ${c.score}/100`;
+    `<span class="tier ${c.tier}">${c.tier}</span> ${esc(c.org)} · ${esc(c.orgType)} · 중요도 ${c.score}/100`;
   const row = (k,v) => `<div class="dlg-row"><span class="k">${k}</span><span class="v">${v}</span></div>`;
   document.getElementById('dlgBody').innerHTML = [
     row('마감', c.deadline
@@ -733,12 +742,12 @@ function openDetail(id) {
       : `<b>${RECUR_LABEL[c.recur]} 반복 · 상시 접수</b>`),
     row('현금 상금', `<b style="color:var(--cash)">${usd(c.cash)}</b> ${c.cash ? `<span style="color:var(--text-faint)">${krw(c.cash)}</span>` : ''}`),
     c.credit ? row('크레딧·부상', `<b style="color:var(--credit)">${usd(c.credit)}</b> <span style="color:var(--text-faint)">${krw(c.credit)} 상당</span>`) : '',
-    row('시상 내역', c.prizeText),
-    row('참가 대상', c.who),
-    row('참가 조건', `${c.feeText} · 응모 방식: ${c.entry}`),
-    row('분야', c.cat),
-    c.bonus && c.bonus.length ? row('부가 가치', c.bonus.join(' · ')) : '',
-    c.note ? row('비고', c.note) : '',
+    row('시상 내역', esc(c.prizeText)),
+    row('참가 대상', esc(c.who)),
+    row('참가 조건', `${esc(c.feeText)} · 응모 방식: ${esc(c.entry)}`),
+    row('분야', esc(c.cat)),
+    c.bonus && c.bonus.length ? row('부가 가치', esc(c.bonus.join(' · '))) : '',
+    c.note ? row('비고', esc(c.note)) : '',
     c.verify && c.verify.length
       ? row('⚠ 주의', `<span style="color:var(--soon)">${c.verify.map(v=>VERIFY_LABEL[v]).join(' · ')} 정보가 미확정입니다. 공식 페이지에서 반드시 확인하세요.</span>`) : '',
     `<div class="dlg-row"><span class="k">중요도 산정</span><div class="v score-bars">
@@ -750,7 +759,7 @@ function openDetail(id) {
         <span class="track"><span class="fill" style="width:${c.score}%"></span></span>
         <span class="sv"><b>${c.score}</b></span></div></div></div>`
   ].join('');
-  document.getElementById('dlgLink').href = c.url;
+  document.getElementById('dlgLink').href = c.url || '#';
   document.getElementById('dlg').showModal();
 }
 

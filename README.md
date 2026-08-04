@@ -1,11 +1,91 @@
 # AI 공모전 레이더
 
-각각 더블클릭하면 바로 열리는 단일 파일 페이지입니다. 빌드·서버 불필요. 상단 네비게이션으로 서로 오갈 수 있습니다.
+**🔗 https://openerai.github.io/ai-contest-radar/** — 매주 월요일 아침 자동 갱신
+
+로컬에서 `index.html`을 더블클릭해도 똑같이 열립니다(빌드·서버 불필요). 상단 네비게이션으로 국내↔해외를 오갑니다.
 
 | 파일 | 내용 |
 |---|---|
-| `index.html` | 🇰🇷 **국내** AI 공모전 24건 |
-| `global.html` | 🌍 **해외** 플랫폼 챌린지 · AI 영화제 54건 |
+| `index.html` | 🇰🇷 **국내** AI 공모전 |
+| `global.html` | 🌍 **해외** 플랫폼 챌린지 · AI 영화제 |
+| `data/kr.js`, `data/global.js` | 자동 생성 데이터 (직접 수정 금지) |
+| `data/manual.*.json` | 사람이 관리하는 보정값 — **여기를 고치세요** |
+| `scripts/update_contests.py` | 수집기 |
+| `.github/workflows/update.yml` | 주 1회 자동 갱신 |
+
+---
+
+# 🔄 자동 갱신
+
+## D-day와 목록은 갱신 주기가 다릅니다
+
+**D-day는 항상 정확합니다.** 데이터에는 마감일(`2026-08-31`)만 저장되고, D-day는 페이지를 열 때마다 `new Date()`로 그 자리에서 계산됩니다. 내일 열면 D-27이 D-26이 되고, 21일·7일 경계를 지나면 색이 초록→주황→빨강으로 바뀌며, 마감된 항목은 목록에서 빠집니다. **여기엔 아무 작업도 필요 없습니다.**
+
+**갱신이 필요한 건 목록 자체입니다.** 새로 열린 공모전은 수집을 다시 해야 들어옵니다. 그래서 GitHub Actions가 매주 월요일 06:00(KST)에 재수집합니다.
+
+페이지 상단 배너가 이 격차를 보여줍니다 — 10일 지나면 주황, 21일 지나면 빨강으로 경고합니다.
+
+## 수동 실행
+
+```bash
+python scripts/update_contests.py
+```
+
+GitHub에서 즉시 돌리려면 Actions 탭 → "공모전 데이터 주간 갱신" → Run workflow.
+
+## 수집 소스
+
+| 소스 | 담당 | CI(GitHub 러너)에서 |
+|---|---|---|
+| [링커리어](https://linkareer.com/list/contest) | 국내 **주 소스** | ✅ 정상 |
+| [인공지능팩토리](https://aifactory.space/ko/competition) | 국내 알고리즘 대회 | ✅ 정상 |
+| [위비티](https://www.wevity.com/) | 국내 보조 | ❌ **Cloudflare 403** |
+| [aifilmcontests.com](https://aifilmcontests.com/) | 해외 영화제 (sitemap→JSON-LD) | ✅ 정상 |
+
+⚠ **위비티는 Cloudflare가 데이터센터 IP를 차단해 GitHub Actions에서 실패합니다.** 지역 차단이 아니라 봇 차단이라 프록시 없이는 우회가 어렵습니다. 로컬(집 IP)에서 실행하면 정상 동작하고 5~10건이 더 붙으니, 가끔 로컬에서 한 번 돌려 커밋하면 좋습니다. 실패해도 경고만 남기고 나머지 소스로 진행합니다.
+
+Higgsfield는 JSON-LD가 실제 페이지와 어긋나(2026-08-04 기준 영화제 일정이 7/16~7/30으로 실제와 다름) 자동 수집에서 뺐습니다. 값은 `data/manual.global.json`에 있습니다.
+
+## 안전장치
+
+수집이 깨졌을 때 멀쩡한 데이터를 덮어쓰지 않도록:
+
+1. **건수 가드** — 최종 건수가 직전 실행의 50% 미만이면 파일을 쓰지 않고 워크플로가 실패합니다. (실제로 위비티 차단 때 이게 작동해 국내 데이터를 지켰습니다)
+2. **소스 격리** — 한 소스가 죽어도 나머지는 수집합니다.
+3. **사람 값 우선** — `manual.*.json`의 값은 자동 수집이 덮어쓰지 못합니다.
+4. **캐시 버스터** — 갱신할 때마다 `<script src="data/kr.js?v=...">` 버전이 바뀝니다. 없으면 브라우저가 옛 데이터를 캐시에서 꺼내 씁니다.
+5. **HTML 이스케이프** — 수집한 제목에 `<AI 창창 아이디어 챌린지>`처럼 꺾쇠가 들어오는 실제 사례가 있어, 모든 외부 문자열을 이스케이프한 뒤 렌더합니다.
+
+## 데이터 보정하기
+
+자동 수집 값이 틀렸거나 부족하면 `data/manual.kr.json` / `data/manual.global.json`을 고칩니다.
+
+```jsonc
+{
+  "overrides": {
+    // 키는 자동 id 또는 공모전 제목 (공백·기호 무시하고 비교)
+    "[NHN] 게임 X AI 해커톤 (NAN2026)": {
+      "prizeTotal": 80000000,
+      "topPrize": "대상 5,000만원 · 최우수 2,000만 · 우수 1,000만"
+    }
+  },
+  "extra": [ /* 자동으로 못 잡는 항목을 통째로 추가 */ ],
+  "block": [ /* 목록에서 뺄 id 또는 제목 */ ]
+}
+```
+
+고친 뒤 `python scripts/update_contests.py`를 실행하거나, 그냥 커밋하면 다음 주 갱신 때 반영됩니다.
+
+> 실제 사례: 링커리어는 NHN 해커톤 시상규모를 "3억 5000만 원"으로 싣지만 보도자료 기준 상위 3팀 총상금은 8,000만원입니다. 이런 차이를 `overrides`로 잡습니다.
+
+## 중복 처리
+
+같은 공모전이 여러 소스에 뜨면 정보가 충실한 쪽(정확한 상금 > 구간 상금, 링커리어 > 위비티)을 남기고 빈 필드만 다른 쪽에서 채웁니다. 제목이 같거나, 한쪽이 다른 쪽을 포함하거나(`NHN 게임 X AI 해커톤` ↔ `[NHN] 게임 X AI 해커톤 (NAN2026)`), 마감일이 같으면서 유사도 0.9 이상이면 같은 대회로 봅니다.
+
+## 알아둘 점
+
+- GitHub은 **60일간 커밋이 없는 저장소의 예약 워크플로를 자동 중단**합니다. 매주 갱신 커밋이 생기므로 정상 동작 중에는 문제없지만, 오래 실패가 이어지면 확인이 필요합니다.
+- 워크플로 실패는 GitHub이 이메일로 알려줍니다.
 
 ---
 
@@ -34,58 +114,18 @@
 
 배점을 바꾸려면 `index.html`의 `scorePrize` · `scoreHost` · `scoreWho` · `scoreBonus` 함수만 수정하면 됩니다.
 
-## 데이터 수정
+## 상금 표시
 
-`index.html` 안의 `const CONTESTS = [ ... ]` 배열 하나만 고치면 됩니다.
-
-```js
-{
-  id: 'unique-key',              // 중복 불가 (즐겨찾기 저장 키)
-  title: '공모전 이름',
-  host: '주최기관', hostType: '정부·공공',   // 정부·공공 | 대기업 | 지자체 | 기타
-  cat: '해커톤·개발',                        // 자유롭게 추가 가능, 필터 칩이 자동 생성됨
-  deadline: '2026-09-30',        // 모르면 null → "일정 미정"으로 표시
-  prizeTotal: 30000000,          // 원 단위 숫자, 모르면 null
-  topPrize: '대상 1,000만원',
-  who: '만 19세 이상 누구나', whoType: '전국민',  // 전국민 | 대학생 | 전문가한정 | 지역·소속한정
-  bonus: ['채용연계'],            // 중요도 점수에 반영됨
-  note: '비고',
-  url: 'https://...',
-  tags: ['해커톤'],
-  verify: ['prize']              // 'prize' | 'deadline' → ⚠ 확인필요 배지
-}
-```
+위비티는 총상금을 `3천만원~1천만원` 같은 **구간**으로만 줍니다. 구간을 정확한 금액인 척 보여주면 오해를 부르므로 `1,000만원~3,000만원`처럼 범위 그대로 표시하고, 상단 "확인된 총 상금" 합계에서는 제외합니다. 링커리어는 시상규모가 정확한 금액이라 그대로 씁니다.
 
 ## ⚠ 데이터 신뢰도
 
-2026년 8월 4일 기준 웹 조사 결과입니다. **⚠ 확인필요** 배지가 붙은 항목은 상금 또는 마감일이 공고에 명시되지 않았거나, 위비티 목록의 D-day에서 역산한 값입니다. 지원 전 반드시 공식 링크에서 확인하세요. 마감 시각도 자정/18시 등으로 갈리니 별도 확인이 필요합니다.
-
-### 확인된 항목 (공고·보도자료 교차 확인)
-
-| 공모전 | 마감 | 총상금 |
-|---|---|---|
-| NHN 게임 X AI 해커톤 (NAN 2026) | 8/10 | 8,000만원 |
-| SKT 모두의 promp.T | 8/10 | 1,000만원 상당 |
-| 제2회 매일유업 대학생 AI 영상 공모전 | 8/17 | 1,200만원 |
-| 2026 대전 AI 영상 공모전 | 8/18 | 4,800만원 |
-| 제4회 전북청년 AI·빅데이터 경진대회 | 8/28 17:00 | 미공개 |
-| 제4회 스마트축산 AI 경진대회 | 8/31 | 2,300만원 |
-| 제24회 임베디드SW경진대회 (자유공모) | 9/3 | 최대 3,000만원 |
-| 지능형 홈 AI@Home matter AX Sprint | 9/11 18:00 | 미공개 |
-| 국립공원 위성 모니터링 AI 챌린지 ①②③④ | 9/21 · 10/6 | 주제별 600만원 |
+**⚠ 확인필요** 배지가 붙은 항목은 상금 또는 마감일이 공고에 명시되지 않았거나 출처 간 값이 엇갈립니다. 지원 전 반드시 공식 링크에서 확인하세요. 마감 시각(자정/18시 등)도 별도 확인이 필요합니다.
 
 ### 출처
 
-- [위비티(Wevity) — IT·웹/모바일 공모전](https://www.wevity.com/?c=find&s=1&gub=1&cidx=20)
-- [인공지능팩토리 경진대회](https://aifactory.space/ko/competition)
-- [데이콘 경진대회](https://dacon.io/competitions)
-- [전국민 AI 경진대회](https://aichallenge4all.or.kr/competitions)
-- [NHN NAN 2026](https://event.wanted.co.kr/nan2026-nhn) · [ZDNet 보도](https://zdnet.co.kr/view/?no=20260731140707)
-- [SKT 모두의 promp.T](https://news.sktelecom.com/prompt)
-- [2026 대전 AI 영상 공모전](https://aikive.com/event)
-- [제4회 스마트축산 AI 경진대회](https://smartlivestock.co.kr/)
-- [임베디드SW경진대회](https://www.eswcontest.or.kr/main.php)
-- [지능형 홈 AX Sprint 2026](https://linkareer.com/activity/338955)
+- [링커리어](https://linkareer.com/list/contest) · [위비티](https://www.wevity.com/?c=find&s=1&gub=1&cidx=20) · [인공지능팩토리](https://aifactory.space/ko/competition) · [데이콘](https://dacon.io/competitions) · [전국민 AI 경진대회](https://aichallenge4all.or.kr/competitions)
+- 교차 확인용 보도: [NHN NAN 2026 (ZDNet)](https://zdnet.co.kr/view/?no=20260731140707) · [SKT 모두의 promp.T](https://news.sktelecom.com/prompt) · [대전 AI 영상 공모전](https://aikive.com/event) · [스마트축산 AI 경진대회](https://smartlivestock.co.kr/) · [임베디드SW경진대회](https://www.eswcontest.or.kr/main.php)
 
 ---
 
