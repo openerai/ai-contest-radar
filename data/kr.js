@@ -2,18 +2,24 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.KR_DATA = {
- "generatedAt": "2026-08-04T09:04:19+00:00",
+ "generatedAt": "2026-08-04T09:07:37+00:00",
  "_meta": {
-  "autoCount": 39,
-  "finalCount": 39,
+  "autoCount": 20,
+  "finalCount": 29,
   "manualCount": 9,
   "bySource": {
    "manual": 9,
    "linkareer": 16,
-   "aifactory": 4,
-   "wevity": 10
+   "aifactory": 4
   },
-  "warnings": []
+  "warnings": [
+   "위비티 [웹/모바일/IT] 목록 로드 실패",
+   "위비티 [게임/소프트웨어] 목록 로드 실패",
+   "위비티 [과학/공학] 목록 로드 실패",
+   "위비티 [기획/아이디어] 목록 로드 실패",
+   "위비티 [광고/마케팅] 목록 로드 실패",
+   "위비티 [영상/UCC/사진] 목록 로드 실패"
+  ]
  },
  "contests": [
   {
@@ -326,9 +332,6 @@ window.KR_DATA = {
    ],
    "verify": [],
    "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ],
    "overridden": true
   },
   {
@@ -388,9 +391,6 @@ window.KR_DATA = {
    ],
    "verify": [],
    "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ],
    "overridden": true
   },
   {
@@ -403,7 +403,7 @@ window.KR_DATA = {
    "deadline": "2026-08-18",
    "prizeTotal": 3100000,
    "prizeMin": null,
-   "prizeMax": 10000000,
+   "prizeMax": null,
    "prizeApprox": false,
    "prizeBucket": "310만 원",
    "topPrize": "시상규모 310만 원",
@@ -419,13 +419,8 @@ window.KR_DATA = {
     "영상",
     "UCC"
    ],
-   "verify": [
-    "prize"
-   ],
-   "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ]
+   "verify": [],
+   "source": "linkareer"
   },
   {
    "id": "linkareer-340058",
@@ -437,7 +432,7 @@ window.KR_DATA = {
    "deadline": "2026-09-11",
    "prizeTotal": 8000000,
    "prizeMin": null,
-   "prizeMax": 10000000,
+   "prizeMax": null,
    "prizeApprox": false,
    "prizeBucket": "800만 원",
    "topPrize": "시상규모 800만 원",
@@ -454,10 +449,7 @@ window.KR_DATA = {
     "공예"
    ],
    "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ]
+   "source": "linkareer"
   },
   {
    "id": "linkareer-340004",
@@ -469,7 +461,7 @@ window.KR_DATA = {
    "deadline": "2026-08-30",
    "prizeTotal": 7500000,
    "prizeMin": null,
-   "prizeMax": 10000000,
+   "prizeMax": null,
    "prizeApprox": false,
    "prizeBucket": "750만 원",
    "topPrize": "시상규모 750만 원",
@@ -486,10 +478,7 @@ window.KR_DATA = {
     "UCC"
    ],
    "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ]
+   "source": "linkareer"
   },
   {
    "id": "linkareer-339983",
@@ -501,7 +490,7 @@ window.KR_DATA = {
    "deadline": "2026-08-23",
    "prizeTotal": 2000000,
    "prizeMin": null,
-   "prizeMax": 10000000,
+   "prizeMax": null,
    "prizeApprox": false,
    "prizeBucket": "200만 원",
    "topPrize": "시상규모 200만 원",
@@ -518,10 +507,7 @@ window.KR_DATA = {
     "사진"
    ],
    "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ]
+   "source": "linkareer"
   },
   {
    "id": "linkareer-339930",
@@ -532,8 +518,8 @@ window.KR_DATA = {
    "start": "2026-07-29",
    "deadline": "2026-08-27",
    "prizeTotal": 11000000,
-   "prizeMin": 10000000,
-   "prizeMax": 30000000,
+   "prizeMin": null,
+   "prizeMax": null,
    "prizeApprox": false,
    "prizeBucket": "1100만 원",
    "topPrize": "시상규모 1100만 원",
@@ -550,10 +536,7 @@ window.KR_DATA = {
     "UCC"
    ],
    "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ]
+   "source": "linkareer"
   },
   {
    "id": "linkareer-339919",
@@ -593,7 +576,7 @@ window.KR_DATA = {
    "deadline": "2026-08-10",
    "prizeTotal": 1500000,
    "prizeMin": null,
-   "prizeMax": 10000000,
+   "prizeMax": null,
    "prizeApprox": false,
    "prizeBucket": "150만 원",
    "topPrize": "시상규모 150만 원",
@@ -610,10 +593,7 @@ window.KR_DATA = {
     "UCC"
    ],
    "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ]
+   "source": "linkareer"
   },
   {
    "id": "linkareer-339699",
@@ -654,7 +634,7 @@ window.KR_DATA = {
    "deadline": "2026-08-24",
    "prizeTotal": 2000000,
    "prizeMin": null,
-   "prizeMax": 10000000,
+   "prizeMax": null,
    "prizeApprox": false,
    "prizeBucket": "200만 원",
    "topPrize": "시상규모 200만 원",
@@ -670,10 +650,7 @@ window.KR_DATA = {
     "아이디어"
    ],
    "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "wevity"
-   ]
+   "source": "linkareer"
   },
   {
    "id": "linkareer-339661",
@@ -832,272 +809,6 @@ window.KR_DATA = {
     "deadline"
    ],
    "source": "aifactory"
-  },
-  {
-   "id": "wevity-109142",
-   "title": "2026 대전 AI 영상 공모전",
-   "host": "대전광역시 / (주)스튜디오프리윌루전, AI-Kive",
-   "hostType": "지자체",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-07-20",
-   "deadline": "2026-08-18",
-   "prizeTotal": 48000000,
-   "prizeApprox": false,
-   "prizeBucket": "5천만원~3천만원",
-   "topPrize": "총 4,800만원 규모",
-   "who": "제한없음",
-   "whoType": "전국민",
-   "bonus": [
-    "우수작 확산·후속 연계"
-   ],
-   "note": "공식 페이지(aikive.com) 기준 총상금 4,800만원. 대전 지역 AI 영상 창작 생태계 활성화 목적이지만 참가 자격은 제한없음.",
-   "url": "https://aikive.com/event/5105995dd52643bf9dd53285a2f8137d?tab=DETAILS",
-   "tags": [
-    "AI영상",
-    "고액상금"
-   ],
-   "verify": [],
-   "source": "wevity",
-   "overridden": true
-  },
-  {
-   "id": "wevity-107135",
-   "title": "제24회 임베디드SW경진대회",
-   "host": "산업통상부 / 한국임베디드AX산업협회",
-   "hostType": "정부·공공",
-   "cat": "해커톤·개발",
-   "start": "2026-05-06",
-   "deadline": "2026-09-03",
-   "prizeTotal": 10000000,
-   "prizeMin": 10000000,
-   "prizeMax": 30000000,
-   "prizeApprox": true,
-   "prizeBucket": "3천만원~1천만원",
-   "topPrize": "총상금 최대 3,000만원 · 1등 300만원",
-   "who": "일반인, 대학생, 청소년",
-   "whoType": "전국민",
-   "bonus": [
-    "장관상"
-   ],
-   "note": "자유공모 부문 접수 5/6~9/3. 스마트가전(LG전자)·자동차/모빌리티(현대자동차) 부문은 6/10 마감. 대한민국 국민 누구나.",
-   "url": "https://www.eswcontest.or.kr/main.php",
-   "tags": [
-    "웹/모바일/IT",
-    "게임/소프트웨어",
-    "과학/공학"
-   ],
-   "verify": [],
-   "source": "wevity",
-   "overridden": true
-  },
-  {
-   "id": "wevity-108767",
-   "title": "제4회 스마트축산 AI 경진대회",
-   "host": "농림축산식품부 / 축산물품질평가원",
-   "hostType": "정부·공공",
-   "cat": "데이터·알고리즘",
-   "start": "2026-07-01",
-   "deadline": "2026-08-31",
-   "prizeTotal": 23000000,
-   "prizeApprox": false,
-   "prizeBucket": "3천만원~1천만원",
-   "topPrize": "총 2,300만원 · 알고리즘 부문 참여 전원 경품",
-   "who": "일반인, 대학생, 기타",
-   "whoType": "전국민",
-   "bonus": [
-    "상용화 연계"
-   ],
-   "note": "총상금 2,300만원. 대회 본선은 11월. 양돈 생산성 향상 분야 가점. 이메일 접수(smartlivestock@ekape.or.kr).",
-   "url": "https://smartlivestock.co.kr/",
-   "tags": [
-    "축산",
-    "알고리즘",
-    "전원경품"
-   ],
-   "verify": [],
-   "source": "wevity",
-   "overridden": true
-  },
-  {
-   "id": "wevity-109674",
-   "title": "지능형 홈(AI@Home) matter AX Sprint 2026(개발자 해커톤)",
-   "host": "과학기술정보통신부 / 정보통신산업진흥원, 한국AI스마트홈산업협회",
-   "hostType": "정부·공공",
-   "cat": "해커톤·개발",
-   "start": "2026-08-03",
-   "deadline": "2026-09-11",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": 10000000,
-   "prizeApprox": true,
-   "prizeBucket": "1천만원이하",
-   "topPrize": "1등 300만원",
-   "who": "일반인, 대학생",
-   "whoType": "전국민",
-   "bonus": [],
-   "note": "위비티 자동 수집. 접수 2026-08-03 ~ 2026-09-11. 총상금 구간 1천만원이하.",
-   "url": "https://www.kashi.or.kr/events/notice.html?admin_mode=read&no=8121&make=&search=&type=&page=1&sub=",
-   "tags": [
-    "웹/모바일/IT"
-   ],
-   "verify": [],
-   "source": "wevity"
-  },
-  {
-   "id": "wevity-108544",
-   "title": "제13회 전국 ICT융합 AI 공모전",
-   "host": "과학기술정보통신부, 충청북도 / 충북과학기술혁신원/충북인공지능산업협회",
-   "hostType": "지자체",
-   "cat": "아이디어·기획",
-   "start": "2026-06-08",
-   "deadline": "2026-08-28",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": 10000000,
-   "prizeApprox": true,
-   "prizeBucket": "1천만원이하",
-   "topPrize": "1등 300만원",
-   "who": "제한없음",
-   "whoType": "전국민",
-   "bonus": [],
-   "note": "위비티 자동 수집. 접수 2026-06-08 ~ 2026-08-28. 총상금 구간 1천만원이하.",
-   "url": "https://www.ictfestival.or.kr/",
-   "tags": [
-    "웹/모바일/IT"
-   ],
-   "verify": [],
-   "source": "wevity"
-  },
-  {
-   "id": "wevity-109565",
-   "title": "2026 경상북도 도민 체감형 AX 경진대회",
-   "host": "경상북도 / 경북연구원(GDI)",
-   "hostType": "지자체",
-   "cat": "데이터·알고리즘",
-   "start": "2026-07-15",
-   "deadline": "2026-09-15",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": 10000000,
-   "prizeApprox": true,
-   "prizeBucket": "1천만원이하",
-   "topPrize": "1등 150만원",
-   "who": "일반인, 대학생, 기타",
-   "whoType": "전국민",
-   "bonus": [],
-   "note": "위비티 자동 수집. 접수 2026-07-15 ~ 2026-09-15. 총상금 구간 1천만원이하.",
-   "url": "https://gyeongbuk-ax.kr/",
-   "tags": [
-    "기획/아이디어"
-   ],
-   "verify": [],
-   "source": "wevity"
-  },
-  {
-   "id": "wevity-109523",
-   "title": "키친에이드 x 빠나나 AI 광고 챌린지",
-   "host": "키친에이드 / 빠나나AI",
-   "hostType": "기타",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-07-24",
-   "deadline": "2026-08-14",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": 10000000,
-   "prizeApprox": true,
-   "prizeBucket": "1천만원이하",
-   "topPrize": "1등 300만원",
-   "who": "제한없음",
-   "whoType": "전국민",
-   "bonus": [],
-   "note": "위비티 자동 수집. 접수 2026-07-24 ~ 2026-08-14. 총상금 구간 1천만원이하.",
-   "url": "https://www.bbanana.ai/contests/kitchenaid",
-   "tags": [
-    "광고/마케팅"
-   ],
-   "verify": [],
-   "source": "wevity"
-  },
-  {
-   "id": "wevity-108495",
-   "title": "2026년 제4회 전북 청년 AI·빅데이터 경진대회",
-   "host": "전북 인공지능·데이터 공동연구회, 전북대학교 빅데이터 혁신융합대학 사업단",
-   "hostType": "지자체",
-   "cat": "해커톤·개발",
-   "start": "2026-06-22",
-   "deadline": "2026-08-28",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "다양한 혜택",
-   "topPrize": "총상금 다양한 혜택",
-   "who": "기타",
-   "whoType": "전국민",
-   "bonus": [],
-   "note": "위비티 자동 수집. 접수 2026-06-22 ~ 2026-08-28. 총상금 구간 다양한 혜택.",
-   "url": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=59292d53795b4f8492969fc194322d39&pagetype=bbs",
-   "tags": [
-    "게임/소프트웨어"
-   ],
-   "verify": [
-    "prize"
-   ],
-   "source": "wevity"
-  },
-  {
-   "id": "wevity-109495",
-   "title": "남이섬 AI 영상 광고 숏폼 공모전",
-   "host": "남이섬",
-   "hostType": "기타",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-07-24",
-   "deadline": "2026-08-16",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "다양한 혜택",
-   "topPrize": "총상금 다양한 혜택",
-   "who": "일반인, 대학생, 청소년",
-   "whoType": "전국민",
-   "bonus": [],
-   "note": "위비티 자동 수집. 접수 2026-07-24 ~ 2026-08-16. 총상금 구간 다양한 혜택.",
-   "url": "https://www.namisum.com/",
-   "tags": [
-    "광고/마케팅"
-   ],
-   "verify": [
-    "prize"
-   ],
-   "source": "wevity"
-  },
-  {
-   "id": "wevity-109811",
-   "title": "2026년 강남구 AI 활용 불법 마약류 근절·예방 홍보 콘텐츠 공모전",
-   "host": "강남구보건소 / 강남구",
-   "hostType": "기타",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-10",
-   "deadline": "2026-08-30",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "다양한 혜택",
-   "topPrize": "총상금 다양한 혜택",
-   "who": "제한없음",
-   "whoType": "전국민",
-   "bonus": [],
-   "note": "위비티 자동 수집. 접수 2026-08-10 ~ 2026-08-30. 총상금 구간 다양한 혜택.",
-   "url": "https://health.gangnam.go.kr/web/community/notice/1076551/view.do",
-   "tags": [
-    "영상/UCC/사진"
-   ],
-   "verify": [
-    "prize"
-   ],
-   "source": "wevity"
   }
  ]
 };
