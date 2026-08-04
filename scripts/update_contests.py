@@ -82,15 +82,10 @@ def merge(auto: list[dict], manual: dict) -> list[dict]:
     자동 id 는 사이트가 글 번호를 바꾸면 흔들리므로, 평소에는 제목으로 거는
     편이 안전하다. 제목은 공백·기호를 무시하고 비교한다.
     """
-    blocked = {norm_title(b) if not b.startswith(("wevity-", "aifactory-", "afc-", "hf-"))
-               else b for b in manual["block"]}
-    overrides = manual["overrides"]
-    ov_by_title = {norm_title(k): v for k, v in overrides.items()}
-
+    blocked = set(manual["block"]) | {norm_title(b) for b in manual["block"]}
     manual_titles = {norm_title(x.get("title", "")) for x in manual["extra"]}
     manual_ids = {x.get("id") for x in manual["extra"]}
 
-    used_ov: set[str] = set()
     merged: list[dict] = []
     for rec in auto:
         nt = norm_title(rec.get("title", ""))
@@ -98,27 +93,125 @@ def merge(auto: list[dict], manual: dict) -> list[dict]:
             continue
         if nt in manual_titles:                    # 수동 항목이 이미 다루는 대회
             continue
-        patch = overrides.get(rec["id"]) or ov_by_title.get(nt)
-        if patch:
-            used_ov.add(rec["id"] if rec["id"] in overrides else nt)
-            rec = {**rec, **patch, "overridden": True}
-            # 사람이 정확한 총상금을 넣어줬다면 자동 수집의 '구간' 표시는 버린다
-            if "prizeTotal" in patch and "prizeApprox" not in patch:
-                rec["prizeApprox"] = False
-                rec.pop("prizeMin", None)
-                rec.pop("prizeMax", None)
         merged.append(rec)
 
     for rec in manual["extra"]:
         if rec.get("id") in blocked or norm_title(rec.get("title", "")) in blocked:
             continue
         merged.append({**rec, "source": rec.get("source", "manual")})
-
-    stale = [k for k in overrides if k not in used_ov and norm_title(k) not in used_ov]
-    if stale:
-        print(f"  · 적용되지 않은 override {len(stale)}개 (대회가 끝났거나 제목이 바뀜): "
-              + ", ".join(stale[:5]) + ("…" if len(stale) > 5 else ""))
     return merged
+
+
+def apply_overrides(records: list[dict], overrides: dict) -> list[dict]:
+    """사람이 확인한 값을 덮어씌운다.
+
+    반드시 dedupe() '이후' 에 부른다. 중복 제거 전에 걸면, 오버라이드가 붙은
+    레코드가 중복 통합에서 밀려나고 다른 소스의 값이 살아남는 일이 생긴다.
+    (실제로 NHN 해커톤에서 링커리어의 '3억 5000만 원' 이 보도자료 기준
+     8,000만원을 덮어써 버렸다.)
+    """
+    ov_by_title = {norm_title(k): v for k, v in overrides.items()}
+    used: set[str] = set()
+
+    for rec in records:
+        nt = norm_title(rec.get("title", ""))
+        key = rec["id"] if rec["id"] in overrides else (nt if nt in ov_by_title else None)
+        if key is None:
+            # 부분 포함으로도 한 번 찾아본다 (소스마다 회차·괄호 표기가 달라서)
+            for ok, ov in ov_by_title.items():
+                if len(ok) >= 8 and (ok in nt or nt in ok):
+                    key, patch = ok, ov
+                    break
+            else:
+                continue
+        patch = overrides.get(key) or ov_by_title[key]
+        used.add(key)
+        rec.update(patch)
+        rec["overridden"] = True
+        # 사람이 정확한 총상금을 넣어줬다면 자동 수집의 '구간' 표시는 버린다
+        if "prizeTotal" in patch and "prizeApprox" not in patch:
+            rec["prizeApprox"] = False
+            rec.pop("prizeMin", None)
+            rec.pop("prizeMax", None)
+
+    stale = [k for k in overrides
+             if k not in used and norm_title(k) not in used]
+    if stale:
+        print(f"  · 적용되지 않은 override {len(stale)}개 "
+              f"(대회가 끝났거나 제목이 바뀜): "
+              + ", ".join(stale[:5]) + ("…" if len(stale) > 5 else ""))
+    return records
+
+
+# 같은 공모전이 여러 소스에 뜰 때 어느 쪽 레코드를 남길지 정하는 기준
+SOURCE_RANK = {
+    "manual": 100,          # 사람이 확인한 값이 항상 우선
+    "linkareer": 30,        # 시상규모가 정확한 금액이라 위비티보다 낫다
+    "wevity": 20,           # 상금은 구간이지만 접수기간·공식 URL이 정확
+    "aifilmcontests": 20,
+    "higgsfield": 15,
+    "aifactory": 10,
+}
+
+
+def quality(r: dict) -> int:
+    """레코드의 정보 충실도. 중복일 때 높은 쪽을 남긴다."""
+    q = SOURCE_RANK.get(r.get("source", ""), 0)
+    if r.get("prizeTotal") is not None or r.get("cash"):
+        q += 15 if r.get("prizeApprox") else 40
+    if r.get("start"):
+        q += 5
+    if r.get("deadline"):
+        q += 5
+    q -= 5 * len(r.get("verify") or [])
+    return q
+
+
+def same_contest(a: dict, b: dict) -> bool:
+    """제목이 같거나 한쪽이 다른 쪽을 포함하면 같은 공모전으로 본다.
+
+    '[NHN] 게임 X AI 해커톤 (NAN2026)' 과 'NHN 게임 X AI 해커톤' 처럼 소스마다
+    대괄호·회차 표기가 붙는 경우를 잡기 위한 것. 포함 관계만으로는 우연히
+    겹칠 수 있어서 마감일이 3일 이내로 붙어 있을 때만 인정한다.
+    """
+    na, nb = norm_title(a.get("title", "")), norm_title(b.get("title", ""))
+    if not na or not nb:
+        return False
+    if na == nb:
+        return True
+    if len(na) < 8 or len(nb) < 8:
+        return False
+    if not (na in nb or nb in na):
+        return False
+    da, db = a.get("deadline"), b.get("deadline")
+    if not da or not db:
+        return True
+    try:
+        gap = abs((date.fromisoformat(da) - date.fromisoformat(db)).days)
+    except ValueError:
+        return True
+    return gap <= 3
+
+
+def dedupe(records: list[dict]) -> tuple[list[dict], int]:
+    """중복 제거. 충실도가 높은 쪽을 남기되, 비어 있는 필드는 진 쪽에서 채운다."""
+    kept: list[dict] = []
+    merged = 0
+    for rec in sorted(records, key=quality, reverse=True):
+        hit = next((k for k in kept if same_contest(k, rec)), None)
+        if hit is None:
+            kept.append(rec)
+            continue
+        merged += 1
+        for key, val in rec.items():
+            if key in ("id", "title", "source", "overridden"):
+                continue
+            cur = hit.get(key)
+            if val in (None, "", [], {}) or cur not in (None, "", [], {}):
+                continue
+            hit[key] = val                      # 빈 칸만 보충
+        hit.setdefault("alsoFrom", []).append(rec.get("source", "?"))
+    return kept, merged
 
 
 def drop_expired(records: list[dict]) -> tuple[list[dict], int]:
@@ -183,24 +276,32 @@ def build(kind: str, auto: list[dict], manual_file: str, var: str,
     manual = load_manual(manual_file)
     out_path = DATA / out_name
 
-    prev = prev_meta(out_path)
-    prev_auto = prev.get("autoCount")
-    if prev_auto and len(auto) < prev_auto * SANITY_RATIO:
-        print(f"  !! 자동 수집 {len(auto)}건 < 직전 {prev_auto}건의 "
-              f"{int(SANITY_RATIO*100)}% — 소스 구조 변경 의심. 파일을 갱신하지 않습니다.")
-        return False
-
     records = merge(auto, manual)
+    records, dup = dedupe(records)
+    records = apply_overrides(records, manual["overrides"])
     records, dropped = drop_expired(records)
-    print(f"  수동 {len(manual['extra'])}건 병합 · 만료 {dropped}건 제거 → 최종 {len(records)}건")
+    print(f"  수동 {len(manual['extra'])}건 병합 · 중복 {dup}건 통합 · "
+          f"만료 {dropped}건 제거 → 최종 {len(records)}건")
 
     by_src: dict[str, int] = {}
     for r in records:
         by_src[r.get("source", "?")] = by_src.get(r.get("source", "?"), 0) + 1
     print("  출처별:", ", ".join(f"{k} {v}" for k, v in sorted(by_src.items())))
 
+    # 안전장치는 '최종 건수' 로 본다. 보조 소스 하나가 막혀도(위비티 403 등)
+    # 주 소스가 살아 있으면 통과하고, 주 소스가 무너졌을 때만 막는다.
+    # 만료 제거로 자연히 줄어드는 폭까지 고려해 절반을 기준으로 잡았다.
+    prev = prev_meta(out_path)
+    prev_final = prev.get("finalCount")
+    if prev_final and len(records) < prev_final * SANITY_RATIO:
+        print(f"  !! 최종 {len(records)}건 < 직전 {prev_final}건의 "
+              f"{int(SANITY_RATIO*100)}% — 소스가 깨졌을 가능성이 큽니다. "
+              f"파일을 갱신하지 않습니다.")
+        return False
+
     meta = {
         "autoCount": len(auto),
+        "finalCount": len(records),
         "manualCount": len(manual["extra"]),
         "bySource": by_src,
         "warnings": list(sources.WARNINGS),
@@ -216,6 +317,8 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="파일을 쓰지 않고 결과만 출력")
     ap.add_argument("--skip-kr", action="store_true")
     ap.add_argument("--skip-global", action="store_true")
+    ap.add_argument("--linkareer-pages", type=int, default=5,
+                    help="링커리어 목록 조회 페이지 수")
     ap.add_argument("--wevity-limit", type=int, default=30,
                     help="위비티 카테고리당 최대 상세 조회 건수")
     ap.add_argument("--afc-limit", type=int, default=90,
@@ -228,10 +331,15 @@ def main() -> int:
     if not args.skip_kr:
         print("\n── 국내 수집 ──")
         auto_kr: list[dict] = []
-        print(" · 위비티")
-        auto_kr += sources.fetch_wevity(limit_per_list=args.wevity_limit)
+        print(" · 링커리어 (주 소스)")
+        auto_kr += sources.fetch_linkareer(pages=args.linkareer_pages)
         print(" · 인공지능팩토리")
         auto_kr += sources.fetch_aifactory()
+        # 위비티는 Cloudflare 가 데이터센터 IP를 403 처리해 GitHub Actions 에서는
+        # 늘 실패한다. 로컬(한국 IP)에서는 잘 되고 데이터도 좋아서, 되면 쓰고
+        # 안 되면 조용히 넘어가는 보조 소스로 둔다.
+        print(" · 위비티 (보조 · CI에서는 차단됨)")
+        auto_kr += sources.fetch_wevity(limit_per_list=args.wevity_limit)
         ok &= build("국내", auto_kr, "manual.kr.json", "KR_DATA", "kr.js",
                     "index.html", args.dry_run)
 

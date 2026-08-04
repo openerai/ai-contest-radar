@@ -9,7 +9,7 @@ from __future__ import annotations
 import json
 import re
 import time
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
@@ -312,6 +312,165 @@ def fetch_wevity(limit_per_list: int = 30) -> list[dict]:
 
     if listed and not out:
         warn(f"위비티 목록 {listed}건을 봤지만 AI 공모전 0건 — 필터 확인 필요")
+    return out
+
+
+# ══════════════════════════════════════════════════════════════════════
+#  국내 — 링커리어 (주 소스)
+#
+#  위비티가 Cloudflare 로 데이터센터 IP를 403 처리해 GitHub Actions 에서
+#  못 쓰는 반면, 링커리어는 러너에서도 200 을 준다. 게다가 상세 페이지의
+#  '시상규모' 가 구간이 아니라 정확한 금액이라 데이터 품질도 더 좋다.
+#
+#  목록: __NEXT_DATA__ 안 __APOLLO_STATE__ 의 Activity 객체
+#        (id / title / organizationName / recruitCloseAt)
+#  상세: 정보 패널의 라벨-값 쌍
+# ══════════════════════════════════════════════════════════════════════
+LINKAREER_LIST = "https://linkareer.com/list/contest?page={page}"
+LINKAREER_DETAIL = "https://linkareer.com/activity/{aid}"
+
+# 상세 정보 패널에서 뽑을 라벨들 (등장 순서 무관)
+LK_LABELS = ["참여대상", "시상규모", "접수기간", "홈페이지", "활동혜택", "공모분야", "추가혜택"]
+
+
+def _iso_date(v) -> str:
+    """recruitCloseAt 을 YYYY-MM-DD 로. epoch(밀리초/초)과 문자열을 모두 받는다."""
+    if v in (None, ""):
+        return ""
+    if isinstance(v, (int, float)):
+        ts = v / 1000 if v > 10_000_000_000 else v      # 밀리초면 초로
+        try:
+            return datetime.fromtimestamp(ts, tz=timezone.utc).date().isoformat()
+        except (OverflowError, OSError, ValueError):
+            return ""
+    return str(v)[:10]
+
+
+def _lk_panel(text: str) -> dict[str, str]:
+    """'참여대상\\n대학생\\n시상규모\\n1200만 원\\n…' 형태를 라벨→값 으로 자른다."""
+    lines = [l.strip() for l in text.split("\n") if l.strip()]
+    idx = {}
+    for i, l in enumerate(lines):
+        if l in LK_LABELS and l not in idx:
+            idx[l] = i
+    out: dict[str, str] = {}
+    order = sorted(idx.items(), key=lambda kv: kv[1])
+    for n, (label, i) in enumerate(order):
+        end = order[n + 1][1] if n + 1 < len(order) else min(i + 8, len(lines))
+        out[label] = " ".join(lines[i + 1:end])
+    return out
+
+
+def fetch_linkareer(pages: int = 5) -> list[dict]:
+    today = date.today().isoformat()
+    candidates: dict[str, dict] = {}
+
+    for page in range(1, pages + 1):
+        html = get(LINKAREER_LIST.format(page=page))
+        if not html:
+            warn(f"링커리어 목록 {page}페이지 로드 실패")
+            continue
+        tag = BeautifulSoup(html, "lxml").select_one("script#__NEXT_DATA__")
+        if not tag:
+            warn("링커리어 __NEXT_DATA__ 없음 — 구조 변경 의심")
+            break
+        try:
+            state = json.loads(tag.string)["props"]["pageProps"]["__APOLLO_STATE__"]
+        except (json.JSONDecodeError, KeyError):
+            warn("링커리어 APOLLO_STATE 파싱 실패 — 구조 변경 의심")
+            break
+
+        found = 0
+        for key, val in state.items():
+            if not key.startswith("Activity:") or not isinstance(val, dict):
+                continue
+            title = (val.get("title") or "").strip()
+            aid = val.get("id")
+            if not title or not aid:
+                continue
+            found += 1
+            if not any(k in title for k in AI_KEYWORDS):
+                continue                                   # 제목에 AI 힌트 없으면 제외
+            close = _iso_date(val.get("recruitCloseAt"))
+            if close and close < today:
+                continue                                   # 이미 마감
+            candidates.setdefault(aid, {
+                "id": aid, "title": title,
+                "host": (val.get("organizationName") or "").strip(),
+                "close": close,
+            })
+        if not found:
+            warn(f"링커리어 {page}페이지에 Activity 0개")
+            break
+        time.sleep(POLITE_DELAY)
+
+    if not candidates:
+        warn("링커리어 AI 공모전 후보 0건")
+        return []
+
+    out: list[dict] = []
+    for c in candidates.values():
+        time.sleep(POLITE_DELAY)
+        url = LINKAREER_DETAIL.format(aid=c["id"])
+        html = get(url)
+        if not html:
+            continue
+        soup = BeautifulSoup(html, "lxml")
+        text = soup.get_text("\n", strip=True)
+        panel = _lk_panel(text)
+
+        dates = re.findall(r"(\d{4})[.\-](\d{2})[.\-](\d{2})", panel.get("접수기간", ""))
+        start = "-".join(dates[0]) if dates else None
+        deadline = "-".join(dates[-1]) if len(dates) > 1 else (c["close"] or None)
+        if not deadline:
+            continue
+
+        prize = _won(panel.get("시상규모", ""))
+        homepage = ""
+        m = re.search(r"https?://\S+", panel.get("홈페이지", ""))
+        if m:
+            homepage = m.group(0).rstrip(".,)")
+
+        target = panel.get("참여대상", "").strip()
+        field = panel.get("공모분야", "").strip()
+        host = c["host"] or "미상"
+
+        # 본문에서 1등 상금 한 줄 뽑기
+        top = None
+        mt = re.search(r"(?:대상|1등|최우수상)\s*[:：]?\s*([\d,]+\s*만?\s*원)", text)
+        if mt:
+            top = mt.group(1).strip()
+
+        out.append({
+            "id": f"linkareer-{c['id']}",
+            "title": c["title"],
+            "host": host,
+            "hostType": classify_host(host),
+            "cat": classify_cat(c["title"], field),
+            "start": start,
+            "deadline": deadline,
+            "prizeTotal": prize,
+            "prizeMin": None,
+            "prizeMax": None,
+            "prizeApprox": False,
+            "prizeBucket": panel.get("시상규모") or None,
+            "topPrize": (f"1등 {top}" if top else
+                         (f"시상규모 {panel['시상규모']}" if panel.get("시상규모")
+                          else "공고 확인 필요")),
+            "who": target or "공고 확인",
+            "whoType": classify_who(target, c["title"]),
+            "bonus": [b for b in [panel.get("추가혜택", "").strip()] if b][:1],
+            "note": ("링커리어 자동 수집."
+                     + (f" 접수 {start} ~ {deadline}." if start else f" 마감 {deadline}.")
+                     + (f" 공모분야 {field}." if field else "")),
+            "url": homepage or url,
+            "tags": [t for t in re.split(r"[\s/]+", field) if t][:3],
+            "verify": ([] if prize else ["prize"]),
+            "source": "linkareer",
+        })
+
+    if not out:
+        warn(f"링커리어 후보 {len(candidates)}건 중 수집 0건")
     return out
 
 

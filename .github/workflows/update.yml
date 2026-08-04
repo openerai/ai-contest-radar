@@ -6,8 +6,11 @@ on:
     - cron: "0 21 * * 0"
   workflow_dispatch:          # Actions 탭에서 수동 실행 가능
     inputs:
+      linkareer_pages:
+        description: "링커리어 목록 조회 페이지 수"
+        default: "5"
       wevity_limit:
-        description: "위비티 분야당 최대 조회 건수"
+        description: "위비티 분야당 최대 조회 건수 (CI에서는 403으로 무시됨)"
         default: "15"
       afc_limit:
         description: "aifilmcontests 최대 조회 건수"
@@ -40,12 +43,17 @@ jobs:
 
       - name: 공모전 수집
         id: scrape
+        # pipefail 이 없으면 파이프의 종료 코드가 tee 것이 되어, 스크립트가
+        # 실패해도 스텝이 성공으로 보고된다. 안전장치가 작동한 걸 놓치게 된다.
+        shell: bash
         run: |
+          set -o pipefail
           python scripts/update_contests.py \
-            --wevity-limit "${{ github.event.inputs.wevity_limit || '15' }}" \
-            --afc-limit    "${{ github.event.inputs.afc_limit    || '90' }}" \
+            --linkareer-pages "${{ github.event.inputs.linkareer_pages || '5' }}" \
+            --wevity-limit    "${{ github.event.inputs.wevity_limit    || '15' }}" \
+            --afc-limit       "${{ github.event.inputs.afc_limit       || '90' }}" \
             | tee run.log
-        # 스크립트는 수집량이 직전의 절반 미만이면 0이 아닌 코드로 끝난다.
+        # 스크립트는 최종 건수가 직전의 절반 미만이면 0이 아닌 코드로 끝난다.
         # (소스 사이트 구조가 바뀌었을 때 잘못된 데이터를 덮어쓰지 않기 위함)
 
       - name: 변경 요약
