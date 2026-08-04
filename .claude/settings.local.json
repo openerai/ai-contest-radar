@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.wevity.com)",
+      "WebFetch(domain:aifactory.space)",
+      "WebFetch(domain:aichallenge4all.or.kr)",
+      "WebFetch(domain:aikive.com)",
+      "WebFetch(domain:www.2026edudataaicontest.com)"
+    ]
+  }
+}
