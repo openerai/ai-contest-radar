@@ -2,7 +2,7 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.GLOBAL_DATA = {
- "generatedAt": "2026-08-04T09:30:51+00:00",
+ "generatedAt": "2026-08-05T01:47:03+00:00",
  "_meta": {
   "autoCount": 37,
   "finalCount": 49,
@@ -11,14 +11,7 @@ window.GLOBAL_DATA = {
    "manual": 14,
    "aifilmcontests": 35
   },
-  "warnings": [
-   "위비티 [웹/모바일/IT] 목록 로드 실패",
-   "위비티 [게임/소프트웨어] 목록 로드 실패",
-   "위비티 [과학/공학] 목록 로드 실패",
-   "위비티 [기획/아이디어] 목록 로드 실패",
-   "위비티 [광고/마케팅] 목록 로드 실패",
-   "위비티 [영상/UCC/사진] 목록 로드 실패"
-  ]
+  "warnings": []
  },
  "contests": [
   {

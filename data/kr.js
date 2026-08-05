@@ -2,24 +2,18 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.KR_DATA = {
- "generatedAt": "2026-08-04T09:30:03+00:00",
+ "generatedAt": "2026-08-05T01:45:43+00:00",
  "_meta": {
-  "autoCount": 50,
-  "finalCount": 54,
+  "autoCount": 77,
+  "finalCount": 68,
   "manualCount": 9,
   "bySource": {
    "manual": 9,
-   "linkareer": 41,
-   "aifactory": 4
+   "linkareer": 43,
+   "aifactory": 4,
+   "wevity": 12
   },
-  "warnings": [
-   "위비티 [웹/모바일/IT] 목록 로드 실패",
-   "위비티 [게임/소프트웨어] 목록 로드 실패",
-   "위비티 [과학/공학] 목록 로드 실패",
-   "위비티 [기획/아이디어] 목록 로드 실패",
-   "위비티 [광고/마케팅] 목록 로드 실패",
-   "위비티 [영상/UCC/사진] 목록 로드 실패"
-  ]
+  "warnings": []
  },
  "contests": [
   {
@@ -255,7 +249,7 @@ window.KR_DATA = {
    "title": "Next AI Art POP-UP 공모 (Beyond Limits)",
    "host": "임팩트스테이션",
    "hostType": "기타",
-   "cat": "아이디어·기획",
+   "cat": "AI 이미지·아트",
    "start": "2026-07-31",
    "deadline": "2026-08-13",
    "prizeTotal": 1000000,
@@ -305,34 +299,6 @@ window.KR_DATA = {
    ],
    "verify": [],
    "source": "linkareer"
-  },
-  {
-   "id": "linkareer-334947",
-   "title": "제2회 매일유업 대학생 AI 영상 공모전",
-   "host": "매일유업",
-   "hostType": "대기업",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-07-12",
-   "deadline": "2026-08-17",
-   "prizeTotal": 12000000,
-   "prizeApprox": false,
-   "prizeBucket": "1200만 원",
-   "topPrize": "1등 300만원 + 소셜마케팅 체험형 인턴(3개월)",
-   "who": "대학생",
-   "whoType": "대학생",
-   "bonus": [
-    "인턴 기회"
-   ],
-   "note": "총상금 1,200만원. 2등 2명 각 200만, 3등 5명 각 100만원. 주제는 매일유업 제품을 활용한 AI 숏폼 영상. (위비티 상금 구간 표기보다 보도자료 값이 정확)",
-   "url": "http://ai-challenge-maeil.com/",
-   "tags": [
-    "숏폼",
-    "생성형AI",
-    "인턴연계"
-   ],
-   "verify": [],
-   "source": "linkareer",
-   "overridden": true
   },
   {
    "id": "linkareer-332498",
@@ -391,6 +357,9 @@ window.KR_DATA = {
    ],
    "verify": [],
    "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ],
    "overridden": true
   },
   {
@@ -403,7 +372,7 @@ window.KR_DATA = {
    "deadline": "2026-08-18",
    "prizeTotal": 3100000,
    "prizeMin": null,
-   "prizeMax": null,
+   "prizeMax": 10000000,
    "prizeApprox": false,
    "prizeBucket": "310만 원",
    "topPrize": "시상규모 310만 원",
@@ -419,8 +388,13 @@ window.KR_DATA = {
     "영상",
     "UCC"
    ],
-   "verify": [],
-   "source": "linkareer"
+   "verify": [
+    "prize"
+   ],
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-340058",
@@ -432,7 +406,7 @@ window.KR_DATA = {
    "deadline": "2026-09-11",
    "prizeTotal": 8000000,
    "prizeMin": null,
-   "prizeMax": null,
+   "prizeMax": 10000000,
    "prizeApprox": false,
    "prizeBucket": "800만 원",
    "topPrize": "시상규모 800만 원",
@@ -449,7 +423,10 @@ window.KR_DATA = {
     "공예"
    ],
    "verify": [],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-340004",
@@ -461,7 +438,7 @@ window.KR_DATA = {
    "deadline": "2026-08-30",
    "prizeTotal": 7500000,
    "prizeMin": null,
-   "prizeMax": null,
+   "prizeMax": 10000000,
    "prizeApprox": false,
    "prizeBucket": "750만 원",
    "topPrize": "시상규모 750만 원",
@@ -478,7 +455,10 @@ window.KR_DATA = {
     "UCC"
    ],
    "verify": [],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-339983",
@@ -490,7 +470,7 @@ window.KR_DATA = {
    "deadline": "2026-08-23",
    "prizeTotal": 2000000,
    "prizeMin": null,
-   "prizeMax": null,
+   "prizeMax": 10000000,
    "prizeApprox": false,
    "prizeBucket": "200만 원",
    "topPrize": "시상규모 200만 원",
@@ -507,7 +487,10 @@ window.KR_DATA = {
     "사진"
    ],
    "verify": [],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-339930",
@@ -518,8 +501,8 @@ window.KR_DATA = {
    "start": "2026-07-29",
    "deadline": "2026-08-27",
    "prizeTotal": 11000000,
-   "prizeMin": null,
-   "prizeMax": null,
+   "prizeMin": 10000000,
+   "prizeMax": 30000000,
    "prizeApprox": false,
    "prizeBucket": "1100만 원",
    "topPrize": "시상규모 1100만 원",
@@ -536,7 +519,10 @@ window.KR_DATA = {
     "UCC"
    ],
    "verify": [],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-339919",
@@ -576,7 +562,7 @@ window.KR_DATA = {
    "deadline": "2026-08-10",
    "prizeTotal": 1500000,
    "prizeMin": null,
-   "prizeMax": null,
+   "prizeMax": 10000000,
    "prizeApprox": false,
    "prizeBucket": "150만 원",
    "topPrize": "시상규모 150만 원",
@@ -593,7 +579,10 @@ window.KR_DATA = {
     "UCC"
    ],
    "verify": [],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-339699",
@@ -637,7 +626,7 @@ window.KR_DATA = {
    "deadline": "2026-08-24",
    "prizeTotal": 2000000,
    "prizeMin": null,
-   "prizeMax": null,
+   "prizeMax": 10000000,
    "prizeApprox": false,
    "prizeBucket": "200만 원",
    "topPrize": "시상규모 200만 원",
@@ -653,7 +642,10 @@ window.KR_DATA = {
     "아이디어"
    ],
    "verify": [],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-339661",
@@ -688,11 +680,39 @@ window.KR_DATA = {
    ]
   },
   {
+   "id": "linkareer-339328",
+   "title": "[AudAi] SETES 2차 창작 공모전 COSMIA 1",
+   "host": "(주)오드아이",
+   "hostType": "기타",
+   "cat": "아이디어·기획",
+   "start": "2026-06-14",
+   "deadline": "2026-11-15",
+   "prizeTotal": 3290000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "329만 원",
+   "topPrize": "시상규모 329만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 스크랩한 사용자 전체보기 ( 명) 관심 유저 통계 보기"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-06-14 ~ 2026-11-15. 공모분야 기획/아이디어.",
+   "url": "https://setes-lab.com/?news=cosmia",
+   "tags": [
+    "기획",
+    "아이디어"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
    "id": "linkareer-338960",
    "title": "[서울특별시] 건강한 디지털미디어 사용 문화 만들기 AI 그림책 공모전",
    "host": "서울특별시",
    "hostType": "지자체",
-   "cat": "AI영상·콘텐츠",
+   "cat": "AI 이미지·아트",
    "start": "2026-07-19",
    "deadline": "2026-08-10",
    "prizeTotal": 90000,
@@ -731,7 +751,7 @@ window.KR_DATA = {
    "deadline": "2026-09-11",
    "prizeTotal": 8500000,
    "prizeMin": null,
-   "prizeMax": null,
+   "prizeMax": 10000000,
    "prizeApprox": false,
    "prizeBucket": "850만 원",
    "topPrize": "시상규모 850만 원",
@@ -748,7 +768,10 @@ window.KR_DATA = {
     "과학"
    ],
    "verify": [],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-338575",
@@ -1018,7 +1041,7 @@ window.KR_DATA = {
    "deadline": "2026-08-14",
    "prizeTotal": 5000000,
    "prizeMin": null,
-   "prizeMax": null,
+   "prizeMax": 10000000,
    "prizeApprox": false,
    "prizeBucket": "500만 원",
    "topPrize": "1등 300만원",
@@ -1034,7 +1057,10 @@ window.KR_DATA = {
     "아이디어"
    ],
    "verify": [],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
    "id": "linkareer-337772",
@@ -1061,6 +1087,64 @@ window.KR_DATA = {
     "기획",
     "아이디어",
     "기타"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-337359",
+   "title": "2026 한신대학교 홍보 영상 숏폼 공모전",
+   "host": "한신대학교",
+   "hostType": "기타",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-07-21",
+   "deadline": "2026-08-18",
+   "prizeTotal": 10000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "1000만 원",
+   "topPrize": "1등 100만원",
+   "who": "청소년",
+   "whoType": "청소년·어린이",
+   "bonus": [
+    "입학장학금 , 4년 전액장학금 공유하기 홈페이지 지원 스크랩 스크랩한 사용자 전체보기 ( 명) 관심 유저 통계 보기"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-07-21 ~ 2026-08-18. 공모분야 사진/영상/UCC.",
+   "url": "https://linkareer.com/activity/337359",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-337316",
+   "title": "과학기술 미래 상상 1컷 만화 공모전",
+   "host": "한국과학창의재단",
+   "hostType": "정부·공공",
+   "cat": "AI 이미지·아트",
+   "start": "2026-07-19",
+   "deadline": "2026-09-18",
+   "prizeTotal": 20000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "2000만 원",
+   "topPrize": "시상규모 2000만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 스크랩한 사용자 전체보기 ( 명) 관심 유저 통계 보기"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-07-19 ~ 2026-09-18. 공모분야 디자인/순수미술/공예 기획/아이디어.",
+   "url": "https://linkareer.com/activity/337316",
+   "tags": [
+    "디자인",
+    "순수미술",
+    "공예"
    ],
    "verify": [],
    "source": "linkareer"
@@ -1147,6 +1231,9 @@ window.KR_DATA = {
    ],
    "verify": [],
    "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ],
    "overridden": true
   },
   {
@@ -1261,10 +1348,7 @@ window.KR_DATA = {
     "건축"
    ],
    "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "linkareer"
-   ]
+   "source": "linkareer"
   },
   {
    "id": "linkareer-335880",
@@ -1300,7 +1384,7 @@ window.KR_DATA = {
    "title": "성북구도시관리공단 대표 AI캐릭터 공모전",
    "host": "성북구도시관리공단",
    "hostType": "정부·공공",
-   "cat": "AI영상·콘텐츠",
+   "cat": "AI 이미지·아트",
    "start": "2026-06-14",
    "deadline": "2026-08-14",
    "prizeTotal": 1000000,
@@ -1377,6 +1461,38 @@ window.KR_DATA = {
     "기획",
     "아이디어",
     "사진"
+   ],
+   "verify": [],
+   "source": "linkareer",
+   "alsoFrom": [
+    "linkareer"
+   ]
+  },
+  {
+   "id": "linkareer-335682",
+   "title": "제4회 메가주 2027 달력 일러스트 공모전",
+   "host": "주식회사 메쎄이상",
+   "hostType": "기타",
+   "cat": "AI 이미지·아트",
+   "start": "2026-07-09",
+   "deadline": "2026-08-10",
+   "prizeTotal": 6000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "600만 원",
+   "topPrize": "시상규모 600만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 스크랩한 사용자 전체보기 ( 명) 관심 유저 통계 보기"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-07-09 ~ 2026-08-10. 공모분야 캐릭터/만화/게임 디자인/순수미술/공예.",
+   "url": "https://k-pet.co.kr/community/notice/?uid=3230&mod=document&pageid=1",
+   "tags": [
+    "캐릭터",
+    "만화",
+    "게임"
    ],
    "verify": [],
    "source": "linkareer"
@@ -1482,6 +1598,173 @@ window.KR_DATA = {
    "source": "aifactory"
   },
   {
+   "id": "wevity-109144",
+   "title": "제2회 매일유업 대학생 AI 영상 공모전",
+   "host": "매일유업",
+   "hostType": "대기업",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-07-13",
+   "deadline": "2026-08-17",
+   "prizeTotal": 12000000,
+   "prizeApprox": false,
+   "prizeBucket": "3천만원~1천만원",
+   "topPrize": "1등 300만원 + 소셜마케팅 체험형 인턴(3개월)",
+   "who": "대학생, 기타",
+   "whoType": "대학생",
+   "bonus": [
+    "인턴 기회"
+   ],
+   "note": "총상금 1,200만원. 2등 2명 각 200만, 3등 5명 각 100만원. 주제는 매일유업 제품을 활용한 AI 숏폼 영상. (위비티 상금 구간 표기보다 보도자료 값이 정확)",
+   "url": "https://ai-challenge-maeil.com",
+   "tags": [
+    "숏폼",
+    "생성형AI",
+    "인턴연계"
+   ],
+   "verify": [],
+   "source": "wevity",
+   "overridden": true
+  },
+  {
+   "id": "wevity-108509",
+   "title": "제 5회 그린이니셔티브 60초 영화제 공모전 SPECIAL",
+   "host": "제주MBC / 60초 영화제 운영사무국",
+   "hostType": "지자체",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-05-12",
+   "deadline": "2026-08-14",
+   "prizeTotal": 30000000,
+   "prizeMin": 30000000,
+   "prizeMax": 50000000,
+   "prizeApprox": true,
+   "prizeBucket": "5천만원~3천만원",
+   "topPrize": "1등 1,000만원",
+   "who": "제한없음",
+   "whoType": "전국민",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-05-12 ~ 2026-08-14. 총상금 구간 5천만원~3천만원.",
+   "url": "https://green60sec.co.kr/",
+   "tags": [
+    "광고/마케팅",
+    "영상/UCC/사진",
+    "웹/모바일/IT"
+   ],
+   "verify": [],
+   "source": "wevity"
+  },
+  {
+   "id": "wevity-107135",
+   "title": "제24회 임베디드SW경진대회",
+   "host": "산업통상부 / 한국임베디드AX산업협회",
+   "hostType": "정부·공공",
+   "cat": "해커톤·개발",
+   "start": "2026-05-06",
+   "deadline": "2026-09-03",
+   "prizeTotal": 10000000,
+   "prizeMin": 10000000,
+   "prizeMax": 30000000,
+   "prizeApprox": true,
+   "prizeBucket": "3천만원~1천만원",
+   "topPrize": "총상금 최대 3,000만원 · 1등 300만원",
+   "who": "일반인, 대학생, 청소년",
+   "whoType": "전국민",
+   "bonus": [
+    "장관상"
+   ],
+   "note": "자유공모 부문 접수 5/6~9/3. 스마트가전(LG전자)·자동차/모빌리티(현대자동차) 부문은 6/10 마감. 대한민국 국민 누구나.",
+   "url": "https://www.eswcontest.or.kr/main.php",
+   "tags": [
+    "웹/모바일/IT",
+    "게임/소프트웨어",
+    "과학/공학"
+   ],
+   "verify": [],
+   "source": "wevity",
+   "overridden": true
+  },
+  {
+   "id": "wevity-108767",
+   "title": "제4회 스마트축산 AI 경진대회",
+   "host": "농림축산식품부 / 축산물품질평가원",
+   "hostType": "정부·공공",
+   "cat": "데이터·알고리즘",
+   "start": "2026-07-01",
+   "deadline": "2026-08-31",
+   "prizeTotal": 23000000,
+   "prizeApprox": false,
+   "prizeBucket": "3천만원~1천만원",
+   "topPrize": "총 2,300만원 · 알고리즘 부문 참여 전원 경품",
+   "who": "일반인, 대학생, 기타",
+   "whoType": "전국민",
+   "bonus": [
+    "상용화 연계"
+   ],
+   "note": "총상금 2,300만원. 대회 본선은 11월. 양돈 생산성 향상 분야 가점. 이메일 접수(smartlivestock@ekape.or.kr).",
+   "url": "https://smartlivestock.co.kr/",
+   "tags": [
+    "축산",
+    "알고리즘",
+    "전원경품"
+   ],
+   "verify": [],
+   "source": "wevity",
+   "overridden": true
+  },
+  {
+   "id": "wevity-107956",
+   "title": "[넥슨] 메이플스토리 글로벌 개발 콘테스트 (MapleStory Global Creator Challenge)",
+   "host": "넥슨",
+   "hostType": "대기업",
+   "cat": "해커톤·개발",
+   "start": "2026-06-04",
+   "deadline": "2026-10-07",
+   "prizeTotal": 50000000,
+   "prizeMin": 50000000,
+   "prizeMax": null,
+   "prizeApprox": true,
+   "prizeBucket": "5천만원이상",
+   "topPrize": "총상금 5천만원이상",
+   "who": "일반인, 대학생, 청소년, 기타",
+   "whoType": "전국민",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-06-04 ~ 2026-10-07. 총상금 구간 5천만원이상.",
+   "url": "https://abr.ge/bjkgcx",
+   "tags": [
+    "게임/소프트웨어"
+   ],
+   "verify": [
+    "prize"
+   ],
+   "source": "wevity"
+  },
+  {
+   "id": "wevity-108117",
+   "title": "2026년 3d 디자인 공모전",
+   "host": "한국생산성본부",
+   "hostType": "정부·공공",
+   "cat": "AI 이미지·아트",
+   "start": "2026-10-01",
+   "deadline": "2026-10-31",
+   "prizeTotal": 10000000,
+   "prizeMin": 10000000,
+   "prizeMax": 30000000,
+   "prizeApprox": true,
+   "prizeBucket": "3천만원~1천만원",
+   "topPrize": "총상금 3천만원~1천만원",
+   "who": "대학생",
+   "whoType": "대학생",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-10-01 ~ 2026-10-31. 총상금 구간 3천만원~1천만원.",
+   "url": "https://3dmodeling.kpc.or.kr/community/notice.php?sno=0&group=basic&code=B01&category=&&abmode=view&no=123",
+   "tags": [
+    "과학/공학"
+   ],
+   "verify": [
+    "prize"
+   ],
+   "source": "wevity"
+  },
+  {
    "id": "linkareer-338317",
    "title": "남이섬 AI 영상 광고 숏폼 공모전",
    "host": "남이섬",
@@ -1510,38 +1793,168 @@ window.KR_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "linkareer"
+   "source": "linkareer",
+   "alsoFrom": [
+    "wevity"
+   ]
   },
   {
-   "id": "linkareer-337029",
-   "title": "<AI 창창 아이디어 챌린지> 공모전 참가자 모집 (*현장에서 함께 활동)",
-   "host": "서울청소년센터",
+   "id": "wevity-109527",
+   "title": "2026 KOMIPO 혁신 50대 과제 대국민 아이디어 공모",
+   "host": "한국중부발전(주)",
    "hostType": "정부·공공",
-   "cat": "데이터·알고리즘",
-   "start": "2026-07-20",
-   "deadline": "2026-08-04",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-07-24",
+   "deadline": "2026-08-14",
    "prizeTotal": null,
    "prizeMin": null,
    "prizeMax": null,
    "prizeApprox": false,
-   "prizeBucket": "-",
-   "topPrize": "시상규모 -",
-   "who": "청소년",
-   "whoType": "청소년·어린이",
-   "bonus": [
-    "수료증 수여, 봉사 시간 부여 공유하기 홈페이지 지원 스크랩 스크랩한 사용자 전체보기 ( 명) 관심 유저 통계 보기"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-07-20 ~ 2026-08-04. 공모분야 기획/아이디어 과학/공학.",
-   "url": "http://www.youthc.or.kr/default.asp",
+   "prizeBucket": "375만원(선정과제 수에 따라 변동가능)",
+   "topPrize": "1등 100만원",
+   "who": "제한없음",
+   "whoType": "전국민",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-07-24 ~ 2026-08-14. 총상금 구간 375만원(선정과제 수에 따라 변동가능).",
+   "url": "https://www.komipo.co.kr/kor/board/BRD_000135/boardMain.do?mnCd=FN121202&pageSize=10",
    "tags": [
-    "기획",
-    "아이디어",
-    "과학"
+    "기획/아이디어",
+    "광고/마케팅",
+    "논문/리포트"
+   ],
+   "verify": [],
+   "source": "wevity"
+  },
+  {
+   "id": "wevity-108544",
+   "title": "제13회 전국 ICT융합 AI 공모전",
+   "host": "과학기술정보통신부, 충청북도 / 충북과학기술혁신원/충북인공지능산업협회",
+   "hostType": "지자체",
+   "cat": "아이디어·기획",
+   "start": "2026-06-08",
+   "deadline": "2026-08-28",
+   "prizeTotal": null,
+   "prizeMin": null,
+   "prizeMax": 10000000,
+   "prizeApprox": true,
+   "prizeBucket": "1천만원이하",
+   "topPrize": "1등 300만원",
+   "who": "제한없음",
+   "whoType": "전국민",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-06-08 ~ 2026-08-28. 총상금 구간 1천만원이하.",
+   "url": "https://www.ictfestival.or.kr/",
+   "tags": [
+    "웹/모바일/IT"
+   ],
+   "verify": [],
+   "source": "wevity"
+  },
+  {
+   "id": "wevity-108046",
+   "title": "제 1회 일상뒤집기 ai 어플 개발 공모전",
+   "host": "나무서원 / 홈그라운드",
+   "hostType": "정부·공공",
+   "cat": "해커톤·개발",
+   "start": "2026-06-01",
+   "deadline": "2026-08-22",
+   "prizeTotal": null,
+   "prizeMin": null,
+   "prizeMax": 10000000,
+   "prizeApprox": true,
+   "prizeBucket": "1천만원이하",
+   "topPrize": "1등 300만원",
+   "who": "제한없음",
+   "whoType": "전국민",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-06-01 ~ 2026-08-22. 총상금 구간 1천만원이하.",
+   "url": "https://ideaflip.netlify.app/",
+   "tags": [
+    "게임/소프트웨어"
+   ],
+   "verify": [],
+   "source": "wevity"
+  },
+  {
+   "id": "wevity-108495",
+   "title": "2026년 제4회 전북 청년 AI·빅데이터 경진대회",
+   "host": "전북 인공지능·데이터 공동연구회, 전북대학교 빅데이터 혁신융합대학 사업단",
+   "hostType": "지자체",
+   "cat": "해커톤·개발",
+   "start": "2026-06-22",
+   "deadline": "2026-08-28",
+   "prizeTotal": null,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "다양한 혜택",
+   "topPrize": "총상금 다양한 혜택",
+   "who": "기타",
+   "whoType": "전국민",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-06-22 ~ 2026-08-28. 총상금 구간 다양한 혜택.",
+   "url": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=59292d53795b4f8492969fc194322d39&pagetype=bbs",
+   "tags": [
+    "게임/소프트웨어"
    ],
    "verify": [
     "prize"
    ],
-   "source": "linkareer"
+   "source": "wevity"
+  },
+  {
+   "id": "wevity-107871",
+   "title": "제 4회 청소년 과학 오디션",
+   "host": "사단법인 과학의전당",
+   "hostType": "기타",
+   "cat": "아이디어·기획",
+   "start": "2026-10-12",
+   "deadline": "2026-10-30",
+   "prizeTotal": null,
+   "prizeMin": null,
+   "prizeMax": 10000000,
+   "prizeApprox": true,
+   "prizeBucket": "1천만원이하",
+   "topPrize": "총상금 1천만원이하",
+   "who": "청소년, 어린이",
+   "whoType": "청소년·어린이",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-10-12 ~ 2026-10-30. 총상금 구간 1천만원이하.",
+   "url": "https://www.sciencedream.or.kr/",
+   "tags": [
+    "과학/공학"
+   ],
+   "verify": [
+    "prize"
+   ],
+   "source": "wevity"
+  },
+  {
+   "id": "wevity-109811",
+   "title": "2026년 강남구 AI 활용 불법 마약류 근절·예방 홍보 콘텐츠 공모전",
+   "host": "강남구보건소 / 강남구",
+   "hostType": "기타",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-08-10",
+   "deadline": "2026-08-30",
+   "prizeTotal": null,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "다양한 혜택",
+   "topPrize": "총상금 다양한 혜택",
+   "who": "제한없음",
+   "whoType": "전국민",
+   "bonus": [],
+   "note": "위비티 자동 수집. 접수 2026-08-10 ~ 2026-08-30. 총상금 구간 다양한 혜택.",
+   "url": "https://health.gangnam.go.kr/web/community/notice/1076551/view.do",
+   "tags": [
+    "영상/UCC/사진"
+   ],
+   "verify": [
+    "prize"
+   ],
+   "source": "wevity"
   }
  ]
 };

@@ -159,14 +159,67 @@ def classify_host(host: str) -> str:
 
 
 def classify_cat(title: str, field: str) -> str:
+    """분야 분류. 이미지와 영상을 나눈다.
+
+    둘 다 'AI 콘텐츠'로 뭉뚱그리면 그림·일러스트·캐릭터를 찾는 사람이
+    영상 공모전 더미를 헤쳐야 한다. 영상 표현이 함께 있으면 영상을 우선한다
+    (예: '캐릭터 AI 영상 공모전' 은 결과물이 영상이므로 영상).
+    """
     t = f"{title} {field}"
     if re.search(r"해커톤|hackathon|개발|앱|어플|소프트웨어|임베디드|SW", t, re.I):
         return "해커톤·개발"
-    if re.search(r"영상|UCC|숏폼|콘텐츠|영화|광고|디자인|사진|예술", t):
+    if re.search(r"영상|UCC|숏폼|영화|애니|모션|뮤직비디오|미디어아트|광고제", t):
+        return "AI영상·콘텐츠"
+    if re.search(r"이미지|그림|일러스트|삽화|캐릭터|포스터|아트|웹툰|만화|"
+                 r"사진|디자인|이모티콘|스티커|굿즈|로고|화보|드로잉|"
+                 r"\bart\b|\bimage\b|illust", t, re.I):
+        return "AI 이미지·아트"
+    if re.search(r"콘텐츠|광고|예술", t):
         return "AI영상·콘텐츠"
     if re.search(r"경진대회|알고리즘|데이터|분석|예측|챌린지|모델", t):
         return "데이터·알고리즘"
     return "아이디어·기획"
+
+
+# ── AI 생성물을 '금지' 하는 공모전 걸러내기 ────────────────────────────
+#
+# 사진·그림 공모전은 본문에서 AI를 언급하되 대부분 "생성형 AI 작품 접수 불가"
+# 라는 뜻이다. 이런 걸 AI 공모전으로 실어 놓으면 지원했다가 실격당한다.
+AI_BAN = re.compile(
+    r"(?:생성형\s*AI|인공지능|AI)[^.\n]{0,40}?"
+    r"(?:불가|금지|제외|불허|허용하지|사용할\s*수\s*없|응모\s*불가|실격|무효)"
+    r"|(?:불가|금지|제외)[^.\n]{0,20}?(?:생성형\s*AI|AI\s*생성)",
+)
+# 반대로 AI 부문이 따로 있으면 금지 문구가 있어도 AI 공모전이 맞다
+AI_ALLOW = re.compile(
+    r"AI\s*(?:분야|부문|특별상|트랙)"
+    r"|생성형\s*AI[^.\n]{0,30}?(?:부문|분야|창작|활용한\s*이미지)"
+    r"|AI\s*\(인공지능\)\s*툴을?\s*활용"
+    r"|(?:활용|이용|사용)[^.\n]{0,10}?(?:응모작에\s*한하여)",
+)
+# 'AI 원본 파일', 'PSD, AI' 는 어도비 일러스트레이터 확장자다. AI와 무관.
+ADOBE_AI = re.compile(r"(?:PSD|psd|ai)\s*[,·/]\s*AI|AI\s*(?:원본|파일|형식)"
+                      r"|원본\s*파일\s*[:：]\s*AI|\.ai\b")
+
+
+def ai_relevance(text: str) -> tuple[bool, str]:
+    """본문을 보고 '진짜 AI 공모전인지' 판단.
+
+    반환: (AI 공모전 여부, 사유)
+    """
+    if not text:
+        return True, ""
+    allow = bool(AI_ALLOW.search(text))
+    ban = bool(AI_BAN.search(text))
+    if allow:
+        return True, "AI 부문 있음"
+    if ban:
+        return False, "AI 생성물 응모 금지 명시"
+    # 어도비 확장자 언급만 있고 다른 AI 근거가 없으면 제외
+    stripped = ADOBE_AI.sub(" ", text)
+    if not re.search(r"생성형|인공지능|AI", stripped):
+        return False, "AI 언급이 일러스트레이터 파일 확장자뿐"
+    return True, ""
 
 
 def classify_who(target: str, title: str) -> str:
@@ -205,8 +258,12 @@ def parse_wevity_detail(html: str) -> dict:
             if val.startswith(key):
                 val = val[len(key):].strip()
             info[key] = val
-    body = s.select_one(".cd-cont") or s
-    info["_body"] = body.get_text(" ", strip=True)[:1500]
+    # 본문은 '상세내용' 이후부터다. 셀렉터(.cd-cont)가 없어서 문서 전체로
+    # 폴백하면 사이트 네비게이션 메뉴가 잡히고 정작 공고 내용은 안 들어온다.
+    # (이 상태로 오래 돌아가고 있었다 — 본문 기반 판정이 전부 무의미했음)
+    full = s.get_text(" ", strip=True)
+    m = re.search(r"상세\s*내용", full)
+    info["_body"] = full[m.end():m.end() + 3000] if m else ""
     return info
 
 
@@ -258,9 +315,16 @@ def fetch_wevity(limit_per_list: int = 30) -> list[dict]:
                 continue
             info = parse_wevity_detail(dhtml)
 
-            blob = " ".join([title, info.get("분야", ""), info.get("_body", "")])
+            body = info.get("_body", "")
+            blob = " ".join([title, info.get("분야", ""), body])
             if not any(k in blob for k in AI_KEYWORDS):
                 continue                                   # AI 무관 → 제외
+            # 본문을 제대로 뽑았을 때만 금지 여부를 따진다. 본문 추출이 실패한
+            # 상태에서 판정하면 멀쩡한 공모전이 통째로 날아간다.
+            if len(body) > 200:
+                ok, _ = ai_relevance(body)
+                if not ok:
+                    continue      # AI 금지 공모전 / 일러스트레이터 확장자 오탐
 
             # 접수기간 "2026-07-13 ~ 2026-08-17 D-13"
             start = deadline = None
@@ -326,6 +390,10 @@ def fetch_wevity(limit_per_list: int = 30) -> list[dict]:
 #        (id / title / organizationName / recruitCloseAt)
 #  상세: 정보 패널의 라벨-값 쌍
 # ══════════════════════════════════════════════════════════════════════
+# 제목에 AI가 없어도 본문에 AI 부문이 숨어 있을 수 있는 창작 공모전 힌트
+CREATIVE_HINT = (r"이미지|그림|일러스트|삽화|캐릭터|포스터|아트|웹툰|만화|사진|"
+                 r"디자인|이모티콘|스티커|굿즈|로고|영상|숏폼|UCC|애니|드로잉|창작")
+
 LINKAREER_LIST = "https://linkareer.com/list/contest?page={page}"
 LINKAREER_DETAIL = "https://linkareer.com/activity/{aid}"
 
@@ -389,15 +457,22 @@ def fetch_linkareer(pages: int = 5) -> list[dict]:
             if not title or not aid:
                 continue
             found += 1
-            if not any(k in title for k in AI_KEYWORDS):
-                continue                                   # 제목에 AI 힌트 없으면 제외
             close = _iso_date(val.get("recruitCloseAt"))
             if close and close < today:
                 continue                                   # 이미 마감
+
+            has_ai = any(k in title for k in AI_KEYWORDS)
+            # 제목에 AI가 없어도 창작 공모전이면 본문에 AI 부문이 있는지 확인한다.
+            # '메가주 달력 일러스트 공모전'(AI 특별상), '1컷 만화 공모전'
+            # (생성형 AI 1컷 만화 부문) 처럼 제목만 봐선 놓치는 게 실제로 있다.
+            maybe = bool(re.search(CREATIVE_HINT, title))
+            if not has_ai and not maybe:
+                continue
             candidates.setdefault(aid, {
                 "id": aid, "title": title,
                 "host": (val.get("organizationName") or "").strip(),
                 "close": close,
+                "titleHasAI": has_ai,
             })
         if not found:
             warn(f"링커리어 {page}페이지에 Activity 0개")
@@ -409,6 +484,7 @@ def fetch_linkareer(pages: int = 5) -> list[dict]:
         return []
 
     out: list[dict] = []
+    skipped: list[tuple[str, str]] = []
     for c in candidates.values():
         time.sleep(POLITE_DELAY)
         url = LINKAREER_DETAIL.format(aid=c["id"])
@@ -418,6 +494,19 @@ def fetch_linkareer(pages: int = 5) -> list[dict]:
         soup = BeautifulSoup(html, "lxml")
         text = soup.get_text("\n", strip=True)
         panel = _lk_panel(text)
+
+        # 본문 기준으로 진짜 AI 공모전인지 판정.
+        # 제목에 AI가 있으면 통과지만, 'AI 생성물 응모 불가' 가 명시돼 있으면
+        # 제목과 무관하게 뺀다. 제목에 AI가 없던 후보는 AI 부문이 확인돼야 넣는다.
+        ok, reason = ai_relevance(text)
+        if not ok:
+            # 제목에 AI가 있었는데 본문이 금지라면 짚어줄 값어치가 있다.
+            # 제목에 AI가 없던 '혹시나' 후보는 그냥 조용히 버린다.
+            if c.get("titleHasAI"):
+                skipped.append((c["title"], reason))
+            continue
+        if not c.get("titleHasAI") and not AI_ALLOW.search(text):
+            continue                                       # 근거 부족 — 조용히 제외
 
         dates = re.findall(r"(\d{4})[.\-](\d{2})[.\-](\d{2})", panel.get("접수기간", ""))
         start = "-".join(dates[0]) if dates else None
@@ -469,6 +558,10 @@ def fetch_linkareer(pages: int = 5) -> list[dict]:
             "source": "linkareer",
         })
 
+    if skipped:
+        print(f"   AI 금지·무관으로 제외 {len(skipped)}건: "
+              + ", ".join(f"{t[:22]}({r})" for t, r in skipped[:4])
+              + ("…" if len(skipped) > 4 else ""))
     if not out:
         warn(f"링커리어 후보 {len(candidates)}건 중 수집 0건")
     return out
