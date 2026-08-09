@@ -2,16 +2,23 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.GLOBAL_DATA = {
- "generatedAt": "2026-08-05T01:47:03+00:00",
+ "generatedAt": "2026-08-09T21:39:20+00:00",
  "_meta": {
-  "autoCount": 37,
-  "finalCount": 49,
+  "autoCount": 36,
+  "finalCount": 48,
   "manualCount": 14,
   "bySource": {
    "manual": 14,
-   "aifilmcontests": 35
+   "aifilmcontests": 34
   },
-  "warnings": []
+  "warnings": [
+   "위비티 [웹/모바일/IT] 목록 로드 실패",
+   "위비티 [게임/소프트웨어] 목록 로드 실패",
+   "위비티 [과학/공학] 목록 로드 실패",
+   "위비티 [기획/아이디어] 목록 로드 실패",
+   "위비티 [광고/마케팅] 목록 로드 실패",
+   "위비티 [영상/UCC/사진] 목록 로드 실패"
+  ]
  },
  "contests": [
   {
@@ -741,34 +748,6 @@ window.GLOBAL_DATA = {
    "url": "https://filmfreeway.com/CannesFilmAwards",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
-  },
-  {
-   "id": "afc-01-ai-newmedia-uk-2026",
-   "title": "01 A.I. | New Media | Experimental | Digital Arts Film Festival (UK)",
-   "org": "Unrestricted View — Hen & Chickens Theatre, London",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-08-06",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · Tiered via FilmFreeway (multiple monthly deadlines)",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "London's rolling-deadline festival for AI, new media, experimental, and digital arts shorts. Next windows close July 6 and Aug 6, 2026 — perfect if you missed the spring rush. Has a dedicated A.I. Films category and a real London screening at the Hen & Chickens Theatre.",
-   "url": "https://filmfreeway.com/01NFTNewMediaExpDigitalArtsFest",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
    "source": "aifilmcontests"
   },
   {
