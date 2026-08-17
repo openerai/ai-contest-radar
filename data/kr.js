@@ -5,10 +5,10 @@ window.KR_DATA = {
  "generatedAt": "2026-08-16T21:26:17+00:00",
  "_meta": {
   "autoCount": 72,
-  "finalCount": 72,
-  "manualCount": 9,
+  "finalCount": 73,
+  "manualCount": 10,
   "bySource": {
-   "manual": 8,
+   "manual": 9,
    "linkareer": 62,
    "aifactory": 2
   },
@@ -22,6 +22,31 @@ window.KR_DATA = {
   ]
  },
  "contests": [
+  {
+   "id": "manual-daejeon-ai-video-2026",
+   "title": "상상을 실현하는 아이 AI vol.2 <2026 대전 AI 영상 공모전>",
+   "host": "대전정보문화산업진흥원",
+   "hostType": "지자체",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-07-20",
+   "deadline": "2026-08-18",
+   "prizeTotal": 48000000,
+   "topPrize": "총 4,800만원 규모 · 대상 1,000만원",
+   "who": "만 14세 이상 누구나 (개인 또는 팀)",
+   "whoType": "전국민",
+   "bonus": [
+    "우수작 확산·후속 연계"
+   ],
+   "note": "공식 AI-Kive 공고 기준. 전국·일반, 대전·일반, 청소년 부문으로 진행되는 생성형 AI 단편 영상 공모전.",
+   "url": "https://aikive.com/event/5105995dd52643bf9dd53285a2f8137d?tab=DETAILS",
+   "tags": [
+    "AI영상",
+    "생성형AI",
+    "고액상금"
+   ],
+   "verify": [],
+   "source": "manual"
+  },
   {
    "id": "manual-allai-error",
    "title": "[전국민 AI 경진대회] AI 오류 탐지 챌린지",

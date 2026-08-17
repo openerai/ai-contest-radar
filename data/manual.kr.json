@@ -17,14 +17,6 @@
    "tags": ["숏폼", "생성형AI", "인턴연계"],
    "verify": []
   },
-  "2026 대전 AI 영상 공모전": {
-   "prizeTotal": 48000000,
-   "topPrize": "총 4,800만원 규모",
-   "bonus": ["우수작 확산·후속 연계"],
-   "note": "공식 페이지(aikive.com) 기준 총상금 4,800만원. 대전 지역 AI 영상 창작 생태계 활성화 목적이지만 참가 자격은 제한없음.",
-   "tags": ["AI영상", "고액상금"],
-   "verify": []
-  },
   "[NHN] 게임 X AI 해커톤 (NAN2026)": {
    "prizeTotal": 80000000,
    "topPrize": "대상 5,000만원 · 최우수 2,000만 · 우수 1,000만",
@@ -50,6 +42,24 @@
  },
 
  "extra": [
+  {
+   "id": "manual-daejeon-ai-video-2026",
+   "title": "상상을 실현하는 아이 AI vol.2 <2026 대전 AI 영상 공모전>",
+   "host": "대전정보문화산업진흥원",
+   "hostType": "지자체",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-07-20",
+   "deadline": "2026-08-18",
+   "prizeTotal": 48000000,
+   "topPrize": "총 4,800만원 규모 · 대상 1,000만원",
+   "who": "만 14세 이상 누구나 (개인 또는 팀)",
+   "whoType": "전국민",
+   "bonus": ["우수작 확산·후속 연계"],
+   "note": "공식 AI-Kive 공고 기준. 전국·일반, 대전·일반, 청소년 부문으로 진행되는 생성형 AI 단편 영상 공모전.",
+   "url": "https://aikive.com/event/5105995dd52643bf9dd53285a2f8137d?tab=DETAILS",
+   "tags": ["AI영상", "생성형AI", "고액상금"],
+   "verify": []
+  },
   {
    "id": "manual-skt-prompt",
    "title": "일상을 바꾸는 한 줄 SKT 모두의 promp.T 공모전",
