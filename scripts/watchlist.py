@@ -74,12 +74,45 @@ PLATFORMS = [
         "only": r"/blog/|/news/",          # /nodes/ 밑은 사용자가 만든 앱이라 대회가 아니다
     },
     {
+        # app.pixverse.ai 는 앱 셸이라 못 읽지만 pixverse.ai 블로그는 서버 렌더다.
+        # PixLight 글로벌 AI 필름 공모가 여기서 잡혔다.
+        "brand": "PixVerse", "org": "PixVerse", "orgTier": "major",
+        "hubs": [("https://pixverse.ai/en/blog", r"/blog/[\w\-]+$")],
+    },
+    {
+        # 공식 콘테스트 페이지가 서버 렌더 + 회차가 잦다. 애니·일러스트 계열.
+        "brand": "PixAI", "org": "PixAI", "orgTier": "mid",
+        "hubs": [("https://pixai.art/en/contest/official", r"/contest/[\w\-]+$"),
+                 ("https://pixai.art/en/contest/community", r"/contest/[\w\-]+$")],
+    },
+    {
+        "brand": "Artbreeder", "org": "Artbreeder", "orgTier": "mid",
+        "hubs": [("https://www.artbreeder.com/contests", r"/contests/[\w]+$")],
+    },
+    {
+        "brand": "CapCut", "org": "CapCut · Dreamina (ByteDance)", "orgTier": "major",
+        "hubs": [("https://www.capcut.com/blog", r"/create/[\w\-]+$")],
+    },
+    {
+        "brand": "Udio", "org": "Udio", "orgTier": "mid",
+        "hubs": [("https://www.udio.com/blog", r"/blog/[\w\-]+$")],
+    },
+    {
+        "brand": "Stability AI", "org": "Stability AI", "orgTier": "major",
+        "sitemaps": [("https://stability.ai/sitemap.xml", None)],
+    },
+    {
+        "brand": "Synthesia", "org": "Synthesia", "orgTier": "major",
+        "sitemaps": [("https://www.synthesia.io/sitemap.xml", None)],
+    },
+    {
         "brand": "LTX Studio", "org": "LTX Studio (Lightricks)", "orgTier": "mid",
         "sitemaps": [("https://ltx.studio/sitemap.xml", None)],
     },
     {
         "brand": "Luma", "org": "Luma AI", "orgTier": "mid",
         "sitemaps": [("https://lumalabs.ai/sitemap.xml", None)],
+        "hubs": [("https://lumalabs.ai/news", r"/news/[\w\-]+$")],
     },
     {
         "brand": "Vidu", "org": "Vidu (ShengShu)", "orgTier": "mid",
@@ -112,18 +145,25 @@ PLATFORMS = [
 ]
 
 # 자동 감시가 불가능한 곳 — 리포트 맨 아래에 "직접 확인" 체크리스트로 출력한다.
+# scripts/probe_watch_targets.py 로 확인한 결과다. 사정이 바뀌면 위로 올린다.
 MANUAL_CHECK = [
-    ("Kling AI",     "https://klingai.com/activity",  "로그인 뒤 JS 렌더 · 서버 HTML에 목록 없음"),
-    ("PixVerse",     "https://app.pixverse.ai/",      "앱 셸만 내려옴"),
-    ("SeaArt",       "https://www.seaart.ai/events",  "앱 셸만 내려옴"),
-    ("Hailuo",       "https://hailuoai.video/",       "앱 셸만 내려옴"),
-    ("OpenArt",      "https://openart.ai/",           "공모 페이지 경로가 자주 바뀜"),
-    ("Freepik",      "https://www.freepik.com/blog",  "봇 차단(403)"),
-    ("Leonardo",     "https://leonardo.ai/news/",     "봇 차단(403)"),
-    ("Midjourney",   "https://www.midjourney.com/",   "봇 차단(403)"),
-    ("Adobe Firefly", "https://blog.adobe.com/",      "응답 지연으로 수집 제외"),
-    ("Pika",         "https://pika.art/",             "사이트맵에 공모 경로 없음"),
+    ("Kling AI",   "https://app.klingai.com/global/activity-zone", "로그인 뒤 JS 렌더"),
+    ("SeaArt",     "https://www.seaart.ai/community/challenges", "허브가 앱 셸(본문 295자)"),
+    ("Hailuo",     "https://hailuoai.video/",        "앱 셸만 내려옴"),
+    ("OpenArt",    "https://openart.ai/",            "사이트맵 33건에 공모 경로 없음"),
+    ("Midjourney", "https://www.midjourney.com/",    "봇 차단(403)"),
+    ("Leonardo",   "https://leonardo.ai/news/",      "봇 차단(403)"),
+    ("Freepik",    "https://www.freepik.com/blog",   "봇 차단(403)"),
+    ("Tensor.Art", "https://tensor.art/",            "봇 차단(403)"),
+    ("NightCafe",  "https://nightcafe.studio/",      "봇 차단(403)"),
+    ("Pika",       "https://pika.art/",              "사이트맵 비어 있음"),
+    ("Ideogram",   "https://ideogram.ai/",           "사이트맵 비어 있음"),
+    ("Adobe Firefly", "https://firefly.adobe.com/",  "사이트맵에 공모 경로 없음"),
+    ("Shutterstock", "https://www.shutterstock.com/blog", "봇 차단(403)"),
 ]
+
+# 감시 대상 브랜드 수 — 리포트에 함께 찍어 커버리지 변화를 눈에 보이게 한다.
+WATCH_COUNT = len(PLATFORMS) + len(MANUAL_CHECK)
 
 # Google 뉴스 RSS — 업체 사이트에 안 올라오고 기사로만 도는 건을 줍기 위한 보조 채널.
 NEWS_QUERIES = [
@@ -261,6 +301,25 @@ def prize_cash(text: str) -> int:
         (cued if PRIZE_CUE.search(around) else plain).append(v)
     pool = cued or plain
     return max(pool) if pool else 0
+
+
+_CREDITS = re.compile(r"([\d,]{3,})\s*(?:credits?|크레딧)", re.I)
+
+
+def prize_credits(text: str) -> int:
+    """'5,000,000 Credits' 처럼 크레딧으로 주는 상금.
+
+    PixAI·Kling 계열 콘테스트는 상금이 전부 플랫폼 크레딧이라 달러 파서로는
+    0원짜리로 보인다. 크레딧은 현금이 아니므로 cash 와 섞지 않고 따로 담는다.
+    """
+    best = 0
+    for m in _CREDITS.finditer(text or ""):
+        try:
+            v = int(m.group(1).replace(",", ""))
+        except ValueError:
+            continue
+        best = max(best, v)
+    return best
 
 
 def find_deadline(text: str, today: date | None = None) -> tuple[str | None, str, str]:
@@ -435,6 +494,7 @@ def enrich(site: dict, url: str, lastmod: str = "") -> dict | None:
         guess, deadline = deadline, None
 
     cash = prize_cash(f"{title} {desc} {text}")
+    credits = prize_credits(f"{title} {desc}")
     return {
         "brand": site["brand"],
         "url": url,
@@ -446,6 +506,11 @@ def enrich(site: dict, url: str, lastmod: str = "") -> dict | None:
         "deadlineEvidence": evidence[:200],
         "confidence": conf,
         "cashUsd": cash or 0,
+        "credits": credits,
+        # URL 은 공모처럼 생겼는데 실제로는 수상 소식인 글이 있다
+        # ('…Win PixVerse Special Prize…'). 제목으로 한 번 더 거른다.
+        "looksLikeResult": bool(re.search(
+            r"wins?|winners?|수상|우승", f"{title}", re.I)),
         "cat": sources.classify_global_cat(f"{title} {desc}"),
         "hasEventLD": bool(ev),
     }
@@ -459,7 +524,8 @@ def slugify(brand: str, url: str) -> str:
 def draft_record(site: dict, info: dict) -> dict:
     """manual.global.json 의 extra 에 그대로 붙여넣을 초안."""
     cash = info["cashUsd"]
-    verify = [] if cash else ["prize"]
+    credits = info.get("credits", 0)
+    verify = [] if (cash or credits) else ["prize"]
     if info["confidence"] != "high" or not info["deadline"]:
         verify.append("deadline")
     return {
@@ -473,8 +539,9 @@ def draft_record(site: dict, info: dict) -> dict:
         "tz": "현지",
         "recur": "once",
         "cash": cash,
-        "credit": 0,
-        "prizeText": (f"현금 약 ${cash:,}" if cash else "상금 정보는 공고 확인"),
+        "credit": credits,
+        "prizeText": (f"현금 약 ${cash:,}" if cash
+                      else (f"플랫폼 크레딧 {credits:,}" if credits else "상금 정보는 공고 확인")),
         "who": "공고 확인 필요",
         "whoType": "전세계 누구나",
         "fee": site.get("fee", "free"),

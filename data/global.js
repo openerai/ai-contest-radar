@@ -2,19 +2,56 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.GLOBAL_DATA = {
- "generatedAt": "2026-08-18T09:02:28+00:00",
+ "generatedAt": "2026-08-18T09:47:01+00:00",
  "_meta": {
-  "autoCount": 43,
-  "finalCount": 50,
-  "manualCount": 15,
+  "autoCount": 64,
+  "finalCount": 69,
+  "manualCount": 17,
   "bySource": {
-   "manual": 11,
+   "manual": 13,
    "aifilmcontests": 25,
-   "devpost": 14
+   "devpost": 15,
+   "melies": 16
   },
   "warnings": []
  },
  "contests": [
+  {
+   "id": "pixverse-pixlight",
+   "title": "PixVerse PixLight 글로벌 AI 필름 공모",
+   "org": "PixVerse",
+   "orgType": "플랫폼",
+   "orgTier": "major",
+   "cat": "AI 필름",
+   "deadline": "2026-10-09",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 300000,
+   "credit": 0,
+   "prizeText": "총 상금 $300,000 · 33개 부문 시상",
+   "who": "전 세계 누구나 · 개인/팀 모두 가능",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료 (등록자에게 PixVerse 크레딧 스타터팩 제공)",
+   "entry": "공식 폼 제출",
+   "career": "festival",
+   "bonus": [
+    "국제 심사위원단 심사",
+    "제작·IP 개발 논의 기회",
+    "저작권 창작자 보유"
+   ],
+   "note": "8/7 접수 시작 ~ 10/9 마감, 10월 중 수상 발표. 두 개 트랙 — Pilot(3~20분 완성작, PixVerse Canvas를 주 제작 도구로 사용하되 실사·VFX 혼합 허용) / Script(장편 시나리오 + 짧은 영상 피치). 장르 방향 3가지(Under the Skin·Worlds Beyond·Edge of Seat) 중 선택. 도구 자랑이 아니라 '이야기'로 심사한다고 명시.",
+   "url": "https://pixverse.ai/en/blog/pixverse-kicks-off-pixlight-global-ai-film-competition",
+   "tags": [
+    "초고액",
+    "AI필름",
+    "무료",
+    "시나리오부문"
+   ],
+   "verify": [],
+   "source": "manual",
+   "checkedAt": "2026-08-18"
+  },
   {
    "id": "hf-gff",
    "title": "Higgsfield Global Film Festival",
@@ -255,6 +292,43 @@ window.GLOBAL_DATA = {
     "업계한정"
    ],
    "verify": [],
+   "source": "manual",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "pixai-official",
+   "title": "PixAI 공식 콘테스트 (상시 · 회차제)",
+   "org": "PixAI",
+   "orgType": "플랫폼",
+   "orgTier": "mid",
+   "cat": "이미지·아트",
+   "deadline": null,
+   "tz": "UTC",
+   "recur": "rolling",
+   "cash": 0,
+   "credit": 15000,
+   "prizeText": "회차당 크레딧 5만~5,000만 (테마별 상이) · 상위작 공식 갤러리 게재",
+   "who": "PixAI 이용자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료 (PixAI 계정)",
+   "entry": "플랫폼 제출",
+   "career": "platform",
+   "bonus": [
+    "공식 블로그·갤러리 노출",
+    "브랜드 협업 회차 다수"
+   ],
+   "note": "애니·일러스트 계열 콘테스트가 상시로 열린다. 2026-08 기준 진행 중 5건 이상, 마감이 1~3주 단위로 돌아와 진입장벽이 낮다. 상금은 전액 플랫폼 크레딧. 개별 회차는 감시기가 data/review.queue.json 에 계속 쌓아 둔다.",
+   "url": "https://pixai.art/en/contest/official",
+   "tags": [
+    "상시",
+    "크레딧상금",
+    "진입장벽낮음",
+    "일러스트"
+   ],
+   "verify": [
+    "prize"
+   ],
    "source": "manual",
    "checkedAt": "2026-08-18"
   },
@@ -604,7 +678,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jun 30 - Aug 18, 2026 · 참가 등록 3649명 · 주제 Machine Learning/AI, Databases, DevOps",
+   "note": "접수 기간 Jun 30 - Aug 18, 2026 · 참가 등록 3652명 · 주제 Machine Learning/AI, Databases, DevOps",
    "url": "https://cockroachdb-ai.devpost.com/",
    "tags": [
     "해커톤",
@@ -634,7 +708,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jun 21 - Aug 20, 2026 · 참가 등록 828명 · 주제 Databases, Fintech, Quantum",
+   "note": "접수 기간 Jun 21 - Aug 20, 2026 · 참가 등록 831명 · 주제 Databases, Fintech, Quantum",
    "url": "https://quantumhacks.devpost.com/",
    "tags": [
     "해커톤",
@@ -664,7 +738,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 02 - 24, 2026 · 참가 등록 1728명 · 주제 Beginner Friendly, Machine Learning/AI, Open Ended",
+   "note": "접수 기간 Aug 02 - 24, 2026 · 참가 등록 1730명 · 주제 Beginner Friendly, Machine Learning/AI, Open Ended",
    "url": "https://reverie-hacks-2026.devpost.com/",
    "tags": [
     "해커톤",
@@ -696,6 +770,36 @@ window.GLOBAL_DATA = {
    "bonus": [],
    "note": "접수 기간 Jun 17 - Aug 25, 2026 · 참가 등록 1693명 · 주제 Machine Learning/AI, Productivity",
    "url": "https://adtc-2026.devpost.com/",
+   "tags": [
+    "해커톤",
+    "온라인"
+   ],
+   "verify": [],
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "dp-31059",
+   "title": "Prometheus August AI Challenge",
+   "org": "Prometheus CS",
+   "orgType": "해커톤",
+   "orgTier": "mid",
+   "cat": "앱·개발",
+   "deadline": "2026-08-30",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 1500,
+   "credit": 0,
+   "prizeText": "총 상금 $1,500",
+   "who": "전 세계 개발자 누구나 (Devpost 계정)",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료",
+   "entry": "Devpost 제출",
+   "career": "platform",
+   "bonus": [],
+   "note": "접수 기간 Aug 18 - 30, 2026 · 참가 등록 3명 · 주제 Beginner Friendly, Design, Machine Learning/AI",
+   "url": "https://august-ai-challenge-31059.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
@@ -784,7 +888,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 04 - 31, 2026 · 참가 등록 4723명 · 주제 Enterprise, Machine Learning/AI, Productivity",
+   "note": "접수 기간 Aug 04 - 31, 2026 · 참가 등록 4741명 · 주제 Enterprise, Machine Learning/AI, Productivity",
    "url": "https://allthingsagentichackathon.devpost.com/",
    "tags": [
     "해커톤",
@@ -844,7 +948,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 May 22 - Sep 05, 2026 · 참가 등록 1626명 · 주제 IoT, Machine Learning/AI, Beginner Friendly",
+   "note": "접수 기간 May 22 - Sep 05, 2026 · 참가 등록 1627명 · 주제 IoT, Machine Learning/AI, Beginner Friendly",
    "url": "https://volthacks.devpost.com/",
    "tags": [
     "해커톤",
@@ -874,7 +978,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 27 - Sep 09, 2026 · 참가 등록 6307명 · 주제 Databases, Machine Learning/AI, Open Ended",
+   "note": "접수 기간 Jul 27 - Sep 09, 2026 · 참가 등록 6311명 · 주제 Databases, Machine Learning/AI, Open Ended",
    "url": "https://agentic-cinema.devpost.com/",
    "tags": [
     "해커톤",
@@ -904,7 +1008,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 23 - Sep 14, 2026 · 참가 등록 2230명 · 주제 Communication, Enterprise, Machine Learning/AI",
+   "note": "접수 기간 Jul 23 - Sep 14, 2026 · 참가 등록 2232명 · 주제 Communication, Enterprise, Machine Learning/AI",
    "url": "https://call-e.devpost.com/",
    "tags": [
     "해커톤",
@@ -934,7 +1038,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 10 - Sep 14, 2026 · 참가 등록 3421명 · 주제 Beginner Friendly, Machine Learning/AI, Open Ended",
+   "note": "접수 기간 Aug 10 - Sep 14, 2026 · 참가 등록 3431명 · 주제 Beginner Friendly, Machine Learning/AI, Open Ended",
    "url": "https://agentsforhumans.devpost.com/",
    "tags": [
     "해커톤",
@@ -964,7 +1068,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 11 - Sep 21, 2026 · 참가 등록 215명 · 주제 Machine Learning/AI, Social Good, Beginner Friendly",
+   "note": "접수 기간 Jul 11 - Sep 21, 2026 · 참가 등록 216명 · 주제 Machine Learning/AI, Social Good, Beginner Friendly",
    "url": "https://gibc-v2.devpost.com/",
    "tags": [
     "해커톤",
@@ -1287,11 +1391,16 @@ window.GLOBAL_DATA = {
    "bonus": [],
    "note": "Global online film festival dedicated exclusively to AI-generated cinema. Inaugural 2026 edition. Selected winners receive official laurels, promotion, and limited financial support for Best AI Mini Movie.",
    "url": "https://filmfreeway.com/AIZONEInternationalAIFilmFestival2026",
-   "tags": [],
+   "tags": [
+    "영화제"
+   ],
    "verify": [
     "prize"
    ],
    "source": "aifilmcontests",
+   "alsoFrom": [
+    "melies"
+   ],
    "checkedAt": "2026-08-18"
   },
   {
@@ -1374,11 +1483,16 @@ window.GLOBAL_DATA = {
    "bonus": [],
    "note": "Bali in November — the world's most prestigious AI film awards circuit lands in Indonesia. After Cannes, Venice, Dubai, and Marrakech, the AI Film & Ads Awards bring 100%-AI films and ads to Bali on November 7, 2026. Open globally. All entries must be 100% AI-generated. Winners receive official AI Film & Ads Awards laurels and join the global circuit that has positioned itself as the largest platf",
    "url": "https://filmfreeway.com/AIFILMAWARDS-BALI",
-   "tags": [],
+   "tags": [
+    "영화제"
+   ],
    "verify": [
     "prize"
    ],
    "source": "aifilmcontests",
+   "alsoFrom": [
+    "melies"
+   ],
    "checkedAt": "2026-08-18"
   },
   {
@@ -1524,6 +1638,518 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-aimagica-ai-film-festival-2026",
+   "title": "AIMagica AI Film Festival 2026",
+   "org": "AIMagica AI Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-03-02 ~ 2026-09-02. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://www.aimagica.org/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-bali-international-ai-film-festival-biai",
+   "title": "Bali International AI Film Festival (BIAIFF) 2026",
+   "org": "Bali International AI Film Festival (BIAIFF) 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-05-01 ~ 2026-12-31. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://filmfreeway.com/BaliAiFilmFestival",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-k-culture-ai-international-film-festival",
+   "title": "K-Culture AI International Film Festival (KCAIF) 2026",
+   "org": "K-Culture AI International Film Festival (KCAIF) 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-09-06 ~ 2026-09-06. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://www.kcaif.net/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-artificial-intelligence-media-festival-a",
+   "title": "Artificial Intelligence Media Festival (AIMF) 2026",
+   "org": "Artificial Intelligence Media Festival (AIMF) 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-09-11 ~ 2026-09-13. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://aimf.digital/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-jeju-ai-international-film-festival-2026",
+   "title": "Jeju AI International Film Festival 2026",
+   "org": "Jeju AI International Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-09-15 ~ 2026-09-17. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://www.jjaiff.kr/eng",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-bochnia-international-ai-film-festival-2",
+   "title": "Bochnia International AI Film Festival 2026",
+   "org": "Bochnia International AI Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-09-17 ~ 2026-09-17. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://www.biaiff.pl/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-rome-ai-film-festival-2026",
+   "title": "Rome AI Film Festival 2026",
+   "org": "Rome AI Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-09-19 ~ 2026-09-19. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://raif.it.com/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-red-rocks-ai-film-festival-2026",
+   "title": "Red Rocks AI Film Festival 2026",
+   "org": "Red Rocks AI Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-09-24 ~ 2026-09-24. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://filmfreeway.com/RedRocksAIFilmFestival",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-ai-film-3-ai-film-and-art-festival-arizo",
+   "title": "AI Film 3 — AI Film and Art Festival Arizona 2026",
+   "org": "AI Film 3 — AI Film and Art Festival Arizona 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-10-01 ~ 2026-11-01. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://aifilm3.com",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-astana-ai-film-festival-aaiff-2026",
+   "title": "Astana AI Film Festival (AAIFF) 2026",
+   "org": "Astana AI Film Festival (AAIFF) 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-10-01 ~ 2026-10-03. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://www.aaiff.ai/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-illuminate-film-festival-2026",
+   "title": "Illuminate Film Festival 2026",
+   "org": "Illuminate Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-10-02 ~ 2026-10-02. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://illuminatefilmfestival.com/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-austin-ai-film-festival-2026",
+   "title": "Austin AI Film Festival 2026",
+   "org": "Austin AI Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-10-16 ~ 2026-10-17. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://filmfreeway.com/AustinAIFilmFestival",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-festiav-2026",
+   "title": "FESTIAV 2026",
+   "org": "FESTIAV 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-10-26 ~ 2026-10-30. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://festiav.com/en/home/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-ai-film-festival-japan-2026",
+   "title": "AI Film Festival Japan 2026",
+   "org": "AI Film Festival Japan 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-11-03 ~ 2026-11-03. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://aifilm.jp/index_en.html",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-african-ai-film-festival-2026",
+   "title": "African AI Film Festival 2026",
+   "org": "African AI Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-11-21 ~ 2026-11-22. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://africanaifilmfestival.org/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
+   "checkedAt": "2026-08-18"
+  },
+  {
+   "id": "mel-busan-international-ai-film-festival-202",
+   "title": "Busan International AI Film Festival 2026",
+   "org": "Busan International AI Film Festival 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-12-03 ~ 2026-12-05. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://biaif.dureraum.org/main",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies",
    "checkedAt": "2026-08-18"
   }
  ]

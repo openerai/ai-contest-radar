@@ -42,13 +42,16 @@ GitHub에서 즉시 돌리려면 Actions 탭 → "공모전 데이터 주간 갱
 | [위비티](https://www.wevity.com/) | 국내 보조 | ❌ **Cloudflare 403** |
 | [aifilmcontests.com](https://aifilmcontests.com/) | 해외 영화제 (sitemap→JSON-LD) | ✅ 정상 |
 | [Devpost](https://devpost.com/hackathons) | 해외 AI 해커톤 (공개 JSON API) | ✅ 정상 |
-| AI 플랫폼 챌린지 감시 | Artlist·Higgsfield 등 **후보만 수집** → 사람 확인 | ✅ 정상 |
+| [melies.co](https://melies.co/ai-film-festivals) | 해외 AI 영화제 디렉터리 (JSON-LD) | ✅ 정상 |
+| AI 플랫폼 챌린지 감시 | AI 서비스 20곳 **후보만 수집** → 사람 확인 | ✅ 정상 |
 
 ⚠ **위비티는 Cloudflare가 데이터센터 IP를 차단해 GitHub Actions에서 실패합니다.** 지역 차단이 아니라 봇 차단이라 프록시 없이는 우회가 어렵습니다. 로컬(집 IP)에서 실행하면 정상 동작하고 5~10건이 더 붙으니, 가끔 로컬에서 한 번 돌려 커밋하면 좋습니다. 실패해도 경고만 남기고 나머지 소스로 진행합니다.
 
 Higgsfield는 JSON-LD가 실제 페이지와 어긋나(2026-08-04 기준 영화제 일정이 7/16~7/30으로 실제와 다름) 자동 수집에서 뺐습니다. 값은 `data/manual.global.json`에 있습니다.
 
 Devpost는 `search=ai` 로 열려 있는 대회를 받아오되, **상금 $1,000 이상 · 초대 전용 아님**만 남깁니다. 상금이 달러가 아닌 대회(₹ 등)는 환산하지 않고 건너뜁니다.
+
+melies.co는 FilmFreeway가 봇을 막아 공식 페이지를 못 읽는 아시아권 AI 영화제(부산·제주·K-Culture 등)를 채워 줍니다. 다만 **디렉터리의 날짜는 마감일로 쓰지 않습니다.** 등재된 날짜가 출품 마감인지 행사 개최일인지 구분되지 않기 때문입니다 — 실제로 Reply AI Film Festival은 등재값이 9/6(행사일)인데 출품은 6/30에 이미 닫혀 있었습니다. 늦은 날짜를 마감일로 띄우면 이미 닫힌 공모에 사람을 보내게 되므로, 기간은 비고에만 적고 `⚠ 마감 확인필요` 로 표시합니다.
 
 ## AI 플랫폼 챌린지 감시 (watchtower)
 
@@ -76,6 +79,8 @@ python scripts/watch_challenges.py --seed     # 첫 실행: 지금 것들을 '�
 
 `high` 가 아닌 날짜는 `draft.deadline` 에 넣지 않고 `deadlineGuess` 로만 남깁니다. 틀린 D-day를 띄우는 것보다 비워 두는 편이 낫다고 봤습니다.
 
+감시 중인 곳은 **자동 20곳**(Higgsfield · Artlist · PixVerse · PixAI · Artbreeder · CapCut/Dreamina · Runway · Krea · Luma · Vidu · LTX · Moonvalley · Recraft · Suno · Udio · Stability · Synthesia · ElevenLabs · OpenAI · Civitai) + **수동 확인 13곳**입니다.
+
 보조 채널로 **구글 뉴스 RSS**도 봅니다. Kling·PixVerse처럼 로그인 뒤 JS로만 그려져 사이트맵으로 볼 수 없는 업체의 챌린지는 기사로만 잡히기 때문입니다(실제로 PixVerse `PixLight`, Runway 광고 공모가 이 채널로 걸렸습니다). 자동 감시가 불가능한 업체 목록은 `watchlist.MANUAL_CHECK` 에 있고 실행할 때마다 체크리스트로 출력됩니다.
 
 GitHub Actions의 **"AI 플랫폼 챌린지 감시"** 워크플로가 주 2회(수·토 06:00 KST) 돌면서 큐를 갱신하고, 새 후보가 있으면 이슈를 열어 알립니다.
@@ -94,7 +99,16 @@ GitHub Actions의 **"AI 플랫폼 챌린지 감시"** 워크플로가 주 2회(�
 }
 ```
 
-먼저 `--dry-run` 으로 몇 건이 잡히는지 보고 넣는 편이 안전합니다.
+어느 사이트가 감시 가능한지는 진단 도구로 먼저 재 봅니다.
+
+```bash
+python scripts/probe_watch_targets.py                    # 기본 후보군 50여 곳
+python scripts/probe_watch_targets.py krea.ai pika.art   # 특정 도메인만
+```
+
+사이트맵과 흔한 허브 경로(`/contests`, `/challenges`, `/blog` …)를 훑어 **쓸 수 있음 / 자동 감시 불가**로 갈라 줍니다. AI 서비스 절반은 로그인 뒤 JS로만 그려져 서버 HTML에 목록이 아예 없어서, 넣기 전에 재 보지 않으면 매 실행마다 요청만 쓰고 0건을 돌려받습니다. 이 진단으로 PixVerse 블로그·PixAI 공식 콘테스트·Artbreeder·CapCut을 새로 찾았고, 반대로 Midjourney·Leonardo·NightCafe·Tensor.Art는 봇 차단이라 수동 목록으로 보냈습니다.
+
+상금이 플랫폼 크레딧인 챌린지(PixAI·Kling 계열)는 달러 파서로는 0원으로 보이므로 `N Credits` 표기를 따로 읽어 `credit` 에 담습니다.
 
 ## 지난 공모전 검수 (verifier)
 

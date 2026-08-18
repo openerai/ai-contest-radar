@@ -151,6 +151,7 @@ SOURCE_RANK = {
     "wevity": 20,           # 상금은 구간이지만 접수기간·공식 URL이 정확
     "aifilmcontests": 20,
     "devpost": 20,          # 마감일·상금이 API 값이라 정확하다
+    "melies": 12,           # 디렉터리라 상금·참가비가 없다. 이름·날짜만 믿는다
     "higgsfield": 15,
     "aifactory": 10,
 }
@@ -378,6 +379,7 @@ def main() -> int:
     ap.add_argument("--afc-limit", type=int, default=90,
                     help="aifilmcontests 최대 상세 조회 건수")
     ap.add_argument("--skip-devpost", action="store_true")
+    ap.add_argument("--skip-melies", action="store_true")
     ap.add_argument("--devpost-pages", type=int, default=4,
                     help="Devpost 목록 조회 페이지 수 (1페이지 9건)")
     ap.add_argument("--devpost-min-cash", type=int, default=sources.DEVPOST_MIN_CASH,
@@ -413,6 +415,11 @@ def main() -> int:
             print(" · Devpost (AI 해커톤)")
             auto_gl += sources.fetch_devpost(pages=args.devpost_pages,
                                              min_cash=args.devpost_min_cash)
+        # melies.co 디렉터리. FilmFreeway 가 봇을 막아 공식 페이지를 못 읽는
+        # 아시아권 AI 영화제(부산·제주·K-Culture 등)가 여기에만 실린다.
+        if not args.skip_melies:
+            print(" · melies.co (AI 영화제 디렉터리)")
+            auto_gl += sources.fetch_melies()
         # Higgsfield 는 JSON-LD 가 실제 페이지와 어긋나 자동 수집에서 제외.
         # 사유는 sources.fetch_higgsfield 주석 참고. 값은 manual.global.json 에 있다.
         ok &= build("해외", auto_gl, "manual.global.json", "GLOBAL_DATA", "global.js",

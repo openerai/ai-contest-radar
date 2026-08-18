@@ -67,6 +67,16 @@
    "why": "등록 당시 메모에 '접수 마감 후 심사 단계'로 적혀 있었음 — 이미 접수가 끝난 회차. 다음 회차가 열리면 감시기가 다시 잡는다.",
    "cross": [],
    "by": "사람 확인"
+  },
+  {
+   "id": "mel-reply-ai-film-festival-2026",
+   "title": "Reply AI Film Festival 2026",
+   "url": "https://www.reply.com/en/artificial-intelligence/reply-ai-film-festival",
+   "source": "melies",
+   "retiredAt": "2026-08-18",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-06-30 (이미 과거)",
+   "cross": []
   }
  ]
 }

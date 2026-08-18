@@ -962,11 +962,17 @@ def fetch_devpost(pages: int = 4, min_cash: int = DEVPOST_MIN_CASH) -> list[dict
 
 
 # ══════════════════════════════════════════════════════════════════════
-#  대조용 — melies.co AI 영화제 디렉터리
+#  해외 — melies.co AI 영화제 디렉터리
 #
-#  수집 소스가 아니라 '검수용 대조표'다. 우리 목록의 대회가 아직 살아 있는지
-#  제3자 기록과 맞춰 보는 데 쓴다. JSON-LD 로 Event 20여 건을 start/end 와
-#  함께 내보내고 있어서, 공식 페이지가 JS 로만 그려질 때 특히 쓸모 있다.
+#  두 가지로 쓴다.
+#   1) 수집 소스 — fetch_melies(). 아시아권 AI 영화제(부산·제주·K-Culture 등)가
+#      여기에만 실리는 경우가 많다.
+#   2) 검수 대조표 — fetch_melies_index(). 공식 페이지가 FilmFreeway 처럼 봇을
+#      막거나 JS 셸이라 못 읽을 때, 제3자 기록으로 생사를 확인한다.
+#
+#  ⚠ endDate 의 의미가 항목마다 다르다. 기간이 있는 항목(start<end)은 접수
+#    마감으로 보이지만, 하루짜리 항목(start==end)은 '행사 당일'이다. 후자를
+#    마감일로 쓰면 실제 출품 마감보다 늦은 날짜를 띄우게 되므로 비워 둔다.
 # ══════════════════════════════════════════════════════════════════════
 MELIES_URL = "https://melies.co/ai-film-festivals"
 
@@ -989,4 +995,53 @@ def fetch_melies_index() -> list[dict]:
         })
     if len(out) < 5:
         warn(f"melies.co 대조표 {len(out)}건 — 구조 변경 의심")
+    return out
+
+
+def fetch_melies() -> list[dict]:
+    """melies.co 디렉터리를 공모전 레코드로 변환."""
+    today = date.today().isoformat()
+    out: list[dict] = []
+    for row in fetch_melies_index():
+        end, start, name = row["end"], row["start"], row["name"]
+        if end and end < today:
+            continue
+
+        # 디렉터리의 날짜가 '출품 마감'인지 '행사 개최일'인지 구분되지 않는다.
+        # 실제로 Reply AI Film Festival 은 등재값이 9/6(행사일)인데 출품은
+        # 6/30 에 이미 닫혔고, 부산국제AI영화제도 마찬가지였다. 늦은 날짜를
+        # 마감일로 띄우면 이미 닫힌 공모에 사람을 보내게 되므로 비워 둔다.
+        note = (f"melies.co 디렉터리 등재 기간 {start or '?'} ~ {end or '?'}. "
+                "이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — "
+                "출품 마감·참가비·상금은 공식 페이지에서 확인하세요.")
+        deadline = None
+
+        out.append({
+            "id": "mel-" + re.sub(r"\W+", "-", name).strip("-").lower()[:40],
+            "title": name,
+            "org": name,
+            "orgType": "영화제",
+            "orgTier": "mid",
+            "cat": classify_global_cat(name),
+            "deadline": deadline,
+            "tz": "현지",
+            "recur": "once",
+            "cash": 0,
+            "credit": 0,
+            "prizeText": "상금 정보는 공고 확인",
+            "who": "전 세계 창작자 누구나",
+            "whoType": "전세계 누구나",
+            "fee": "free",
+            "feeText": "무료(확인 필요)",
+            "entry": "영화제 폼 제출",
+            "career": "festival",
+            "bonus": [],
+            "note": note.strip(),
+            "url": row["url"],
+            "tags": ["영화제"],
+            "verify": ["prize", "deadline"],
+            "source": "melies",
+        })
+    if not out:
+        warn("melies.co 수집 0건")
     return out

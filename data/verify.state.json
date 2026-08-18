@@ -3,7 +3,7 @@
   "hf-gff": {
    "firstSeen": "2026-08-18",
    "checkedAt": "2026-08-18",
-   "status": "live"
+   "status": "blocked"
   },
   "chroma-s2": {
    "firstSeen": "2026-08-18",
@@ -279,7 +279,107 @@
    "firstSeen": "2026-08-18",
    "checkedAt": "2026-08-18",
    "status": "live"
+  },
+  "pixverse-pixlight": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "pixai-official": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "unknown"
+  },
+  "dp-31059": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "mel-aimagica-ai-film-festival-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "mel-bali-international-ai-film-festival-biai": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "blocked"
+  },
+  "mel-artificial-intelligence-media-festival-a": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "mel-jeju-ai-international-film-festival-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "blocked"
+  },
+  "mel-ai-film-3-ai-film-and-art-festival-arizo": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "mel-astana-ai-film-festival-aaiff-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "mel-austin-ai-film-festival-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "blocked"
+  },
+  "mel-festiav-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "mel-african-ai-film-festival-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "mel-busan-international-ai-film-festival-202": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "suspect"
+  },
+  "mel-k-culture-ai-international-film-festival": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
+  },
+  "mel-reply-ai-film-festival-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "ended"
+  },
+  "mel-bochnia-international-ai-film-festival-2": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "unknown"
+  },
+  "mel-rome-ai-film-festival-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "unknown"
+  },
+  "mel-red-rocks-ai-film-festival-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "blocked"
+  },
+  "mel-illuminate-film-festival-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "unknown"
+  },
+  "mel-ai-film-festival-japan-2026": {
+   "firstSeen": "2026-08-18",
+   "checkedAt": "2026-08-18",
+   "status": "live"
   }
  },
- "updatedAt": "2026-08-18T09:05:42+00:00"
+ "updatedAt": "2026-08-18T09:45:29+00:00"
 }

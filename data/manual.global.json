@@ -13,6 +13,34 @@
 
  "extra": [
   {
+   "id": "pixverse-pixlight", "title": "PixVerse PixLight 글로벌 AI 필름 공모",
+   "org": "PixVerse", "orgType": "플랫폼", "orgTier": "major", "cat": "AI 필름",
+   "deadline": "2026-10-09", "tz": "현지", "recur": "once",
+   "cash": 300000, "credit": 0,
+   "prizeText": "총 상금 $300,000 · 33개 부문 시상",
+   "who": "전 세계 누구나 · 개인/팀 모두 가능", "whoType": "전세계 누구나",
+   "fee": "free", "feeText": "무료 (등록자에게 PixVerse 크레딧 스타터팩 제공)",
+   "entry": "공식 폼 제출", "career": "festival",
+   "bonus": ["국제 심사위원단 심사", "제작·IP 개발 논의 기회", "저작권 창작자 보유"],
+   "note": "8/7 접수 시작 ~ 10/9 마감, 10월 중 수상 발표. 두 개 트랙 — Pilot(3~20분 완성작, PixVerse Canvas를 주 제작 도구로 사용하되 실사·VFX 혼합 허용) / Script(장편 시나리오 + 짧은 영상 피치). 장르 방향 3가지(Under the Skin·Worlds Beyond·Edge of Seat) 중 선택. 도구 자랑이 아니라 '이야기'로 심사한다고 명시.",
+   "url": "https://pixverse.ai/en/blog/pixverse-kicks-off-pixlight-global-ai-film-competition",
+   "tags": ["초고액", "AI필름", "무료", "시나리오부문"], "verify": []
+  },
+  {
+   "id": "pixai-official", "title": "PixAI 공식 콘테스트 (상시 · 회차제)",
+   "org": "PixAI", "orgType": "플랫폼", "orgTier": "mid", "cat": "이미지·아트",
+   "deadline": null, "tz": "UTC", "recur": "rolling",
+   "cash": 0, "credit": 15000,
+   "prizeText": "회차당 크레딧 5만~5,000만 (테마별 상이) · 상위작 공식 갤러리 게재",
+   "who": "PixAI 이용자 누구나", "whoType": "전세계 누구나",
+   "fee": "free", "feeText": "무료 (PixAI 계정)",
+   "entry": "플랫폼 제출", "career": "platform",
+   "bonus": ["공식 블로그·갤러리 노출", "브랜드 협업 회차 다수"],
+   "note": "애니·일러스트 계열 콘테스트가 상시로 열린다. 2026-08 기준 진행 중 5건 이상, 마감이 1~3주 단위로 돌아와 진입장벽이 낮다. 상금은 전액 플랫폼 크레딧. 개별 회차는 감시기가 data/review.queue.json 에 계속 쌓아 둔다.",
+   "url": "https://pixai.art/en/contest/official",
+   "tags": ["상시", "크레딧상금", "진입장벽낮음", "일러스트"], "verify": ["prize"]
+  },
+  {
    "id": "artlist-seedance-25", "title": "Artlist $250K Seedance 2.5 Challenge",
    "org": "Artlist", "orgType": "플랫폼", "orgTier": "mid", "cat": "AI 필름",
    "deadline": "2026-08-26", "tz": "현지", "recur": "once",
@@ -214,6 +242,7 @@
  ],
 
  "block": [
+  "mel-reply-ai-film-festival-2026",
   "pixverse-un",
   "openart-mva",
   "afc-runway-ai-film-festival-2026",

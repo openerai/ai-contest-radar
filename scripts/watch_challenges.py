@@ -120,6 +120,11 @@ def main() -> int:
                     info["cashUsd"] or info["confidence"] in ("high", "medium")):
                 seen[url] = {"first": TODAY, "brand": site["brand"], "skipped": "noisy"}
                 continue
+            # 제목을 못 뽑았거나(JS 렌더 상세) 수상 소식이면 큐에 올리지 않는다
+            if not info["title"] or info.get("looksLikeResult"):
+                seen[url] = {"first": TODAY, "brand": site["brand"],
+                             "skipped": "제목 없음/수상 소식"}
+                continue
             nt = norm_title(info["title"])
             if nt and nt in known_titles:
                 seen[url] = {"first": TODAY, "brand": site["brand"], "dup": True}
