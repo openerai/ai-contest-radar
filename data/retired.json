@@ -1,0 +1,72 @@
+{
+ "_readme": [
+  "검수기가 '끝났다'고 판정해 목록에서 내린 대회 기록.",
+  "되살리려면 manual.*.json 의 block 에서 해당 id 를 지우세요."
+ ],
+ "items": [
+  {
+   "id": "pixverse-un",
+   "title": "PixVerse × UN AI for Good Film Festival 특별상",
+   "url": "https://pixverse.ai/en/blog/pixverse-partners-un-ai-for-good-global-summit-2026",
+   "source": "manual",
+   "retiredAt": "2026-08-18",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-05-15 (이미 과거)",
+   "cross": []
+  },
+  {
+   "id": "openart-mva",
+   "title": "OpenArt Music Video Awards",
+   "url": "https://openart.ai/programs/music-video-awards",
+   "source": "manual",
+   "retiredAt": "2026-08-18",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-01-30 (이미 과거)",
+   "cross": []
+  },
+  {
+   "id": "afc-runway-ai-film-festival-2026",
+   "title": "Runway AI Film Festival",
+   "url": "https://aif.runwayml.com/",
+   "source": "manual",
+   "retiredAt": "2026-08-18",
+   "reason": "ended",
+   "why": "AIF 2026 는 6/11 뉴욕·6/18 LA·7/30 도쿄로 이미 개최됐고 공식 사이트에 2026 수상작이 올라와 있음 (2026-08-18 확인). 우리 데이터의 9/30 마감은 틀린 값.",
+   "cross": [],
+   "by": "사람 확인"
+  },
+  {
+   "id": "afc-ai-film-fest-monaco-2026",
+   "title": "AI Film Fest Monaco 2026",
+   "url": "https://aifilmfest-monaco.com/submission",
+   "source": "manual",
+   "retiredAt": "2026-08-18",
+   "reason": "ended",
+   "why": "공식 페이지 기준 행사일이 2026년 6월 9~10일로 이미 종료 (2026-08-18 확인). 우리 데이터의 12/31 마감은 틀린 값.",
+   "cross": [],
+   "by": "사람 확인"
+  },
+  {
+   "id": "hf-apps",
+   "title": "Higgsfield Apps Contest",
+   "url": "https://higgsfield.ai/contests/apps",
+   "source": "manual",
+   "retiredAt": "2026-08-18",
+   "reason": "ended",
+   "why": "공식 페이지에 'Submissions Close July 22, 2026' 로 명시돼 있고 목록 카드도 종료 표시 (2026-08-18 확인).",
+   "cross": [],
+   "by": "사람 확인"
+  },
+  {
+   "id": "kling-motion3",
+   "title": "Kling Motion Control 3.0 Challenge",
+   "url": "https://app.klingai.com/global/activity-zone",
+   "source": "manual",
+   "retiredAt": "2026-08-18",
+   "reason": "ended",
+   "why": "등록 당시 메모에 '접수 마감 후 심사 단계'로 적혀 있었음 — 이미 접수가 끝난 회차. 다음 회차가 열리면 감시기가 다시 잡는다.",
+   "cross": [],
+   "by": "사람 확인"
+  }
+ ]
+}

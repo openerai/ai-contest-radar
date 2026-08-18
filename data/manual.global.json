@@ -213,5 +213,12 @@
   }
  ],
 
- "block": []
+ "block": [
+  "pixverse-un",
+  "openart-mva",
+  "afc-runway-ai-film-festival-2026",
+  "afc-ai-film-fest-monaco-2026",
+  "hf-apps",
+  "kling-motion3"
+ ]
 }

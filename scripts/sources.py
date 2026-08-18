@@ -959,3 +959,34 @@ def fetch_devpost(pages: int = 4, min_cash: int = DEVPOST_MIN_CASH) -> list[dict
     if not out:
         warn("Devpost 수집 0건 — API 응답 형식 변경 의심")
     return out
+
+
+# ══════════════════════════════════════════════════════════════════════
+#  대조용 — melies.co AI 영화제 디렉터리
+#
+#  수집 소스가 아니라 '검수용 대조표'다. 우리 목록의 대회가 아직 살아 있는지
+#  제3자 기록과 맞춰 보는 데 쓴다. JSON-LD 로 Event 20여 건을 start/end 와
+#  함께 내보내고 있어서, 공식 페이지가 JS 로만 그려질 때 특히 쓸모 있다.
+# ══════════════════════════════════════════════════════════════════════
+MELIES_URL = "https://melies.co/ai-film-festivals"
+
+
+def fetch_melies_index() -> list[dict]:
+    html = get(MELIES_URL)
+    if not html:
+        warn("melies.co 대조표 로드 실패")
+        return []
+    out = []
+    for ev in ld_find(ld_blocks(html), "Event"):
+        name = (ev.get("name") or "").strip()
+        if not name:
+            continue
+        out.append({
+            "name": name,
+            "start": (ev.get("startDate") or "")[:10],
+            "end": (ev.get("endDate") or "")[:10],
+            "url": ev.get("url") or MELIES_URL,
+        })
+    if len(out) < 5:
+        warn(f"melies.co 대조표 {len(out)}건 — 구조 변경 의심")
+    return out

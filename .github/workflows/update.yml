@@ -41,6 +41,15 @@ jobs:
       - name: 의존성 설치
         run: pip install -r scripts/requirements.txt
 
+      # 수집보다 검수를 먼저 돌린다. 끝난 대회를 block 에 넣어 두면
+      # 바로 다음 수집 단계에서 목록에 반영되므로 실행이 한 번으로 끝난다.
+      - name: 지난 공모전 검수
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/verify_contests.py --apply | tee verify.log
+        continue-on-error: true      # 검수가 실패해도 수집은 진행한다
+
       - name: 공모전 수집
         id: scrape
         # pipefail 이 없으면 파이프의 종료 코드가 tee 것이 되어, 스크립트가
@@ -59,6 +68,10 @@ jobs:
       - name: 변경 요약
         if: always()
         run: |
+          echo '### 검수 결과' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          sed -n '/── 결과 ──/,$p' verify.log >> $GITHUB_STEP_SUMMARY || true
+          echo '```' >> $GITHUB_STEP_SUMMARY
           echo '### 수집 결과' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
           cat run.log >> $GITHUB_STEP_SUMMARY || true
@@ -68,7 +81,7 @@ jobs:
 
       - name: 커밋 & 푸시
         run: |
-          rm -f run.log
+          rm -f run.log verify.log
           if git diff --quiet -- data index.html global.html; then
             echo "변경 없음 — 커밋 건너뜀"
             exit 0

@@ -2,14 +2,14 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.GLOBAL_DATA = {
- "generatedAt": "2026-08-18T05:20:48+00:00",
+ "generatedAt": "2026-08-18T09:02:28+00:00",
  "_meta": {
   "autoCount": 43,
-  "finalCount": 56,
+  "finalCount": 50,
   "manualCount": 15,
   "bySource": {
-   "manual": 15,
-   "aifilmcontests": 27,
+   "manual": 11,
+   "aifilmcontests": 25,
    "devpost": 14
   },
   "warnings": []
@@ -46,7 +46,8 @@ window.GLOBAL_DATA = {
     "구독필요"
    ],
    "verify": [],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "chroma-s2",
@@ -79,7 +80,8 @@ window.GLOBAL_DATA = {
     "장기접수"
    ],
    "verify": [],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "artlist-seedance-25",
@@ -113,7 +115,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "deadline"
    ],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "pixverse-cpp",
@@ -147,7 +150,8 @@ window.GLOBAL_DATA = {
     "해시태그응모"
    ],
    "verify": [],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "kling-4k",
@@ -182,38 +186,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "deadline"
    ],
-   "source": "manual"
-  },
-  {
-   "id": "kling-motion3",
-   "title": "Kling Motion Control 3.0 Challenge",
-   "org": "Kling AI",
-   "orgType": "플랫폼",
-   "orgTier": "top",
-   "cat": "숏폼·소셜",
-   "deadline": null,
-   "tz": "UTC+8",
-   "recur": "once",
-   "cash": 30000,
-   "credit": 6000,
-   "prizeText": "$30,000 현금 + 300,000,000 크레딧",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "플랫폼 제출",
-   "career": "platform",
-   "bonus": [],
-   "note": "접수 마감 후 현재 심사(reviewing) 단계. 다음 회차가 이어질 가능성이 높아 Activity Zone 모니터링 권장.",
-   "url": "https://app.klingai.com/global/activity-zone",
-   "tags": [
-    "모션컨트롤",
-    "심사중"
-   ],
-   "verify": [
-    "deadline"
-   ],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "runway-fund",
@@ -248,7 +222,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "hf-adathon",
@@ -280,7 +255,8 @@ window.GLOBAL_DATA = {
     "업계한정"
    ],
    "verify": [],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "kling-kreate",
@@ -313,42 +289,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "manual"
-  },
-  {
-   "id": "pixverse-un",
-   "title": "PixVerse × UN AI for Good Film Festival 특별상",
-   "org": "PixVerse × UN AI for Good",
-   "orgType": "플랫폼",
-   "orgTier": "major",
-   "cat": "AI 필름",
-   "deadline": null,
-   "tz": "UTC",
-   "recur": "once",
-   "cash": 0,
-   "credit": 6000,
-   "prizeText": "12개월 프리미엄 멤버십 + 50,000 크레딧 + 왕복 항공·호텔(대표 1인)",
-   "who": "AI for Good Film Festival 출품자",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [
-    "UN AI for Good 정상회의 노출",
-    "글로벌 미디어 커버리지"
-   ],
-   "note": "UN AI for Good Global Summit 2026 파트너십. 현금은 없지만 UN 행사 노출이라는 커리어 가치가 큼. 마감일은 영화제 공식 페이지 확인 필요.",
-   "url": "https://pixverse.ai/en/blog/pixverse-partners-un-ai-for-good-global-summit-2026",
-   "tags": [
-    "UN",
-    "커리어가치",
-    "여비지원"
-   ],
-   "verify": [
-    "deadline"
-   ],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "seaart-daily",
@@ -382,7 +324,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "civitai-daily",
@@ -416,41 +359,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "manual"
-  },
-  {
-   "id": "hf-apps",
-   "title": "Higgsfield Apps Contest",
-   "org": "Higgsfield",
-   "orgType": "플랫폼",
-   "orgTier": "top",
-   "cat": "앱·개발",
-   "deadline": null,
-   "tz": "",
-   "recur": "rolling",
-   "cash": null,
-   "credit": 100000,
-   "prizeText": "총 $100,000 규모",
-   "who": "Higgsfield 플랫폼 개발자",
-   "whoType": "구독자",
-   "fee": "sub",
-   "feeText": "Higgsfield 계정 필요",
-   "entry": "플랫폼 제출",
-   "career": "platform",
-   "bonus": [
-    "플랫폼 내 배포"
-   ],
-   "note": "Higgsfield 플랫폼 위에서 동작하는 앱을 개발하는 상시 콘테스트. 마감일과 현금/크레딧 배분은 공식 페이지 확인 필요.",
-   "url": "https://higgsfield.ai/contests",
-   "tags": [
-    "개발",
-    "상시"
-   ],
-   "verify": [
-    "prize",
-    "deadline"
-   ],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "vidu-civitai",
@@ -482,39 +392,8 @@ window.GLOBAL_DATA = {
     "prize",
     "deadline"
    ],
-   "source": "manual"
-  },
-  {
-   "id": "openart-mva",
-   "title": "OpenArt Music Video Awards",
-   "org": "OpenArt",
-   "orgType": "플랫폼",
-   "orgTier": "major",
-   "cat": "음악·MV",
-   "deadline": null,
-   "tz": "UTC",
-   "recur": "once",
-   "cash": null,
-   "credit": 0,
-   "prizeText": "상금 규모 공고 확인 필요",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "플랫폼 제출",
-   "career": "platform",
-   "bonus": [],
-   "note": "AI 뮤직비디오 전문 어워드. 국내에는 거의 없는 카테고리라 경쟁 밀도가 낮은 편.",
-   "url": "https://openart.ai/programs/music-video-awards",
-   "tags": [
-    "뮤직비디오",
-    "틈새분야"
-   ],
-   "verify": [
-    "prize",
-    "deadline"
-   ],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-aigc-future-global-challenge-2026",
@@ -540,7 +419,8 @@ window.GLOBAL_DATA = {
    "url": "https://opportunitydesk.org/2026/05/22/aigc-for-future-global-challenge-2026/",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-astana-aiff-2026",
@@ -566,7 +446,8 @@ window.GLOBAL_DATA = {
    "url": "https://astanatimes.com/2026/04/astana-ai-film-festival-opens-global-call-for-submissions/",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-new-technologies-ai-film-festival-2026",
@@ -592,7 +473,8 @@ window.GLOBAL_DATA = {
    "url": "https://filmfreeway.com/NewTechnologiesAIFilmFestival",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-slamdance-dig-ai-2027",
@@ -618,7 +500,8 @@ window.GLOBAL_DATA = {
    "url": "https://slamdance.com/festival-submit/",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-hkbu-future-film-fest-3f-2026",
@@ -644,7 +527,8 @@ window.GLOBAL_DATA = {
    "url": "https://filmfreeway.com/FutureFilmFest",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-berlin-ai-film-festival-2026",
@@ -670,7 +554,8 @@ window.GLOBAL_DATA = {
    "url": "https://filmfreeway.com/AIBerlin",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-cannes-film-awards-ai-2027",
@@ -696,7 +581,8 @@ window.GLOBAL_DATA = {
    "url": "https://filmfreeway.com/CannesFilmAwards",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-29613",
@@ -718,14 +604,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jun 30 - Aug 18, 2026 · 참가 등록 3638명 · 주제 Machine Learning/AI, Databases, DevOps",
+   "note": "접수 기간 Jun 30 - Aug 18, 2026 · 참가 등록 3649명 · 주제 Machine Learning/AI, Databases, DevOps",
    "url": "https://cockroachdb-ai.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30458",
@@ -747,14 +634,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jun 21 - Aug 20, 2026 · 참가 등록 821명 · 주제 Databases, Fintech, Quantum",
+   "note": "접수 기간 Jun 21 - Aug 20, 2026 · 참가 등록 828명 · 주제 Databases, Fintech, Quantum",
    "url": "https://quantumhacks.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30198",
@@ -776,14 +664,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 02 - 24, 2026 · 참가 등록 1717명 · 주제 Beginner Friendly, Machine Learning/AI, Open Ended",
+   "note": "접수 기간 Aug 02 - 24, 2026 · 참가 등록 1728명 · 주제 Beginner Friendly, Machine Learning/AI, Open Ended",
    "url": "https://reverie-hacks-2026.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30091",
@@ -805,14 +694,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jun 17 - Aug 25, 2026 · 참가 등록 1688명 · 주제 Machine Learning/AI, Productivity",
+   "note": "접수 기간 Jun 17 - Aug 25, 2026 · 참가 등록 1693명 · 주제 Machine Learning/AI, Productivity",
    "url": "https://adtc-2026.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-29411",
@@ -834,14 +724,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 15 - Aug 31, 2026 · 참가 등록 376명 · 주제 Enterprise, Machine Learning/AI, Productivity",
+   "note": "접수 기간 Jul 15 - Aug 31, 2026 · 참가 등록 377명 · 주제 Enterprise, Machine Learning/AI, Productivity",
    "url": "https://galuxium-nexus-v2-29411.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30724",
@@ -863,14 +754,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 01 - 31, 2026 · 참가 등록 341명 · 주제 Machine Learning/AI, Open Ended, Social Good",
+   "note": "접수 기간 Aug 01 - 31, 2026 · 참가 등록 344명 · 주제 Machine Learning/AI, Open Ended, Social Good",
    "url": "https://hacksocial2026.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30845",
@@ -892,14 +784,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 04 - 31, 2026 · 참가 등록 4645명 · 주제 Enterprise, Machine Learning/AI, Productivity",
+   "note": "접수 기간 Aug 04 - 31, 2026 · 참가 등록 4723명 · 주제 Enterprise, Machine Learning/AI, Productivity",
    "url": "https://allthingsagentichackathon.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-29242",
@@ -921,14 +814,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 17 - Sep 03, 2026 · 참가 등록 710명 · 주제 IoT, Low/No Code, Machine Learning/AI",
+   "note": "접수 기간 Aug 17 - Sep 03, 2026 · 참가 등록 720명 · 주제 IoT, Low/No Code, Machine Learning/AI",
    "url": "https://api-cloud-ai-hackathon-2026.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-29884",
@@ -950,14 +844,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 May 22 - Sep 05, 2026 · 참가 등록 1624명 · 주제 IoT, Machine Learning/AI, Beginner Friendly",
+   "note": "접수 기간 May 22 - Sep 05, 2026 · 참가 등록 1626명 · 주제 IoT, Machine Learning/AI, Beginner Friendly",
    "url": "https://volthacks.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30721",
@@ -979,14 +874,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 27 - Sep 09, 2026 · 참가 등록 6281명 · 주제 Databases, Machine Learning/AI, Open Ended",
+   "note": "접수 기간 Jul 27 - Sep 09, 2026 · 참가 등록 6307명 · 주제 Databases, Machine Learning/AI, Open Ended",
    "url": "https://agentic-cinema.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30579",
@@ -1008,14 +904,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 23 - Sep 14, 2026 · 참가 등록 2226명 · 주제 Communication, Enterprise, Machine Learning/AI",
+   "note": "접수 기간 Jul 23 - Sep 14, 2026 · 참가 등록 2230명 · 주제 Communication, Enterprise, Machine Learning/AI",
    "url": "https://call-e.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30317",
@@ -1037,14 +934,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 10 - Sep 14, 2026 · 참가 등록 3384명 · 주제 Beginner Friendly, Machine Learning/AI, Open Ended",
+   "note": "접수 기간 Aug 10 - Sep 14, 2026 · 참가 등록 3421명 · 주제 Beginner Friendly, Machine Learning/AI, Open Ended",
    "url": "https://agentsforhumans.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30408",
@@ -1066,14 +964,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 11 - Sep 21, 2026 · 참가 등록 213명 · 주제 Machine Learning/AI, Social Good, Beginner Friendly",
+   "note": "접수 기간 Jul 11 - Sep 21, 2026 · 참가 등록 215명 · 주제 Machine Learning/AI, Social Good, Beginner Friendly",
    "url": "https://gibc-v2.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "dp-30781",
@@ -1095,14 +994,15 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Aug 07 - Oct 06, 2026 · 참가 등록 144명 · 주제 Beginner Friendly, Health, Social Good",
+   "note": "접수 기간 Aug 07 - Oct 06, 2026 · 참가 등록 147명 · 주제 Beginner Friendly, Health, Social Good",
    "url": "https://univabio.devpost.com/",
    "tags": [
     "해커톤",
     "온라인"
    ],
    "verify": [],
-   "source": "devpost"
+   "source": "devpost",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-ai-motion-milan-2026",
@@ -1130,7 +1030,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-svaiff-awards-2026",
@@ -1158,7 +1059,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-ai-media-award-zurich-2026",
@@ -1186,7 +1088,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-sparknify-human-vs-ai-2026",
@@ -1214,7 +1117,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-iffi-goa-ai-film-festival-2026",
@@ -1242,7 +1146,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-ai-for-the-future-unga-2026",
@@ -1270,7 +1175,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-naija-ai-film-festival-2026",
@@ -1298,7 +1204,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-waiff-la-usa-2026",
@@ -1326,7 +1233,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-we-are-human-festival-call-for-films-2026",
@@ -1354,7 +1262,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-ai-zone-intl-2026",
@@ -1382,7 +1291,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-call-for-films-ai-2026",
@@ -1410,35 +1320,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
-  },
-  {
-   "id": "afc-runway-ai-film-festival-2026",
-   "title": "Runway AI Film Festival",
-   "org": "Runway",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-09-30",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "The Runway AI Film Festival showcases innovative films that utilize AI tools in their creation. This annual festival features a screening in New York City, providing filmmakers with significant industry exposure. Submissions are open to all genres, emphasizing creativity and the use of AI technology.",
-   "url": "https://nerdfx.ai/blog/submit-ai-film-festivals",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-golden-dunes-dubai-2026",
@@ -1466,7 +1349,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-ai-film-awards-bali-2026",
@@ -1494,7 +1378,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-ai-london-film-festival-2026",
@@ -1522,7 +1407,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-neocinema-ai-film-festival-2026",
@@ -1550,35 +1436,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
-  },
-  {
-   "id": "afc-ai-film-fest-monaco-2026",
-   "title": "AI Film Fest Monaco 2026",
-   "org": "AI Film Fest Monaco",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-12-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Global AI film festival requiring AI-generated content for short films. Screens at festival in Monaco.",
-   "url": "https://aifilmfest-monaco.com/submission",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-expo-ai-film-festival-dubai-2027",
@@ -1606,7 +1465,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-lundinstudio-ai-film-festival-2027",
@@ -1634,7 +1494,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   },
   {
    "id": "afc-world-film-festival-cannes-rtf-2027",
@@ -1662,7 +1523,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-08-18"
   }
  ]
 };

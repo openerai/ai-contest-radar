@@ -224,16 +224,58 @@ def dedupe(records: list[dict]) -> tuple[list[dict], int]:
     return kept, merged
 
 
-def drop_expired(records: list[dict]) -> tuple[list[dict], int]:
-    keep, dropped = [], 0
+# 마감일을 못 넣은 단발 대회를 이 기간 넘게 두지 않는다.
+# scripts/verify_contests.py 와 같은 값을 쓴다.
+STALE_DAYS = 45
+
+
+def load_verify_state() -> dict:
+    """scripts/verify_contests.py 가 남긴 검수 기록 (없으면 빈 값)."""
+    p = DATA / "verify.state.json"
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8")).get("records", {})
+    except json.JSONDecodeError:
+        return {}
+
+
+def stamp_verified(records: list[dict], state: dict) -> list[dict]:
+    """마지막으로 검수한 날짜를 레코드에 붙인다 (화면에 '최종 확인'으로 표시)."""
+    for r in records:
+        st = state.get(r.get("id", ""))
+        if st and st.get("checkedAt"):
+            r["checkedAt"] = st["checkedAt"]
+    return records
+
+
+def drop_expired(records: list[dict], state: dict) -> tuple[list[dict], int, int]:
+    """마감이 지난 항목과, 마감일을 못 넣은 채 오래 방치된 항목을 걷어낸다.
+
+    두 번째 규칙이 없으면 `deadline: null` 인 단발 대회가 영원히 남는다.
+    실제로 작년에 끝난 OpenArt Music Video Awards 가 그렇게 몇 달을 버텼다.
+    반복(daily·weekly·rolling) 항목은 마감일이 없는 게 정상이라 제외한다.
+    """
+    keep, dropped, stale = [], 0, 0
     for r in records:
         dl = r.get("deadline")
         recur = r.get("recur", "once")
         if dl and dl < TODAY and recur == "once":
             dropped += 1
             continue
+        if not dl and recur == "once":
+            first = (state.get(r.get("id", ""), {}) or {}).get("firstSeen")
+            if first:
+                try:
+                    age = (date.fromisoformat(TODAY) - date.fromisoformat(first)).days
+                except ValueError:
+                    age = 0
+                if age >= STALE_DAYS:
+                    print(f"  · 마감일 미상 {age}일 경과로 제외: {r.get('title','')[:50]}")
+                    stale += 1
+                    continue
         keep.append(r)
-    return keep, dropped
+    return keep, dropped, stale
 
 
 def stamp_html(html_name: str, data_src: str, version: str, dry: bool) -> None:
@@ -286,12 +328,14 @@ def build(kind: str, auto: list[dict], manual_file: str, var: str,
     manual = load_manual(manual_file)
     out_path = DATA / out_name
 
+    state = load_verify_state()
     records = merge(auto, manual)
     records, dup = dedupe(records)
     records = apply_overrides(records, manual["overrides"])
-    records, dropped = drop_expired(records)
+    records, dropped, stale = drop_expired(records, state)
+    records = stamp_verified(records, state)
     print(f"  수동 {len(manual['extra'])}건 병합 · 중복 {dup}건 통합 · "
-          f"만료 {dropped}건 제거 → 최종 {len(records)}건")
+          f"만료 {dropped}건 제거 · 방치 {stale}건 제거 → 최종 {len(records)}건")
 
     by_src: dict[str, int] = {}
     for r in records:

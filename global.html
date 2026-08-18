@@ -307,7 +307,7 @@ dialog.detail::backdrop { background:rgba(0,0,0,.5); backdrop-filter:blur(3px); 
   </div>
 </dialog>
 
-<script src="data/global.js?v=202608180520"></script>
+<script src="data/global.js?v=202608180902"></script>
 <script>
 /* ══════════════════════════════════════════════════════════════
    환율 (참고 환산용) — 필요 시 이 숫자만 바꾸세요
@@ -594,6 +594,14 @@ function renderStats() {
 }
 
 const VERIFY_LABEL = { prize:'상금', deadline:'마감일', fee:'참가비' };
+/* '3일 전 확인'처럼 신선도를 덧붙인다. 2주를 넘기면 색으로 티를 낸다. */
+function checkedAge(iso) {
+  const days = -ddayOf(iso);
+  if (days <= 0) return ' <span style="color:var(--text-faint)">(오늘 확인)</span>';
+  const stale = days > 14;
+  return ` <span style="color:var(--${stale ? 'soon' : 'text-faint'})">(${days}일 전${stale ? ' · 재확인 필요' : ''})</span>`;
+}
+
 function verifyBadge(c) {
   if (!c.verify || !c.verify.length) return '';
   return `<span class="tag warn" title="공식 공고에서 확인이 필요합니다">⚠ ${c.verify.map(v=>VERIFY_LABEL[v]).join('·')} 확인필요</span>`;
@@ -752,6 +760,9 @@ function openDetail(id) {
     c.note ? row('비고', esc(c.note)) : '',
     c.verify && c.verify.length
       ? row('⚠ 주의', `<span style="color:var(--soon)">${c.verify.map(v=>VERIFY_LABEL[v]).join(' · ')} 정보가 미확정입니다. 공식 페이지에서 반드시 확인하세요.</span>`) : '',
+    /* 검수기(scripts/verify_contests.py)가 공식 페이지를 마지막으로 확인한 날.
+       오래된 값이면 그 자체가 경고다 — 사이트가 조용히 내려가도 목록에는 남기 때문. */
+    c.checkedAt ? row('최종 확인', `${fmtDate(c.checkedAt)}${checkedAge(c.checkedAt)}`) : '',
     `<div class="dlg-row"><span class="k">중요도 산정</span><div class="v score-bars">
       ${Object.entries(c.parts).map(([k,p]) => `
         <div class="score-bar"><span class="sk">${k}</span>
