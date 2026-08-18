@@ -150,6 +150,7 @@ SOURCE_RANK = {
     "linkareer": 30,        # 시상규모가 정확한 금액이라 위비티보다 낫다
     "wevity": 20,           # 상금은 구간이지만 접수기간·공식 URL이 정확
     "aifilmcontests": 20,
+    "devpost": 20,          # 마감일·상금이 API 값이라 정확하다
     "higgsfield": 15,
     "aifactory": 10,
 }
@@ -332,6 +333,11 @@ def main() -> int:
                     help="위비티 카테고리당 최대 상세 조회 건수")
     ap.add_argument("--afc-limit", type=int, default=90,
                     help="aifilmcontests 최대 상세 조회 건수")
+    ap.add_argument("--skip-devpost", action="store_true")
+    ap.add_argument("--devpost-pages", type=int, default=4,
+                    help="Devpost 목록 조회 페이지 수 (1페이지 9건)")
+    ap.add_argument("--devpost-min-cash", type=int, default=sources.DEVPOST_MIN_CASH,
+                    help="이 금액(USD) 미만 상금의 해커톤은 제외")
     args = ap.parse_args()
 
     print(f"AI 공모전 데이터 갱신 · 기준일 {TODAY}")
@@ -357,6 +363,12 @@ def main() -> int:
         auto_gl: list[dict] = []
         print(" · aifilmcontests.com")
         auto_gl += sources.fetch_aifilmcontests(max_items=args.afc_limit)
+        # Devpost 는 공개 API 라 마감일·상금이 구조화돼 온다. 기업 스폰서
+        # AI 해커톤이 여기로 많이 들어온다.
+        if not args.skip_devpost:
+            print(" · Devpost (AI 해커톤)")
+            auto_gl += sources.fetch_devpost(pages=args.devpost_pages,
+                                             min_cash=args.devpost_min_cash)
         # Higgsfield 는 JSON-LD 가 실제 페이지와 어긋나 자동 수집에서 제외.
         # 사유는 sources.fetch_higgsfield 주석 참고. 값은 manual.global.json 에 있다.
         ok &= build("해외", auto_gl, "manual.global.json", "GLOBAL_DATA", "global.js",

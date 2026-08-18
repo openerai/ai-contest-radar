@@ -1,0 +1,189 @@
+{
+ "seen": {
+  "https://civitai.com/articles/30673/100-models-a-thank-you-and-a-small-contest": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/32384/hijacking-the-daily-challenge": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/32939/civitai-krea-2-training-contest": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/32941/krea-2-50percent-off-training-and-a-community-contest": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/32995/new-civitai-feature-create-a-challenge": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/32999/community-challenges-are-now-live": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/33047/lifes-a-beach-challenge": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/33258/the-last-breath-of-ember-one-night-only-image-and-story-contest": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/33848/stay-ready-challenge-judging-under-test-pressure": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/33873/krea2-contest-personal-picks-as-staff": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://civitai.com/articles/33988/krea2-contest-community-win-thank-you": {
+   "first": "2026-08-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://higgsfield.ai/blog/higgsfield-global-film-festival": {
+   "first": "2026-08-18",
+   "brand": "Higgsfield"
+  },
+  "https://higgsfield.ai/contests/adathon": {
+   "first": "2026-08-18",
+   "brand": "Higgsfield"
+  },
+  "https://higgsfield.ai/contests/apps": {
+   "first": "2026-08-18",
+   "brand": "Higgsfield"
+  },
+  "https://higgsfield.ai/contests/higgsfield-global-film-festival": {
+   "first": "2026-08-18",
+   "brand": "Higgsfield"
+  },
+  "https://higgsfield.ai/contests/make-your-action-scene": {
+   "first": "2026-08-18",
+   "brand": "Higgsfield"
+  },
+  "https://artlist.io/blog/artlist-250k-seedance-2-5-challenge": {
+   "first": "2026-08-18",
+   "brand": "Artlist"
+  },
+  "https://artlist.io/blog/artlist-gold-drum-awards-2026-ai-advertising": {
+   "first": "2026-08-18",
+   "brand": "Artlist"
+  },
+  "https://artlist.io/blog/artlist-studio-challenge": {
+   "first": "2026-08-18",
+   "brand": "Artlist"
+  },
+  "https://elevenlabs.io/blog/hackathons-nyc-london": {
+   "first": "2026-08-18",
+   "brand": "ElevenLabs"
+  },
+  "https://elevenlabs.io/blog/how-hackathon-teams-are-using-elevenlabs-to-make-care-more-accessible": {
+   "first": "2026-08-18",
+   "brand": "ElevenLabs"
+  },
+  "https://elevenlabs.io/blog/online-conversational-agent-hackathon": {
+   "first": "2026-08-18",
+   "brand": "ElevenLabs"
+  },
+  "https://openai.com/form/hackathon-support": {
+   "first": "2026-08-18",
+   "brand": "OpenAI"
+  },
+  "https://openai.com/openai-to-z-challenge": {
+   "first": "2026-08-18",
+   "brand": "OpenAI"
+  },
+  "https://civitai.com/articles/31744/semi-real-anima-contest-buzz-up-for-grabs": {
+   "first": "2026-08-18",
+   "brand": "Civitai"
+  },
+  "https://civitai.com/articles/33996/daily-challenge-problems": {
+   "first": "2026-08-18",
+   "brand": "Civitai"
+  },
+  "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KYjIxa3hVM0Q5ZEZ4TFg0NG9ZNHZxcUl4c0lSOWY5S19iTFE3Y0tuSzJuQ2gwZGpwcDdKOUdUQXpvQXBuWXl0aDhudDlQTGtRVXhBV3Zn?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQkRBVDBYQ0FsbkhfcHdxZXlnRTl4WVVkLU9iX0UybF9SRGJ3Yl9HN2xtWnVqamhHcmtNVXJicGZqeTZlbmlXQ01BQ1Q2TEVOZHNhMEhSbVZ2dHViNVRLUHV0WmxweVBMZVM1WTZ2QlY5SzZCN2NnVTVUb2Z6azdUWWJWS1VaVWEzZVlNQ3BBSUVqZnp6R1hRSkgwUnRGcnpDQUdsb3NsRkZOUHF3MTJVNFllenZMUWo3UlVrdERVeEk?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LNXhOZVl3d2JGS0p0N0RKRTZ4dzVrMUJRdlI0UHUzUmVfaFliSUdRQ1F6U1AxemR2SmlRbm5qaTY2UkFfRkdSNkNtTDVqLUk?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcE1NcmlnTmpQXzk0bDlEd1JydG5hQnd0UTJqYms2bkM4TDJJNVFSbktDeE9CaDhyRDByalJRZlFiZG1PbFlRTE5xQUlHU00wZFIxc2F2UFh5QjkzWmZ2bk91WlBrdERUWDRYWGFtRG9tMVVDdXN6MWFyNVBnOG5Ec1lPUERYUTl5SVpwTWVocWY2R2JJU2doSFo2anRqNHoxeWVwdVMtN05UZw?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYVI5eFU0QlMzNWNWVGduMFFpcG5FZXVVRE5DVHBGdFhoMDYwS3lpYmUwVjktNnFfYjNxdHNnSkRRYldxNFlYSFFFcEdocDVHdTMwVWtiMkFVVzlHc2xlekZMalhDZGZabGV5V1lNVklILVBESTUtS2pFbGcwS291U1JRQzduNTV1T05iU2tqVEZfUGVIc21MR05qcHA1LTNLam4zZWhHNDh1dmNxQ1N2VVRJc0JWVFAtMzRRQtIBwgFBVV95cUxPTklvMU92UXlHUVZxU05wRzJCdXNIaVZ1emdhMVpEUERXc1BZSktoYmVMU1FlRVVMZUR4WDBqS3lVRC0tWjJlY3FPVENQVldfUnFDNk5NRS0teEpLMWVhNTFMcWRHZVlHNEJlR0QyQU5TMS1GUGlFZ19KUHpFV21IdDdWNzFlR2lxT2tGZVZXVTJERUNXNTQ0UjdTeHk0ejUyQm9iekNWZ0Rtc1pZT1ktMEswOFQ1TVllRUdBVmpwRm12dw?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNGQ0VkxZSnVSWkNsbGRsRVVfTG9hdGNNMlY4ZGoyLVhnS0FXa05IeDJ4SjdkLVB4SzNBSXBVcl9LREVzajN4OWJNLUZyVmptUnEzWlZkWFZ3ZUk1b2xMUnVGNGFZNHN4YlBXenNQc25fX3dZVjhNc25ZalNyNC1BczFTbGRGcTY0UFdhZ0duMEJibzJTeWx5ZVFfM25Nb1g2ZC1VeTBNbGJQVURPTVpNRlVrN2VmRC1HWE00TlA3QlpUdTM0MUNGdEx5R1pKc2RTLUp1TjEwbW5pY21WSnNWZGJqa215dzlvLUxxMnIweGNzRUE?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IY2FJeDNDY0FkVnJ5OGQ0NDloZVJkWTNiVmlWdVJUcGcxZnM0RGdNbXlzTVMzWmpvQjBhNTBxaExUbzZ3ZnFvU2dDQXUxYWtsa1NrYkg0Q3dLeFUz?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUThFeFJtTzFrMWxlbzNyQUxnQTlNWDNUZGNLTXJSMG9mNnVVNTU4YkFmT0FPRDMyOEl1VUd6bmdpYzVzUl94dE9nUUtOWllUQVlBQzRjVGN2dmhGcDVRRDhUdGtqZDZWbUsxclJiemkzNndZaUNfRXR2d3ViXzNUa0dCbFhQMGdnY3VZU2NodWdPZDNReWdYdE91X3ozcDFVaWo3Sk1CX0VlQ1FyTUR3SURqdjFxSHN1THBj0gHPAUFVX3lxTE9ZRVd2ZGxfRVA5MXdDVnNmN09jM3o2UG5aOVRRU2trR0xLY1psbm4tdUZyNGgyS3VNeTY4TDZ6cVd0S1lwb3BCUUV3Vlh4S0FhRDJpT2pzc1l6VzlJajRIM3Z5eFZnTVJpeE1WWWtMV3AtTnczVzhMZ2pwNmpxUkY0T1RVa1pHejZJRmRhUFBkdzlWZmVmN0pwN0w0cUUyM0N3THUxUTA4WHpydmRHdks3WW1HdndkbER0TTRIYnp6ekFBVlFYdkFsNUJ6TDNUZw?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd3drOHBsMUt5TnBvV2FMM3hoRFVfTkJIa1FiWGhnbzZsRW9JdlplMzUwZTZvLTlSWHVYYUgzeUJ1Tmx3eFBHT1cwWXVIM2UtUE4yTWpoNVp3X0hMSTRIUjE5Nm81Nmc2c0dtM2hiay1FR2FfWFFkemVUQVdHSXlsRmViTmhXUDVyU0JFcFBULTYxRUdsZmZkMndibGZTX3JrQlR1VEhrSzUwekJXZXN3VFRPcS1lcFNQQUttaUk5cExiUXVmRjNrdUgxOEJkejNYeVI4bjgwaw?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TVDZfSGwzWnJ4NVVFSTc5Z2hiOGQ2ZDJYdHpjdEJqMEJhVUpmdFZNY2FLLUpMV2dNR1pfQk5PcFNOUnpaZmtqaFFORFNXa29hZml5NGhsb1ZZRHJUdDhIRlhicEJpeGZmQndQd1dtMA?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaTM4MHcwalpOYTI3QWpGOGNuV25YWGdfWUhwWmZqTzQ3R1VtZ2NGX2JFaHBRVWRvM3o4U2dDYjJuQjA4Wjd4X1RVNnNtRXRkTTFHcGZyS0p2M3I4b3FQYVlWZzdzVHhleGxVNlFoYmU4U3V3SDE2U2V3ZVRuSGtWYnh4SkFVeEkyTHdTamFsVVNDM3RCbHlnbENzSEhoNy1laXI5aEhGZGlMcHpxR0ZWOQ?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pY0toNnJPZm1NTmt4Y2RrX3oybm54cTZ1MlJMYWNKTjY5aDgyRmwyS3hwWEc2MDd5X1NGVWlrV2FYelpwRG9GbVVwUTVoM2hIZ2JUaGh0VDhoUXFFXzE4WGN0Yw?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MSGNSbktKM2RsVXdSVm5vbGswV21Hc0xnWS1pUno0MkJZOURack5CRXFsUm81UU5xWm1NZlR6amltb1c2RUxGbC1DVlVkVWsxelo3RENiR2pGeVnSAWBBVV95cUxNbzdPTk1wZ1laaTVIdGxqNUgxQ3JSalpTWUpKVTZjTkotaFJIV2pBWUJtdWZwdzByX2kwS0hNdFRoakppOFhKS3J5NjVxWFpRaWdwZVluODAzN3QxVmswaHU?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vY2U2U3VBMGlyWWlOWEx6eEpwUkFNTkgya2F5VnRWQ1NabTFmbGJmeVZ2RkdFTFJxZi1PWGdRMktTQ05wS29CU0g2QlAyYWp3ZDBqNUlvNmYxS0lHLW9kSVhZRWNCbGtlRU55R2FpUQ?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tY2ZhYm5aY3dNeEUyQVctenJpWmx4Sk9lRVY2WFBMaVd2N0s0a0FDMkxhX2U0VUJXdUVJLU43eks0WVFzbERnZXlYRG8zTlZCc3Jhbg?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12c0pPNXlDcEtXeEZkOWV2dTkxanE5U01ROXhVaHJ0RzhPRUFRNnRBNXoxUzkzZHFmSHYzUlJ6RGFadFB4YzYtZzNENGRENk1IeEE?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WQzlDelZUTk5xRVplUGM2VnJ2VG94WFU0bUk5VFB3dFlucWttY2d2OGFlNHNsNVlOUEZfXy1KV0c2UEJjbk1Yb0g3bW9jVHJQcGhZUnU1SHVoTnhPUGRKRVE3WmdnU2c?oc=5": {
+   "first": "2026-08-18",
+   "brand": "news"
+  }
+ },
+ "updatedAt": "2026-08-18T03:43:03+00:00",
+ "seenCount": 43
+}

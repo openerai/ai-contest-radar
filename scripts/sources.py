@@ -831,3 +831,131 @@ def fetch_higgsfield() -> list[dict]:
             "source": "higgsfield",
         })
     return out
+
+
+# ══════════════════════════════════════════════════════════════════════
+#  해외 — Devpost (공개 JSON API)
+#
+#  AI 서비스가 직접 여는 챌린지는 대부분 자기 랜딩페이지에만 올라오지만,
+#  기업 스폰서 해커톤은 상당수가 Devpost 를 거친다. 여기는 목록 API 가
+#  공개돼 있어 마감일·상금이 구조화된 값으로 온다 — 즉 사람 확인 없이
+#  올려도 되는 몇 안 되는 해외 소스다.
+#
+#  검색어가 'ai' 라서 결과에 잡다한 학생 해커톤이 섞인다. 상금 하한과
+#  주제 태그로 걸러 목록이 묽어지지 않게 한다.
+# ══════════════════════════════════════════════════════════════════════
+DEVPOST_API = "https://devpost.com/api/hackathons"
+DEVPOST_MIN_CASH = 1000            # 이 금액 미만은 목록에 안 올린다
+_DP_MONTH = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun",
+     "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def _devpost_deadline(period: str) -> str | None:
+    """'Aug 12 - 18, 2026' / 'Jun 30 - Aug 18, 2026' 형태에서 끝나는 날을 뽑는다."""
+    if not period:
+        return None
+    left, _, right = period.partition(" - ")
+    if not right:
+        return None
+
+    def month_of(s: str) -> int | None:
+        m = re.search(r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)", s, re.I)
+        return _DP_MONTH[m.group(1).lower()] if m else None
+
+    mon = month_of(right) or month_of(left)
+    day = re.search(r"\b(\d{1,2})\b", re.sub(r"20\d{2}", "", right))
+    year = re.search(r"(20\d{2})", right) or re.search(r"(20\d{2})", left)
+    if not (mon and day and year):
+        return None
+    try:
+        return date(int(year.group(1)), mon, int(day.group(1))).isoformat()
+    except ValueError:
+        return None
+
+
+def fetch_devpost(pages: int = 4, min_cash: int = DEVPOST_MIN_CASH) -> list[dict]:
+    today = date.today().isoformat()
+    seen: set[int] = set()
+    out: list[dict] = []
+
+    for page in range(1, pages + 1):
+        try:
+            r = requests.get(DEVPOST_API, headers=UA, timeout=TIMEOUT,
+                             params={"search": "ai", "status[]": "open",
+                                     "order_by": "deadline", "page": page})
+            if not r.ok:
+                warn(f"Devpost HTTP {r.status_code} (page {page})")
+                break
+            items = r.json().get("hackathons", [])
+        except (requests.RequestException, ValueError) as e:
+            warn(f"Devpost 요청 실패 {type(e).__name__}")
+            break
+        if not items:
+            break
+
+        for h in items:
+            if h.get("id") in seen:
+                continue
+            seen.add(h.get("id"))
+            if h.get("invite_only"):
+                continue
+
+            # prize_amount 는 '$<span …>8,750</span>' 같은 HTML 조각이다.
+            plain = re.sub(r"<[^>]+>", "", h.get("prize_amount") or "")
+            if "$" not in plain:                       # ₹·€ 등은 환산하지 않고 건너뛴다
+                continue
+            try:
+                cash = int(re.sub(r"[^\d]", "", plain) or 0)
+            except ValueError:
+                cash = 0
+            if cash < min_cash:
+                continue
+
+            deadline = _devpost_deadline(h.get("submission_period_dates", ""))
+            if deadline and deadline < today:
+                continue
+
+            themes = [t.get("name", "") for t in (h.get("themes") or [])]
+            title = (h.get("title") or "").strip()
+            # classify_global_cat 의 기본값은 'AI 필름' 이다. 해커톤은 영상물이
+            # 아닌 쪽이 기본이라, 영상 단서가 없으면 '앱·개발' 로 되돌린다.
+            cat = classify_global_cat(f"{title} {' '.join(themes)}")
+            if cat == "AI 필름" and not re.search(
+                    r"film|video|cinema|movie|animation|영상", f"{title} {themes}", re.I):
+                cat = "앱·개발"
+            org = (h.get("organization_name") or "").strip() or "미상"
+            out.append({
+                "id": f"dp-{h.get('id')}",
+                "title": title,
+                "org": org,
+                "orgType": "해커톤",
+                "orgTier": "mid",
+                "cat": cat,
+                "deadline": deadline,
+                "tz": "현지",
+                "recur": "once",
+                "cash": cash,
+                "credit": 0,
+                "prizeText": f"총 상금 ${cash:,}",
+                "who": "전 세계 개발자 누구나 (Devpost 계정)",
+                "whoType": "전세계 누구나",
+                "fee": "free",
+                "feeText": "무료",
+                "entry": "Devpost 제출",
+                "career": "platform",
+                "bonus": [],
+                "note": (f"접수 기간 {h.get('submission_period_dates', '미상')}"
+                         + (f" · 참가 등록 {h['registrations_count']}명"
+                            if h.get("registrations_count") else "")
+                         + (f" · 주제 {', '.join(themes)}" if themes else "")),
+                "url": h.get("url") or "https://devpost.com/hackathons",
+                "tags": ["해커톤"] + (["온라인"] if "Online" in str(h.get("displayed_location")) else []),
+                "verify": [] if deadline else ["deadline"],
+                "source": "devpost",
+            })
+        time.sleep(POLITE_DELAY)
+
+    if not out:
+        warn("Devpost 수집 0건 — API 응답 형식 변경 의심")
+    return out

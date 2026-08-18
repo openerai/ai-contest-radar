@@ -1,0 +1,447 @@
+{
+ "_readme": [
+  "scripts/watch_challenges.py 가 찾은, 사람 확인이 필요한 AI 플랫폼 챌린지 후보.",
+  "url 을 열어 마감일·상금·참가 조건을 확인한 뒤 draft 를",
+  "data/manual.global.json 의 extra 로 옮기세요. 그리고 여기서는 지우거나",
+  "\"status\": \"done\" 으로 표시하면 다음 실행 때 빠집니다.",
+  "마감일이 지난 항목, 마감일을 못 뽑은 채 30일이 지난 항목은 자동으로 빠집니다."
+ ],
+ "updatedAt": "2026-08-18T03:43:03+00:00",
+ "items": [
+  {
+   "discovered": "2026-08-18",
+   "brand": "Artlist",
+   "url": "https://artlist.io/blog/artlist-studio-challenge",
+   "title": "Artlist Studio Challenge — Call to Directors",
+   "deadline": null,
+   "deadlineGuess": "2027-06-20",
+   "deadlineEvidence": "k Related Posts Product Updates & Company News The World Cup brief that anyone can win 16 Jun 2026 2 min read Product Updates & Co",
+   "confidence": "low",
+   "cashUsd": 250000,
+   "status": "new",
+   "draft": {
+    "id": "artlist-artlist-studio-challenge",
+    "title": "Artlist Studio Challenge — Call to Directors",
+    "org": "Artlist",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 250000,
+    "credit": 0,
+    "prizeText": "현금 약 $250,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Enter the Artlist Studio Challenge. Create a cinematic trailer, get up to 5 million credits, and compete for $100,000 in production funding.",
+    "url": "https://artlist.io/blog/artlist-studio-challenge",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-18",
+   "brand": "ElevenLabs",
+   "url": "https://elevenlabs.io/blog/hackathons-nyc-london",
+   "title": "ElevenLabs — Consumer AI hackathons in NYC and London",
+   "deadline": null,
+   "deadlineGuess": null,
+   "deadlineEvidence": "",
+   "confidence": "none",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "elevenlabs-hackathons-nyc-london",
+    "title": "ElevenLabs — Consumer AI hackathons in NYC and London",
+    "org": "ElevenLabs",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "앱·개발",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "We hosted Consumer AI Hackathons in NYC and London with a16z. Across two continents, developers and designers came together to build with AI.",
+    "url": "https://elevenlabs.io/blog/hackathons-nyc-london",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize",
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-18",
+   "brand": "ElevenLabs",
+   "url": "https://elevenlabs.io/blog/how-hackathon-teams-are-using-elevenlabs-to-make-care-more-accessible",
+   "title": "How hackathon teams are using ElevenLabs to make care more accessible",
+   "deadline": null,
+   "deadlineGuess": "2027-04-11",
+   "deadlineEvidence": "son's Generator Build-a-thon We sponsored the Generator Build-a-thon at Babson College on April 11, run by The Generator, Babson's",
+   "confidence": "low",
+   "cashUsd": 8000,
+   "status": "new",
+   "draft": {
+    "id": "elevenlabs-how-hackathon-teams-are-using-elevenl",
+    "title": "How hackathon teams are using ElevenLabs to make care more accessible",
+    "org": "ElevenLabs",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "앱·개발",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 8000,
+    "credit": 0,
+    "prizeText": "현금 약 $8,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "How hackathon teams are using ElevenLabs to make care more accessible Skip to content Log in Sign up Contact sales Log in Hackathons Impact Program How hackathon teams are using ElevenLabs to make care more accessible Written by Nithin Kumar Published Jun 19, 2026 Last updated Jul 28, 2026 Listen Li",
+    "url": "https://elevenlabs.io/blog/how-hackathon-teams-are-using-elevenlabs-to-make-care-more-accessible",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-18",
+   "brand": "ElevenLabs",
+   "url": "https://elevenlabs.io/blog/online-conversational-agent-hackathon",
+   "title": "ElevenLabs — Online Conversational Agent Hackathon",
+   "deadline": null,
+   "deadlineGuess": "2027-07-02",
+   "deadlineEvidence": "partners: Exa, Notion, Lovable, Bolt.new, n8n, and NFX. Event Snapshot When : Wednesday, July 2, 3pm - 5pm UTC Duration : 2 hours",
+   "confidence": "low",
+   "cashUsd": 20000,
+   "status": "new",
+   "draft": {
+    "id": "elevenlabs-online-conversational-agent-hackathon",
+    "title": "ElevenLabs — Online Conversational Agent Hackathon",
+    "org": "ElevenLabs",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "앱·개발",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 20000,
+    "credit": 0,
+    "prizeText": "현금 약 $20,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "To celebrate 1 million agents created, build the best agent you can in 2 hours and compete for $20k+ in prizes.",
+    "url": "https://elevenlabs.io/blog/online-conversational-agent-hackathon",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-18",
+   "brand": "OpenAI",
+   "url": "https://openai.com/form/hackathon-support",
+   "title": "Support for Community-Led Hackathons",
+   "deadline": null,
+   "deadlineGuess": null,
+   "deadlineEvidence": "",
+   "confidence": "none",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "openai-hackathon-support",
+    "title": "Support for Community-Led Hackathons",
+    "org": "OpenAI",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "앱·개발",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Apply for OpenAI support for your community-led hackathon. Eligible organizers can request API credits, Codex access, prizes, materials, and expert support.",
+    "url": "https://openai.com/form/hackathon-support",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize",
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-18",
+   "brand": "OpenAI",
+   "url": "https://openai.com/openai-to-z-challenge",
+   "title": "OpenAI to Z Challenge",
+   "deadline": null,
+   "deadlineGuess": null,
+   "deadlineEvidence": "",
+   "confidence": "none",
+   "cashUsd": 250000,
+   "status": "new",
+   "draft": {
+    "id": "openai-openai-to-z-challenge",
+    "title": "OpenAI to Z Challenge",
+    "org": "OpenAI",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "앱·개발",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 250000,
+    "credit": 0,
+    "prizeText": "현금 약 $250,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Join the OpenAI to Z developer challenge and use GPT-4.1 and o3/o4 models to help solve a century-old archaeological mystery. Compete for cash prizes and a real-world expedition using cutting-edge AI tools and open data.",
+    "url": "https://openai.com/openai-to-z-challenge",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-18",
+   "brand": "Civitai",
+   "url": "https://civitai.com/articles/31744/semi-real-anima-contest-buzz-up-for-grabs",
+   "title": "Semi-Real Anima Contest (buzz up for grabs) | Civitai",
+   "deadline": null,
+   "deadlineGuess": "2027-06-27",
+   "deadlineEvidence": ", 2026 at 12:00 PM UTC Submission Deadline: June 26, 2026 at 11:59 PM UTC Judging Period: June 27-28, 2026 Winners Announced: June",
+   "confidence": "medium",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "civitai-semi-real-anima-contest-buzz-up-for-grab",
+    "title": "Semi-Real Anima Contest (buzz up for grabs) | Civitai",
+    "org": "Civitai",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "🎉 Community Contest Announcement 🎉 I'm excited to announce Semi-Real Anima community contest, giving participants the opportunity to showcase their...",
+    "url": "https://civitai.com/articles/31744/semi-real-anima-contest-buzz-up-for-grabs",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize",
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-18",
+   "brand": "Civitai",
+   "url": "https://civitai.com/articles/33996/daily-challenge-problems",
+   "title": "Daily Challenge Problems 🤖 | Civitai",
+   "deadline": null,
+   "deadlineGuess": null,
+   "deadlineEvidence": "",
+   "confidence": "none",
+   "cashUsd": 270,
+   "status": "new",
+   "draft": {
+    "id": "civitai-daily-challenge-problems",
+    "title": "Daily Challenge Problems 🤖 | Civitai",
+    "org": "Civitai",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 270,
+    "credit": 0,
+    "prizeText": "현금 약 $270",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "First things first: Yes, the Daily Challenge or rather the Challenge system has problems. I want to take the general AI Judge topic out of this rig...",
+    "url": "https://civitai.com/articles/33996/daily-challenge-problems",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "deadline"
+    ]
+   }
+  }
+ ],
+ "news": [
+  {
+   "title": "Hoban Group's Hoban Cultural Foundation will hold an international AI art contest \"Next Art AI\" in S.. - 매일경제",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KYjIxa3hVM0Q5ZEZ4TFg0NG9ZNHZxcUl4c0lSOWY5S19iTFE3Y0tuSzJuQ2gwZGpwcDdKOUdUQXpvQXBuWXl0aDhudDlQTGtRVXhBV3Zn?oc=5",
+   "pub": "Mon, 10 Aug 2026",
+   "query": "\"AI video\" (challenge OR contest) prize"
+  },
+  {
+   "title": "PixVerse Kicks Off PixLight, a Global Competition for AI Filmmakers - businesswire.com",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQkRBVDBYQ0FsbkhfcHdxZXlnRTl4WVVkLU9iX0UybF9SRGJ3Yl9HN2xtWnVqamhHcmtNVXJicGZqeTZlbmlXQ01BQ1Q2TEVOZHNhMEhSbVZ2dHViNVRLUHV0WmxweVBMZVM1WTZ2QlY5SzZCN2NnVTVUb2Z6azdUWWJWS1VaVWEzZVlNQ3BBSUVqZnp6R1hRSkgwUnRGcnpDQUdsb3NsRkZOUHF3MTJVNFllenZMUWo3UlVrdERVeEk?oc=5",
+   "pub": "Fri, 07 Aug 2026",
+   "query": "\"AI film\" (contest OR competition) submissions prize"
+  },
+  {
+   "title": "Another Big Ad Contest For Products That Don't Exist — Volume II - Runway",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LNXhOZVl3d2JGS0p0N0RKRTZ4dzVrMUJRdlI0UHUzUmVfaFliSUdRQ1F6U1AxemR2SmlRbm5qaTY2UkFfRkdSNkNtTDVqLUk?oc=5",
+   "pub": "Fri, 24 Jul 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "Higgsfield AI Launches $85,000 'Adathon’ Contest in Partnership with ADWEEK - ADWEEK",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcE1NcmlnTmpQXzk0bDlEd1JydG5hQnd0UTJqYms2bkM4TDJJNVFSbktDeE9CaDhyRDByalJRZlFiZG1PbFlRTE5xQUlHU00wZFIxc2F2UFh5QjkzWmZ2bk91WlBrdERUWDRYWGFtRG9tMVVDdXN6MWFyNVBnOG5Ec1lPUERYUTl5SVpwTWVocWY2R2JJU2doSFo2anRqNHoxeWVwdVMtN05UZw?oc=5",
+   "pub": "Mon, 27 Jul 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "'Project Runway' contestant Naheim Muhammad talks paper towel fashion and taking advice from the judges - ABC7 Los Angeles",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYVI5eFU0QlMzNWNWVGduMFFpcG5FZXVVRE5DVHBGdFhoMDYwS3lpYmUwVjktNnFfYjNxdHNnSkRRYldxNFlYSFFFcEdocDVHdTMwVWtiMkFVVzlHc2xlekZMalhDZGZabGV5V1lNVklILVBESTUtS2pFbGcwS291U1JRQzduNTV1T05iU2tqVEZfUGVIc21MR05qcHA1LTNLam4zZWhHNDh1dmNxQ1N2VVRJc0JWVFAtMzRRQtIBwgFBVV95cUxPTklvMU92UXlHUVZxU05wRzJCdXNIaVZ1emdhMVpEUERXc1BZSktoYmVMU1FlRVVMZUR4WDBqS3lVRC0tWjJlY3FPVENQVldfUnFDNk5NRS0teEpLMWVhNTFMcWRHZVlHNEJlR0QyQU5TMS1GUGlFZ19KUHpFV21IdDdWNzFlR2lxT2tGZVZXVTJERUNXNTQ0UjdTeHk0ejUyQm9iekNWZ0Rtc1pZT1ktMEswOFQ1TVllRUdBVmpwRm12dw?oc=5",
+   "pub": "Thu, 06 Aug 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "Local artist Char Downs advances to quarterfinals in The People's Artist contest - WPSD Local 6",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNGQ0VkxZSnVSWkNsbGRsRVVfTG9hdGNNMlY4ZGoyLVhnS0FXa05IeDJ4SjdkLVB4SzNBSXBVcl9LREVzajN4OWJNLUZyVmptUnEzWlZkWFZ3ZUk1b2xMUnVGNGFZNHN4YlBXenNQc25fX3dZVjhNc25ZalNyNC1BczFTbGRGcTY0UFdhZ0duMEJibzJTeWx5ZVFfM25Nb1g2ZC1VeTBNbGJQVURPTVpNRlVrN2VmRC1HWE00TlA3QlpUdTM0MUNGdEx5R1pKc2RTLUp1TjEwbW5pY21WSnNWZGJqa215dzlvLUxxMnIweGNzRUE?oc=5",
+   "pub": "Fri, 14 Aug 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "Runway's Big Pitch Contest for Shows that Don't Exist Yet - Runway",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IY2FJeDNDY0FkVnJ5OGQ0NDloZVJkWTNiVmlWdVJUcGcxZnM0RGdNbXlzTVMzWmpvQjBhNTBxaExUbzZ3ZnFvU2dDQXUxYWtsa1NrYkg0Q3dLeFUz?oc=5",
+   "pub": "Fri, 24 Jul 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "Duck Brand names winners of 2026 Stuck at Prom scholarship contest - Cleveland.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUThFeFJtTzFrMWxlbzNyQUxnQTlNWDNUZGNLTXJSMG9mNnVVNTU4YkFmT0FPRDMyOEl1VUd6bmdpYzVzUl94dE9nUUtOWllUQVlBQzRjVGN2dmhGcDVRRDhUdGtqZDZWbUsxclJiemkzNndZaUNfRXR2d3ViXzNUa0dCbFhQMGdnY3VZU2NodWdPZDNReWdYdE91X3ozcDFVaWo3Sk1CX0VlQ1FyTUR3SURqdjFxSHN1THBj0gHPAUFVX3lxTE9ZRVd2ZGxfRVA5MXdDVnNmN09jM3o2UG5aOVRRU2trR0xLY1psbm4tdUZyNGgyS3VNeTY4TDZ6cVd0S1lwb3BCUUV3Vlh4S0FhRDJpT2pzc1l6VzlJajRIM3Z5eFZnTVJpeE1WWWtMV3AtTnczVzhMZ2pwNmpxUkY0T1RVa1pHejZJRmRhUFBkdzlWZmVmN0pwN0w0cUUyM0N3THUxUTA4WHpydmRHdks3WW1HdndkbER0TTRIYnp6ekFBVlFYdkFsNUJ6TDNUZw?oc=5",
+   "pub": "Wed, 22 Jul 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "Use the the Local 3 Weather app Contest Rules - Local 3 News",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd3drOHBsMUt5TnBvV2FMM3hoRFVfTkJIa1FiWGhnbzZsRW9JdlplMzUwZTZvLTlSWHVYYUgzeUJ1Tmx3eFBHT1cwWXVIM2UtUE4yTWpoNVp3X0hMSTRIUjE5Nm81Nmc2c0dtM2hiay1FR2FfWFFkemVUQVdHSXlsRmViTmhXUDVyU0JFcFBULTYxRUdsZmZkMndibGZTX3JrQlR1VEhrSzUwekJXZXN3VFRPcS1lcFNQQUttaUk5cExiUXVmRjNrdUgxOEJkejNYeVI4bjgwaw?oc=5",
+   "pub": "Wed, 05 Aug 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "Poulsbo, WA teen wins $2k scholarship in duct tape dress contest - FOX 13 Seattle",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TVDZfSGwzWnJ4NVVFSTc5Z2hiOGQ2ZDJYdHpjdEJqMEJhVUpmdFZNY2FLLUpMV2dNR1pfQk5PcFNOUnpaZmtqaFFORFNXa29hZml5NGhsb1ZZRHJUdDhIRlhicEJpeGZmQndQd1dtMA?oc=5",
+   "pub": "Tue, 21 Jul 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "These 8 Daring Takes on the Air Jordan 1 Won Jordan Brand's Multi-city Design Contest - WWD",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaTM4MHcwalpOYTI3QWpGOGNuV25YWGdfWUhwWmZqTzQ3R1VtZ2NGX2JFaHBRVWRvM3o4U2dDYjJuQjA4Wjd4X1RVNnNtRXRkTTFHcGZyS0p2M3I4b3FQYVlWZzdzVHhleGxVNlFoYmU4U3V3SDE2U2V3ZVRuSGtWYnh4SkFVeEkyTHdTamFsVVNDM3RCbHlnbENzSEhoNy1laXI5aEhGZGlMcHpxR0ZWOQ?oc=5",
+   "pub": "Thu, 13 Aug 2026",
+   "query": "(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize"
+  },
+  {
+   "title": "상금에 전문가용 노트북 증정...AI 영상 공모전 러시 '눈길' - 엔트로피타임즈",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pY0toNnJPZm1NTmt4Y2RrX3oybm54cTZ1MlJMYWNKTjY5aDgyRmwyS3hwWEc2MDd5X1NGVWlrV2FYelpwRG9GbVVwUTVoM2hIZ2JUaGh0VDhoUXFFXzE4WGN0Yw?oc=5",
+   "pub": "Mon, 03 Aug 2026",
+   "query": "AI 영상 챌린지 상금 공모"
+  },
+  {
+   "title": "서울시, '국제개발협력 영상 챌린지'…이달 28일까지 접수 - 연합뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MSGNSbktKM2RsVXdSVm5vbGswV21Hc0xnWS1pUno0MkJZOURack5CRXFsUm81UU5xWm1NZlR6amltb1c2RUxGbC1DVlVkVWsxelo3RENiR2pGeVnSAWBBVV95cUxNbzdPTk1wZ1laaTVIdGxqNUgxQ3JSalpTWUpKVTZjTkotaFJIV2pBWUJtdWZwdzByX2kwS0hNdFRoakppOFhKS3J5NjVxWFpRaWdwZVluODAzN3QxVmswaHU?oc=5",
+   "pub": "Mon, 10 Aug 2026",
+   "query": "AI 영상 챌린지 상금 공모"
+  },
+  {
+   "title": "칸라이언즈서울, 대학생 동아리 영상 공모전 '2026 드림라이언즈 클럽 챌린지' 연다 - 브랜드브리프",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vY2U2U3VBMGlyWWlOWEx6eEpwUkFNTkgya2F5VnRWQ1NabTFmbGJmeVZ2RkdFTFJxZi1PWGdRMktTQ05wS29CU0g2QlAyYWp3ZDBqNUlvNmYxS0lHLW9kSVhZRWNCbGtlRU55R2FpUQ?oc=5",
+   "pub": "Wed, 29 Jul 2026",
+   "query": "AI 영상 챌린지 상금 공모"
+  },
+  {
+   "title": "서울시, '국제개발협력 영상 챌린지' 개최…수상작 도심 전광판 표출 - etoday.co.kr",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tY2ZhYm5aY3dNeEUyQVctenJpWmx4Sk9lRVY2WFBMaVd2N0s0a0FDMkxhX2U0VUJXdUVJLU43eks0WVFzbERnZXlYRG8zTlZCc3Jhbg?oc=5",
+   "pub": "Mon, 10 Aug 2026",
+   "query": "AI 영상 챌린지 상금 공모"
+  },
+  {
+   "title": "해외봉사·NGO 경험 영상으로…서울 국제개발협력 공모전 - 뉴스1",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12c0pPNXlDcEtXeEZkOWV2dTkxanE5U01ROXhVaHJ0RzhPRUFRNnRBNXoxUzkzZHFmSHYzUlJ6RGFadFB4YzYtZzNENGRENk1IeEE?oc=5",
+   "pub": "Mon, 10 Aug 2026",
+   "query": "AI 영상 챌린지 상금 공모"
+  },
+  {
+   "title": "CJ프레시웨이 튼튼스쿨, 기후급식 크리에이터 공모전 '지구 튼튼 챌린지' 개최 - 청년일보",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WQzlDelZUTk5xRVplUGM2VnJ2VG94WFU0bUk5VFB3dFlucWttY2d2OGFlNHNsNVlOUEZfXy1KV0c2UEJjbk1Yb0g3bW9jVHJQcGhZUnU1SHVoTnhPUGRKRVE3WmdnU2c?oc=5",
+   "pub": "Mon, 20 Jul 2026",
+   "query": "AI 영상 챌린지 상금 공모"
+  }
+ ]
+}

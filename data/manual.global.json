@@ -1,9 +1,11 @@
 {
  "_readme": [
   "사람이 관리하는 해외 데이터. 스크래퍼가 이 값을 덮어쓰지 않습니다.",
-  "플랫폼 자체 이벤트(Kling·PixVerse·SeaArt·Civitai·Higgsfield 등)는 로그인 뒤",
+  "플랫폼 자체 이벤트(Kling·PixVerse·SeaArt·Civitai·Higgsfield·Artlist 등)는 로그인 뒤",
   "JS로 그려지거나 JSON-LD가 실제와 어긋나 자동 수집이 어렵습니다. 그래서 여기 둡니다.",
-  "aifilmcontests.com 이 커버하는 영화제는 자동 수집되므로 여기 넣지 않습니다.",
+  "aifilmcontests.com·Devpost 가 커버하는 대회는 자동 수집되므로 여기 넣지 않습니다.",
+  "새 챌린지 후보는 scripts/watch_challenges.py 가 data/review.queue.json 에 쌓아 둡니다.",
+  "확인한 뒤 그 draft 를 아래 extra 로 옮기세요.",
   "고친 뒤 `python scripts/update_contests.py` 를 실행하세요."
  ],
 
@@ -11,17 +13,31 @@
 
  "extra": [
   {
+   "id": "artlist-seedance-25", "title": "Artlist $250K Seedance 2.5 Challenge",
+   "org": "Artlist", "orgType": "플랫폼", "orgTier": "mid", "cat": "AI 필름",
+   "deadline": "2026-08-26", "tz": "현지", "recur": "once",
+   "cash": 250000, "credit": 0,
+   "prizeText": "총 상금 $250,000 · 최대 25명 수상 (1인 최대 $10,000)",
+   "who": "만 18세 이상 누구나 (Artlist 구독 없이도 참가 가능)", "whoType": "전세계 누구나",
+   "fee": "free", "feeText": "무료 · 구독 불필요 (단 Seedance 2.5로 생성한 영상이어야 함)",
+   "entry": "SNS 공개 게시 (#ArtlistSeedance25 + @Artlist 태그)", "career": "platform",
+   "bonus": ["창의성 + 인게이지먼트(좋아요·댓글·공유·저장) 기준 심사"],
+   "note": "Seedance 2.5로 만든 30초 이상 영상에 챌린지 배지를 전체 구간 노출하고 Instagram·TikTok·YouTube·LinkedIn 중 한 곳에 공개로 게시. 계정당 1편만 인정되며 수상자 발표 전까지 공개 상태를 유지해야 함. ⚠ 마감 표기가 엇갈립니다 — 공지 블로그는 8/26, 랜딩페이지 FAQ는 8/31. 여기서는 이른 쪽(8/26)을 적어 뒀습니다.",
+   "url": "https://artlist.io/lp/seedance-2-5-challenge/",
+   "tags": ["초고액", "AI필름", "무료"], "verify": ["deadline"]
+  },
+  {
    "id": "hf-gff", "title": "Higgsfield Global Film Festival",
    "org": "Higgsfield", "orgType": "플랫폼", "orgTier": "top", "cat": "AI 필름",
-   "deadline": "2026-08-31", "tz": "ET", "recur": "once",
+   "deadline": "2026-09-03", "tz": "PT", "recur": "once",
    "cash": 1000000, "credit": 0,
-   "prizeText": "1위 $500,000 · 2위 $200,000 · 3위 $100,000 (총 14명 수상)",
+   "prizeText": "1위 $500,000 · 2위 $200,000 · 3위 $100,000 · 관객상 $100,000 · 특별언급 10편 (총 14명 수상)",
    "who": "Higgsfield 구독자 · 만 18세 이상 · 1~4인 팀", "whoType": "구독자",
    "fee": "sub", "feeText": "Higgsfield 구독 필요", "entry": "플랫폼 제출(Cinema Studio)",
    "career": "festival", "bonus": ["업계 심사위원 심사", "수상작 공개 상영"],
-   "note": "8/7 접수 시작 ~ 8/31 마감, 9월 말 수상 발표. 장르 자유 3분 이상(3~5분 권장) 단편. 제출 편수 무제한. ⚠ 목록 페이지 JSON-LD는 '7/16~7/30'으로 다르게 표기돼 있어 상세 페이지 값을 채택했습니다.",
+   "note": "8/10 접수 시작 ~ 9/3 23:59 PT 마감, 심사 9/4~10/1, 수상 발표 10월 첫째 주. 장르 자유 3분 이상 단편. 완성작에 Higgsfield 워터마크를 유지한 채 Instagram·YouTube·X·Reddit 중 한 곳에 공개 게시해야 접수 완료. ⚠ 앞선 갱신에서 8/31로 적혀 있었으나 공식 안내(2026-08-18 확인)는 9/3 마감입니다.",
    "url": "https://higgsfield.ai/contests/higgsfield-global-film-festival",
-   "tags": ["초고액", "AI필름", "구독필요"], "verify": ["deadline"]
+   "tags": ["초고액", "AI필름", "구독필요"], "verify": []
   },
   {
    "id": "hf-adathon", "title": "Higgsfield Adathon (×ADWEEK)",

@@ -1,0 +1,120 @@
+name: AI 플랫폼 챌린지 감시
+
+# 업체가 직접 여는 챌린지(Artlist·Higgsfield·Runway…)는 공고 주기가 없다.
+# 주 2회 사이트맵을 훑어 '새 URL' 만 찾아내고, 사람이 확인할 후보로 쌓는다.
+# 목록(data/*.js)은 건드리지 않는다 — 확인은 사람이 하고, 반영은
+# data/manual.global.json + update_contests.py 가 한다.
+on:
+  schedule:
+    # 화·금 21:00 UTC = 수·토 06:00 KST
+    - cron: "0 21 * * 2,5"
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "한 번에 상세 확인할 최대 건수"
+        default: "25"
+      days:
+        description: "사이트맵 lastmod 기준 며칠 이내 글만 후보로 볼지"
+        default: "180"
+
+permissions:
+  contents: write
+  issues: write               # 새 챌린지를 찾으면 이슈로 알린다
+
+concurrency:
+  group: challenge-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: 의존성 설치
+        run: pip install -r scripts/requirements.txt
+
+      - name: 챌린지 감시
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/watch_challenges.py \
+            --max-new "${{ github.event.inputs.max_new || '25' }}" \
+            --days    "${{ github.event.inputs.days    || '180' }}" \
+            | tee watch.log
+
+      - name: 신규 건수 세기
+        id: count
+        shell: bash
+        run: |
+          n=$(python -c "import json;print(sum(1 for i in json.load(open('data/review.queue.json',encoding='utf-8'))['items'] if i.get('discovered')=='$(date -u +%Y-%m-%d)'))")
+          echo "new=$n" >> $GITHUB_OUTPUT
+          echo "오늘 신규 $n 건"
+
+      - name: 요약
+        if: always()
+        shell: bash
+        run: |
+          echo '### 챌린지 감시 결과' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat watch.log >> $GITHUB_STEP_SUMMARY || true
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: 커밋 & 푸시
+        shell: bash
+        run: |
+          rm -f watch.log
+          if git diff --quiet -- data/watch.state.json data/review.queue.json; then
+            echo "변경 없음 — 커밋 건너뜀"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/watch.state.json data/review.queue.json
+          git commit -m "chore: 챌린지 감시 큐 갱신 ($(date -u +%Y-%m-%d))"
+          git push
+
+      # 확인이 필요한 새 챌린지가 있을 때만 이슈를 연다.
+      # (메일 알림을 받기 위한 것 — 이슈가 성가시면 이 스텝만 지우면 된다)
+      - name: 새 챌린지 이슈 등록
+        if: steps.count.outputs.new != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python - <<'PY' > issue.md
+          import json, datetime
+          today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+          q = json.load(open("data/review.queue.json", encoding="utf-8"))
+          new = [i for i in q["items"] if i.get("discovered") == today]
+          print(f"자동 감시가 새 챌린지 후보 {len(new)}건을 찾았습니다. "
+                "마감일·상금·참가 조건을 확인한 뒤 `data/manual.global.json` 으로 옮겨 주세요.\n")
+          for i in new:
+              dl = i["deadline"] or (f'{i["deadlineGuess"]} (짐작)' if i.get("deadlineGuess") else "미상")
+              cash = f'${i["cashUsd"]:,}' if i["cashUsd"] else "상금 미상"
+              print(f'- **[{i["brand"]}] {i["title"]}**')
+              print(f'  - 마감 {dl} · {cash} · 신뢰도 `{i["confidence"]}`')
+              print(f'  - {i["url"]}')
+          news = q.get("news") or []
+          if news:
+              print("\n### 뉴스에서 잡힌 것 (직접 확인)\n")
+              for n in news[:10]:
+                  print(f'- {n["title"]}\n  - {n["url"]}')
+          print("\n확인이 끝난 항목은 `data/review.queue.json` 에서 지우거나 "
+                '`"status": "done"` 으로 표시하세요.')
+          PY
+          gh issue create \
+            --title "확인 필요: 새 AI 플랫폼 챌린지 ${{ steps.count.outputs.new }}건 ($(date -u +%Y-%m-%d))" \
+            --body-file issue.md \
+            --label "챌린지 확인" || \
+          gh issue create \
+            --title "확인 필요: 새 AI 플랫폼 챌린지 ${{ steps.count.outputs.new }}건 ($(date -u +%Y-%m-%d))" \
+            --body-file issue.md

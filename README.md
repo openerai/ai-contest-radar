@@ -41,10 +41,60 @@ GitHub에서 즉시 돌리려면 Actions 탭 → "공모전 데이터 주간 갱
 | [인공지능팩토리](https://aifactory.space/ko/competition) | 국내 알고리즘 대회 | ✅ 정상 |
 | [위비티](https://www.wevity.com/) | 국내 보조 | ❌ **Cloudflare 403** |
 | [aifilmcontests.com](https://aifilmcontests.com/) | 해외 영화제 (sitemap→JSON-LD) | ✅ 정상 |
+| [Devpost](https://devpost.com/hackathons) | 해외 AI 해커톤 (공개 JSON API) | ✅ 정상 |
+| AI 플랫폼 챌린지 감시 | Artlist·Higgsfield 등 **후보만 수집** → 사람 확인 | ✅ 정상 |
 
 ⚠ **위비티는 Cloudflare가 데이터센터 IP를 차단해 GitHub Actions에서 실패합니다.** 지역 차단이 아니라 봇 차단이라 프록시 없이는 우회가 어렵습니다. 로컬(집 IP)에서 실행하면 정상 동작하고 5~10건이 더 붙으니, 가끔 로컬에서 한 번 돌려 커밋하면 좋습니다. 실패해도 경고만 남기고 나머지 소스로 진행합니다.
 
 Higgsfield는 JSON-LD가 실제 페이지와 어긋나(2026-08-04 기준 영화제 일정이 7/16~7/30으로 실제와 다름) 자동 수집에서 뺐습니다. 값은 `data/manual.global.json`에 있습니다.
+
+Devpost는 `search=ai` 로 열려 있는 대회를 받아오되, **상금 $1,000 이상 · 초대 전용 아님**만 남깁니다. 상금이 달러가 아닌 대회(₹ 등)는 환산하지 않고 건너뜁니다.
+
+## AI 플랫폼 챌린지 감시 (watchtower)
+
+Artlist Seedance 2.5 챌린지, Higgsfield Global Film Festival 같은 **업체 자체 챌린지는 공고 주기가 없습니다.** 어느 날 랜딩페이지 하나가 올라오고 3주 뒤 조용히 끝나며, 공모전 포털에도 잘 실리지 않습니다. 그래서 "목록을 긁는" 대신 **"새 URL이 생겼는지 감시"**합니다.
+
+```bash
+python scripts/watch_challenges.py            # 새 챌린지 후보 탐색
+python scripts/watch_challenges.py --seed     # 첫 실행: 지금 것들을 '봤음'으로만 기록
+```
+
+작동 방식
+
+1. `scripts/watchlist.py` 의 `PLATFORMS` 에 적힌 업체의 사이트맵·허브 페이지를 훑어 `challenge`·`contest`·`award` 류 URL을 모읍니다.
+2. `data/watch.state.json` 에 없는 **새 URL만** 상세 페이지를 열어 제목·상금·마감일을 뽑습니다.
+3. 결과를 `data/review.queue.json` 에 쌓습니다. **목록(data/*.js)에는 자동으로 올리지 않습니다.**
+4. 사람이 URL을 열어 확인한 뒤, 같은 항목의 `draft` 를 `data/manual.global.json` 의 `extra` 로 옮기고 `update_contests.py` 를 돌립니다.
+
+자동 등록을 하지 않는 이유는 랜딩페이지의 마감일이 "by Aug 31" 같은 산문이라 연도·시간대가 빠져 있고 카운트다운이 JS로만 그려지는 일이 흔하기 때문입니다. 신뢰도는 세 단계로 표시합니다.
+
+| 신뢰도 | 뜻 |
+|---|---|
+| `high` | 마감 단서(`deadline`/`closes`) 뒤에 **연도까지** 적힌 날짜 · 또는 JSON-LD `Event.endDate` |
+| `medium` | 마감 단서는 있지만 연도가 없어 추측 (`by August 26th`) |
+| `low` / `none` | 단서 없음 — 사람이 직접 봐야 함 |
+
+`high` 가 아닌 날짜는 `draft.deadline` 에 넣지 않고 `deadlineGuess` 로만 남깁니다. 틀린 D-day를 띄우는 것보다 비워 두는 편이 낫다고 봤습니다.
+
+보조 채널로 **구글 뉴스 RSS**도 봅니다. Kling·PixVerse처럼 로그인 뒤 JS로만 그려져 사이트맵으로 볼 수 없는 업체의 챌린지는 기사로만 잡히기 때문입니다(실제로 PixVerse `PixLight`, Runway 광고 공모가 이 채널로 걸렸습니다). 자동 감시가 불가능한 업체 목록은 `watchlist.MANUAL_CHECK` 에 있고 실행할 때마다 체크리스트로 출력됩니다.
+
+GitHub Actions의 **"AI 플랫폼 챌린지 감시"** 워크플로가 주 2회(수·토 06:00 KST) 돌면서 큐를 갱신하고, 새 후보가 있으면 이슈를 열어 알립니다.
+
+### 감시 대상 늘리기
+
+`scripts/watchlist.py` 의 `PLATFORMS` 에 한 줄 추가하면 됩니다.
+
+```python
+{
+    "brand": "새업체", "org": "새업체", "orgTier": "mid",
+    "sitemaps": [("https://example.com/sitemap.xml", r"blog|news")],  # 인덱스면 하위 필터
+    "hubs": [("https://example.com/contests", r"/contests/[\w\-]+$")],
+    "only": r"/blog/",        # (선택) 이 경로만 후보로
+    "noisy": True,            # (선택) 커뮤니티 글이 섞이는 소스 — 상금·마감이 잡힌 것만 큐에 올림
+}
+```
+
+먼저 `--dry-run` 으로 몇 건이 잡히는지 보고 넣는 편이 안전합니다.
 
 ## 안전장치
 
@@ -177,5 +227,7 @@ Higgsfield는 JSON-LD가 실제 페이지와 어긋나(2026-08-04 기준 영화�
 - [Civitai Challenges](https://civitai.com/challenges) · [Vidu × Civitai](https://www.vidu.com/activity/2776589160456791)
 - [OpenArt Music Video Awards](https://openart.ai/programs/music-video-awards)
 - [Runway AI Film Festival](https://aif.runwayml.com/)
+- [Artlist $250K Seedance 2.5 Challenge](https://artlist.io/lp/seedance-2-5-challenge/) — 마감 표기가 랜딩(8/31)과 블로그(8/26)로 엇갈려 이른 쪽을 채택
 - [aifilmcontests.com](https://aifilmcontests.com/) — 영화제 57건 집계 (마감일·상금 대부분 여기서 확인)
+- [Devpost](https://devpost.com/hackathons) — AI 해커톤 (공개 API)
 - [melies.co/ai-film-festivals](https://melies.co/ai-film-festivals)
