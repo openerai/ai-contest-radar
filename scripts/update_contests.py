@@ -323,9 +323,42 @@ def write_js(path: Path, var: str, records: list[dict], meta: dict, dry: bool) -
     print(f"  → {path.relative_to(ROOT)} 기록 ({len(records)}건, {len(js):,} bytes)")
 
 
+# 애초에 영화제·창작 대회만 싣는 소스. 이름 검사를 건너뛴다.
+CREATIVE_SOURCES = {"aifilmcontests", "melies", "manual", "higgsfield"}
+
+
+def drop_noncreative(records: list[dict]) -> tuple[list[dict], int]:
+    """해외 목록에서 이미지·영상 창작과 무관한 대회를 뺀다.
+
+    이 사이트가 다루는 건 AI로 이미지·영상을 만들어 내는 공모전이다.
+    Devpost 같은 집계 사이트에서 오는 일반 개발 해커톤은 AI를 쓰긴 해도
+    결과물이 소프트웨어라 목록의 성격을 흐린다. 소스 쪽에서 이미 한 번
+    거르지만, 새 소스를 붙였을 때 조용히 섞여 들어오는 걸 막는 그물이다.
+    """
+    keep, dropped = [], []
+    for r in records:
+        # 영화제 전용 소스는 통과. 'Chroma Awards'·'FESTIAV' 처럼 이름만으로는
+        # 창작 대회인 줄 알 수 없는 영화제가 있어서, 이름으로 거르면 진짜가 빠진다.
+        if r.get("source") in CREATIVE_SOURCES:
+            keep.append(r)
+            continue
+        blob = f"{r.get('title', '')} {r.get('cat', '')} {(r.get('note') or '')[:200]}"
+        if sources.is_creative(blob):
+            keep.append(r)
+        else:
+            dropped.append(r.get("title", "")[:40])
+    if dropped:
+        print(f"  · 창작 무관으로 제외 {len(dropped)}건: "
+              + ", ".join(dropped[:4]) + ("…" if len(dropped) > 4 else ""))
+    return keep, len(dropped)
+
+
 def build(kind: str, auto: list[dict], manual_file: str, var: str,
-          out_name: str, html_name: str, dry: bool) -> bool:
+          out_name: str, html_name: str, dry: bool,
+          creative_only: bool = False) -> bool:
     print(f"\n[{kind}] 자동 {len(auto)}건 수집")
+    if creative_only:
+        auto, _ = drop_noncreative(auto)
     manual = load_manual(manual_file)
     out_path = DATA / out_name
 
@@ -423,7 +456,7 @@ def main() -> int:
         # Higgsfield 는 JSON-LD 가 실제 페이지와 어긋나 자동 수집에서 제외.
         # 사유는 sources.fetch_higgsfield 주석 참고. 값은 manual.global.json 에 있다.
         ok &= build("해외", auto_gl, "manual.global.json", "GLOBAL_DATA", "global.js",
-                    "global.html", args.dry_run)
+                    "global.html", args.dry_run, creative_only=True)
 
     if sources.WARNINGS:
         print(f"\n경고 {len(sources.WARNINGS)}건:")

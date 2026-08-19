@@ -680,6 +680,48 @@ def parse_cash_usd(text: str) -> int | None:
     return int(best) if best else None
 
 
+# ── 해외 목록은 '만드는 대회'만 싣는다 ────────────────────────────────
+#
+# 이 사이트가 다루는 건 AI로 이미지·영상을 만들어 내는 공모전이다.
+# Devpost 같은 데서 오는 일반 개발 해커톤은 AI를 쓰긴 해도 결과물이
+# 소프트웨어라서 목록의 성격을 흐린다. 창작 단서가 있는 것만 통과시킨다.
+CREATIVE_PAT = re.compile(
+    r"film|movie|cinema|cinemat|video|footage|reel|short\b|animation|animat|"
+    r"vfx|visual effect|motion|music video|\bmv\b|trailer|documentar|storytell|"
+    r"screenplay|script|narrative|image|photo|art\b|artwork|illustrat|design|"
+    r"poster|comic|webtoon|character|creative|creator|advert|\bad\b|\bads\b|"
+    r"commercial|brand film|3d|avatar|영상|영화|이미지|아트|일러스트|디자인|"
+    r"애니|광고|사진|웹툰|캐릭터", re.I)
+
+# 결과물이 소프트웨어인 대회를 가려내는 단서. 위 창작 단서가 함께 있으면
+# 창작 대회로 본다 ('Agentic Cinema Hackathon' 처럼 겹치는 경우가 있다).
+BUILDER_PAT = re.compile(
+    r"hackathon|hack\b|hacks\b|build-?a-?thon|api|sdk|agent|devpost|developer|"
+    r"코딩|개발자", re.I)
+
+
+# 해커톤 집계 사이트(Devpost)에는 더 좁은 잣대를 쓴다.
+# 거기서 'Design'·'3D' 는 소프트웨어 분류 태그라서 창작 신호가 아니다.
+# 실제로 'Prometheus August AI Challenge'(테마 Design)와
+# '3D Websites Hackathon' 이 넓은 패턴에 걸려 들어왔다.
+CREATIVE_STRICT_PAT = re.compile(
+    r"film|movie|cinema|cinemat|video|footage|reel|animation|animat|vfx|"
+    r"music video|mv|trailer|documentar|storytell|screenplay|"
+    r"photo|artwork|illustrat|poster|comic|webtoon|"
+    r"영상|영화|이미지|아트|일러스트|애니|사진|웹툰", re.I)
+
+
+def is_creative(text: str, strict: bool = False) -> bool:
+    """AI 이미지·영상 창작 대회로 볼 수 있는가.
+
+    창작 단서가 하나라도 있으면 통과. 'Agentic Cinema Hackathon' 처럼
+    개발 단서와 창작 단서가 겹치는 경우가 있어서, 개발 단서만으로 거르지 않고
+    창작 단서의 유무로 판단한다.
+    """
+    pat = CREATIVE_STRICT_PAT if strict else CREATIVE_PAT
+    return bool(pat.search(text or ""))
+
+
 def classify_global_cat(text: str) -> str:
     t = text.lower()
     if re.search(r"music video|music-video|mv\b", t):
@@ -918,12 +960,18 @@ def fetch_devpost(pages: int = 4, min_cash: int = DEVPOST_MIN_CASH) -> list[dict
 
             themes = [t.get("name", "") for t in (h.get("themes") or [])]
             title = (h.get("title") or "").strip()
+            # 일반 개발 해커톤은 싣지 않는다 (이 사이트는 이미지·영상 창작 대회용).
+            # 테마 태그는 소프트웨어 분류라 신호가 안 되므로 제목만 본다.
+            if not is_creative(title, strict=True):
+                continue
             # classify_global_cat 의 기본값은 'AI 필름' 이다. 해커톤은 영상물이
             # 아닌 쪽이 기본이라, 영상 단서가 없으면 '앱·개발' 로 되돌린다.
+            # 통과한 건 이미 창작 대회다. 제목에 영상 단서가 있으면
+            # 'hackathon' 이라는 낱말 때문에 앱·개발로 밀리지 않게 고정한다.
             cat = classify_global_cat(f"{title} {' '.join(themes)}")
-            if cat == "AI 필름" and not re.search(
-                    r"film|video|cinema|movie|animation|영상", f"{title} {themes}", re.I):
-                cat = "앱·개발"
+            if re.search(r"film|movie|cinema|video|trailer|animation|영상|영화",
+                         title, re.I):
+                cat = "AI 필름"
             org = (h.get("organization_name") or "").strip() or "미상"
             out.append({
                 "id": f"dp-{h.get('id')}",
