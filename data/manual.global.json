@@ -13,6 +13,20 @@
 
  "extra": [
   {
+   "id": "grok-odyssey", "title": "Grok Imagine 오디세이 영상 공모",
+   "org": "xAI (Grok)", "orgType": "플랫폼", "orgTier": "top", "cat": "AI 필름",
+   "deadline": null, "tz": "현지", "recur": "once",
+   "cash": 175000, "credit": 0,
+   "prizeText": "1위 $100,000 · 2위 $50,000 · 3위 $25,000 (총 $175,000)",
+   "who": "X Premium·Premium+ 또는 SuperGrok 구독자", "whoType": "구독자",
+   "fee": "sub", "feeText": "구독 필요 (SuperGrok 월 $30 · Lite 월 $10 · X Premium 계열)",
+   "entry": "@grok 공지 게시물에 인용 재게시로 제출", "career": "platform",
+   "bonus": ["X 피드 노출", "공식 계정 소개 가능성"],
+   "note": "호메로스 『오디세이아』의 한 장면을 3~5분 서사 영상으로 만드는 공모. 영어 대사가 1분 이상 들어가야 하고, 영상·이미지·등장인물 음성은 반드시 Grok Imagine 으로 생성해야 한다(편집·음악·효과음은 다른 도구 허용). 별도 접수 페이지 없이 X 인용 재게시로 접수. ⚠ 2026-08-17 @grok 공지에 마감일이 포함되지 않았습니다(2026-08-19 확인). 참가 전 @grok 스레드에서 마감을 반드시 확인하세요. 공식 랜딩페이지가 없어 언론 보도로 확인한 건입니다.",
+   "url": "https://x.com/grok",
+   "tags": ["초고액", "AI필름", "구독필요", "마감미상"], "verify": ["deadline"]
+  },
+  {
    "id": "pixverse-pixlight", "title": "PixVerse PixLight 글로벌 AI 필름 공모",
    "org": "PixVerse", "orgType": "플랫폼", "orgTier": "major", "cat": "AI 필름",
    "deadline": "2026-10-09", "tz": "현지", "recur": "once",
@@ -242,6 +256,8 @@
  ],
 
  "block": [
+  "mel-aimagica-ai-film-festival-2026",
+  "mel-busan-international-ai-film-festival-202",
   "mel-reply-ai-film-festival-2026",
   "pixverse-un",
   "openart-mva",

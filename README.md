@@ -92,6 +92,12 @@ python scripts/watch_challenges.py --seed     # 첫 실행: 지금 것들을 '�
 
 감시 중인 곳은 **자동 20곳**(Higgsfield · Artlist · PixVerse · PixAI · Artbreeder · CapCut/Dreamina · Runway · Krea · Luma · Vidu · LTX · Moonvalley · Recraft · Suno · Udio · Stability · Synthesia · ElevenLabs · OpenAI · Civitai) + **수동 확인 13곳**입니다.
 
+### 브랜드 이름으로 뉴스 훑기
+
+사이트맵·허브로 못 보는 업체가 절반입니다. 그래서 **브랜드 이름을 직접 넣은 구글 뉴스 질의**를 함께 돌립니다(28개 브랜드를 6개씩 묶어 5개 질의).
+
+일반 질의만으로는 큰 건을 놓칩니다. 실제로 xAI의 **Grok Imagine 오디세이 공모($175,000)**는 공지가 X 게시물뿐이라 사이트맵·허브·일반 뉴스 질의 어디에도 안 걸렸고, 브랜드 이름을 넣은 질의에서만 잡혔습니다. Midjourney·Leonardo·Freepik·Kling·NightCafe처럼 봇을 막거나 JS로만 그려지는 업체는 사실상 이 채널이 유일한 통로입니다.
+
 보조 채널로 **구글 뉴스 RSS**도 봅니다. Kling·PixVerse처럼 로그인 뒤 JS로만 그려져 사이트맵으로 볼 수 없는 업체의 챌린지는 기사로만 잡히기 때문입니다(실제로 PixVerse `PixLight`, Runway 광고 공모가 이 채널로 걸렸습니다). 자동 감시가 불가능한 업체 목록은 `watchlist.MANUAL_CHECK` 에 있고 실행할 때마다 체크리스트로 출력됩니다.
 
 GitHub Actions의 **"AI 플랫폼 챌린지 감시"** 워크플로가 주 2회(수·토 06:00 KST) 돌면서 큐를 갱신하고, 새 후보가 있으면 이슈를 열어 알립니다.

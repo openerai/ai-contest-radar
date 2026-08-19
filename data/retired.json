@@ -77,6 +77,26 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-06-30 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "mel-aimagica-ai-film-festival-2026",
+   "title": "AIMagica AI Film Festival 2026",
+   "url": "https://www.aimagica.org/",
+   "source": "melies",
+   "retiredAt": "2026-08-19",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-08-15 (이미 과거) · 종료 문구 'Submissions closed'",
+   "cross": []
+  },
+  {
+   "id": "mel-busan-international-ai-film-festival-202",
+   "title": "Busan International AI Film Festival 2026",
+   "url": "https://biaif.dureraum.org/main",
+   "source": "melies",
+   "retiredAt": "2026-08-19",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-07-01 (이미 과거)",
+   "cross": []
   }
  ]
 }

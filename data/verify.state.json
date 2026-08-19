@@ -2,27 +2,27 @@
  "records": {
   "hf-gff": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
-   "status": "blocked"
+   "checkedAt": "2026-08-19",
+   "status": "live"
   },
   "chroma-s2": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "artlist-seedance-25": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "drift"
   },
   "pixverse-cpp": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "kling-4k": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "kling-motion3": {
@@ -32,17 +32,17 @@
   },
   "runway-fund": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "hf-adathon": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "kling-kreate": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "pixverse-un": {
@@ -52,12 +52,12 @@
   },
   "seaart-daily": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "civitai-daily": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "hf-apps": {
@@ -67,7 +67,7 @@
   },
   "vidu-civitai": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "openart-mva": {
@@ -77,37 +77,37 @@
   },
   "afc-aigc-future-global-challenge-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
-   "status": "live"
+   "checkedAt": "2026-08-19",
+   "status": "suspect"
   },
   "afc-astana-aiff-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-new-technologies-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-slamdance-dig-ai-2027": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-hkbu-future-film-fest-3f-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-berlin-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-cannes-film-awards-ai-2027": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "dp-29613": {
@@ -157,7 +157,7 @@
   },
   "dp-30721": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "dp-30579": {
@@ -182,57 +182,57 @@
   },
   "afc-ai-motion-milan-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-svaiff-awards-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-ai-media-award-zurich-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-sparknify-human-vs-ai-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-iffi-goa-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-ai-for-the-future-unga-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-naija-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-waiff-la-usa-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-we-are-human-festival-call-for-films-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-ai-zone-intl-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-call-for-films-ai-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-runway-ai-film-festival-2026": {
@@ -242,22 +242,22 @@
   },
   "afc-golden-dunes-dubai-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-ai-film-awards-bali-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-ai-london-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-neocinema-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "afc-ai-film-fest-monaco-2026": {
@@ -267,27 +267,27 @@
   },
   "afc-expo-ai-film-festival-dubai-2027": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "afc-lundinstudio-ai-film-festival-2027": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "afc-world-film-festival-cannes-rtf-2027": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "pixverse-pixlight": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "pixai-official": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "dp-31059": {
@@ -297,57 +297,57 @@
   },
   "mel-aimagica-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
-   "status": "live"
+   "checkedAt": "2026-08-19",
+   "status": "ended"
   },
   "mel-bali-international-ai-film-festival-biai": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "mel-artificial-intelligence-media-festival-a": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
-   "status": "live"
+   "checkedAt": "2026-08-19",
+   "status": "unknown"
   },
   "mel-jeju-ai-international-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "mel-ai-film-3-ai-film-and-art-festival-arizo": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
-   "status": "live"
+   "checkedAt": "2026-08-19",
+   "status": "unknown"
   },
   "mel-astana-ai-film-festival-aaiff-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "mel-austin-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "mel-festiav-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
-   "status": "live"
+   "checkedAt": "2026-08-19",
+   "status": "unknown"
   },
   "mel-african-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "mel-busan-international-ai-film-festival-202": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
-   "status": "suspect"
+   "checkedAt": "2026-08-19",
+   "status": "ended"
   },
   "mel-k-culture-ai-international-film-festival": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
   },
   "mel-reply-ai-film-festival-2026": {
@@ -357,29 +357,34 @@
   },
   "mel-bochnia-international-ai-film-festival-2": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "mel-rome-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "mel-red-rocks-ai-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "blocked"
   },
   "mel-illuminate-film-festival-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "unknown"
   },
   "mel-ai-film-festival-japan-2026": {
    "firstSeen": "2026-08-18",
-   "checkedAt": "2026-08-18",
+   "checkedAt": "2026-08-19",
    "status": "live"
+  },
+  "grok-odyssey": {
+   "firstSeen": "2026-08-19",
+   "checkedAt": "2026-08-19",
+   "status": "unknown"
   }
  },
- "updatedAt": "2026-08-18T09:45:29+00:00"
+ "updatedAt": "2026-08-19T02:18:43+00:00"
 }

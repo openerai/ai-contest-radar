@@ -169,10 +169,33 @@ WATCH_COUNT = len(PLATFORMS) + len(MANUAL_CHECK)
 NEWS_QUERIES = [
     ('"AI video" (challenge OR contest) prize', "en-US", "US", "US:en"),
     ('"AI film" (contest OR competition) submissions prize', "en-US", "US", "US:en"),
-    ('(Runway OR Higgsfield OR Kling OR Artlist OR Freepik OR Luma) (challenge OR contest) prize',
-     "en-US", "US", "US:en"),
     ("AI 영상 챌린지 상금 공모", "ko", "KR", "KR:ko"),
 ]
+
+# 브랜드 이름을 직접 넣어 훑는다.
+#
+# 위 일반 질의만으로는 큰 건을 놓친다. 실제로 xAI 의 Grok Imagine 오디세이 공모
+# ($175,000)는 공지가 X 게시물뿐이라 사이트맵·허브·일반 뉴스 질의 어디에도
+# 안 걸렸고, 브랜드 이름을 넣은 질의에서만 잡혔다. 사이트가 JS 셸이거나 봇을
+# 막는 업체(Midjourney·Leonardo·Freepik·Kling·NightCafe…)는 사실상 이 채널이
+# 유일한 통로다.
+NEWS_BRANDS = [
+    "Midjourney", "Leonardo AI", "Freepik", "Kling AI", "Hailuo", "MiniMax",
+    "Vidu", "Luma AI", "Pika Labs", "Runway", "OpenArt", "NightCafe",
+    "Tensor.Art", "Ideogram", "Recraft", "Adobe Firefly", "Canva",
+    "Grok Imagine", "Sora", "Google Veo", "CapCut", "Dreamina", "Krea",
+    "Seedream", "Higgsfield", "PixVerse", "Civitai", "Artlist",
+]
+NEWS_BRAND_CHUNK = 6        # 한 질의에 넣을 브랜드 수 (요청 수 절약)
+
+
+def brand_news_queries() -> list[tuple[str, str, str, str]]:
+    out = []
+    for i in range(0, len(NEWS_BRANDS), NEWS_BRAND_CHUNK):
+        names = " OR ".join(f'"{b}"' for b in NEWS_BRANDS[i:i + NEWS_BRAND_CHUNK])
+        out.append((f"({names}) (challenge OR contest OR competition) prize",
+                    "en-US", "US", "US:en"))
+    return out
 
 CHALLENGE_PAT = re.compile(
     r"challenge|contest|competition|hackathon|award|film-?fest|creative-?jam|/jam\b", re.I)
@@ -426,7 +449,7 @@ def news_candidates(days: int = 30, per_query: int = 12) -> list[dict]:
     import urllib.parse as up
 
     out: dict[str, dict] = {}
-    for q, hl, gl, ceid in NEWS_QUERIES:
+    for q, hl, gl, ceid in NEWS_QUERIES + brand_news_queries():
         url = (f"https://news.google.com/rss/search?q={up.quote(q)}+when:{days}d"
                f"&hl={hl}&gl={gl}&ceid={up.quote(ceid)}")
         xml = sources.get(url)
@@ -440,6 +463,9 @@ def news_candidates(days: int = 30, per_query: int = 12) -> list[dict]:
                 continue
             title = BeautifulSoup(t.group(1), "lxml").get_text().strip()
             if not re.search(r"challenge|contest|competition|award|공모|챌린지|대회", title, re.I):
+                continue
+            # 수상자 발표 기사는 이미 끝난 대회다
+            if re.search(r"wins?|winners?|수상|우승", title, re.I):
                 continue
             out[link.group(1).strip()] = {
                 "title": title, "url": link.group(1).strip(),
