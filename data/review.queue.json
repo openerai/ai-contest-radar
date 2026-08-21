@@ -6,7 +6,7 @@
   "\"status\": \"done\" 으로 표시하면 다음 실행 때 빠집니다.",
   "마감일이 지난 항목, 마감일을 못 뽑은 채 30일이 지난 항목은 자동으로 빠집니다."
  ],
- "updatedAt": "2026-08-21T09:17:57+00:00",
+ "updatedAt": "2026-08-21T21:28:58+00:00",
  "items": [
   {
    "discovered": "2026-08-18",
@@ -1527,9 +1527,431 @@
      "deadline"
     ]
    }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-better-wheelchairs",
+   "title": "Better Wheelchairs | PixAI Contest - 500,000 Credits | PixAI",
+   "deadline": "2026-09-05",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-better-wheelchairs",
+    "title": "Better Wheelchairs | PixAI Contest - 500,000 Credits | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-09-05",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 500000,
+    "prizeText": "플랫폼 크레딧 500,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Anyone else notice how difficult it is to make the AI draw proper wheelchairs? No matter how you describe the chair, it really wants to default to a clunky hospital chair that's absolutely not meant t",
+    "url": "https://pixai.art/en/contest/user-better-wheelchairs",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": []
+   }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-spider-man-on-the-magazine-cover",
+   "title": "Spider-Man on the Magazine Cover | PixAI Contest - 50,000 Credits | PixAI",
+   "deadline": "2026-09-05",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-spider-man-on-the-magazine-cover",
+    "title": "Spider-Man on the Magazine Cover | PixAI Contest - 50,000 Credits | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "이미지·아트",
+    "deadline": "2026-09-05",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 50000,
+    "prizeText": "플랫폼 크레딧 50,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "A poster based on the idea of “Spider-Man becoming the featured star of a magazine cover”, transforming the familiar superhero into the center of a stylish editorial feature. \n\nWith a cover-photo-insp",
+    "url": "https://pixai.art/en/contest/user-spider-man-on-the-magazine-cover",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": []
+   }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-villain-aesthetics",
+   "title": "The Aesthetics of Villainy | PixAI Contest - 1,950,000 Credits | PixAI",
+   "deadline": "2026-09-05",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-villain-aesthetics",
+    "title": "The Aesthetics of Villainy | PixAI Contest - 1,950,000 Credits | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-09-05",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 1950000,
+    "prizeText": "플랫폼 크레딧 1,950,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "A true villain is never anything less than composed.\n\nElegant, dangerous, wicked in a way you can't look away from. This time, make a \"villain\" your subject, and capture the aesthetics of villainy.\n\nA",
+    "url": "https://pixai.art/en/contest/user-villain-aesthetics",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": []
+   }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "CapCut",
+   "url": "https://www.capcut.com/create/TIFF-Challenge",
+   "title": "CapCut TIFF Creative Challenge",
+   "deadline": null,
+   "deadlineGuess": "2026-08-27",
+   "deadlineEvidence": "Strong storytelling 🔥 Cinematic quality & visual execution 📈 Social engagement 🗓 Deadline August 27 at 11:59 PM PST CapCut Edit sm",
+   "confidence": "medium",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "capcut-tiff-challenge",
+    "title": "CapCut TIFF Creative Challenge",
+    "org": "CapCut · Dreamina (ByteDance)",
+    "orgType": "플랫폼",
+    "orgTier": "major",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "CapCut is heading to the Toronto International Film Festival (TIFF) this September.",
+    "url": "https://www.capcut.com/create/TIFF-Challenge",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize",
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "Dreamina",
+   "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+   "title": "Dreamina AI Music Video Contest! Join the 2 Million Credit Prize Pool! Participate for the chance to earn credits! 515 p",
+   "deadline": null,
+   "deadlineGuess": "2026-08-25",
+   "deadlineEvidence": "4 days and 9 hours left to submit Dreamina AI Music Video Contest! Join the 2 Million Credit Prize Pool! Participate for the chance to earn credits! 515 people joined",
+   "confidence": "medium",
+   "cashUsd": 0,
+   "status": "new",
+   "via": "render",
+   "draft": {
+    "id": "dreamina-home",
+    "title": "Dreamina AI Music Video Contest! Join the 2 Million Credit Prize Pool! Participate for the chance to earn credits! 515 p",
+    "org": "Dreamina (CapCut · ByteDance)",
+    "orgType": "플랫폼",
+    "orgTier": "major",
+    "cat": "음악·MV",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "4 days and 9 hours left to submit Dreamina AI Music Video Contest! Join the 2 Million Credit Prize Pool! Participate for the chance to earn credits! 515 people joined",
+    "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize",
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "Dreamina",
+   "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+   "title": "Story Unboxed - Dreamina Seedance 2.5 3D Reference Creative Contest $50,000 + Millions of Credits 204 people joined",
+   "deadline": null,
+   "deadlineGuess": "2026-08-30",
+   "deadlineEvidence": "9 days and 18 hours left to submit Story Unboxed - Dreamina Seedance 2.5 3D Reference Creative Contest $50,000 + Millions of Credits 204 people joined",
+   "confidence": "medium",
+   "cashUsd": 50000,
+   "status": "new",
+   "via": "render",
+   "draft": {
+    "id": "dreamina-home",
+    "title": "Story Unboxed - Dreamina Seedance 2.5 3D Reference Creative Contest $50,000 + Millions of Credits 204 people joined",
+    "org": "Dreamina (CapCut · ByteDance)",
+    "orgType": "플랫폼",
+    "orgTier": "major",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 50000,
+    "credit": 0,
+    "prizeText": "현금 약 $50,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "9 days and 18 hours left to submit Story Unboxed - Dreamina Seedance 2.5 3D Reference Creative Contest $50,000 + Millions of Credits 204 people joined",
+    "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "Dreamina",
+   "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+   "title": "Graphis AI Creative Awards: 50% off for Dreamina Creators 14 people joined",
+   "deadline": null,
+   "deadlineGuess": "2026-10-27",
+   "deadlineEvidence": "67 days and 6 hours left to submit Graphis AI Creative Awards: 50% off for Dreamina Creators 14 people joined",
+   "confidence": "medium",
+   "cashUsd": 0,
+   "status": "new",
+   "via": "render",
+   "draft": {
+    "id": "dreamina-home",
+    "title": "Graphis AI Creative Awards: 50% off for Dreamina Creators 14 people joined",
+    "org": "Dreamina (CapCut · ByteDance)",
+    "orgType": "플랫폼",
+    "orgTier": "major",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "67 days and 6 hours left to submit Graphis AI Creative Awards: 50% off for Dreamina Creators 14 people joined",
+    "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize",
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "Dreamina",
+   "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+   "title": "Dreamina Creative Partner Program 2.0",
+   "deadline": null,
+   "deadlineGuess": "2026-11-29",
+   "deadlineEvidence": "100 days and 18 hours left to submit Dreamina Creative Partner Program 2.0",
+   "confidence": "medium",
+   "cashUsd": 0,
+   "status": "new",
+   "via": "render",
+   "draft": {
+    "id": "dreamina-home",
+    "title": "Dreamina Creative Partner Program 2.0",
+    "org": "Dreamina (CapCut · ByteDance)",
+    "orgType": "플랫폼",
+    "orgTier": "major",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "100 days and 18 hours left to submit Dreamina Creative Partner Program 2.0",
+    "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize",
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-08-21",
+   "brand": "NightCafe",
+   "url": "https://creator.nightcafe.studio/challenges",
+   "title": "Today's Challenge 🎯 Daily Challenge # 1408 Route 66 3,804 entries so far",
+   "deadline": null,
+   "deadlineGuess": null,
+   "deadlineEvidence": "Today's Challenge 🎯 Daily Challenge # 1408 Route 66 3,804 entries so far · Entries close in 02:31:40 Submit an entry for your chance to win Enter",
+   "confidence": "none",
+   "cashUsd": 0,
+   "status": "new",
+   "via": "render",
+   "draft": {
+    "id": "nightcafe-challenges",
+    "title": "Today's Challenge 🎯 Daily Challenge # 1408 Route 66 3,804 entries so far",
+    "org": "NightCafe Studio",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Today's Challenge 🎯 Daily Challenge # 1408 Route 66 3,804 entries so far · Entries close in 02:31:40 Submit an entry for your chance to win Enter",
+    "url": "https://creator.nightcafe.studio/challenges",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize",
+     "deadline"
+    ]
+   }
   }
  ],
  "news": [
+  {
+   "title": "Tyrannus Angel Awards: The AI Film Competition Searching for Stories That Move the Human Heart - Hollywood Life",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeHRRdkxQdXVFb1hVNTR5VzlEVVF1NklVYUJid0FpSFloMzJUQ2tzNEhHMkRZQi1VMk84YW9DenBXNGMxM3Exbm9iVzZ0N0lQSG1PeW43LUd2TkdGZi1FVkZZYzdqQnVtbkRfeFJrN0tMS3RoUWF4MEFDajBVR0xiWE4zejFWS016U25oYV9SSUdzcGtxcHZvaG9XalpiNVlUN3k4bmJSd1NhcTFtcnUxVWtyV2FDa2l3UHZBRTFnOXNodnBFRmZBTk5QY9IBywFBVV95cUxQeHRRdkxQdXVFb1hVNTR5VzlEVVF1NklVYUJid0FpSFloMzJUQ2tzNEhHMkRZQi1VMk84YW9DenBXNGMxM3Exbm9iVzZ0N0lQSG1PeW43LUd2TkdGZi1FVkZZYzdqQnVtbkRfeFJrN0tMS3RoUWF4MEFDajBVR0xiWE4zejFWS016U25oYV9SSUdzcGtxcHZvaG9XalpiNVlUN3k4bmJSd1NhcTFtcnUxVWtyV2FDa2l3UHZBRTFnOXNodnBFRmZBTk5QYw?oc=5",
+   "pub": "Thu, 20 Aug 2026",
+   "query": "\"AI film\" (contest OR competition) submissions prize",
+   "discovered": "2026-08-21"
+  },
+  {
+   "title": "[껌이지] AI와 숏폼으로 만나는 국가산림문화자산…국가산림문화자산 AI 숏폼영상 공모전 개최 - eduplusnews.com",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1nZHVtVnBzQlJTamhoYWNsRzZrMmhoU1phdU1uWlV3c0NuQXRKN1B5aG84ZUNNaDRSakxPenowUXZyclA0T0VERkxOSWRjNmJYTGFkOGZrYTRieEI3dUlVSHBjVXBEeEF1aHFwYVpR0gFyQVVfeXFMTWZib2RVUjhOQzhGSEhRQTB6dnBvQUZuOWhlWS0welhMdWExSVRiQVRjSXFsVmd5QTVQZXFHaGNmZW5oaHdsd01iS3dJaTVzaV9ycUh6cWV4OVEzOUZTQnNtSE96QVhFWmpVaTFBeHJuS0l3?oc=5",
+   "pub": "Thu, 20 Aug 2026",
+   "query": "AI 영상 챌린지 상금 공모",
+   "discovered": "2026-08-21"
+  },
+  {
+   "title": "CJ대한통운, 채용 연계형 물류기술 공모전 성료...시상식 개최 - 우먼타임스",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBST2hoMjFqX05PMmlRYkFURnpvX0ltWGtkS0RhT3VnSFZwNWJCQy1TLUlOdFkwMWJqSF9tU3B4QTFRcWt1UTNFTEduako2VldFeXdzdHZCdWtncW5HUG1wWVhLTkdyZDVVZzFtMUd0MEvSAXRBVV95cUxNWjhiUDgxNGlQdFBXLW0taGhEc3NPODN3QkF3OVBaajc5N1NQYk42YVV3aWV0Nk1KSnpFelRHaFRZelZkUFpVb1F2STVva2oxdDR6b3lRM0E4UjVDNUxfM2dMdWNWMkdKT3Y0UGdKWnJmVmFjYw?oc=5",
+   "pub": "Tue, 04 Aug 2026",
+   "query": "AI 영상 챌린지 상금 공모",
+   "discovered": "2026-08-21"
+  },
+  {
+   "title": "Runway's Big Ad Contest For Products that Don't Exist - Runway",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LcEJZcnNSWTFtZThFN01JbENxcEtHdGpCc0c2STJ1eHdoUmg4NjlLT29RaGlJRDlCVl9WY2NaWG50X0FPUkZCV0NMcTd3dnliWjdaWVVYN0wyWkpnYjN1NjlIdw?oc=5",
+   "pub": "Fri, 31 Jul 2026",
+   "query": "(\"Midjourney\" OR \"Leonardo AI\" OR \"Freepik\" OR \"Kling AI\" OR \"Hailuo\" OR \"MiniMax\") (challenge OR contest OR competition) prize",
+   "discovered": "2026-08-21"
+  },
+  {
+   "title": "Runway's Big Pitch Contest for Shows that Don't Exist Yet - Runway",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94QTZScmVkbFcyR2FqWF9CTEZEeGI5THhUTkVjRHhqeE9Qam51Xzh4R1I2b0RyRkQ4WFpyY3pQVk9TMGl0Y1BZdEZsVDhfZGxJbC1JUFNwcGhxT0wwV1Vkd0N4bw?oc=5",
+   "pub": "Thu, 06 Aug 2026",
+   "query": "(\"Vidu\" OR \"Luma AI\" OR \"Pika Labs\" OR \"Runway\" OR \"OpenArt\" OR \"NightCafe\") (challenge OR contest OR competition) prize",
+   "discovered": "2026-08-21"
+  },
+  {
+   "title": "Harry Reid airport unveils aviation photo contest winners - FOX5 Vegas",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVDNmNm0wNTZxZGZ2MzdHS1k1Sy1FVVZHa2tuQ25GTURaQV9xdmhySnNjLWNtUWVRaFFEdENHRmdtZ0N3aDZPdGFacE5MLW54TkxHTlBsZnhTUWhwcG5Qb3YtTFhjOEIySHEyWE9tZWwxLS1iazNteEdTRnVBT0x1aTJqNjM1dFJwUTZ5YzAtN3BoMnFJNlJXb0NMNNIBrwFBVV95cUxQTDJidlBqa1VzZS1qc1E5YThDR25wRm9sVFVoeml0WWptSktxX3g2ZFJVbjFpLU1oYUFST0o3MzJwemt6UTRXa0Fzc1lsOHVlSnhVUlJmZk9oSVRuRnd2TDF6ME0zOTBKbmVFa295UlRqXzktOU1UN0lXN2ZTazdQcGtXTGNfYlVENTBOZlhZSzRnNVc3Q0NRVXJBa0tYek9tUXFmV0N0OFNWdHprZVU4?oc=5",
+   "pub": "Thu, 20 Aug 2026",
+   "query": "(\"Vidu\" OR \"Luma AI\" OR \"Pika Labs\" OR \"Runway\" OR \"OpenArt\" OR \"NightCafe\") (challenge OR contest OR competition) prize",
+   "discovered": "2026-08-21"
+  },
+  {
+   "title": "X Launches $175K Grok Contest To Remake The Odyssey - Dataconomy",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YaDBoOG13NFF2V3dqZXZLVTRRUVJTLVpxUC1nMTVxR1pmeVVPdUZuU2VxdFBHZGZ2ZnRhaENTeElaNE1IMjdXeFpOSGlvd0Nmb3B1UmpmMk5nWUtmbkVJOThFNHVIb0ZPanZibjhadnk5blpMSVFpN1dTNA?oc=5",
+   "pub": "Wed, 19 Aug 2026",
+   "query": "(\"Tensor.Art\" OR \"Ideogram\" OR \"Recraft\" OR \"Adobe Firefly\" OR \"Canva\" OR \"Grok Imagine\") (challenge OR contest OR competition) prize",
+   "discovered": "2026-08-21"
+  },
   {
    "title": "KEIT, 2026 AI 라이프 챌린지 개최…국민 아이디어 공모 - 뉴시스",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80dDlYeWpYR2lKcjdGcVF3Vm12VF8tS0syWGJXcGJheVNULUp6QUlDd2pSMjhUM2hidENVMk43M1VHb3ZkQVgwTllFT3ZRUFVqMk80YXhqMkRFOFBad1ZIWNIBeEFVX3lxTE1RUzN3NWpnMmtmTmxPbGhFR184dERkQzRsNDZfSG1GakV3SDZsQ2JjdkdjWmNVamkxS09BbGNPNzZkM2NHTkgtR2ROYjRKZlJmaThNNW5wQUZ1MEFweFpPX3prLU1XZDBXeWJHd3Fnc2lVeVh4Tm5aOA?oc=5",
