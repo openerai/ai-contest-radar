@@ -42,6 +42,11 @@ jobs:
       - name: 의존성 설치
         run: pip install -r scripts/requirements.txt
 
+      # Dreamina·Kling·NightCafe·SeaArt 는 이벤트 목록이 JS 로만 그려져서
+      # 브라우저 없이는 0건이다. 크로미움만 받는다(약 130MB).
+      - name: 크로미움 설치
+        run: python -m playwright install --with-deps chromium
+
       - name: 챌린지 감시
         shell: bash
         run: |

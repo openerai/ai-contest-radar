@@ -97,6 +97,37 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-07-01 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "kling-4k",
+   "title": "Kling AI 4K Short Film Creative Contest",
+   "url": "https://app.klingai.com/global/activity-zone",
+   "source": "manual",
+   "retiredAt": "2026-08-19",
+   "reason": "ended",
+   "why": "Activity Zone 을 브라우저로 렌더해 확인한 결과 상태가 'Awarded'(수상 완료). 같은 화면에서 진행 중인 건은 Kreate Contest #57 뿐이었다.",
+   "cross": [],
+   "by": "렌더 확인"
+  },
+  {
+   "id": "vidu-civitai",
+   "title": "Vidu × Civitai Q1ntessential Video Contest",
+   "url": "https://www.vidu.com/activity/2776589160456791",
+   "source": "manual",
+   "retiredAt": "2026-08-21",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2025-06-11 (이미 과거)",
+   "cross": []
+  },
+  {
+   "id": "mel-jeju-ai-international-film-festival-2026",
+   "title": "Jeju AI International Film Festival 2026",
+   "url": "https://www.jjaiff.kr/eng",
+   "source": "melies",
+   "retiredAt": "2026-08-21",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-07-13 (이미 과거)",
+   "cross": []
   }
  ]
 }

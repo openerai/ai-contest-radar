@@ -6,6 +6,7 @@ AI 플랫폼 챌린지 감시 실행기.
   python scripts/watch_challenges.py --seed        # 첫 실행: 지금 있는 URL을 '봤음'으로만 기록
   python scripts/watch_challenges.py --dry-run     # 파일 안 쓰고 결과만 출력
   python scripts/watch_challenges.py --no-news     # 구글 뉴스 채널 끄기
+  python scripts/watch_challenges.py --no-render   # 브라우저 렌더 채널 끄기
 
 만드는 파일
   data/watch.state.json   한 번이라도 본 URL. 같은 걸 매주 다시 알리지 않기 위한 기억.
@@ -84,6 +85,8 @@ def main() -> int:
     ap.add_argument("--max-new", type=int, default=25,
                     help="한 번에 상세 페이지를 열어볼 최대 건수")
     ap.add_argument("--no-news", action="store_true", help="구글 뉴스 채널 끄기")
+    ap.add_argument("--no-render", action="store_true",
+                    help="브라우저 렌더 채널 끄기 (playwright 없이 돌릴 때)")
     args = ap.parse_args()
 
     print(f"AI 플랫폼 챌린지 감시 · 기준일 {TODAY}")
@@ -152,6 +155,37 @@ def main() -> int:
         # max-new 로 잘린 건은 아직 안 봤으므로 기억하지 않는다
         if args.seed or any(a["url"] == url for a in added):
             seen[url] = {"first": TODAY, "brand": site["brand"]}
+
+    # ── 2.5 브라우저로 열어야 보이는 이벤트 탭 ────────────────────────
+    #
+    # Dreamina·Kling·NightCafe·SeaArt 는 목록이 JS 로만 그려진다. 카드에
+    # 링크가 없어 URL 대신 '허브 URL # 제목' 을 기억 키로 쓴다.
+    if not args.no_render:
+        for site in watchlist.RENDER_HUBS:
+            cards = watchlist.render_cards(site)
+            new_cards = 0
+            for info in cards:
+                key = f"{site['url']}#{norm_title(info['title'])}"
+                if key in seen or norm_title(info["title"]) in known_titles:
+                    continue
+                seen[key] = {"first": TODAY, "brand": site["brand"], "via": "render"}
+                known_titles.add(norm_title(info["title"]))
+                new_cards += 1
+                added.append({
+                    "discovered": TODAY,
+                    "brand": site["brand"],
+                    "url": site["url"],
+                    "title": info["title"],
+                    "deadline": info["deadline"],
+                    "deadlineGuess": info["deadlineGuess"],
+                    "deadlineEvidence": info["deadlineEvidence"],
+                    "confidence": info["confidence"],
+                    "cashUsd": info["cashUsd"],
+                    "status": "new",
+                    "via": "render",
+                    "draft": watchlist.draft_record(site, info),
+                })
+            print(f" · {site['brand']:12} (렌더) 진행 중 {len(cards)}건 · 신규 {new_cards}건")
 
     # ── 3. 뉴스 채널 ──────────────────────────────────────────────────
     news_new: list[dict] = []

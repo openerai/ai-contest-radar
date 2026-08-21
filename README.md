@@ -90,7 +90,24 @@ python scripts/watch_challenges.py --seed     # 첫 실행: 지금 것들을 '�
 
 `high` 가 아닌 날짜는 `draft.deadline` 에 넣지 않고 `deadlineGuess` 로만 남깁니다. 틀린 D-day를 띄우는 것보다 비워 두는 편이 낫다고 봤습니다.
 
-감시 중인 곳은 **자동 20곳**(Higgsfield · Artlist · PixVerse · PixAI · Artbreeder · CapCut/Dreamina · Runway · Krea · Luma · Vidu · LTX · Moonvalley · Recraft · Suno · Udio · Stability · Synthesia · ElevenLabs · OpenAI · Civitai) + **수동 확인 13곳**입니다.
+감시 중인 곳은 **사이트맵·허브 20곳** + **브라우저 렌더 4곳**(Dreamina · Kling · NightCafe · SeaArt)(Higgsfield · Artlist · PixVerse · PixAI · Artbreeder · CapCut/Dreamina · Runway · Krea · Luma · Vidu · LTX · Moonvalley · Recraft · Suno · Udio · Stability · Synthesia · ElevenLabs · OpenAI · Civitai) + **수동 확인 13곳**입니다.
+
+### 앱 안 '이벤트' 탭 — 브라우저로 열어서 본다
+
+Dreamina·Kling·NightCafe·SeaArt는 이벤트 목록이 **JS로만** 그려집니다. `requests`로 받으면 본문 50~300자짜리 빈 껍데기가 오는데, 실제 화면에는 진행 중인 공모가 여러 건 떠 있습니다. 우리 수집기만 못 보고 있던 셈입니다.
+
+```bash
+pip install playwright && python -m playwright install chromium
+python scripts/render.py "https://dreamina.capcut.com/ai-tool/home?activeTab=activity" "Left To Submit"
+```
+
+[scripts/render.py](scripts/render.py)가 실제 브라우저로 페이지를 열어 렌더가 끝난 HTML을 돌려줍니다. 감시기는 그 화면에서 **진행 중 카드**만 긁습니다(`marker`로 구분 — Dreamina는 `left to submit`, Kling은 `before deadline`, NightCafe는 `Entries close in`). 끝난 항목(`Awarded`·`Reviewing`·`Rewarded`)은 자연히 걸러집니다.
+
+API를 직접 부르는 방법도 있지만(ByteDance 계열은 `mweb-api-sg.capcut.com/mweb/v1/get_weekly_challenge_list`) 서명 헤더가 붙어 있어 재현이 어렵고 조금만 바뀌어도 깨집니다. **화면에 보이는 것을 그대로 읽는 편이 단순하고 오래 갑니다.**
+
+카드에는 링크가 없고(모달로 열립니다) 남은 시간만 카운트다운으로 표시되므로, 이 채널의 결과는 **항상 사람 확인 큐로만** 갑니다. 카운트다운에서 계산한 날짜는 `deadlineGuess`에만 넣습니다.
+
+검수기도 같은 렌더러를 씁니다. 403으로 막히거나 앱 셸만 오는 페이지는 브라우저로 다시 열어 확인합니다 — 이 덕분에 **Vidu × Civitai Q1ntessential(마지막 일정 2025-06-11)**과 **제주 AI 국제영화제(2026-07-13)**가 종료로 확인돼 목록에서 빠졌습니다. playwright가 없으면 이 채널만 조용히 건너뜁니다.
 
 ### 브랜드 이름으로 뉴스 훑기
 

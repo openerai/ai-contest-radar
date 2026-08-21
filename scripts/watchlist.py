@@ -144,18 +144,60 @@ PLATFORMS = [
     },
 ]
 
+# ══════════════════════════════════════════════════════════════════════
+#  브라우저로 열어야 보이는 곳 (앱 안 '이벤트' 탭)
+#
+#  Dreamina·Kling·NightCafe·SeaArt 는 서버 HTML 이 빈 껍데기라 requests 로는
+#  0건이지만, 실제 화면에는 진행 중인 공모가 여러 건 떠 있다. scripts/render.py
+#  (playwright)로 렌더한 뒤 '카드'에 해당하는 요소를 텍스트로 긁는다.
+#
+#  링크가 없는 목록이 많아서(모달로 열린다) URL 대신 '제목 + 남은 기간'을
+#  후보로 삼는다. 그래서 이 채널은 항상 사람 확인 큐로만 간다.
+#
+#  marker : 진행 중인 카드에만 나타나는 문구. 이걸로 카드 요소를 찾는다.
+#           끝난 항목(Awarded·Reviewing·Rewarded)은 자연히 걸러진다.
+# ══════════════════════════════════════════════════════════════════════
+RENDER_HUBS = [
+    {
+        "brand": "Dreamina", "org": "Dreamina (CapCut · ByteDance)", "orgTier": "major",
+        "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+        "marker": r"left to submit",
+        "wait": "Left To Submit",
+    },
+    {
+        "brand": "Kling AI", "org": "Kling AI (快手)", "orgTier": "top",
+        "url": "https://app.klingai.com/global/activity-zone",
+        "marker": r"before deadline",
+        "wait": "Activity Zone",
+    },
+    {
+        "brand": "NightCafe", "org": "NightCafe Studio", "orgTier": "mid",
+        "url": "https://creator.nightcafe.studio/challenges",
+        "marker": r"Entries close in",
+        "wait": "Challenges",
+    },
+    {
+        "brand": "SeaArt", "org": "SeaArt AI", "orgTier": "major",
+        "url": "https://www.seaart.ai/event-center/activity",
+        "marker": r"Ongoing",
+        # 'Ongoing' 만 보면 '2026-08-21 Ongoing' 같은 날짜 칩이 잡힌다.
+        # 주제 이름까지 들어간 카드만 남기려고 최소 길이를 올린다.
+        "minLen": 30,
+        "wait": "Daily Challenge",
+    },
+]
+
 # 자동 감시가 불가능한 곳 — 리포트 맨 아래에 "직접 확인" 체크리스트로 출력한다.
 # scripts/probe_watch_targets.py 로 확인한 결과다. 사정이 바뀌면 위로 올린다.
 MANUAL_CHECK = [
-    ("Kling AI",   "https://app.klingai.com/global/activity-zone", "로그인 뒤 JS 렌더"),
-    ("SeaArt",     "https://www.seaart.ai/community/challenges", "허브가 앱 셸(본문 295자)"),
-    ("Hailuo",     "https://hailuoai.video/",        "앱 셸만 내려옴"),
-    ("OpenArt",    "https://openart.ai/",            "사이트맵 33건에 공모 경로 없음"),
+    ("Tensor.Art", "https://tensor.art/events",      "렌더해도 목록이 안 뜸(로그인 필요 추정)"),
+    ("Hailuo",     "https://hailuoai.video/",        "렌더해도 이벤트 목록 없음"),
+    ("Vidu",       "https://www.vidu.com/activity",  "렌더해도 이벤트 목록 없음"),
+    ("Wan",        "https://wan.video/activity",     "렌더 시 로드 실패"),
+    ("OpenArt",    "https://openart.ai/",            "공모 경로가 자주 바뀜(404)"),
     ("Midjourney", "https://www.midjourney.com/",    "봇 차단(403)"),
     ("Leonardo",   "https://leonardo.ai/news/",      "봇 차단(403)"),
     ("Freepik",    "https://www.freepik.com/blog",   "봇 차단(403)"),
-    ("Tensor.Art", "https://tensor.art/",            "봇 차단(403)"),
-    ("NightCafe",  "https://nightcafe.studio/",      "봇 차단(403)"),
     ("Pika",       "https://pika.art/",              "사이트맵 비어 있음"),
     ("Ideogram",   "https://ideogram.ai/",           "사이트맵 비어 있음"),
     ("Adobe Firefly", "https://firefly.adobe.com/",  "사이트맵에 공모 경로 없음"),
@@ -442,6 +484,84 @@ def discover(site: dict, days: int = 180) -> list[tuple[str, str]]:
             continue
         out[url.rstrip("/")] = lastmod
     return sorted(out.items())
+
+
+_COUNTDOWN = re.compile(
+    r"(\d{1,3})\s*days?(?:\s*and\s*(\d{1,2})\s*hours?)?\s*"
+    r"(?:left|before|remaining|to go)", re.I)
+
+
+def countdown_deadline(text: str, today: date | None = None) -> str | None:
+    """'18 days and 6 hours before deadline' → 마감 예정일."""
+    m = _COUNTDOWN.search(text or "")
+    if not m:
+        return None
+    days = int(m.group(1))
+    if days > 400:
+        return None
+    return ((today or date.today()) + timedelta(days=days)).isoformat()
+
+
+def render_cards(site: dict) -> list[dict]:
+    """브라우저로 연 이벤트 탭에서 진행 중인 카드를 긁는다.
+
+    링크가 없는 목록이 많아 URL 대신 제목으로 식별한다. 그래서 결과는
+    반드시 사람 확인 큐로만 보낸다 (자동 등록 없음).
+    """
+    import render                                        # 선택 의존성이라 여기서 import
+
+    html = render.render(site["url"], site.get("wait"))
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "lxml")
+    for junk in soup(["script", "style", "svg"]):
+        junk.decompose()
+
+    marker = re.compile(site["marker"], re.I)
+    found: list[str] = []
+    for el in soup.find_all(True):
+        # 카드 한 장 크기의 요소만 본다. 위로 올라갈수록 목록 전체가 잡힌다.
+        if len(el.find_all(True)) > 30:
+            continue
+        txt = re.sub(r"\s+", " ", el.get_text(" ")).strip()
+        if site.get("minLen", 12) < len(txt) < 400 and marker.search(txt):
+            found.append(txt)
+
+    # 같은 카드가 부모·자식 요소로 여러 번 잡힌다. 긴 것부터 담고,
+    # 이미 담은 텍스트에 포함되는 조각은 버린다.
+    seen: list[str] = []
+    for txt in sorted(set(found), key=len, reverse=True):
+        if not any(txt in k for k in seen):
+            seen.append(txt)
+
+    out = []
+    for txt in seen:
+        # 카드 텍스트는 '남은 기간 + 제목 + 상금' 순서가 뒤섞여 있다.
+        # 카운트다운 구절을 걷어낸 나머지의 첫 문장을 제목으로 본다.
+        body = marker.sub(" ", _COUNTDOWN.sub(" ", txt)).strip(" ·|-")
+        body = re.sub(r"^\s*(and|hours?|to submit|deadline)\b", "", body, flags=re.I).strip()
+        title = re.split(r"\s{2,}|·|\|", body)[0][:120].strip()
+        if len(title) < 6:
+            title = body[:120]
+        if len(title) < 6:                    # 제목을 못 건진 조각은 버린다
+            continue
+        out.append({
+            "brand": site["brand"],
+            "url": site["url"],
+            "title": title,
+            "summary": txt[:400],
+            "lastmod": "",
+            "deadline": None,                 # 카운트다운은 짐작이라 확정값으로 쓰지 않는다
+            "deadlineGuess": countdown_deadline(txt),
+            "deadlineEvidence": txt[:200],
+            "confidence": "medium" if countdown_deadline(txt) else "none",
+            "cashUsd": prize_cash(txt),
+            "credits": prize_credits(txt),
+            "looksLikeResult": False,
+            "cat": sources.classify_global_cat(title),
+            "hasEventLD": False,
+        })
+    return out
 
 
 def news_candidates(days: int = 30, per_query: int = 12) -> list[dict]:

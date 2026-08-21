@@ -128,7 +128,7 @@ def fetch_with_status(url: str) -> tuple[int | None, str | None]:
     return None, None
 
 
-def check_page(rec: dict) -> dict:
+def check_page(rec: dict, use_render: bool = True, is_hub: bool = False) -> dict:
     url = rec.get("url") or ""
     if not url.startswith("http"):
         return {"status": "unknown", "why": "URL 없음", "readable": False}
@@ -136,16 +136,27 @@ def check_page(rec: dict) -> dict:
     code, html = fetch_with_status(url)
     if code in (404, 410):
         return {"status": "dead", "why": f"페이지 없음 (HTTP {code})", "readable": False}
+
+    via_render = False
+    text = page_text(html) if html else ""
+
+    # requests 로 막히거나(403) 앱 셸만 온 경우 브라우저로 다시 열어 본다.
+    # NightCafe·Kling 처럼 이 단계에서야 내용이 보이는 곳이 많다.
+    if use_render and (html is None or len(text) < READABLE_MIN):
+        import render
+        rendered = render.render(url)
+        if rendered and len(page_text(rendered)) > max(len(text), READABLE_MIN):
+            html, text, via_render = rendered, page_text(rendered), True
+
     if html is None:
         why = (f"페이지를 못 읽음 (HTTP {code})" if code
                else "페이지 응답 없음 (연결 실패·타임아웃)")
         # 403·429·5xx 는 '사라진 것'이 아니라 '막힌 것'이다. 내리면 안 된다.
         return {"status": "blocked", "why": why, "readable": False, "httpStatus": code}
 
-    text = page_text(html)
     readable = len(text) >= READABLE_MIN
     out: dict = {"status": "live", "why": "", "readable": readable,
-                 "pageDeadline": None, "textLen": len(text)}
+                 "pageDeadline": None, "textLen": len(text), "viaRender": via_render}
 
     # JSON-LD Event. 정확할 때가 많지만 Higgsfield 처럼 끝난 회차의 날짜를
     # 그대로 두는 곳이 있어서, 과거 endDate 하나만으로 종료라고 하지 않는다.
@@ -188,6 +199,10 @@ def check_page(rec: dict) -> dict:
     future_signal = [d for d in dated if d >= TODAY] or cue_future
     ended_hit = ENDED_PAT.search(text)
 
+    # 허브 페이지는 다른 대회의 날짜가 섞여 있어 '마지막 날짜' 논리를 쓸 수 없다.
+    # 종료 문구가 직접 있을 때만 끝난 것으로 본다.
+    if is_hub and not ended_hit:
+        return out
     if not future_signal and (past_evidence or ld_past):
         why = (f"JSON-LD Event.endDate {ld_past} (과거)" if ld_past and not past_evidence
                else f"페이지의 마지막 날짜가 {max(dated).isoformat()} (이미 과거)")
@@ -208,7 +223,9 @@ def check_page(rec: dict) -> dict:
 
     # URL 이 사이트 루트(집계 사이트 첫 화면 등)면 그 페이지의 날짜는
     # 이 대회의 마감일이 아니다. 불일치 판정에서 뺀다.
-    is_root = urlparse(url).path.strip("/") == ""
+    # 사이트 루트나 여러 대회가 한 화면에 있는 허브(Dreamina 이벤트 탭 등)는
+    # 페이지에서 뽑은 날짜가 '이 대회의' 마감일이라는 보장이 없다.
+    is_root = urlparse(url).path.strip("/") == "" or is_hub
     stored = rec.get("deadline")
     if stored and out.get("pageDeadline") and out["pageDeadline"] != stored and not is_root:
         gap = abs((date.fromisoformat(out["pageDeadline"]) - date.fromisoformat(stored)).days)
@@ -299,13 +316,19 @@ def cross_news(title: str, days: int = 120) -> dict | None:
 # ══════════════════════════════════════════════════════════════════════
 #  검수
 # ══════════════════════════════════════════════════════════════════════
-def verify_all(records: list[dict], cross: bool, state: dict) -> list[dict]:
+def verify_all(records: list[dict], cross: bool, state: dict,
+               use_render: bool = True) -> list[dict]:
     melies = sources.fetch_melies_index() if cross else []
+    # 두 개 이상의 대회가 같은 URL 을 쓰면 그건 목록(허브) 페이지다.
+    counts: dict[str, int] = {}
+    for r in records:
+        counts[r.get("url", "")] = counts.get(r.get("url", ""), 0) + 1
+    hub_urls = {u for u, c in counts.items() if c > 1 and u}
     results = []
 
     for i, rec in enumerate(records, 1):
         rid = rec.get("id", "")
-        res = check_page(rec)
+        res = check_page(rec, use_render=use_render, is_hub=rec.get("url") in hub_urls)
         res.update({"id": rid, "title": rec.get("title", ""), "url": rec.get("url", ""),
                     "source": rec.get("source", "?"), "deadline": rec.get("deadline"),
                     "recur": rec.get("recur", "once"), "cross": []})
@@ -392,6 +415,8 @@ def main() -> int:
                     help="dead/ended 항목을 목록에서 내린다 (drift·unknown 은 건드리지 않음)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-cross", action="store_true", help="뉴스·대조표 우회 확인 생략")
+    ap.add_argument("--no-render", action="store_true",
+                    help="막히거나 JS 셸인 페이지를 브라우저로 다시 열지 않음 (빠름)")
     ap.add_argument("--limit", type=int, default=0, help="앞에서 N건만 검수 (시험용)")
     args = ap.parse_args()
 
@@ -405,7 +430,8 @@ def main() -> int:
                  if state_path.exists() else {"records": {}})
     state = state_doc.setdefault("records", {})
 
-    results = verify_all(records, cross=not args.no_cross, state=state)
+    results = verify_all(records, cross=not args.no_cross, state=state,
+                         use_render=not args.no_render)
 
     tally: dict[str, int] = {}
     for r in results:

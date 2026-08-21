@@ -417,8 +417,76 @@
   "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ITG9iVmVjaW5SaUJmNlNmQUNIemdZZUhXNnAxTTJhNU0wNE5aaF9GS0xRZHFWRWUtSThGWEd3cWpQdHhMNVRhY195b2tkZjR3SUln?oc=5": {
    "first": "2026-08-19",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/01d896f4d44ef63d09a664fa4785": {
+   "first": "2026-08-21",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/en/contest/user-back-to-school": {
+   "first": "2026-08-21",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-graffiti-my-world": {
+   "first": "2026-08-21",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-head-to-toe": {
+   "first": "2026-08-21",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-lets-drink-beer": {
+   "first": "2026-08-21",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-playing-the-melody-of-captivation": {
+   "first": "2026-08-21",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-spider-verse": {
+   "first": "2026-08-21",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-summer-memories": {
+   "first": "2026-08-21",
+   "brand": "PixAI"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#dreaminaaimusicvideocontestjointhe2millioncreditprizepoolparticipateforthechancetoearncredits413": {
+   "first": "2026-08-21",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#storyunboxeddreaminaseedance253dreferencecreativecontest50000millionsofcredits167peoplejoined": {
+   "first": "2026-08-21",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#graphisaicreativeawards50offfordreaminacreators12peoplejoined": {
+   "first": "2026-08-21",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#applyfordreaminacpp": {
+   "first": "2026-08-21",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://app.klingai.com/global/activity-zone#kreatecontest57dailyvlogchallengecaptureeverymomentoflifewithklingai": {
+   "first": "2026-08-21",
+   "brand": "Kling AI",
+   "via": "render"
+  },
+  "https://creator.nightcafe.studio/challenges#todayschallengedailychallenge1408route662260entriessofar": {
+   "first": "2026-08-21",
+   "brand": "NightCafe",
+   "via": "render"
+  },
+  "https://www.seaart.ai/event-center/activity#20260821": {
+   "first": "2026-08-21",
+   "brand": "SeaArt",
+   "via": "render"
   }
  },
- "updatedAt": "2026-08-19T02:13:56+00:00",
- "seenCount": 101
+ "updatedAt": "2026-08-21T09:17:57+00:00",
+ "seenCount": 116
 }

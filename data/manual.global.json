@@ -13,6 +13,48 @@
 
  "extra": [
   {
+   "id": "dreamina-story-unboxed", "title": "Dreamina Story Unboxed — Seedance 2.5 3D 레퍼런스 창작 공모",
+   "org": "Dreamina (CapCut · ByteDance)", "orgType": "플랫폼", "orgTier": "major", "cat": "AI 필름",
+   "deadline": "2026-08-31", "tz": "PDT", "recur": "once",
+   "cash": 80000, "credit": 0,
+   "prizeText": "1위 $50,000 + 크레딧 100만 · 2위 $20,000 · 3위 $10,000 · 4~10위 Advanced 멤버십 1개월 · SNS 좋아요상(틱톡·인스타·X 각 Top10) 크레딧 3만",
+   "who": "전 세계 창작자 누구나 (총 40명 수상)", "whoType": "전세계 누구나",
+   "fee": "free", "feeText": "무료 (구매·결제 불필요 명시)",
+   "entry": "Dreamina 이벤트 배너에서 제출", "career": "platform",
+   "bonus": ["수상작 커뮤니티 몽타주 수록", "공식 3D 레퍼런스 제공"],
+   "note": "공식이 제공하는 3D 화이트모델 레퍼런스로 Seedance 2.5 영상을 만드는 공모. 같은 골격 애니메이션을 각자 다르게 해석하는 것이 과제. 접수 8/4 09:00 ~ 8/31 08:59 PDT(한국시간 8/5 01:00 ~ 9/1 00:59), 심사 8/31~9/14, 발표 9월 중순. 대상 수상자는 SNS 좋아요상과 중복 수상 불가.",
+   "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+   "tags": ["초고액", "AI필름", "무료", "3D레퍼런스"], "verify": []
+  },
+  {
+   "id": "dreamina-mv-contest", "title": "Dreamina AI 뮤직비디오 공모 (크레딧 200만 풀)",
+   "org": "Dreamina (CapCut · ByteDance)", "orgType": "플랫폼", "orgTier": "major", "cat": "음악·MV",
+   "deadline": "2026-08-24", "tz": "현지", "recur": "once",
+   "cash": 0, "credit": 0,
+   "prizeText": "상위 3인 각 Dreamina 크레딧 350,000 (총 상금 풀 크레딧 200만)",
+   "who": "Dreamina 이용자 누구나", "whoType": "전세계 누구나",
+   "fee": "free", "feeText": "무료",
+   "entry": "Dreamina 이벤트 배너 제출 (+선택: #DreaminaAi #DreaminaAIMV 태그로 SNS 게시)", "career": "platform",
+   "bonus": ["공식 계정 소개"],
+   "note": "직접 만든(또는 협업한) 곡에 Seedance 2.0으로 뮤직비디오를 붙이는 공모. ⚠ 마감 표기가 엇갈립니다 — 이벤트 카드 카운트다운은 8/24 무렵, 상세 모달의 기간 표기는 8/26 15:59(한국시간)입니다. 안전하게 이른 쪽을 적어 뒀습니다.",
+   "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
+   "tags": ["뮤직비디오", "크레딧상금", "무료"], "verify": ["deadline"]
+  },
+  {
+   "id": "nightcafe-daily", "title": "NightCafe 데일리 챌린지 (매일)",
+   "org": "NightCafe Studio", "orgType": "플랫폼", "orgTier": "mid", "cat": "이미지·아트",
+   "deadline": null, "tz": "UTC", "recur": "daily",
+   "cash": 0, "credit": 0,
+   "prizeText": "매일 주제별 우승 + 크레딧 보상 (투표 참여 시 데일리 보너스 크레딧)",
+   "who": "NightCafe 이용자 누구나", "whoType": "전세계 누구나",
+   "fee": "free", "feeText": "무료",
+   "entry": "플랫폼 제출 + 커뮤니티 투표", "career": "platform",
+   "bonus": ["커뮤니티 투표로 수상", "진입장벽 가장 낮은 축"],
+   "note": "매일 새 주제가 열리고 24시간 안에 출품·투표가 끝난다. 2026-08-19 기준 1,408회차 진행 중이며 회차당 2,000~4,000점이 모인다. 상금은 크레딧이지만 매일 참여할 수 있어 연습·노출용으로 좋다.",
+   "url": "https://creator.nightcafe.studio/challenges",
+   "tags": ["매일반복", "진입장벽낮음", "이미지"], "verify": ["prize"]
+  },
+  {
    "id": "grok-odyssey", "title": "Grok Imagine 오디세이 영상 공모",
    "org": "xAI (Grok)", "orgType": "플랫폼", "orgTier": "top", "cat": "AI 필름",
    "deadline": null, "tz": "현지", "recur": "once",
@@ -143,7 +185,7 @@
    "who": "Kling 이용자 누구나", "whoType": "전세계 누구나",
    "fee": "free", "feeText": "무료", "entry": "플랫폼 제출",
    "career": "platform", "bonus": ["플랫폼 피처링"],
-   "note": "주 단위로 테마가 바뀌며 계속 열리는 소규모 챌린지. 상금은 작지만 회차가 잦아 누적 크레딧 확보에 유리. 진입장벽이 가장 낮은 축.",
+   "note": "주 단위로 테마가 바뀌며 계속 열리는 소규모 챌린지. 2026-08-19 기준 #57 Daily Vlog Challenge 진행 중(마감 약 3주 뒤). 상금은 크레딧이지만 회차가 잦아 누적에 유리하고 진입장벽이 가장 낮은 축. 회차 목록은 Activity Zone 에서 확인.",
    "url": "https://app.klingai.com/global/activity-zone",
    "tags": ["주간반복", "진입장벽낮음"], "verify": ["prize"]
   },
@@ -256,6 +298,8 @@
  ],
 
  "block": [
+  "vidu-civitai",
+  "mel-jeju-ai-international-film-festival-2026",
   "mel-aimagica-ai-film-festival-2026",
   "mel-busan-international-ai-film-festival-202",
   "mel-reply-ai-film-festival-2026",
@@ -264,6 +308,7 @@
   "afc-runway-ai-film-festival-2026",
   "afc-ai-film-fest-monaco-2026",
   "hf-apps",
-  "kling-motion3"
+  "kling-motion3",
+  "kling-4k"
  ]
 }
