@@ -1,24 +1,22 @@
 {
- "checkedAt": "2026-08-21T09:34:51+00:00",
+ "checkedAt": "2026-08-23T21:23:40+00:00",
  "scope": "global",
  "tally": {
-  "live": 26,
+  "unknown": 14,
+  "live": 22,
   "drift": 1,
-  "unknown": 12,
-  "ended": 2,
-  "blocked": 15
+  "blocked": 16,
+  "suspect": 1
  },
- "retired": 2,
+ "retired": 0,
  "results": [
   {
-   "status": "live",
-   "why": "",
-   "readable": true,
-   "pageDeadline": "2026-12-15",
-   "textLen": 2054,
-   "viaRender": true,
-   "evidence": "01: Icon Bank Rewarded Creative Design Challenge | Vol. 2 Rewarded Upgrade to Advanced by Dec 15 for one-year FREE generation with",
-   "confidence": "medium",
+   "status": "unknown",
+   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 9자)",
+   "readable": false,
+   "pageDeadline": null,
+   "textLen": 9,
+   "viaRender": false,
    "id": "dreamina-story-unboxed",
    "title": "Dreamina Story Unboxed — Seedance 2.5 3D 레퍼런스 창작 공모",
    "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
@@ -48,13 +46,12 @@
    "status": "live",
    "why": "",
    "readable": true,
-   "pageDeadline": "2027-08-10",
-   "textLen": 4795,
+   "pageDeadline": "2026-09-03",
+   "textLen": 7610,
    "viaRender": false,
-   "evidence": "eate in public 글로벌 필름 페스티벌 $1,000,000 상금 풀 영화 제작 기간 24일 페스티벌 프로젝트 만들기 프로그램 공개 8월 3일 접수 시작 8월 10일 접수 마감 9월 3일 수상작 10월 첫째 주 페스티벌 참가하",
+   "evidence": "Create festival project Program reveal Aug 3 Competition opens Aug 10 Competition closes Sep 3 Winners First week of Oct JOIN THE",
    "confidence": "medium",
    "ldPastIgnored": "2026-07-30",
-   "driftIgnored": "2027-08-10 (연도 추정값 · 341일 차이)",
    "id": "hf-gff",
    "title": "Higgsfield Global Film Festival",
    "url": "https://higgsfield.ai/contests/higgsfield-global-film-festival",
@@ -68,9 +65,9 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2026-08-23",
-   "textLen": 35109,
+   "textLen": 35378,
    "viaRender": false,
-   "evidence": "s AI Cinema Festival Cairo — Where the Cradle of Storytelling Meets Synthetic Cinema 2d · Aug 23 ⎮ Higgsfield Adathon 3d · Aug 24",
+   "evidence": "I Cinema Festival Cairo — Where the Cradle of Storytelling Meets Synthetic Cinema today · Aug 23 ⎮ Higgsfield Adathon 1d · Aug 24",
    "confidence": "medium",
    "id": "chroma-s2",
    "title": "Chroma Awards — Season 2",
@@ -149,9 +146,9 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2026-08-24",
-   "textLen": 15678,
+   "textLen": 28654,
    "viaRender": false,
-   "evidence": ", 인하우스 팀, 클라이언트·에이전시 연합 팀 만들 것 실제 브랜드를 위해 직접 세운 브리프에 따라 만든 30~60초 광고. AI 생성 비중 51% 이상 마감일 2026년 8월 24일 · 오후 11:59 ET 마감. 콘테스트는 7월",
+   "evidence": "60 second ad for a real brand, against your own brief. At least 51% AI-generated Deadline August 24, 2026 · 11:59 PM ET. Contest o",
    "confidence": "high",
    "id": "hf-adathon",
    "title": "Higgsfield Adathon (×ADWEEK)",
@@ -162,14 +159,12 @@
    "cross": []
   },
   {
-   "status": "live",
-   "why": "",
-   "readable": true,
-   "pageDeadline": "2026-12-15",
-   "textLen": 2054,
-   "viaRender": true,
-   "evidence": "01: Icon Bank Rewarded Creative Design Challenge | Vol. 2 Rewarded Upgrade to Advanced by Dec 15 for one-year FREE generation with",
-   "confidence": "medium",
+   "status": "unknown",
+   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 9자)",
+   "readable": false,
+   "pageDeadline": null,
+   "textLen": 9,
+   "viaRender": false,
    "id": "dreamina-mv-contest",
    "title": "Dreamina AI 뮤직비디오 공모 (크레딧 200만 풀)",
    "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
@@ -179,12 +174,10 @@
    "cross": []
   },
   {
-   "status": "unknown",
-   "why": "반복 대회 · 페이지의 마지막 날짜가 2026-08-20 (이미 과거)",
-   "readable": true,
-   "pageDeadline": null,
-   "textLen": 5828,
-   "viaRender": true,
+   "status": "blocked",
+   "why": "페이지를 못 읽음 (HTTP 403)",
+   "readable": false,
+   "httpStatus": 403,
    "id": "nightcafe-daily",
    "title": "NightCafe 데일리 챌린지 (매일)",
    "url": "https://creator.nightcafe.studio/challenges",
@@ -210,11 +203,11 @@
   },
   {
    "status": "unknown",
-   "why": "페이지에서 마감일을 못 찾음",
-   "readable": true,
+   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 81자)",
+   "readable": false,
    "pageDeadline": null,
-   "textLen": 2526,
-   "viaRender": true,
+   "textLen": 81,
+   "viaRender": false,
    "id": "kling-kreate",
    "title": "Kling Kreate Contest (주간 반복)",
    "url": "https://app.klingai.com/global/activity-zone",
@@ -224,14 +217,12 @@
    "cross": []
   },
   {
-   "status": "live",
-   "why": "",
-   "readable": true,
-   "pageDeadline": "2026-08-21",
-   "textLen": 5463,
-   "viaRender": true,
-   "evidence": "2026-08-20 Avid reader 2026-08-20 The Boss Opens Its Eyes 2026-08-21 Ongoing Robot friend 2026-08-21 Ongoing Seaside Tides 2026-08",
-   "confidence": "high",
+   "status": "unknown",
+   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 177자)",
+   "readable": false,
+   "pageDeadline": null,
+   "textLen": 177,
+   "viaRender": false,
    "id": "seaart-daily",
    "title": "SeaArt AI Daily Challenge (매일 반복)",
    "url": "https://www.seaart.ai/event-center/activity",
@@ -242,11 +233,11 @@
   },
   {
    "status": "unknown",
-   "why": "페이지에서 마감일을 못 찾음",
-   "readable": true,
+   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 323자)",
+   "readable": false,
    "pageDeadline": null,
-   "textLen": 1271,
-   "viaRender": true,
+   "textLen": 323,
+   "viaRender": false,
    "id": "civitai-daily",
    "title": "Civitai Daily / Community Challenges",
    "url": "https://civitai.com/challenges",
@@ -256,41 +247,33 @@
    "cross": []
   },
   {
-   "status": "ended",
-   "why": "페이지의 마지막 날짜가 2025-06-11 (이미 과거)",
-   "readable": true,
-   "pageDeadline": null,
-   "textLen": 3443,
-   "viaRender": true,
-   "id": "vidu-civitai",
-   "title": "Vidu × Civitai Q1ntessential Video Contest",
-   "url": "https://www.vidu.com/activity/2776589160456791",
-   "source": "manual",
-   "deadline": null,
-   "recur": "once",
-   "cross": []
-  },
-  {
-   "status": "live",
-   "why": "",
-   "readable": true,
-   "pageDeadline": null,
-   "textLen": 7476,
-   "viaRender": false,
+   "status": "blocked",
+   "why": "페이지를 못 읽음 (HTTP 403)",
+   "readable": false,
+   "httpStatus": 403,
    "id": "afc-aigc-future-global-challenge-2026",
    "title": "AIGC for Future Global Challenge 2026",
    "url": "https://opportunitydesk.org/2026/05/22/aigc-for-future-global-challenge-2026/",
    "source": "aifilmcontests",
    "deadline": "2026-08-31",
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "google-news",
+     "verdict": "seen",
+     "headline": "AIGC for Future Global Challenge 2026 ($10,000 total prize) - Opportunity Desk",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQczg3YWk0NGlBQnVVVUJzaVd6S2tPbkM3VmZzMC1pZ01wYm13dkVObkVFMnFoX3hJbWl1TXNzdDhhakx1dkc1bjI0REo4VFU2ckpWb1pFZjc1aEJqWlNPMlk3UDR4UFdSN3lKRDRUbFc3WG01eUx1RzNNNDh1bkZSVWQ1NA?oc=5",
+     "pub": "Fri, 22 May 2026",
+     "count": 1
+    }
+   ]
   },
   {
    "status": "live",
    "why": "",
    "readable": true,
    "pageDeadline": "2027-04-20",
-   "textLen": 3844,
+   "textLen": 3883,
    "viaRender": false,
    "evidence": "tana AI Film Festival Opens Global Call for Submissions By Nagima Abuova in Culture on 25 April 2026 ROME — Kazakhstan will host i",
    "confidence": "medium",
@@ -408,7 +391,7 @@
    "why": "",
    "readable": true,
    "pageDeadline": null,
-   "textLen": 2580,
+   "textLen": 2515,
    "viaRender": false,
    "id": "afc-svaiff-awards-2026",
    "title": "Silicon Valley AI Film Festival (SVAIFF) Awards 2026 — Dolby Theatre",
@@ -440,7 +423,7 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2026-08-31",
-   "textLen": 21423,
+   "textLen": 21737,
    "viaRender": false,
    "evidence": "ion Membership Contact Search Log In The 2026 submission period is open and will close on August 31, 2026 | Early Birds Submit Fre",
    "confidence": "high",
@@ -453,10 +436,14 @@
    "cross": []
   },
   {
-   "status": "blocked",
-   "why": "페이지 응답 없음 (연결 실패·타임아웃)",
-   "readable": false,
-   "httpStatus": null,
+   "status": "suspect",
+   "why": "페이지의 마지막 날짜가 2025-11-27 (이미 과거) · 그런데 우리 데이터 마감일은 2026-08-31",
+   "readable": true,
+   "pageDeadline": "2026-11-20",
+   "textLen": 5203,
+   "viaRender": false,
+   "evidence": "TION PARTNERS Festival Screenings Day Date Start Time End Time Screening Venue Day 6 26th November 2025 02:30 PM 05:00 PM ARTIFICI",
+   "confidence": "medium",
    "id": "afc-iffi-goa-ai-film-festival-2026",
    "title": "IFFI Goa AI Film Festival 2026",
    "url": "https://iffigoa.org/ai-film-festival",
@@ -489,7 +476,16 @@
    "source": "aifilmcontests",
    "deadline": "2026-09-15",
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "google-news",
+     "verdict": "seen",
+     "headline": "Nigeria AI Film Festival opens 2026 call for entries - The Lagos Review",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRV8tMlkxSUxLZTlCMmloUlNYS19ZVzFRbVhDeUFxR254eWp3eWluWFd1MFdKejlLcjBqU3Yyd0JXTTA5N2hBMXp2TXMyeDg1WUkteEYwRER2a2xteVRhUExRaXA0QTlRdU5lN1pKZDZ4SS1HYWxoYTE2clZpeS1RMFdhT283dw?oc=5",
+     "pub": "Sun, 07 Jun 2026",
+     "count": 2
+    }
+   ]
   },
   {
    "status": "live",
@@ -536,7 +532,16 @@
    "source": "aifilmcontests",
    "deadline": "2026-09-30",
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "AI ZONE International AI Film Festival 2026",
+     "similarity": 1.0,
+     "end": "2026-12-31",
+     "verdict": "live",
+     "url": "https://filmfreeway.com/AIZONEInternationalAIFilmFestival2026"
+    }
+   ]
   },
   {
    "status": "live",
@@ -581,7 +586,16 @@
    "source": "aifilmcontests",
    "deadline": "2026-10-15",
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "AI Film & Ads Awards Bali 2026",
+     "similarity": 1.0,
+     "end": "2026-11-07",
+     "verdict": "live",
+     "url": "https://www.filmawards.ai/"
+    }
+   ]
   },
   {
    "status": "blocked",
@@ -644,7 +658,7 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2026-09-20",
-   "textLen": 27233,
+   "textLen": 27244,
    "viaRender": false,
    "evidence": "y Kate Bush SIR RICHARD BRANSON As Himself in: \"A Cure For The Common Classroom\" Winner - September 2021 YOKO ONO As Herself in: \"",
    "confidence": "medium",
@@ -667,14 +681,23 @@
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "Bali International AI Film Festival (BIAIFF) 2026",
+     "similarity": 1.0,
+     "end": "2026-12-31",
+     "verdict": "live",
+     "url": "https://filmfreeway.com/BaliAiFilmFestival"
+    }
+   ]
   },
   {
    "status": "live",
    "why": "",
    "readable": true,
    "pageDeadline": "2026-09-06",
-   "textLen": 9319,
+   "textLen": 9262,
    "viaRender": false,
    "evidence": "ust 5, 2026 선정 발표 (Notification Date) 2026. 08. 20 / August 20, 2026 페스티벌 개최 (Event Date) 2026.09.06 / September 6, 2026 주요 일정 KEY",
    "confidence": "high",
@@ -691,7 +714,7 @@
    "why": "페이지에서 마감일을 못 찾음",
    "readable": true,
    "pageDeadline": null,
-   "textLen": 2923,
+   "textLen": 2927,
    "viaRender": false,
    "id": "mel-artificial-intelligence-media-festival-a",
    "title": "Artificial Intelligence Media Festival (AIMF) 2026",
@@ -699,22 +722,16 @@
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": []
-  },
-  {
-   "status": "ended",
-   "why": "페이지의 마지막 날짜가 2026-07-13 (이미 과거)",
-   "readable": true,
-   "pageDeadline": null,
-   "textLen": 1785,
-   "viaRender": true,
-   "id": "mel-jeju-ai-international-film-festival-2026",
-   "title": "Jeju AI International Film Festival 2026",
-   "url": "https://www.jjaiff.kr/eng",
-   "source": "melies",
-   "deadline": null,
-   "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "Artificial Intelligence Media Festival (AIMF) 2026",
+     "similarity": 1.0,
+     "end": "2026-09-13",
+     "verdict": "live",
+     "url": "https://aimf.digital/"
+    }
+   ]
   },
   {
    "status": "unknown",
@@ -729,7 +746,16 @@
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "Bochnia International AI Film Festival 2026",
+     "similarity": 1.0,
+     "end": "2026-09-17",
+     "verdict": "live",
+     "url": "https://www.biaiff.pl/"
+    }
+   ]
   },
   {
    "status": "unknown",
@@ -744,7 +770,16 @@
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "Rome AI Film Festival 2026",
+     "similarity": 1.0,
+     "end": "2026-09-19",
+     "verdict": "live",
+     "url": "https://raif.it.com/"
+    }
+   ]
   },
   {
    "status": "blocked",
@@ -757,7 +792,16 @@
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "Red Rocks AI Film Festival 2026",
+     "similarity": 1.0,
+     "end": "2026-09-24",
+     "verdict": "live",
+     "url": "https://filmfreeway.com/RedRocksAIFilmFestival"
+    }
+   ]
   },
   {
    "status": "live",
@@ -781,7 +825,7 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2026-10-03",
-   "textLen": 10042,
+   "textLen": 10503,
    "viaRender": false,
    "evidence": "send one short reminder a week — with a quick prep checklist — until submissions close on 31 August 2026 . No spam, one-click unsu",
    "confidence": "high",
@@ -807,7 +851,16 @@
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "Illuminate Film Festival 2026",
+     "similarity": 1.0,
+     "end": "2026-10-02",
+     "verdict": "live",
+     "url": "https://illuminatefilmfestival.com/"
+    }
+   ]
   },
   {
    "status": "blocked",
@@ -820,7 +873,16 @@
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "Austin AI Film Festival 2026",
+     "similarity": 1.0,
+     "end": "2026-10-17",
+     "verdict": "live",
+     "url": "https://filmfreeway.com/AustinAIFilmFestival"
+    }
+   ]
   },
   {
    "status": "unknown",
@@ -835,7 +897,16 @@
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": []
+   "cross": [
+    {
+     "source": "melies.co",
+     "match": "FESTIAV 2026",
+     "similarity": 1.0,
+     "end": "2026-10-30",
+     "verdict": "live",
+     "url": "https://festiav.com/en/home/"
+    }
+   ]
   },
   {
    "status": "live",
