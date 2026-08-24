@@ -123,6 +123,11 @@ def main() -> int:
                     info["cashUsd"] or info["confidence"] in ("high", "medium")):
                 seen[url] = {"first": TODAY, "brand": site["brand"], "skipped": "noisy"}
                 continue
+            # 페이지가 스스로 '접수 마감'이라고 말하면 큐에 올리지 않는다
+            if info.get("closed"):
+                seen[url] = {"first": TODAY, "brand": site["brand"],
+                             "skipped": f"마감 문구: {info.get('closedEvidence', '')}"}
+                continue
             # 제목을 못 뽑았거나(JS 렌더 상세) 수상 소식이면 큐에 올리지 않는다
             if not info["title"] or info.get("looksLikeResult"):
                 seen[url] = {"first": TODAY, "brand": site["brand"],
@@ -165,7 +170,9 @@ def main() -> int:
             cards = watchlist.render_cards(site)
             new_cards = 0
             for info in cards:
-                key = f"{site['url']}#{norm_title(info['title'])}"
+                # 매일 회차가 도는 곳은 허브 단위로 한 번만 기억한다
+                key = (site["url"] if site.get("representOnce")
+                       else f"{site['url']}#{norm_title(info['title'])}")
                 if key in seen or norm_title(info["title"]) in known_titles:
                     continue
                 seen[key] = {"first": TODAY, "brand": site["brand"], "via": "render"}

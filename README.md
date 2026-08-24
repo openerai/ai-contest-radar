@@ -90,6 +90,8 @@ python scripts/watch_challenges.py --seed     # 첫 실행: 지금 것들을 '�
 
 `high` 가 아닌 날짜는 `draft.deadline` 에 넣지 않고 `deadlineGuess` 로만 남깁니다. 틀린 D-day를 띄우는 것보다 비워 두는 편이 낫다고 봤습니다.
 
+**이미 끝난 공고는 큐에 올리지 않습니다.** 페이지가 스스로 "submissions are now closed"라고 말하거나, 연도가 적힌 날짜가 전부 과거면 거릅니다. 확인해 보니 큐에 있던 `Artlist Studio Challenge`(5월 마감), `OpenAI to Z Challenge`(2025년), `CapCut Brand Design Challenge`(3월 종료)가 전부 이 경우였습니다. 단 미래 일정이나 마감 단서가 함께 있으면 판단을 보류합니다 — Artlist Seedance·PixVerse PixLight의 규정문에도 "winners are announced"라는 표현이 들어 있어서, 그것만으로 거르면 진행 중인 대회가 사라집니다.
+
 감시 중인 곳은 **사이트맵·허브 20곳** + **브라우저 렌더 4곳**(Dreamina · Kling · NightCafe · SeaArt)(Higgsfield · Artlist · PixVerse · PixAI · Artbreeder · CapCut/Dreamina · Runway · Krea · Luma · Vidu · LTX · Moonvalley · Recraft · Suno · Udio · Stability · Synthesia · ElevenLabs · OpenAI · Civitai) + **수동 확인 13곳**입니다.
 
 ### 앱 안 '이벤트' 탭 — 브라우저로 열어서 본다
@@ -106,6 +108,10 @@ python scripts/render.py "https://dreamina.capcut.com/ai-tool/home?activeTab=act
 API를 직접 부르는 방법도 있지만(ByteDance 계열은 `mweb-api-sg.capcut.com/mweb/v1/get_weekly_challenge_list`) 서명 헤더가 붙어 있어 재현이 어렵고 조금만 바뀌어도 깨집니다. **화면에 보이는 것을 그대로 읽는 편이 단순하고 오래 갑니다.**
 
 카드에는 링크가 없고(모달로 열립니다) 남은 시간만 카운트다운으로 표시되므로, 이 채널의 결과는 **항상 사람 확인 큐로만** 갑니다. 카운트다운에서 계산한 날짜는 `deadlineGuess`에만 넣습니다.
+
+카드 텍스트에서 **참가자 수는 지워 두고** 제목을 만듭니다. `167 people joined` → `413 people joined`처럼 볼 때마다 바뀌는 값이 제목에 남으면 같은 대회가 매 실행마다 '새 항목'으로 잡힙니다. NightCafe·SeaArt처럼 **매일 회차가 도는 곳**은 허브 단위로 한 번만 기억합니다(회차는 목록의 '매일 반복' 항목이 대신합니다).
+
+렌더로도 안 되는 곳이 있습니다 — Freepik·Magnific은 보안 필터, FilmFreeway는 봇 검증, Tensor.Art는 로그인, Midjourney·Leonardo·Ideogram·Recraft·Pika·Vidu·Hailuo는 렌더해도 공모 항목이 없습니다. Canva는 주간 회차제인데 지금은 회차 사이입니다. 전부 `MANUAL_CHECK`에 사유와 함께 적어 뒀고 실행할 때마다 체크리스트로 나옵니다.
 
 검수기도 같은 렌더러를 씁니다. 403으로 막히거나 앱 셸만 오는 페이지는 브라우저로 다시 열어 확인합니다 — 이 덕분에 **Vidu × Civitai Q1ntessential(마지막 일정 2025-06-11)**과 **제주 AI 국제영화제(2026-07-13)**가 종료로 확인돼 목록에서 빠졌습니다. playwright가 없으면 이 채널만 조용히 건너뜁니다.
 

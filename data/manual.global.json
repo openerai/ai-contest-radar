@@ -13,6 +13,34 @@
 
  "extra": [
   {
+   "id": "capcut-tiff", "title": "CapCut TIFF 크리에이티브 챌린지 (원테이크)",
+   "org": "CapCut (ByteDance)", "orgType": "플랫폼", "orgTier": "major", "cat": "AI 필름",
+   "deadline": "2026-08-27", "tz": "PST", "recur": "once",
+   "cash": 0, "credit": 0,
+   "prizeText": "대상 1명 — 토론토국제영화제(TIFF) 초청 (항공·숙박 전액 + TIFF 행사 입장 + CapCut 프라이빗 상영회)",
+   "who": "전 세계 창작자 (수상자는 캐나다 입국이 가능해야 함)", "whoType": "전세계 누구나",
+   "fee": "free", "feeText": "무료",
+   "entry": "SNS 게시(#CapCutAI #CapCutCPP) + 제출 폼에 CapCut 프로젝트 링크", "career": "festival",
+   "bonus": ["TIFF 현장 네트워킹", "브랜드·업계 관계자 소개"],
+   "note": "CapCut Video Studio 의 Seedance 2.5 로 20초 이상 '원테이크' 영상을 만드는 과제. 한 컷으로 이야기를 끌고 가는 것이 핵심. 심사 기준은 창의성·서사·시네마틱 완성도·소셜 반응. 제작 과정 스크린샷/녹화를 보관해 두라고 안내한다(검증 요청 대비). 마감 8/27 23:59 PST.",
+   "url": "https://www.capcut.com/create/TIFF-Challenge",
+   "tags": ["AI필름", "무료", "해외초청", "원테이크"], "verify": []
+  },
+  {
+   "id": "aifilmfest-monthly", "title": "AI International Film Festival (매월 개최)",
+   "org": "AI Film Fest (501c3 비영리)", "orgType": "영화제", "orgTier": "mid", "cat": "AI 필름",
+   "deadline": null, "tz": "PT", "recur": "monthly",
+   "cash": 0, "credit": 0,
+   "prizeText": "월별 시상 + 할리우드 상영 · 수상작 온라인 스트리밍 (현금 상금 명시 없음)",
+   "who": "전 세계 영화·뮤직비디오 창작자", "whoType": "전세계 누구나",
+   "fee": "paid", "feeText": "FilmFreeway 출품 (참가비 확인 필요)",
+   "entry": "FilmFreeway 제출", "career": "festival",
+   "bonus": ["할리우드 현장 상영·시상식", "해외 매체 노출(PBS 소개)", "온라인 스트리밍"],
+   "note": "매달 열리는 AI 전용 영화제. 회차당 약 250편이 접수되고 상위작을 할리우드에서 상영한다. 2026-08 회차는 8/21 마감이었고, 다음 회차 마감은 홈페이지 상단에 표기된다. 참가비·상금은 FilmFreeway 페이지에서 확인 필요(봇 차단으로 자동 확인 불가).",
+   "url": "https://www.aifilmfest.org/",
+   "tags": ["매월반복", "AI필름", "오프라인상영"], "verify": ["prize", "deadline"]
+  },
+  {
    "id": "dreamina-story-unboxed", "title": "Dreamina Story Unboxed — Seedance 2.5 3D 레퍼런스 창작 공모",
    "org": "Dreamina (CapCut · ByteDance)", "orgType": "플랫폼", "orgTier": "major", "cat": "AI 필름",
    "deadline": "2026-08-31", "tz": "PDT", "recur": "once",

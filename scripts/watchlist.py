@@ -175,6 +175,10 @@ RENDER_HUBS = [
         "url": "https://creator.nightcafe.studio/challenges",
         "marker": r"Entries close in",
         "wait": "Challenges",
+        # 매일 회차가 바뀌는 곳이다. 회차마다 큐에 올리면 매일 같은 종류의
+        # 항목이 쌓인다. 대표 한 건만 올리고 나머지는 목록의 '매일 반복'
+        # 항목(nightcafe-daily)이 대신한다.
+        "representOnce": True,
     },
     {
         "brand": "SeaArt", "org": "SeaArt AI", "orgTier": "major",
@@ -184,6 +188,7 @@ RENDER_HUBS = [
         # 주제 이름까지 들어간 카드만 남기려고 최소 길이를 올린다.
         "minLen": 30,
         "wait": "Daily Challenge",
+        "representOnce": True,          # 매일 주제가 바뀐다 (seaart-daily 가 대표)
     },
 ]
 
@@ -195,9 +200,10 @@ MANUAL_CHECK = [
     ("Vidu",       "https://www.vidu.com/activity",  "렌더해도 이벤트 목록 없음"),
     ("Wan",        "https://wan.video/activity",     "렌더 시 로드 실패"),
     ("OpenArt",    "https://openart.ai/",            "공모 경로가 자주 바뀜(404)"),
-    ("Midjourney", "https://www.midjourney.com/",    "봇 차단(403)"),
-    ("Leonardo",   "https://leonardo.ai/news/",      "봇 차단(403)"),
-    ("Freepik",    "https://www.freepik.com/blog",   "봇 차단(403)"),
+    ("Canva",      "https://www.canva.com/design-challenge/", "주간 회차제 · 현재 회차 없음(다음 회차 예정)"),
+    ("Midjourney", "https://www.midjourney.com/",    "봇 차단(403) · 렌더해도 공모 없음"),
+    ("Leonardo",   "https://leonardo.ai/news/",      "렌더는 되지만 공모 항목 없음"),
+    ("Freepik",    "https://www.freepik.com/blog",   "봇 차단 · 렌더도 보안 필터에 걸림"),
     ("Pika",       "https://pika.art/",              "사이트맵 비어 있음"),
     ("Ideogram",   "https://ideogram.ai/",           "사이트맵 비어 있음"),
     ("Adobe Firefly", "https://firefly.adobe.com/",  "사이트맵에 공모 경로 없음"),
@@ -266,6 +272,18 @@ CUE = re.compile(
 LANG_PREFIX = re.compile(
     r"^/(?:ar|bg|cs|da|de|el|es|fa|fi|fil|fr|he|hi|hr|hu|id|it|ja|ko|ms|nb|nl|no|pl|pt|"
     r"ro|ru|sk|sv|ta|th|tr|uk|vi|zh)(?:-[a-z]{2})?/", re.I)
+
+# 이미 끝난 공고를 알아보는 문구. verify_contests 도 이 값을 가져다 쓴다.
+# (큐에 올리기 전에 한 번 거르면 사람이 볼 목록이 확 줄어든다. 실제로
+#  Artlist Studio Challenge·CapCut Brand Design Challenge·OpenAI to Z 가
+#  전부 '접수 마감' 문구를 달고 있는데도 큐에 올라와 있었다.)
+ENDED_PAT = re.compile(
+    r"winners? (?:have been |were |are )?announced|winners? announcement|"
+    r"(?:contest|challenge|competition|festival|event|submissions?) (?:has |have )?"
+    r"(?:now )?(?:ended|closed|concluded)|entries? (?:are )?closed|"
+    r"submissions? are now closed|no longer accepting|"
+    r"thanks? (?:to )?everyone who (?:entered|participated)|"
+    r"종료(?:되었|됐|합니다)|마감되었|접수가 종료", re.I)
 
 # 상금 추출용 — 금액 근처에 이런 말이 있으면 상금으로 본다
 PRIZE_CUE = re.compile(r"prize|pool|award|winner|win\b|cash|grand|상금", re.I)
@@ -538,7 +556,12 @@ def render_cards(site: dict) -> list[dict]:
     for txt in seen:
         # 카드 텍스트는 '남은 기간 + 제목 + 상금' 순서가 뒤섞여 있다.
         # 카운트다운 구절을 걷어낸 나머지의 첫 문장을 제목으로 본다.
-        body = marker.sub(" ", _COUNTDOWN.sub(" ", txt)).strip(" ·|-")
+        # 참가자 수·투표 수는 볼 때마다 바뀐다. 제목에 남겨 두면 같은 대회가
+        # 매 실행마다 '새 항목'으로 잡힌다(167 people joined → 413 people joined).
+        txt_clean = re.sub(
+            r"[\d,]+\s*(?:people joined|entries(?: so far)?|votes?(?: so far)?|"
+            r"참여|명 참여)", " ", txt, flags=re.I)
+        body = marker.sub(" ", _COUNTDOWN.sub(" ", txt_clean)).strip(" ·|-")
         body = re.sub(r"^\s*(and|hours?|to submit|deadline)\b", "", body, flags=re.I).strip()
         title = re.split(r"\s{2,}|·|\|", body)[0][:120].strip()
         if len(title) < 6:
@@ -641,6 +664,18 @@ def enrich(site: dict, url: str, lastmod: str = "") -> dict | None:
 
     cash = prize_cash(f"{title} {desc} {text}")
     credits = prize_credits(f"{title} {desc}")
+
+    # 공고 페이지가 스스로 '끝났다'고 말하고 있으면 큐에 올리지 않는다.
+    # 단 미래 일정이 함께 적혀 있으면(다음 회차 예고 등) 판단을 보류한다.
+    today = date.today()
+    ended_hit = ENDED_PAT.search(text[:12000])
+    dated = [d for _, d, y in date_candidates(text, today) if y]
+    future_dates = [d for d in dated if d >= today]
+    # 연도가 적힌 날짜가 전부 과거면 지난 회차 공고다. 'OpenAI to Z Challenge'
+    # 페이지는 끝났다는 말 없이 2025-05·2025-06 날짜만 남아 있었다.
+    all_past = bool(dated) and max(dated) < today
+    cue_future = conf in ("high", "medium") and (deadline or guess or "") >= today.isoformat()
+    closed = not future_dates and not cue_future and (bool(ended_hit) or all_past)
     return {
         "brand": site["brand"],
         "url": url,
@@ -655,6 +690,8 @@ def enrich(site: dict, url: str, lastmod: str = "") -> dict | None:
         "credits": credits,
         # URL 은 공모처럼 생겼는데 실제로는 수상 소식인 글이 있다
         # ('…Win PixVerse Special Prize…'). 제목으로 한 번 더 거른다.
+        "closed": closed,
+        "closedEvidence": (ended_hit.group(0)[:60] if ended_hit else ""),
         "looksLikeResult": bool(re.search(
             r"wins?|winners?|수상|우승", f"{title}", re.I)),
         "cat": sources.classify_global_cat(f"{title} {desc}"),

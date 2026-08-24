@@ -62,12 +62,8 @@ SCOPES = {
 # 페이지가 이 정도도 안 되면 JS 셸로 본다 (본문이 안 내려온 것)
 READABLE_MIN = 400
 
-ENDED_PAT = re.compile(
-    r"winners? (?:have been |were |are )?announced|winners? announcement|"
-    r"(?:contest|challenge|competition|festival|event|submissions?) (?:has |have )?"
-    r"(?:now )?(?:ended|closed|concluded)|entries? (?:are )?closed|"
-    r"no longer accepting|thanks? (?:to )?everyone who (?:entered|participated)|"
-    r"종료(?:되었|됐|합니다)|마감되었|접수가 종료", re.I)
+# 감시기와 같은 패턴을 쓴다 (watchlist 쪽이 원본)
+ENDED_PAT = watchlist.ENDED_PAT
 
 # 마감일을 못 넣은 단발성 항목이 이 기간을 넘기면 '오래된 것'으로 본다
 STALE_DAYS = 45
