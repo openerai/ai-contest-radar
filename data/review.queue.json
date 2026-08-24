@@ -18,7 +18,7 @@
    "deadlineEvidence": "k Related Posts Product Updates & Company News The World Cup brief that anyone can win 16 Jun 2026 2 min read Product Updates & Co",
    "confidence": "low",
    "cashUsd": 250000,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "artlist-artlist-studio-challenge",
     "title": "Artlist Studio Challenge — Call to Directors",
@@ -47,7 +47,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "공식 페이지 '접수 마감' 명시 (2026-05-25 종료)"
   },
   {
    "discovered": "2026-08-18",
@@ -59,7 +60,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "elevenlabs-hackathons-nyc-london",
     "title": "ElevenLabs — Consumer AI hackathons in NYC and London",
@@ -89,7 +90,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "지난 오프라인 행사 후기"
   },
   {
    "discovered": "2026-08-18",
@@ -101,7 +103,7 @@
    "deadlineEvidence": "son's Generator Build-a-thon We sponsored the Generator Build-a-thon at Babson College on April 11, run by The Generator, Babson's",
    "confidence": "low",
    "cashUsd": 8000,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "elevenlabs-how-hackathon-teams-are-using-elevenl",
     "title": "How hackathon teams are using ElevenLabs to make care more accessible",
@@ -130,7 +132,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "사례 소개 글"
   },
   {
    "discovered": "2026-08-18",
@@ -142,7 +145,7 @@
    "deadlineEvidence": "partners: Exa, Notion, Lovable, Bolt.new, n8n, and NFX. Event Snapshot When : Wednesday, July 2, 3pm - 5pm UTC Duration : 2 hours",
    "confidence": "low",
    "cashUsd": 20000,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "elevenlabs-online-conversational-agent-hackathon",
     "title": "ElevenLabs — Online Conversational Agent Hackathon",
@@ -171,7 +174,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "2026-07-02 종료"
   },
   {
    "discovered": "2026-08-18",
@@ -183,7 +187,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "openai-hackathon-support",
     "title": "Support for Community-Led Hackathons",
@@ -213,7 +217,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "대회가 아니라 해커톤 지원 신청 폼"
   },
   {
    "discovered": "2026-08-18",
@@ -225,7 +230,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 250000,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "openai-openai-to-z-challenge",
     "title": "OpenAI to Z Challenge",
@@ -254,7 +259,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "2025-05·06 진행 후 종료"
   },
   {
    "discovered": "2026-08-18",
@@ -266,7 +272,7 @@
    "deadlineEvidence": ", 2026 at 12:00 PM UTC Submission Deadline: June 26, 2026 at 11:59 PM UTC Judging Period: June 27-28, 2026 Winners Announced: June",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "civitai-semi-real-anima-contest-buzz-up-for-grab",
     "title": "Semi-Real Anima Contest (buzz up for grabs) | Civitai",
@@ -296,7 +302,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "원문 404 (삭제됨)"
   },
   {
    "discovered": "2026-08-18",
@@ -308,7 +315,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 270,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "civitai-daily-challenge-problems",
     "title": "Daily Challenge Problems 🤖 | Civitai",
@@ -337,7 +344,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "커뮤니티 잡담 글"
   },
   {
    "discovered": "2026-08-18",
@@ -349,7 +357,7 @@
    "deadlineEvidence": "l, transforming video into an infinite, continuous, and interactive stream. Following its July 2026 Series C extension, PixVerse i",
    "confidence": "low",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixverse-pixverse-special-prize-un-ai-for-good-f",
     "title": "Sudanese and Egyptian Filmmakers Win PixVerse Special Prize at UN AI for Good Film Festival | PixVerse",
@@ -379,7 +387,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "수상 소식 기사"
   },
   {
    "discovered": "2026-08-18",
@@ -391,7 +400,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "artbreeder-29ee1e20663e8c813d50d849e165",
     "title": "Artbreeder 챌린지",
@@ -421,7 +430,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "상세가 JS 렌더라 제목을 못 뽑은 빈 후보"
   },
   {
    "discovered": "2026-08-18",
@@ -433,7 +443,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "artbreeder-39294ead16d32fde2926edc77395",
     "title": "Artbreeder 챌린지",
@@ -463,7 +473,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "상세가 JS 렌더라 제목을 못 뽑은 빈 후보"
   },
   {
    "discovered": "2026-08-18",
@@ -475,7 +486,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "artbreeder-726451591b1f49e4efbf474978c5",
     "title": "Artbreeder 챌린지",
@@ -505,7 +516,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "상세가 JS 렌더라 제목을 못 뽑은 빈 후보"
   },
   {
    "discovered": "2026-08-18",
@@ -517,7 +529,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "artbreeder-838e2da3d53065e2d925d6bd9fc4",
     "title": "Artbreeder 챌린지",
@@ -547,7 +559,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "상세가 JS 렌더라 제목을 못 뽑은 빈 후보"
   },
   {
    "discovered": "2026-08-18",
@@ -559,7 +572,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-magical-boys-and-girls-in-trainning",
     "title": "Magical Girl in Training (Magical Boys Welcome Too) | PixAI Contest - 500,000 Credits | PixAI",
@@ -586,7 +599,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-18",
@@ -598,7 +612,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-oni-transformation",
     "title": "Oni Transformation Contest | PixAI Contest - 200,000 Credits | PixAI",
@@ -625,7 +639,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-18",
@@ -637,7 +652,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-pixai-and-kato",
     "title": "PixAI × KATO Official Collaboration Contest - KATO Can Look Like This?! | PixAI Contest - 1,000,000 Credits | PixAI",
@@ -664,7 +679,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-18",
@@ -676,7 +692,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-the-monster-within",
     "title": "Draw the Monster Hidden Within | PixAI Contest - 285,000 Credits | PixAI",
@@ -703,7 +719,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-18",
@@ -715,7 +732,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "capcut-sxsw-challenge",
     "title": "CapCutxSXSW",
@@ -745,7 +762,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "SXSW 연계 지난 캠페인"
   },
   {
    "discovered": "2026-08-18",
@@ -757,7 +775,7 @@
    "deadlineEvidence": "mplete the official form will be considered valid for the competition. Submission Period: March 9 – March 29 (23:59 UTC) Submissio",
    "confidence": "medium",
    "cashUsd": 2000,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "capcut-branddesignchallenge",
     "title": "CapCut Brand Design Challenge",
@@ -786,7 +804,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "3/9~3/29 진행 후 수상자 발표 완료"
   },
   {
    "discovered": "2026-08-18",
@@ -798,7 +817,7 @@
    "deadlineEvidence": "now Try now Try now Try now Try now Try now Try now Mark Your Calendar Submissions Open: March 30 – April 30, 2026 Winners Announ",
    "confidence": "low",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "capcut-capcut-ai-design-eu-challenge",
     "title": "AI Visual EU Challenge",
@@ -828,7 +847,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "2026-04~05 종료"
   },
   {
    "discovered": "2026-08-18",
@@ -840,7 +860,7 @@
    "deadlineEvidence": "gram Story and Highlights Winners will be announced and notified during the third week of February 2025. Official Contest Terms La",
    "confidence": "low",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "udio-25-valentines-challenge-rules",
     "title": "Valentine's Song Challenge 2025 Rules",
@@ -870,7 +890,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "2025년 회차"
   },
   {
    "discovered": "2026-08-18",
@@ -882,7 +903,7 @@
    "deadlineEvidence": "",
    "confidence": "none",
    "cashUsd": 26800000,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "synthesia-awards-2025",
     "title": "Synthesia Awards 2025",
@@ -911,7 +932,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "2025년 회차"
   },
   {
    "discovered": "2026-08-18",
@@ -923,7 +945,7 @@
    "deadlineEvidence": "chine; three finalists will be recognized at the Clio Creative Summit in New York City on October 20. PALO ALTO, Calif., September",
    "confidence": "low",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "luma-clio-awards",
     "title": "Clio Awards | Luma",
@@ -953,7 +975,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "광고제 파트너십 소식 — 공모 아님"
   },
   {
    "discovered": "2026-08-21",
@@ -965,7 +988,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-back-to-school",
     "title": "Back To School Art Competition | PixAI Contest - 200,000 Credits | PixAI",
@@ -992,7 +1015,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-21",
@@ -1004,7 +1028,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-graffiti-my-world",
     "title": "Graffiti My World | Beyond the Graffiti Wall | PixAI Contest - 500,000 Credits | PixAI",
@@ -1031,7 +1055,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-21",
@@ -1043,7 +1068,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-head-to-toe",
     "title": "Show Your Full Style / Head to Toe | PixAI Contest - 4,300,000 Credits | PixAI",
@@ -1070,7 +1095,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-21",
@@ -1082,7 +1108,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-lets-drink-beer",
     "title": "Let's Have a Beer! | PixAI Contest - 200,000 Credits | PixAI",
@@ -1109,7 +1135,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-21",
@@ -1121,7 +1148,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-playing-the-melody-of-captivation",
     "title": "I Want to Be Captivated | PixAI Contest - 50,000 Credits | PixAI",
@@ -1148,7 +1175,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-21",
@@ -1160,7 +1188,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-spider-verse",
     "title": "Spider-Verse | PixAI Contest - 50,000 Credits | PixAI",
@@ -1187,7 +1215,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-21",
@@ -1199,7 +1228,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "draft": {
     "id": "pixai-user-summer-memories",
     "title": "Summer Memories | PixAI Contest - 300,000 Credits | PixAI",
@@ -1226,7 +1255,8 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "statusNote": "pixai-official(상시) 한 건으로 대표"
   },
   {
    "discovered": "2026-08-21",
@@ -1238,7 +1268,7 @@
    "deadlineEvidence": "4 days and 21 hours left to submit 🎵 Dreamina AI Music Video Contest! Join the 2 Million Credit Prize Pool! Participate for the chance to earn credits! 413 people joined",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -1269,7 +1299,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "목록에 dreamina-mv-contest 로 등록됨"
   },
   {
    "discovered": "2026-08-21",
@@ -1281,7 +1312,7 @@
    "deadlineEvidence": "10 days and 6 hours left to submit Story Unboxed - Dreamina Seedance 2.5 3D Reference Creative Contest $50,000 + Millions of Credits 167 people joined",
    "confidence": "medium",
    "cashUsd": 50000,
-   "status": "new",
+   "status": "done",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -1311,7 +1342,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "목록에 dreamina-story-unboxed 로 등록됨"
   },
   {
    "discovered": "2026-08-21",
@@ -1323,7 +1355,7 @@
    "deadlineEvidence": "67 days and 18 hours left to submit Graphis AI Creative Awards: 50% off for Dreamina Creators 12 people joined",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -1354,7 +1386,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "참가비 할인 안내 — 주최는 Graphis"
   },
   {
    "discovered": "2026-08-21",
@@ -1366,7 +1399,7 @@
    "deadlineEvidence": "132 days and 6 hours left to submit Apply for Dreamina CPP",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -1397,7 +1430,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "크리에이터 파트너 프로그램 지원 — 공모 아님"
   },
   {
    "discovered": "2026-08-21",
@@ -1409,7 +1443,7 @@
    "deadlineEvidence": "Kreate Contest #57: Daily Vlog Challenge Capture every moment of life with Kling AI! 18 days and 6 hours before deadline Credits 1733",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "via": "render",
    "draft": {
     "id": "kling-ai-activity-zone",
@@ -1440,7 +1474,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "목록에 kling-kreate(주간 반복) 로 등록됨"
   },
   {
    "discovered": "2026-08-21",
@@ -1452,7 +1487,7 @@
    "deadlineEvidence": "Today's Challenge 🎯 Daily Challenge # 1408 Route 66 2,260 entries so far · Entries close in 14:42:34 Submit an entry for your chance to win Enter",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "via": "render",
    "draft": {
     "id": "nightcafe-challenges",
@@ -1483,7 +1518,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "목록에 nightcafe-daily 로 등록됨 (매일 회차 대표)"
   },
   {
    "discovered": "2026-08-21",
@@ -1495,7 +1531,7 @@
    "deadlineEvidence": "2026-08-21 Ongoing Mysterious organization",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "seaart-activity",
@@ -1526,7 +1562,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "SeaArt 날짜 칩 조각 (seaart-daily 가 대표)"
   },
   {
    "discovered": "2026-08-24",
@@ -1701,7 +1738,7 @@
    "deadlineEvidence": "4 days and 9 hours left to submit Dreamina AI Music Video Contest! Join the 2 Million Credit Prize Pool! Participate for the chance to earn credits! 515 people joined",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -1732,7 +1769,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "목록에 dreamina-mv-contest 로 등록됨"
   },
   {
    "discovered": "2026-08-21",
@@ -1744,7 +1782,7 @@
    "deadlineEvidence": "9 days and 18 hours left to submit Story Unboxed - Dreamina Seedance 2.5 3D Reference Creative Contest $50,000 + Millions of Credits 204 people joined",
    "confidence": "medium",
    "cashUsd": 50000,
-   "status": "new",
+   "status": "done",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -1774,7 +1812,8 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "statusNote": "목록에 dreamina-story-unboxed 로 등록됨"
   },
   {
    "discovered": "2026-08-24",
@@ -1830,7 +1869,7 @@
    "deadlineEvidence": "100 days and 18 hours left to submit Dreamina Creative Partner Program 2.0",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -1861,7 +1900,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "크리에이터 파트너 프로그램 — 공모 아님"
   },
   {
    "discovered": "2026-08-21",
@@ -1873,7 +1913,7 @@
    "deadlineEvidence": "Today's Challenge 🎯 Daily Challenge # 1408 Route 66 3,804 entries so far · Entries close in 02:31:40 Submit an entry for your chance to win Enter",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "done",
    "via": "render",
    "draft": {
     "id": "nightcafe-challenges",
@@ -1904,7 +1944,8 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "statusNote": "목록에 nightcafe-daily 로 등록됨 (매일 회차 대표)"
   },
   {
    "discovered": "2026-08-24",

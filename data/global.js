@@ -2,7 +2,7 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.GLOBAL_DATA = {
- "generatedAt": "2026-08-24T03:28:37+00:00",
+ "generatedAt": "2026-08-24T03:39:52+00:00",
  "_meta": {
   "autoCount": 50,
   "finalCount": 56,
@@ -49,7 +49,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "pixverse-pixlight",
@@ -85,7 +85,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "hf-gff",
@@ -119,7 +119,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "chroma-s2",
@@ -153,7 +153,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "artlist-seedance-25",
@@ -188,7 +188,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "pixverse-cpp",
@@ -223,7 +223,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "grok-odyssey",
@@ -260,7 +260,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "runway-fund",
@@ -296,7 +296,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "capcut-tiff",
@@ -330,7 +330,8 @@ window.GLOBAL_DATA = {
     "원테이크"
    ],
    "verify": [],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "hf-adathon",
@@ -363,7 +364,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "dreamina-mv-contest",
@@ -398,7 +399,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "nightcafe-daily",
@@ -434,7 +435,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "pixai-official",
@@ -471,7 +472,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "kling-kreate",
@@ -505,7 +506,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "seaart-daily",
@@ -540,7 +541,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "civitai-daily",
@@ -575,7 +576,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "aifilmfest-monthly",
@@ -612,7 +613,8 @@ window.GLOBAL_DATA = {
     "prize",
     "deadline"
    ],
-   "source": "manual"
+   "source": "manual",
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-aigc-future-global-challenge-2026",
@@ -639,7 +641,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-astana-aiff-2026",
@@ -666,7 +668,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-new-technologies-ai-film-festival-2026",
@@ -693,7 +695,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-slamdance-dig-ai-2027",
@@ -720,7 +722,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-hkbu-future-film-fest-3f-2026",
@@ -747,7 +749,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-berlin-ai-film-festival-2026",
@@ -774,7 +776,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-cannes-film-awards-ai-2027",
@@ -801,7 +803,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "dp-30721",
@@ -823,7 +825,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 27 - Sep 09, 2026 · 참가 등록 7984명 · 주제 Databases, Machine Learning/AI, Open Ended",
+   "note": "접수 기간 Jul 27 - Sep 09, 2026 · 참가 등록 7985명 · 주제 Databases, Machine Learning/AI, Open Ended",
    "url": "https://agentic-cinema.devpost.com/",
    "tags": [
     "해커톤",
@@ -831,7 +833,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "devpost",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-ai-motion-milan-2026",
@@ -860,7 +862,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-svaiff-awards-2026",
@@ -889,7 +891,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-ai-media-award-zurich-2026",
@@ -918,7 +920,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-sparknify-human-vs-ai-2026",
@@ -947,7 +949,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-iffi-goa-ai-film-festival-2026",
@@ -976,7 +978,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-ai-for-the-future-unga-2026",
@@ -1005,7 +1007,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-naija-ai-film-festival-2026",
@@ -1034,7 +1036,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-waiff-la-usa-2026",
@@ -1063,7 +1065,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-we-are-human-festival-call-for-films-2026",
@@ -1092,7 +1094,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-ai-zone-intl-2026",
@@ -1126,7 +1128,7 @@ window.GLOBAL_DATA = {
    "alsoFrom": [
     "melies"
    ],
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-call-for-films-ai-2026",
@@ -1155,7 +1157,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-golden-dunes-dubai-2026",
@@ -1184,7 +1186,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-ai-film-awards-bali-2026",
@@ -1218,7 +1220,7 @@ window.GLOBAL_DATA = {
    "alsoFrom": [
     "melies"
    ],
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-ai-london-film-festival-2026",
@@ -1247,7 +1249,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-neocinema-ai-film-festival-2026",
@@ -1276,7 +1278,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-expo-ai-film-festival-dubai-2027",
@@ -1305,7 +1307,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-lundinstudio-ai-film-festival-2027",
@@ -1334,7 +1336,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "afc-world-film-festival-cannes-rtf-2027",
@@ -1363,7 +1365,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-bali-international-ai-film-festival-biai",
@@ -1395,7 +1397,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-k-culture-ai-international-film-festival",
@@ -1427,7 +1429,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-artificial-intelligence-media-festival-a",
@@ -1459,7 +1461,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-bochnia-international-ai-film-festival-2",
@@ -1491,7 +1493,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-rome-ai-film-festival-2026",
@@ -1523,7 +1525,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-red-rocks-ai-film-festival-2026",
@@ -1555,7 +1557,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-ai-film-3-ai-film-and-art-festival-arizo",
@@ -1587,7 +1589,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-astana-ai-film-festival-aaiff-2026",
@@ -1619,7 +1621,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-illuminate-film-festival-2026",
@@ -1651,7 +1653,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-austin-ai-film-festival-2026",
@@ -1683,7 +1685,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-festiav-2026",
@@ -1715,7 +1717,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-ai-film-festival-japan-2026",
@@ -1747,7 +1749,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   },
   {
    "id": "mel-african-ai-film-festival-2026",
@@ -1779,7 +1781,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-21"
+   "checkedAt": "2026-08-24"
   }
  ]
 };
