@@ -655,8 +655,91 @@
   "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV2J1VTNpNnpGTDlRRnYwd1dGbUR2NXlVaUR2MTJlMi1YZ04xM1BNR0VVdThfdlQzLXp5d1FXN0VqMEdVUkRhVWZTbFFZOEEwUEM3RHNxSm9tbG1LTldBTE9iTU1JaTBMMFBodWlLQXo1R2s3d2x5Slk0b056M0JDaUJaYXVmZUoxc2g0?oc=5": {
    "first": "2026-08-24",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/9f37a1ed0f358cb1d11c3aba8967": {
+   "first": "2026-08-25",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/en/contest/user-dark-allure": {
+   "first": "2026-08-25",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-fluffy-kemomimi": {
+   "first": "2026-08-25",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-hatsune-miku-live": {
+   "first": "2026-08-25",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-stick-out-your-tongue": {
+   "first": "2026-08-25",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-summer-fireworks-festival-with-marin": {
+   "first": "2026-08-25",
+   "brand": "PixAI"
+  },
+  "https://openai.com/webmcp-challenge": {
+   "first": "2026-08-25",
+   "brand": "OpenAI"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#9hours": {
+   "first": "2026-08-25",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#storyunboxeddreaminaseedance253dreferencecreativecontest50000millionsofcredits": {
+   "first": "2026-08-25",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#graphisaicreativeawards50offfordreaminacreators": {
+   "first": "2026-08-25",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#applyfordreaminacppnewcreditbenefits": {
+   "first": "2026-08-25",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://creator.nightcafe.studio/challenges": {
+   "first": "2026-08-25",
+   "brand": "NightCafe",
+   "via": "render"
+  },
+  "https://www.seaart.ai/event-center/activity": {
+   "first": "2026-08-25",
+   "brand": "SeaArt",
+   "via": "render"
+  },
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTVdLY3pUcTUyYV8zT3JZTkxvcWR6R0hQUnZQdTdwSXBsNzdqVTRESnRWVEQxNzRjMEJMdlNITEw5N3VLam9obGxlMTY0Mmd2TFY5THZsSktKZ0dMdkFzLU1QRUpqVXVBdDJaRmRrQklWTFRfRUtXQXQ2NjZtN0MxY3RJNkxYX3dIeGZ6WVdrUFNoRGdueGlVcHdR?oc=5": {
+   "first": "2026-08-25",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uN2YyeDUteEhxTEk4TW5qV24wRFNxTTZzcUNiYUE5NTgwY2JRRllNRzE0MGN4ejl0MkNQQy1iMy15UnBkdU5iYTdURTJaUkFZUVdqNmJDN0pFdTlOTzBDTFpqR0U?oc=5": {
+   "first": "2026-08-25",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Eemg0clA2cEJJS1FJb2dmR0lWNlZCa25DeFFpTkRGa25FMzVFZXVtTC1LUjN2QkJ4SEZtSmJPb0NYd3QxczhXQkN6V1RHMktMOVhPbE5nSkEzYmo4R0RuQzdYNVc?oc=5": {
+   "first": "2026-08-25",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12c0pPNXlDcEtXeEZkOWV2dTkxanE5U01ROXhVaHJ0RzhPRUFRNnRBNXoxUzkzZHFmSHYzUlJ6RGFadFB4YzYtZzNENGRENk1IeEHSAVdBVV95cUxOWXAzcjROODBWR2RnWDJJLTlDX1dZRkxEaFE4V1FqdkgzekFpSkZPdGNhcVFqdzdJMTdOSlRsNG1sQm5NWEQzbXhvU2s3eGhZMmJRUW1hQnM?oc=5": {
+   "first": "2026-08-25",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZ042MkoxU3BZZjFXMktscGJpaU5fSEpXLTNOQXVyODU2MnJhZjFQUE5JS0lsWExuTVNYbkZQd2ZucWhUMWVzUER2NEVxOWpmdUxPYU1iV2VVaG9fblFyNDN2cWV2RW5PdG1DMzNtbWd6bkttdE5xdGhXNzRTd3hqV0ZxSWdXTnd4ZGdDRmJhMmdYSVFmNXY4dkdwZlFlNFdNWWE1YUFUN2VhT3dtN2Jrd1V5dnU1ejJlMXR2QnFrcFhCeUk5SUQ0YkN6aU5HQU5ENUd3VVV1U0ZfRHhQODZhOHdzaGlsYTJVYkUyb091UFEzUXdsdWp2X2l4akVuV2V4WF92TU45VGlMeTVfcnVycw?oc=5": {
+   "first": "2026-08-25",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxOekw1VFhrYUN5RXhaNXg3MGNEcUdldDhwd1J4UVdOblpBWm1Ld2lUY0NnazhFMDhoWlBCWDE0TVhjWkptak00ZmFud284UnRqTENuSGxrNm1oNW03ZXkzV3p5ckYtbWdzT095eDJiLUlvN1EzRnJ1SnhfNzJIcENGdVA5NTN1S2lqWkxRLXhtMUoxZzExM1NPcFZiRldLa1k?oc=5": {
+   "first": "2026-08-25",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-08-24T03:22:56+00:00",
- "seenCount": 155
+ "updatedAt": "2026-08-25T21:32:42+00:00",
+ "seenCount": 174
 }
