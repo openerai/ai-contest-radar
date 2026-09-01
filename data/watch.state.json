@@ -799,8 +799,100 @@
   "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOUt3TXdpb0RfSTY4a0VsOTAtb3ZfUjQwUW1ITmMtZWdOYkt2TlVlQm9IM0N5bmpDTFlTMlBuUGVsVlJfaDltU1JwLUZRdUd0cC04WVlaeUhpRV8yWXJBbFhJZGd6RThlRUlKU3lSQ3VydU5CZVctczJDbXpSYUpaOEF2eVlyZG9vUE0wS3ZsRVNsYWNBajRvdDR5Tzc5NWxTWVJLStIBpAFBVV95cUxPOUt3TXdpb0RfSTY4a0VsOTAtb3ZfUjQwUW1ITmMtZWdOYkt2TlVlQm9IM0N5bmpDTFlTMlBuUGVsVlJfaDltU1JwLUZRdUd0cC04WVlaeUhpRV8yWXJBbFhJZGd6RThlRUlKU3lSQ3VydU5CZVctczJDbXpSYUpaOEF2eVlyZG9vUE0wS3ZsRVNsYWNBajRvdDR5Tzc5NWxTWVJLSg?oc=5": {
    "first": "2026-08-29",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/249de486c6fa468e04fb3debbf40": {
+   "first": "2026-09-01",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/e5033e677b37556a246d89ca861f": {
+   "first": "2026-09-01",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/fa2bbed71a43297e360b4c0a438d": {
+   "first": "2026-09-01",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/en/contest/user-a-certain-party-of-heroes": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-create-what-you-love-2": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-crimson-ruin": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-grumpy-girl": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-latex-outfit-contest": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-minimalistic-composition": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-project-sekai-world-tour": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-show-off-your-favorite-nikke": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-suikoden-fanart-festival": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-the-day-rem-awakens": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-the-demon-king-fears-no-hero": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-walpurgisnacht-opening": {
+   "first": "2026-09-01",
+   "brand": "PixAI"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#discordgiveawayjointhe1mcreditprizepool": {
+   "first": "2026-09-01",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5USjhaaXp4dS1tdjc0RkQxUDY0N0lRekpHN044RmdkaE5GVl9VbGpSUmhhYXdIV3RmWWZfbWhJWnVEZGlaeGVMZC1CZWtpLXdrTVhSVzJR?oc=5": {
+   "first": "2026-09-01",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMlhrdDZiZ2NKS2t5MERNNW55YzJHclNOTURJWE9SVV85eE9WbENyVHBRdEZCa0ZoRG1fakNyQmJFRHdOSEJJbndveTVIOU1HMG9IZkZBeUxfUXZDcno2SzF6NXlrNzZBYk1aeWxoMEZrZF9WMkZjaUVoa2IzTFVjdGpmSXFFNTZvRnd3TlQ4V2pfTExxSzBHQVhuMGNUa0w5c0c5bzc4Ul80Zw?oc=5": {
+   "first": "2026-09-01",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNzZfb0pyc2YzNXMwU0RQa1FxX1lzVDIxdUY5Z09PbmREV3NfT1V2RzhGeGdXZFZ1NzlZMXFtdDJvOGlSS0d1RHBBZU9jYkl4aF9kV1RVTlpkaWU4RFhzYkdfMnlCUEtVR2F1QnYtRXR5TGY0emlhSHNZdER2d2lsLTdXeTVaUlMzMl9LTjA0QzZEWkRXYnhuaUZQc2tqZ0MtNFdMNnJRSzNraXJrUGc?oc=5": {
+   "first": "2026-09-01",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiekFVX3lxTE5seVlvSjg3V3BkdmFmTWs1VUgzemFSNUhNcnRZeGxLOEkyQlJvWUpFTTBYU0w1bk5QdWtqQmJrYlVEYks0Y1psRWFkTWx2VFVlRVdkV3ZmYl9PV29aTEhwV2I3S0dSX1NtdmNvM0xrcncxYlBLYUJsdThB?oc=5": {
+   "first": "2026-09-01",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHF5akUxeWVIb1pnNFBqUDdNbkpUWU44S0d2SHFJeXhoLUtZRVJDQlNUVUNDYWlobW56UGJtei1lY3lEb1dHaVFHdGNETlhZUmJBNTh0VDlVcEVYVFpINzNfbEFEY29USy1EWVN5ZUxha0RBeG5JbVVfTDFMRkZVTjdGaGFneXRkMzBnRnhsWmx0M2oyLWZBSFdhRTlOZUJWQW84?oc=5": {
+   "first": "2026-09-01",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYjFFcDZpV0h6ZlVRVV9MZlkyVnBvT2VxRTNwTk0tTlIyWTc0d0l0NGswVENtWmRPQVhXaTZramt6Y2NsSUhQZGRSbGRWelVYSHBlODVscFoycGRnWWZsRzhlZlhiMzBVUmQxeHVnTEtVUmxHTUVCLXVhdVN4NksxN3MtVlhFMHBlQXRURTdsVkNtcXF2RjRmSGxhR2xIb1XSAaQBQVVfeXFMTzlLd013aW9EX0k2OGtFbDkwLW92X1I0MFFtSE5jLWVnTmJLdk5VZUJvSDNDeW5qQ0xZUzJQblBlbFZSX2g5bVNScC1GUXVHdHAtOFlZWnlIaUVfMllyQWxYSWRnekU4ZUVJSlN5UkN1cnVOQmVXLXMyQ216UmFKWjhBdnlZcmRvb1BNMEt2bEVTbGFjQWo0b3Q0eU83OTVsU1lSS0o?oc=5": {
+   "first": "2026-09-01",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-08-29T03:08:40+00:00",
- "seenCount": 188
+ "updatedAt": "2026-09-01T23:09:28+00:00",
+ "seenCount": 210
 }
