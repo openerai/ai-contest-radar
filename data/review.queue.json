@@ -6,7 +6,7 @@
   "\"status\": \"done\" 으로 표시하면 다음 실행 때 빠집니다.",
   "마감일이 지난 항목, 마감일을 못 뽑은 채 30일이 지난 항목은 자동으로 빠집니다."
  ],
- "updatedAt": "2026-09-01T23:09:28+00:00",
+ "updatedAt": "2026-09-02T00:00:00+00:00",
  "items": [
   {
    "discovered": "2026-08-25",
@@ -18,7 +18,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-dark-allure",
     "title": "DARK ALLURE | PixAI Contest - 500,000 Credits | PixAI",
@@ -45,7 +45,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-25",
@@ -57,7 +59,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-fluffy-kemomimi",
     "title": "Gather Around! Fluffy Kemomimi Characters | PixAI Contest - 50,000 Credits | PixAI",
@@ -84,7 +86,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-25",
@@ -96,7 +100,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-hatsune-miku-live",
     "title": "Celebrating Magical Mirai 2026 | PixAI Contest - 50,000 Credits | PixAI",
@@ -123,7 +127,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-25",
@@ -135,7 +141,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-stick-out-your-tongue",
     "title": "Stick out your tongue! | PixAI Contest - 50,000 Credits | PixAI",
@@ -162,7 +168,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-25",
@@ -174,7 +182,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-summer-fireworks-festival-with-marin",
     "title": "A Summer Fireworks Festival with Marin | PixAI Contest - 500,000 Credits | PixAI",
@@ -201,7 +209,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-25",
@@ -213,7 +223,7 @@
    "deadlineEvidence": "CP Challenge to build agent-ready web apps that work with ChatGPT. Submit your project by September 3, 2026, at 1 p.m. PT. WebMCP",
    "confidence": "high",
    "cashUsd": 3000,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "openai-webmcp-challenge",
     "title": "WebMCP Challenge",
@@ -240,7 +250,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "일반 개발 챌린지로 사이트 범위(이미지·영상 창작 대회) 밖 — 방침상 제외(commit 7340ede 참고)."
   },
   {
    "discovered": "2026-08-25",
@@ -252,7 +264,7 @@
    "deadlineEvidence": "9 hours left to submit Dreamina AI Music Video Contest! Join the 2 Million Credit Prize Pool! Participate for the chance to earn credits! 640 people joined",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -283,7 +295,9 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "활동 탭에서 긁힌 잡음(실제 콘텐츠 아님)."
   },
   {
    "discovered": "2026-08-25",
@@ -295,7 +309,7 @@
    "deadlineEvidence": "5 days and 18 hours left to submit Story Unboxed - Dreamina Seedance 2.5 3D Reference Creative Contest $50,000 + Millions of Credits 241 people joined",
    "confidence": "medium",
    "cashUsd": 50000,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -325,7 +339,9 @@
     "verify": [
      "deadline"
     ]
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "이미 'dreamina-story-unboxed'로 manual.global.json에 등록되어 있음 - 중복."
   },
   {
    "discovered": "2026-08-25",
@@ -337,7 +353,7 @@
    "deadlineEvidence": "63 days and 6 hours left to submit Graphis AI Creative Awards: 50% off for Dreamina Creators 15 people joined",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -368,7 +384,9 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "공모전이 아니라 할인 프로모션 안내."
   },
   {
    "discovered": "2026-08-25",
@@ -380,7 +398,7 @@
    "deadlineEvidence": "127 days and 18 hours left to submit Apply for Dreamina CPP - New Credit Benefits! 12 people joined",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -411,7 +429,9 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "공모전이 아니라 크리에이터 프로그램 신청 안내."
   },
   {
    "discovered": "2026-08-25",
@@ -423,7 +443,7 @@
    "deadlineEvidence": "Today's Challenge 🎯 Daily Challenge # 1412 Chase Scenes 3,803 entries so far · Entries close in 02:27:56 Submit an entry for your chance to win Enter",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "nightcafe-challenges",
@@ -454,7 +474,9 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "매일 갱신되는 데일리 챌린지 템플릿 — 상금 없음, 개별 등록 대상 아님."
   },
   {
    "discovered": "2026-08-25",
@@ -466,7 +488,7 @@
    "deadlineEvidence": "2026-08-25 Ongoing Colorful Mushroom Forest",
    "confidence": "none",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "seaart-activity",
@@ -497,7 +519,9 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "스크래퍼가 실제 콘텐츠를 못 읽고 날짜 문자열만 가져온 항목 — 유효 정보 없음."
   },
   {
    "discovered": "2026-08-29",
@@ -509,7 +533,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-hard-to-tell-ai",
     "title": "[Hard to Tell] Looks Nothing Like AI-Generated Art Contest  | PixAI Contest - 200,000 Credits | PixAI",
@@ -536,7 +560,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-29",
@@ -548,7 +574,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-memory-ud-contest",
     "title": "A Snapshot of Your Memories So Far | PixAI Contest - 500,000 Credits | PixAI",
@@ -575,7 +601,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-29",
@@ -587,7 +615,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-oc-profile-book",
     "title": "Create a Profile Book for Your Original Character | PixAI Contest - 1,700,000 Credits | PixAI",
@@ -614,7 +642,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-29",
@@ -626,7 +656,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-school-uniform",
     "title": "School Uniform | PixAI Contest - 100,000 Credits | PixAI",
@@ -653,7 +683,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-08-29",
@@ -665,7 +697,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-tatara-kogasa-contest",
     "title": "Tatara Kogasa Illustration Contest | PixAI Contest - 200,000 Credits | PixAI",
@@ -692,7 +724,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -704,7 +738,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-a-certain-party-of-heroes",
     "title": "A Certain Party of Heroes | PixAI Contest - 500,000 Credits | PixAI",
@@ -731,7 +765,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -743,7 +779,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-create-what-you-love-2",
     "title": "2nd \"Favorite Work\" Contest | PixAI Contest - 50,000 Credits | PixAI",
@@ -770,7 +806,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -782,7 +820,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-crimson-ruin",
     "title": "Surtr: Crimson Ruin | PixAI Contest - 300,000 Credits | PixAI",
@@ -809,7 +847,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -821,7 +861,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-grumpy-girl",
     "title": "Gather Around! 'Grumpy Girls' | PixAI Contest - 300,000 Credits | PixAI",
@@ -848,7 +888,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -860,7 +902,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-latex-outfit-contest",
     "title": "Latex Outfit Contest! | PixAI Contest - 500,000 Credits | PixAI",
@@ -887,7 +929,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -899,7 +943,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-minimalistic-composition",
     "title": "Minimalistic Composition | PixAI Contest - 150,000 Credits | PixAI",
@@ -926,7 +970,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -938,7 +984,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-project-sekai-world-tour",
     "title": "Project SEKAI World Tour | PixAI Contest - 800,000 Credits | PixAI",
@@ -965,7 +1011,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -977,7 +1025,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-show-off-your-favorite-nikke",
     "title": "Who’s Your Favorite NIKKE Character!? | PixAI Contest - 100,000 Credits | PixAI",
@@ -1004,7 +1052,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -1016,7 +1066,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-suikoden-fanart-festival",
     "title": "Suikoden Fanart Bonanza! | PixAI Contest - 50,000 Credits | PixAI",
@@ -1043,7 +1093,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -1055,7 +1107,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-the-day-rem-awakens",
     "title": "The Day Rem Awakens | PixAI Contest - 4,000,000 Credits | PixAI",
@@ -1082,7 +1134,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -1094,7 +1148,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-the-demon-king-fears-no-hero",
     "title": "Just Heroes? The Demon King Isn’t Afraid! | PixAI Contest - 500,000 Credits | PixAI",
@@ -1121,7 +1175,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -1133,7 +1189,7 @@
    "deadlineEvidence": "JSON-LD Event.endDate",
    "confidence": "high",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "draft": {
     "id": "pixai-user-walpurgisnacht-opening",
     "title": "Walpurgisnacht: Opening | PixAI Contest - 250,000 Credits | PixAI",
@@ -1160,7 +1216,9 @@
      "플랫폼"
     ],
     "verify": []
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "PixAI 개별 이벤트는 개별 등록하지 않는 방침(사이트에 'pixai-official' 통합 카드로 커버 중). 크레딧 전용 상금."
   },
   {
    "discovered": "2026-09-01",
@@ -1172,7 +1230,7 @@
    "deadlineEvidence": "24 days and 7 hours left to submit Discord Giveaway - Join the 1M Credit Prize Pool! 🌞",
    "confidence": "medium",
    "cashUsd": 0,
-   "status": "new",
+   "status": "dismissed",
    "via": "render",
    "draft": {
     "id": "dreamina-home",
@@ -1203,7 +1261,9 @@
      "prize",
      "deadline"
     ]
-   }
+   },
+   "reviewedAt": "2026-09-02",
+   "reviewNote": "디스코드 길어웨이 안내 - 공모전이 아니라 참여 이벤트/추첨."
   }
  ],
  "news": [
