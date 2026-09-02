@@ -101,7 +101,7 @@ window.GLOBAL_DATA = {
    "orgType": "플랫폼",
    "orgTier": "top",
    "cat": "AI 필름",
-   "deadline": "2026-09-03",
+   "deadline": "2026-09-14",
    "tz": "PT",
    "recur": "once",
    "cash": 1000000,
@@ -117,7 +117,7 @@ window.GLOBAL_DATA = {
     "업계 심사위원 심사",
     "수상작 공개 상영"
    ],
-   "note": "8/10 접수 시작 ~ 9/3 23:59 PT 마감, 심사 9/4~10/1, 수상 발표 10월 첫째 주. 장르 자유 3분 이상 단편. 완성작에 Higgsfield 워터마크를 유지한 채 Instagram·YouTube·X·Reddit 중 한 곳에 공개 게시해야 접수 완료. ⚠ 앞선 갱신에서 8/31로 적혀 있었으나 공식 안내(2026-08-18 확인)는 9/3 마감입니다.",
+   "note": "8/10 접수 시작 ~ 9/14 23:59 PT 마감(원래 9/3에서 11일 연장). 장르 자유 3분 이상 단편. 완성작에 Higgsfield 워터마크를 유지한 채 Instagram·YouTube·X·Reddit 중 한 곳에 공개 게시해야 접수 완료. ⚠ 2026-09-02 확인: 공식 페이지에 'Deadline extended — Extended by 11 days — now Sep 14' 안내가 떴습니다(직전 갱신 시점엔 9/3로 기재돼 있었음).",
    "url": "https://higgsfield.ai/contests/higgsfield-global-film-festival",
    "tags": [
     "초고액",
@@ -126,7 +126,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-02"
   },
   {
    "id": "chroma-s2",
