@@ -891,8 +891,100 @@
   "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYjFFcDZpV0h6ZlVRVV9MZlkyVnBvT2VxRTNwTk0tTlIyWTc0d0l0NGswVENtWmRPQVhXaTZramt6Y2NsSUhQZGRSbGRWelVYSHBlODVscFoycGRnWWZsRzhlZlhiMzBVUmQxeHVnTEtVUmxHTUVCLXVhdVN4NksxN3MtVlhFMHBlQXRURTdsVkNtcXF2RjRmSGxhR2xIb1XSAaQBQVVfeXFMTzlLd013aW9EX0k2OGtFbDkwLW92X1I0MFFtSE5jLWVnTmJLdk5VZUJvSDNDeW5qQ0xZUzJQblBlbFZSX2g5bVNScC1GUXVHdHAtOFlZWnlIaUVfMllyQWxYSWRnekU4ZUVJSlN5UkN1cnVOQmVXLXMyQ216UmFKWjhBdnlZcmRvb1BNMEt2bEVTbGFjQWo0b3Q0eU83OTVsU1lSS0o?oc=5": {
    "first": "2026-09-01",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/2149f6c2539e464f955aaa06adbb": {
+   "first": "2026-09-04",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/4ee5f7b2396c151708826f37447a": {
+   "first": "2026-09-04",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/824a01c2829d4967fa7c69f49863": {
+   "first": "2026-09-04",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/en/contest/pixai-pet-humanization": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-behind-the-dolls-eyes": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-designated-magical-girl": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-everyday-companions": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-gyarus-day-out": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-jojo-pose": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-jonathan-joestar": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-joseph-joestar": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-light-eyed-characters": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-punk-elf-throw-down": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-sensory-overload-and-visual-overdose": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-tears-and-smiles": {
+   "first": "2026-09-04",
+   "brand": "PixAI"
+  },
+  "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity#jointhe1millioncreditprizepool": {
+   "first": "2026-09-04",
+   "brand": "Dreamina",
+   "via": "render"
+  },
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQmhPLUZqUzFwVWhzeFhXMHk2ZmRxcEktNWROTGdLalhpX01YSkh2QzFrcVQ0NDdubm1lVWg0T201TFRoaE8xQ0RueDdwZUpqRHIxR29wN0VJWTBjUzQyRjhEM1ZKQk9Ua2RwWWxDVGMwOTg0ekZfZjJjZzVnSGVZdk5JdmxsVGotWDNSS2YxbEdWcjZvWnc?oc=5": {
+   "first": "2026-09-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBNeU9sdGluZHhPODBCUGdoNXl6Z0RyUWpJdGczWVNiRThoZW1nTVJwNFpGeHdNUjFFV3EwYlRnMjNTY3NHRHZRT2gxbk9uTVRm?oc=5": {
+   "first": "2026-09-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMTBFd2RYekZWZDRfMTBRNkVZVW9DSlFqYWEzYkFYZjFBYy1pRUFSTkx1UmJfUzBkQmRRLV9WX1lXaFJCREhpdm1rNWVZNnNtT09TSUwyZFktWk9WdDVRTl9kanJGMEsxOE5VSHhRM25iR0xxcV9VSV9RSDNFQzFLTEkwdndNcnl2QlV0NTllRUdBdjhweGZ2NG5tUzUyLThoaXg0RzkwVTVoR2xH0gHCAUFVX3lxTE12ZmRTOTBrbm0zdGpmXzlrU25nRnNHSHB1NzZvSThvU1FUMTRwRGhONTNSZ0NxUDJmUHo3TjhDV183SDVldTUwWmF5cEdhbFlqd0tvRUx5ZExwcEFjSE5pMjUyTWJ1WEVERm5EU1M1elJfYThTdU5wbmZtOG1kZXNlMGo0N0RERlFsQ2JwWERlY2p0NkI3RmpmbVJlNy1yZlhZRzdJTkQ5Zm1SOWZXTDAwOE1lZ25hTlFUM0pCV2QzaFBR?oc=5": {
+   "first": "2026-09-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwVGRkQ2ZMZWhrV2lZb0M2a2dxQTdRcTdITmNNSGlDS1libXVSTWZSb0hNcGdwMnZWWHZoOEJpVE1adEFKamVDT0M3LTc4cW5vTDRsczgxWURxVTVieExsLS1HUGRzX1RqdUIyLUJkTDI?oc=5": {
+   "first": "2026-09-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWjFUNXpWLUtMYl9scnR3UXVSTzhlM3J1LXdBV2IwU3lFeW1mUU5DM2k2ZlJjMFF2MzNGdnFGZW9MNEE0NWtEdlVwYnBqWE5VQnFJVUVVMEpSb2JvSE5FMHloMnh4LU1qck02cW1YZ1RpczJnNzdtZ09SMWFLVzhVWFUwTW5sanZDRWZXTjBER0k0TjZBM0d3bkRMaWhVNlk?oc=5": {
+   "first": "2026-09-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVZIVlhoSmd3LXdxREFTeVpJZzlMb2pnLXYxZnBScXU1NXQtb09ZQzZYTndUOUN1b0RTLWx6czVGTHNST3NzSnZEOGlZdkJKM3dUVlh2cHAxazZuZWJQUFliVVNhbzVQdmxrajQ0b3FxU0Y3dGlNdUdhS2tDcC1yZVlTbi0xV25UUXlTN2JaamVqaHF6Nnc?oc=5": {
+   "first": "2026-09-04",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-09-01T23:09:28+00:00",
- "seenCount": 210
+ "updatedAt": "2026-09-04T22:53:03+00:00",
+ "seenCount": 232
 }
