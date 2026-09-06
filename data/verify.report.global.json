@@ -1,14 +1,14 @@
 {
- "checkedAt": "2026-08-30T23:18:28+00:00",
+ "checkedAt": "2026-09-06T22:46:08+00:00",
  "scope": "global",
  "tally": {
-  "unknown": 17,
+  "unknown": 13,
   "live": 20,
-  "drift": 1,
   "blocked": 17,
-  "suspect": 1
+  "drift": 1,
+  "ended": 1
  },
- "retired": 0,
+ "retired": 1,
  "results": [
   {
    "status": "unknown",
@@ -43,11 +43,11 @@
    "cross": []
   },
   {
-   "status": "drift",
-   "why": "우리 데이터 2026-09-03 ↔ 페이지 2026-09-14 (페이지 값 신뢰도 medium)",
+   "status": "live",
+   "why": "",
    "readable": true,
    "pageDeadline": "2026-09-14",
-   "textLen": 7578,
+   "textLen": 7583,
    "viaRender": false,
    "evidence": "in public Deadline extended Extended by 11 days The timeline has shifted: deadline is now Sep 14 Update your final cut GLOBAL FILM",
    "confidence": "medium",
@@ -56,7 +56,7 @@
    "title": "Higgsfield Global Film Festival",
    "url": "https://higgsfield.ai/contests/higgsfield-global-film-festival",
    "source": "manual",
-   "deadline": "2026-09-03",
+   "deadline": "2026-09-14",
    "recur": "once",
    "cross": []
   },
@@ -64,31 +64,16 @@
    "status": "live",
    "why": "",
    "readable": true,
-   "pageDeadline": "2026-08-31",
-   "textLen": 39373,
+   "pageDeadline": "2026-09-09",
+   "textLen": 30852,
    "viaRender": false,
-   "evidence": "s Browse Subscribe Submit a Contest Get Alerts AIGC for Future Global Challenge 2026 1d · Aug 31 ⎮ Higgsfield Global Film Festival",
+   "evidence": "ubscribe Submit a Contest Get Alerts Sundance Collab x TikTok Micro-Series Challenge 3d · Sep 9 ⎮ AI Video Contest 2026: Win $10,0",
    "confidence": "medium",
    "id": "chroma-s2",
    "title": "Chroma Awards — Season 2",
    "url": "https://aifilmcontests.com/",
    "source": "manual",
    "deadline": "2026-12-31",
-   "recur": "once",
-   "cross": []
-  },
-  {
-   "status": "unknown",
-   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 75자)",
-   "readable": false,
-   "pageDeadline": null,
-   "textLen": 75,
-   "viaRender": false,
-   "id": "artlist-seedance-25",
-   "title": "Artlist $250K Seedance 2.5 Challenge",
-   "url": "https://artlist.io/lp/seedance-2-5-challenge/",
-   "source": "manual",
-   "deadline": "2026-08-26",
    "recur": "once",
    "cross": []
   },
@@ -108,12 +93,10 @@
    "cross": []
   },
   {
-   "status": "unknown",
-   "why": "페이지에서 마감일을 못 찾음",
-   "readable": true,
-   "pageDeadline": null,
-   "textLen": 450,
-   "viaRender": false,
+   "status": "blocked",
+   "why": "페이지를 못 읽음 (HTTP 403)",
+   "readable": false,
+   "httpStatus": 403,
    "id": "grok-odyssey",
    "title": "Grok Imagine 오디세이 영상 공모",
    "url": "https://x.com/grok",
@@ -127,7 +110,7 @@
    "why": "페이지에서 마감일을 못 찾음",
    "readable": true,
    "pageDeadline": null,
-   "textLen": 4148,
+   "textLen": 4345,
    "viaRender": false,
    "id": "runway-fund",
    "title": "Runway Hundred Film Fund",
@@ -135,57 +118,6 @@
    "source": "manual",
    "deadline": null,
    "recur": "rolling",
-   "cross": []
-  },
-  {
-   "status": "live",
-   "why": "",
-   "readable": true,
-   "pageDeadline": "2027-08-27",
-   "textLen": 4148,
-   "viaRender": false,
-   "evidence": "Strong storytelling 🔥 Cinematic quality & visual execution 📈 Social engagement 🗓 Deadline August 27 at 11:59 PM PST Products CapCu",
-   "confidence": "medium",
-   "driftIgnored": "2027-08-27 (연도 추정값 · 365일 차이)",
-   "id": "capcut-tiff",
-   "title": "CapCut TIFF 크리에이티브 챌린지 (원테이크)",
-   "url": "https://www.capcut.com/create/TIFF-Challenge",
-   "source": "manual",
-   "deadline": "2026-08-27",
-   "recur": "once",
-   "cross": []
-  },
-  {
-   "status": "live",
-   "why": "",
-   "readable": true,
-   "pageDeadline": "2027-07-27",
-   "textLen": 28635,
-   "viaRender": false,
-   "evidence": "wn brief. At least 51% AI-generated Deadline August 24, 2026 · 11:59 PM ET. Contest opens July 27 at 9:00 AM ET Finalists Revealed",
-   "confidence": "medium",
-   "driftIgnored": "2027-07-27 (연도 추정값 · 337일 차이)",
-   "id": "hf-adathon",
-   "title": "Higgsfield Adathon (×ADWEEK)",
-   "url": "https://higgsfield.ai/contests/adathon",
-   "source": "manual",
-   "deadline": "2026-08-24",
-   "recur": "once",
-   "cross": []
-  },
-  {
-   "status": "unknown",
-   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 9자)",
-   "readable": false,
-   "pageDeadline": null,
-   "textLen": 9,
-   "viaRender": false,
-   "id": "dreamina-mv-contest",
-   "title": "Dreamina AI 뮤직비디오 공모 (크레딧 200만 풀)",
-   "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
-   "source": "manual",
-   "deadline": "2026-08-24",
-   "recur": "once",
    "cross": []
   },
   {
@@ -206,7 +138,7 @@
    "why": "페이지에서 마감일을 못 찾음",
    "readable": true,
    "pageDeadline": null,
-   "textLen": 5752,
+   "textLen": 5859,
    "viaRender": false,
    "id": "pixai-official",
    "title": "PixAI 공식 콘테스트 (상시 · 회차제)",
@@ -233,10 +165,10 @@
   },
   {
    "status": "unknown",
-   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 165자)",
+   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 185자)",
    "readable": false,
    "pageDeadline": null,
-   "textLen": 165,
+   "textLen": 185,
    "viaRender": false,
    "id": "seaart-daily",
    "title": "SeaArt AI Daily Challenge (매일 반복)",
@@ -259,16 +191,25 @@
    "source": "manual",
    "deadline": null,
    "recur": "daily",
-   "cross": []
+   "cross": [
+    {
+     "source": "google-news",
+     "verdict": "seen",
+     "headline": "Civitai Review – Community AI Art Hub - quasa.io",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZVEJKY0VPR2RDdlgySlFBM2duRy1MbGNBZUZnYUgtOGo0SXUwNDJDVTB0MHJvR2dBYWRRXzYwbllLdHFEd0UwbkhoMl9kcE5hWHcwMlhFREpMcTBUM1hZdDlYTWE4QUJGaVE?oc=5",
+     "pub": "Sat, 05 Sep 2026",
+     "count": 1
+    }
+   ]
   },
   {
-   "status": "unknown",
-   "why": "반복 대회 · 페이지의 마지막 날짜가 2026-08-21 (이미 과거)",
+   "status": "live",
+   "why": "",
    "readable": true,
-   "pageDeadline": "2027-08-21",
-   "textLen": 13076,
+   "pageDeadline": "2026-09-21",
+   "textLen": 12886,
    "viaRender": false,
-   "evidence": "demy Awards but for AI Film\" GET TICKETS for August 15th in Hollywood SUBMIT YOUR FILM by August 21st on Filmfreeway AI Film Fest",
+   "evidence": "emy Awards but for AI films — now monthly.” — Ron Maggi, Actor Tickets · Sept 12 Submit · Sept 21 Best AI Short Manas Yihang Yang",
    "confidence": "medium",
    "id": "aifilmfest-monthly",
    "title": "AI International Film Festival (매월 개최)",
@@ -305,7 +246,7 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2027-04-20",
-   "textLen": 3809,
+   "textLen": 3771,
    "viaRender": false,
    "evidence": "tana AI Film Festival Opens Global Call for Submissions By Nagima Abuova in Culture on 25 April 2026 ROME — Kazakhstan will host i",
    "confidence": "medium",
@@ -437,7 +378,7 @@
    "status": "live",
    "why": "",
    "readable": true,
-   "pageDeadline": "2026-09-01",
+   "pageDeadline": "2027-09-01",
    "textLen": 11608,
    "viaRender": false,
    "evidence": "RD 2026 SUBMISSION NOW OPEN SUBMIT YOUR ENTRY VIA FilmFreeway GET YOUR EVENT TICKET (From September 1 onwards) The submission dead",
@@ -451,13 +392,13 @@
    "cross": []
   },
   {
-   "status": "live",
-   "why": "",
+   "status": "drift",
+   "why": "우리 데이터 2026-08-31 ↔ 페이지 2026-09-26 (페이지 값 신뢰도 high)",
    "readable": true,
-   "pageDeadline": "2026-08-31",
-   "textLen": 22784,
+   "pageDeadline": "2026-09-26",
+   "textLen": 23194,
    "viaRender": false,
-   "evidence": "ion Membership Contact Search Log In The 2026 submission period is open and will close on August 31, 2026 | Early Birds Submit Fre",
+   "evidence": "er 3, 2026 2026 Sparknify Human vs. AI Film Premiere The nominated films will premiere on September 26, 2026 at San Francisco’s fa",
    "confidence": "high",
    "id": "afc-sparknify-human-vs-ai-2026",
    "title": "Sparknify Human vs. AI Film Festival 2026",
@@ -468,11 +409,11 @@
    "cross": []
   },
   {
-   "status": "suspect",
-   "why": "페이지의 마지막 날짜가 2025-11-27 (이미 과거) · 그런데 우리 데이터 마감일은 2026-08-31",
+   "status": "ended",
+   "why": "페이지의 마지막 날짜가 2025-11-27 (이미 과거)",
    "readable": true,
    "pageDeadline": "2026-11-30",
-   "textLen": 5149,
+   "textLen": 5116,
    "viaRender": false,
    "evidence": "TION PARTNERS Festival Screenings Day Date Start Time End Time Screening Venue Day 6 26th November 2025 02:30 PM 05:00 PM ARTIFICI",
    "confidence": "medium",
@@ -512,10 +453,10 @@
     {
      "source": "google-news",
      "verdict": "seen",
-     "headline": "Nigeria AI Film Festival opens 2026 call for entries - The Lagos Review",
+     "headline": "Nigeria AI Film Festival opens 2026 call for entries - thelagosreview.ng",
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRV8tMlkxSUxLZTlCMmloUlNYS19ZVzFRbVhDeUFxR254eWp3eWluWFd1MFdKejlLcjBqU3Yyd0JXTTA5N2hBMXp2TXMyeDg1WUkteEYwRER2a2xteVRhUExRaXA0QTlRdU5lN1pKZDZ4SS1HYWxoYTE2clZpeS1RMFdhT283dw?oc=5",
      "pub": "Sun, 07 Jun 2026",
-     "count": 1
+     "count": 2
     }
    ]
   },
@@ -597,7 +538,7 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2026-11-30",
-   "textLen": 4231,
+   "textLen": 4226,
    "viaRender": false,
    "evidence": "Winners 2025 Rules & Eligibility Submit Program Partners Press Contact Submit a Film 28 – 30 November 2026 Downtown Dubai, U.A.E.",
    "confidence": "high",
@@ -677,7 +618,7 @@
    "why": "",
    "readable": true,
    "pageDeadline": null,
-   "textLen": 683,
+   "textLen": 697,
    "viaRender": false,
    "id": "afc-lundinstudio-ai-film-festival-2027",
    "title": "LundinStudio AI Film Festival 2027 (Australia's First)",
@@ -692,7 +633,7 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2026-09-20",
-   "textLen": 27247,
+   "textLen": 27259,
    "viaRender": false,
    "evidence": "y Kate Bush SIR RICHARD BRANSON As Himself in: \"A Cure For The Common Classroom\" Winner - September 2021 YOKO ONO As Herself in: \"",
    "confidence": "medium",
@@ -748,7 +689,7 @@
    "why": "페이지에서 마감일을 못 찾음",
    "readable": true,
    "pageDeadline": null,
-   "textLen": 2922,
+   "textLen": 2923,
    "viaRender": false,
    "id": "mel-artificial-intelligence-media-festival-a",
    "title": "Artificial Intelligence Media Festival (AIMF) 2026",
@@ -769,10 +710,10 @@
   },
   {
    "status": "unknown",
-   "why": "본문이 안 내려옴(JS 렌더 추정, 텍스트 75자)",
-   "readable": false,
+   "why": "페이지에서 마감일을 못 찾음",
+   "readable": true,
    "pageDeadline": null,
-   "textLen": 75,
+   "textLen": 6641,
    "viaRender": false,
    "id": "mel-bochnia-international-ai-film-festival-2",
    "title": "Bochnia International AI Film Festival 2026",
@@ -812,6 +753,14 @@
      "end": "2026-09-19",
      "verdict": "live",
      "url": "https://raif.it.com/"
+    },
+    {
+     "source": "google-news",
+     "verdict": "seen",
+     "headline": "Rome Film Festival 2026 unveils opening film - Screen Daily",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVpPaFJMbEFMQnFfX1E0b3BHT01sRnZvSWpPX3p0a2NHb2JERVdUbXFqMmRjZ1FtVUt4NnFRZXZ3UzRZcjZFWDZrd3pVb1VzOGp0ak9fYW1YOXdyTDVmQlNCRXpXMDd1LVYzR1hsV2lRRVk0TFdiUFhNZi1OWDI5ZU81NENpTmg3LVRUdnlRbW43Mkt5Y0pEVA?oc=5",
+     "pub": "Thu, 16 Jul 2026",
+     "count": 1
     }
    ]
   },
@@ -834,14 +783,6 @@
      "end": "2026-09-24",
      "verdict": "live",
      "url": "https://filmfreeway.com/RedRocksAIFilmFestival"
-    },
-    {
-     "source": "google-news",
-     "verdict": "seen",
-     "headline": "Meta at The Cannes Film Festival 2026 - Meta Store",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IYlE1QWlZd3UyTTBlMkpSVUN0S2J0UERRRTYxZEsxNUNsa3lOUE94V1ZFRW40ajl0M1prTEFzV2VnWnZGRzNzeXgtSWEwUHJhdHcxT3VYeC1SUkV2bTl0dm14dENNdXl3MXl3c1dQblU1ZkdnT1lLdjVIV2bSAYIBQVVfeXFMUHpIdnRwcV8wU2tMQk5mM3pUZ3doR0JjcmZILTVDamNocERSRXRua1UxS1FDa3RlbEhkSlFycGlFNXdGRVpXejkwTlpTSlJURi1LRll2Mi1OcnpGV09QUFlfTlBkQjVJOVlxRmIxbUM0ckN0cDQ5VkpEdjJNTHgwbmJXQQ?oc=5",
-     "pub": "Mon, 11 May 2026",
-     "count": 1
     }
    ]
   },
@@ -867,10 +808,10 @@
    "why": "",
    "readable": true,
    "pageDeadline": "2026-10-03",
-   "textLen": 10771,
+   "textLen": 10833,
    "viaRender": false,
-   "evidence": "ted to films created with AI, held in Astana. Submit your film → See the roadmap Past the 31 Aug deadline? You can still submit —",
-   "confidence": "medium",
+   "evidence": "in Astana. Submit your film → See the roadmap ↓ scroll Deadline · extended New deadline — 7 September 2026. You asked for more tim",
+   "confidence": "high",
    "ldPastIgnored": "2026-06-15",
    "id": "mel-astana-ai-film-festival-aaiff-2026",
    "title": "Astana AI Film Festival (AAIFF) 2026",
@@ -951,26 +892,21 @@
    ]
   },
   {
-   "status": "blocked",
-   "why": "페이지 응답 없음 (연결 실패·타임아웃)",
-   "readable": false,
-   "httpStatus": null,
+   "status": "live",
+   "why": "",
+   "readable": true,
+   "pageDeadline": "2027-08-15",
+   "textLen": 15450,
+   "viaRender": false,
+   "evidence": "i, Bldg A2 â Lang: Mandarin Chinese / English Register Now CAMPAIGN SPECIAL OFFER [Until Aug 15] Free Submission AI Film Music Sc",
+   "confidence": "medium",
    "id": "mel-ai-film-festival-japan-2026",
    "title": "AI Film Festival Japan 2026",
    "url": "https://aifilm.jp/index_en.html",
    "source": "melies",
    "deadline": null,
    "recur": "once",
-   "cross": [
-    {
-     "source": "melies.co",
-     "match": "AI Film Festival Japan 2026",
-     "similarity": 1.0,
-     "end": "2026-11-03",
-     "verdict": "live",
-     "url": "https://aifilm.jp/index_en.html"
-    }
-   ]
+   "cross": []
   },
   {
    "status": "live",

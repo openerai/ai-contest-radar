@@ -2,16 +2,16 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.GLOBAL_DATA = {
- "generatedAt": "2026-08-30T23:24:03+00:00",
+ "generatedAt": "2026-09-06T22:51:32+00:00",
  "_meta": {
-  "autoCount": 50,
-  "finalCount": 52,
+  "autoCount": 41,
+  "finalCount": 43,
   "manualCount": 23,
   "bySource": {
-   "manual": 13,
-   "aifilmcontests": 25,
+   "manual": 12,
+   "aifilmcontests": 16,
    "devpost": 1,
-   "melies": 13
+   "melies": 14
   },
   "warnings": [
    "위비티 [웹/모바일/IT] 목록 로드 실패",
@@ -23,41 +23,6 @@ window.GLOBAL_DATA = {
   ]
  },
  "contests": [
-  {
-   "id": "dreamina-story-unboxed",
-   "title": "Dreamina Story Unboxed — Seedance 2.5 3D 레퍼런스 창작 공모",
-   "org": "Dreamina (CapCut · ByteDance)",
-   "orgType": "플랫폼",
-   "orgTier": "major",
-   "cat": "AI 필름",
-   "deadline": "2026-08-31",
-   "tz": "PDT",
-   "recur": "once",
-   "cash": 80000,
-   "credit": 0,
-   "prizeText": "1위 $50,000 + 크레딧 100만 · 2위 $20,000 · 3위 $10,000 · 4~10위 Advanced 멤버십 1개월 · SNS 좋아요상(틱톡·인스타·X 각 Top10) 크레딧 3만",
-   "who": "전 세계 창작자 누구나 (총 40명 수상)",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료 (구매·결제 불필요 명시)",
-   "entry": "Dreamina 이벤트 배너에서 제출",
-   "career": "platform",
-   "bonus": [
-    "수상작 커뮤니티 몽타주 수록",
-    "공식 3D 레퍼런스 제공"
-   ],
-   "note": "공식이 제공하는 3D 화이트모델 레퍼런스로 Seedance 2.5 영상을 만드는 공모. 같은 골격 애니메이션을 각자 다르게 해석하는 것이 과제. 접수 8/4 09:00 ~ 8/31 08:59 PDT(한국시간 8/5 01:00 ~ 9/1 00:59), 심사 8/31~9/14, 발표 9월 중순. 대상 수상자는 SNS 좋아요상과 중복 수상 불가.",
-   "url": "https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0&activeTab=activity",
-   "tags": [
-    "초고액",
-    "AI필름",
-    "무료",
-    "3D레퍼런스"
-   ],
-   "verify": [],
-   "source": "manual",
-   "checkedAt": "2026-08-30"
-  },
   {
    "id": "pixverse-pixlight",
    "title": "PixVerse PixLight 글로벌 AI 필름 공모",
@@ -92,7 +57,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "hf-gff",
@@ -126,7 +91,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-09-02"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "chroma-s2",
@@ -160,7 +125,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "pixverse-cpp",
@@ -195,7 +160,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "grok-odyssey",
@@ -232,7 +197,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "runway-fund",
@@ -268,7 +233,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "nightcafe-daily",
@@ -304,7 +269,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "pixai-official",
@@ -341,7 +306,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "kling-kreate",
@@ -375,7 +340,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "seaart-daily",
@@ -410,7 +375,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "civitai-daily",
@@ -445,7 +410,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "aifilmfest-monthly",
@@ -483,88 +448,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "manual",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-aigc-future-global-challenge-2026",
-   "title": "AIGC for Future Global Challenge 2026",
-   "org": "AIGC for Future",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-08-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 10000,
-   "credit": 0,
-   "prizeText": "현금 약 $10,000",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · See listing",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Global AIGC (AI-Generated Content) challenge with $10,000 total prize pool. Open to filmmakers and content creators using AI generation tools.",
-   "url": "https://opportunitydesk.org/2026/05/22/aigc-for-future-global-challenge-2026/",
-   "tags": [],
-   "verify": [],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-astana-aiff-2026",
-   "title": "Astana AI Film Festival 2026",
-   "org": "Astana AIFF",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-08-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 1000000,
-   "credit": 0,
-   "prizeText": "현금 약 $1,000,000",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Kazakhstan's first international AI film festival. $1M total prize fund — one of the largest in the category. AI-generated short films up to 10 minutes. Festival held autumn 2026 with screenings, AI content conference, and pitch sessions.",
-   "url": "https://astanatimes.com/2026/04/astana-ai-film-festival-opens-global-call-for-submissions/",
-   "tags": [],
-   "verify": [],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-new-technologies-ai-film-festival-2026",
-   "title": "New Technologies AI Film Festival 2026",
-   "org": "New Technologies AI Film Festival",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-09-01",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 2000,
-   "credit": 0,
-   "prizeText": "현금 약 $2,000",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · See FilmFreeway listing",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "A $2,000 custom AI Statuette and a global stage where cinema meets generative AI. Extended deadline September 1, event September 6. The New Technologies AI Film Festival is a celebration of creativity and innovation showcasing short films, experimental works and artistic visions that explore how algorithms and imagination shape the future of storytelling. Winners take home a one-of-a-kind statuett",
-   "url": "https://filmfreeway.com/NewTechnologiesAIFilmFestival",
-   "tags": [],
-   "verify": [],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-slamdance-dig-ai-2027",
@@ -591,7 +475,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-hkbu-future-film-fest-3f-2026",
@@ -618,7 +502,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-berlin-ai-film-festival-2026",
@@ -645,7 +529,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-cannes-film-awards-ai-2027",
@@ -672,7 +556,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "dp-30721",
@@ -694,7 +578,7 @@ window.GLOBAL_DATA = {
    "entry": "Devpost 제출",
    "career": "platform",
    "bonus": [],
-   "note": "접수 기간 Jul 27 - Sep 09, 2026 · 참가 등록 8843명 · 주제 Databases, Machine Learning/AI, Open Ended",
+   "note": "접수 기간 Jul 27 - Sep 09, 2026 · 참가 등록 9720명 · 주제 Databases, Machine Learning/AI, Open Ended",
    "url": "https://agentic-cinema.devpost.com/",
    "tags": [
     "해커톤",
@@ -702,181 +586,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "devpost",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-ai-motion-milan-2026",
-   "title": "AI.motion — Italy's AI Cinema Festival at IULM Milan",
-   "org": "IULM AI Lab & Neural Network Cultural Association",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "음악·MV",
-   "deadline": "2026-08-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Italy's biggest AI cinema festival lands at IULM University Milan Oct 9–10. Zero entry fee, real Italian broadcaster eyeballs — the festival hands out the coveted RAI Cinema Channel Prize alongside Best Short, Best Commercial, Best Music Video and the PROMPT Magazine Prize.",
-   "url": "https://filmfreeway.com/AI_motion",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-svaiff-awards-2026",
-   "title": "Silicon Valley AI Film Festival (SVAIFF) Awards 2026 — Dolby Theatre",
-   "org": "SVAIFF",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-08-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · See festival site",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Awards ceremony for the worlds first film festival dedicated to AI, cinema, and creative technology, held at the Dolby Theatre in LA (same venue as the Academy Awards). Title-sponsored by Pollo AI. Inaugural January 2026 event drew 2,000+ submissions globally.",
-   "url": "https://www.svaiff.com/",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-ai-media-award-zurich-2026",
-   "title": "AI Media Award (AMA) Zurich 2026",
-   "org": "AMA",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 광고",
-   "deadline": "2026-08-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · 50 CHF",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Switzerland's flagship AI media prize lands at the KONGRESSHAUS Zürich on October 27. Six categories — Advertising, Animation, Art, Fashion, Music Clip, Narration — five-minute max, jury from Europe's creative agencies. Deadline August 31.",
-   "url": "https://ai-media-award.com/",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-sparknify-human-vs-ai-2026",
-   "title": "Sparknify Human vs. AI Film Festival 2026",
-   "org": "Sparknify",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-08-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · See FilmFreeway / festival site",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Global short film competition bringing traditional filmmakers and AI creators together. Films explore one of seven core human emotions.",
-   "url": "https://www.sparknify.com/human-vs-ai-film-festival",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-iffi-goa-ai-film-festival-2026",
-   "title": "IFFI Goa AI Film Festival 2026",
-   "org": "IFFI (NFDC, Ministry of I&B) + WAVES Film Bazaar + LTIMindtree",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-08-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · Free submission via FilmFreeway",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "India's first government-backed AI Film Festival, embedded inside the 57th International Film Festival of India in Goa. Backed by IFFI, WAVES Film Bazaar and LTIMindtree — submission deadline August 31, festival November 20-28. A landmark for AI cinema in South Asia.",
-   "url": "https://iffigoa.org/ai-film-festival",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
-  },
-  {
-   "id": "afc-ai-for-the-future-unga-2026",
-   "title": "AI for the Future Festival — UNGA / Climate Week 2026",
-   "org": "AI for the Future",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-09-01",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · See FilmFreeway listing",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "AI for the Future Festival edition tied to UN General Assembly and Climate Week NYC, September 2026. Films screened during UN week alongside climate and AI policy events.",
-   "url": "https://filmfreeway.com/AIfortheFutureFest",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-naija-ai-film-festival-2026",
@@ -905,7 +615,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-waiff-la-usa-2026",
@@ -934,7 +644,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-we-are-human-festival-call-for-films-2026",
@@ -963,7 +673,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-ai-zone-intl-2026",
@@ -997,7 +707,7 @@ window.GLOBAL_DATA = {
    "alsoFrom": [
     "melies"
    ],
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-call-for-films-ai-2026",
@@ -1026,7 +736,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-golden-dunes-dubai-2026",
@@ -1055,7 +765,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-ai-film-awards-bali-2026",
@@ -1089,7 +799,7 @@ window.GLOBAL_DATA = {
    "alsoFrom": [
     "melies"
    ],
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-ai-london-film-festival-2026",
@@ -1118,7 +828,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-neocinema-ai-film-festival-2026",
@@ -1147,7 +857,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-expo-ai-film-festival-dubai-2027",
@@ -1176,7 +886,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-lundinstudio-ai-film-festival-2027",
@@ -1205,7 +915,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "afc-world-film-festival-cannes-rtf-2027",
@@ -1234,7 +944,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-bali-international-ai-film-festival-biai",
@@ -1266,7 +976,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-k-culture-ai-international-film-festival",
@@ -1298,7 +1008,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-artificial-intelligence-media-festival-a",
@@ -1330,7 +1040,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-bochnia-international-ai-film-festival-2",
@@ -1362,7 +1072,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-rome-ai-film-festival-2026",
@@ -1394,7 +1104,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-red-rocks-ai-film-festival-2026",
@@ -1426,7 +1136,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-ai-film-3-ai-film-and-art-festival-arizo",
@@ -1458,7 +1168,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-astana-ai-film-festival-aaiff-2026",
@@ -1490,7 +1200,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-illuminate-film-festival-2026",
@@ -1522,7 +1232,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-austin-ai-film-festival-2026",
@@ -1554,7 +1264,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-festiav-2026",
@@ -1586,7 +1296,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-ai-film-festival-japan-2026",
@@ -1618,7 +1328,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
   },
   {
    "id": "mel-african-ai-film-festival-2026",
@@ -1650,7 +1360,38 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-08-30"
+   "checkedAt": "2026-09-06"
+  },
+  {
+   "id": "mel-turkey-international-ai-film-festival-t-",
+   "title": "Turkey International AI Film Festival (T-AIFF) 2026",
+   "org": "Turkey International AI Film Festival (T-AIFF) 2026",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": null,
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료(확인 필요)",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "melies.co 디렉터리 등재 기간 2026-12-07 ~ 2026-12-09. 이 날짜는 행사 일정일 수 있어 마감일로 쓰지 않았습니다 — 출품 마감·참가비·상금은 공식 페이지에서 확인하세요.",
+   "url": "https://www.aitff.com/",
+   "tags": [
+    "영화제"
+   ],
+   "verify": [
+    "prize",
+    "deadline"
+   ],
+   "source": "melies"
   }
  ]
 };

@@ -128,6 +128,16 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-07-13 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "afc-iffi-goa-ai-film-festival-2026",
+   "title": "IFFI Goa AI Film Festival 2026",
+   "url": "https://iffigoa.org/ai-film-festival",
+   "source": "aifilmcontests",
+   "retiredAt": "2026-09-06",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2025-11-27 (이미 과거)",
+   "cross": []
   }
  ]
 }
