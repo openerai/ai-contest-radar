@@ -983,8 +983,93 @@
   "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVZIVlhoSmd3LXdxREFTeVpJZzlMb2pnLXYxZnBScXU1NXQtb09ZQzZYTndUOUN1b0RTLWx6czVGTHNST3NzSnZEOGlZdkJKM3dUVlh2cHAxazZuZWJQUFliVVNhbzVQdmxrajQ0b3FxU0Y3dGlNdUdhS2tDcC1yZVlTbi0xV25UUXlTN2JaamVqaHF6Nnc?oc=5": {
    "first": "2026-09-04",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/1bd2c1065e2bd2865447aef86eb5": {
+   "first": "2026-09-08",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/b1d1433cc9a6f192659716ea6867": {
+   "first": "2026-09-08",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/bc0b345c9d413c3935635a0a762e": {
+   "first": "2026-09-08",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/cf9bbc6d0261d9491cd42cf5684c": {
+   "first": "2026-09-08",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://civitai.com/articles/34952/20000-buzz-in-prizes-lessons-you-cant-unlearn-image-and-story-contest": {
+   "first": "2026-09-08",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://pixai.art/en/contest/user-associative-flower-language": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-dark-shadows-beauty": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-detail-unleashed": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-early-autumn": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-flat-fashion": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-fruit-crown": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-ibitsu": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-io-anime-style-contest": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-jellyfish": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-star-trek": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-war-of-the-heir-candidates": {
+   "first": "2026-09-08",
+   "brand": "PixAI"
+  },
+  "https://news.google.com/rss/articles/CBMitAJBVV95cUxPWnRBc0tNU1dCcHZ4cFNlc1hFU3VZbVF2cHNVdTlXVWxGM3N5OGdhemdSZGtyRjF1UUMxMnJuNGxKR0xFdm5obHJ4Qjc5UFdhb2oxblFOQTQ3UW9XOVhQbngyb0NhVTdOSFFBclUxTlhiZnhmUzZLdDVnYklSLXhYbkZxbWR3SjBSY1BVdXBGUEdCUWkwYkJPc3ZaNTd3TlppN0YyMkVESjVtaHlYSnZUOFBHeEt4dlVBcVJKYVRpOFh5NFQ0RDRwMmc1YU1qRzZSR1BQUkZ6RHEzQXExLWc5clMxZUx5MVZnNF9icElJMDlDeE5xZXVINklMZFZwVnJJTjAzcXBhbTVDSjBLcTAyeElTRV9JWlMxblFyLWZkSVhDSVlNSEVpQlk2VFdhRVIxN2pWUg?oc=5": {
+   "first": "2026-09-08",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRUI3dnNiclkwdndDNzhybDhUNW10b01qaE1XbzhEOWE4QUNXVTMwVE5HVUo2M1dqMng2UHNWa1NUcVJQV3Y3clF0Q2w5XzY0Mzh2VDdJMjFBdFFVWGppdTRiUVFaSnBSQ3p3MVlKX0dmREMwV1Z1Z044NDJZdmtVaGlIeVJvdWowOUlyMHhENUxrRTZDZ2FndTF6bXJRbTlOT2dyMnN3?oc=5": {
+   "first": "2026-09-08",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMWdfb3UtZUtTdkQ5Y05oMURvWnkwdkNCaHFDRlFUQXN6cGJjbHRqTjVTSU00bHJmZ3g4NXlGSnZlS1d5RHY4N29TSkpfbEgwWlNhYzZlWlgyQ3pTeFFPb1NLVEFUNXZ2Q3VVMl9sa3N3cWVNVFJPVzRJZmM1WlFhM04zNV90MHU0WVh1bDBaSV9ReW9ibHpKamJFOXNMM1FDTlZYeGhyOFVqbWItYW03RDBDRFRaYVR3bURycnRzNkZGUmV5QkdfYzQtVm1lM3F5VU54ekQ1TkpYYzdMRXU1T0k3WFZ3bUZrYkI0MTRYa3BXak9scmx1ejM2RQ?oc=5": {
+   "first": "2026-09-08",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPM3FmWTFoaFZ4cER5RUVvNFJnbEhBR29ja29Yd0Z5azRkeWRHcDNEZ1NxYWhBaGd4dTdMVUtJYWRFeFV6MkROWEV6SXZRbHNSRHVXdHQ1dnBRd1ZYTkNVZk9Fcm01bjV4SGF5bnZ3RTl5bkg0LWJJbVE5Y1ZKYUw3VVZrMDBpV3d1Vkh1NGFkRHlzSmtHVldteG9ZVXV2MUx0MWgwR0t2Vmsza3FERWwyUTNnZEZYbk1KZUlCd2JyQy1VSHJkYlhKb1NSdTZwTXFG?oc=5": {
+   "first": "2026-09-08",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-09-04T22:53:03+00:00",
- "seenCount": 232
+ "updatedAt": "2026-09-08T23:16:55+00:00",
+ "seenCount": 252
 }
