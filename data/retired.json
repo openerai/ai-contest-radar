@@ -138,6 +138,16 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2025-11-27 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "mel-k-culture-ai-international-film-festival",
+   "title": "K-Culture AI International Film Festival (KCAIF) 2026",
+   "url": "https://www.kcaif.net/",
+   "source": "melies",
+   "retiredAt": "2026-09-13",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-09-06 (이미 과거)",
+   "cross": []
   }
  ]
 }

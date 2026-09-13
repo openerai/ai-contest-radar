@@ -2,15 +2,15 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.KR_DATA = {
- "generatedAt": "2026-09-06T22:50:31+00:00",
+ "generatedAt": "2026-09-13T23:03:28+00:00",
  "_meta": {
-  "autoCount": 57,
-  "finalCount": 61,
+  "autoCount": 55,
+  "finalCount": 59,
   "manualCount": 11,
   "bySource": {
    "manual": 9,
-   "linkareer": 48,
-   "aifactory": 4
+   "linkareer": 47,
+   "aifactory": 3
   },
   "warnings": [
    "위비티 [웹/모바일/IT] 목록 로드 실패",
@@ -256,12 +256,598 @@ window.KR_DATA = {
    "source": "manual"
   },
   {
+   "id": "linkareer-349871",
+   "title": "2026 강남 대전환!! AI 홍보콘텐츠 공모전",
+   "host": "서울특별시",
+   "hostType": "지자체",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-10",
+   "deadline": "2026-09-30",
+   "prizeTotal": 28000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "2800만 원",
+   "topPrize": "시상규모 2800만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-10 ~ 2026-09-30. 공모분야 사진/영상/UCC 디자인/순수미술/공예.",
+   "url": "https://linkareer.com/activity/349871",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-345299",
+   "title": "2026년 제6회 K-인공지능 제조데이터 분석 경진대회",
+   "host": "중소벤처기업부",
+   "hostType": "정부·공공",
+   "cat": "데이터·알고리즘",
+   "start": "2026-08-24",
+   "deadline": "2026-09-17",
+   "prizeTotal": 38000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "3800만 원",
+   "topPrize": "시상규모 3800만 원",
+   "who": "대학생, 직장인/일반인",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-08-24 ~ 2026-09-17. 공모분야 과학/공학.",
+   "url": "https://linkareer.com/activity/345299",
+   "tags": [
+    "과학",
+    "공학"
+   ],
+   "verify": [],
+   "source": "linkareer",
+   "alsoFrom": [
+    "linkareer"
+   ]
+  },
+  {
+   "id": "linkareer-342034",
+   "title": "[한국과학기술정보연구원] 2026 DATA·AI 분석 경진대회",
+   "host": "한국과학기술정보연구원",
+   "hostType": "정부·공공",
+   "cat": "데이터·알고리즘",
+   "start": "2026-08-11",
+   "deadline": "2026-11-25",
+   "prizeTotal": 13000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "1300만 원",
+   "topPrize": "시상규모 1300만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-08-11 ~ 2026-11-25. 공모분야 과학/공학 학술.",
+   "url": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
+   "tags": [
+    "과학",
+    "공학",
+    "학술"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349718",
+   "title": "[총상금 2,750만원] 2026 데이터+AI 혁신챌린지 데이터안심구역 경진대회",
+   "host": "(주)프리하라",
+   "hostType": "기타",
+   "cat": "데이터·알고리즘",
+   "start": "2026-09-01",
+   "deadline": "2026-10-22",
+   "prizeTotal": 27500000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "2750만 원",
+   "topPrize": "시상규모 2750만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "우수상 이상 채용 서류 면제 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-10-22. 공모분야 기획/아이디어 과학/공학.",
+   "url": "https://dsz.kdata.or.kr/contest/introduce/main.do",
+   "tags": [
+    "기획",
+    "아이디어",
+    "과학"
+   ],
+   "verify": [],
+   "source": "linkareer",
+   "alsoFrom": [
+    "linkareer"
+   ]
+  },
+  {
+   "id": "linkareer-349636",
+   "title": "2026 데이터·AI 혁신 챌린지 통합경진대회 <데이터 문제해결 부문> 참가자 모집",
+   "host": "AI데이터문제해결은행홍보사무국",
+   "hostType": "기타",
+   "cat": "데이터·알고리즘",
+   "start": "2026-09-08",
+   "deadline": "2026-10-22",
+   "prizeTotal": 10400000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "1040만 원",
+   "topPrize": "시상규모 1040만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-08 ~ 2026-10-22. 공모분야 과학/공학 창업.",
+   "url": "https://kdata.or.kr/datahub/portal/home",
+   "tags": [
+    "과학",
+    "공학",
+    "창업"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349585",
+   "title": "2026 대구정원박람회 AI 아트 챌린지",
+   "host": "아이엠월드",
+   "hostType": "기타",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-10",
+   "deadline": "2026-10-27",
+   "prizeTotal": 50000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "5만 원",
+   "topPrize": "시상규모 5만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-10 ~ 2026-10-27. 공모분야 디자인/순수미술/공예 사진/영상/UCC.",
+   "url": "https://linkareer.com/activity/349585",
+   "tags": [
+    "디자인",
+    "순수미술",
+    "공예"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349566",
+   "title": "2026 양주시 미래인재 AI 공모전",
+   "host": "비디에이아이(BDAI)",
+   "hostType": "기타",
+   "cat": "아이디어·기획",
+   "start": "2026-09-10",
+   "deadline": "2026-09-18",
+   "prizeTotal": 3900000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "390만 원",
+   "topPrize": "시상규모 390만 원",
+   "who": "대학생, 직장인/일반인",
+   "whoType": "전국민",
+   "bonus": [
+    "현직자 멘토링 3회 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-10 ~ 2026-09-18. 공모분야 기획/아이디어.",
+   "url": "https://bdai.co.kr/accounts/l/6WQFAGJJEW/?utm_source=linkareer&utm_medium=social&utm_campaign=yangju_ai_contest",
+   "tags": [
+    "기획",
+    "아이디어"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349388",
+   "title": "[과학기술정보통신부] 2026 AI 활용 아이디어 공모전",
+   "host": "한국정보방송통신대연합",
+   "hostType": "기타",
+   "cat": "아이디어·기획",
+   "start": "2026-09-07",
+   "deadline": "2026-10-02",
+   "prizeTotal": 9000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "900만 원",
+   "topPrize": "시상규모 900만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-07 ~ 2026-10-02. 공모분야 기획/아이디어 과학/공학.",
+   "url": "https://www.kfict.or.kr/index.asp",
+   "tags": [
+    "기획",
+    "아이디어",
+    "과학"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349293",
+   "title": "2026 경북농협 농산물 AI 숏폼 대학생 공모전",
+   "host": "농협경제지주(주)경북본부",
+   "hostType": "지자체",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-09",
+   "deadline": "2026-09-30",
+   "prizeTotal": 1000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "100만 원",
+   "topPrize": "시상규모 100만 원",
+   "who": "대학생",
+   "whoType": "대학생",
+   "bonus": [
+    "상금 및 상장부여 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-09 ~ 2026-09-30. 공모분야 사진/영상/UCC 기획/아이디어.",
+   "url": "https://데일리.kr",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349138",
+   "title": "[한국폴리텍IV대학 대전캠퍼스] 지역 청소년이 참가하는 관계성 범죄예방 AI 영상콘텐츠 공모전",
+   "host": "한국폴리텍IV대학 대전캠퍼스",
+   "hostType": "지자체",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-01",
+   "deadline": "2026-10-05",
+   "prizeTotal": 3700000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "370만 원",
+   "topPrize": "시상규모 370만 원",
+   "who": "청소년, 대학생",
+   "whoType": "청소년·어린이",
+   "bonus": [
+    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-10-05. 공모분야 사진/영상/UCC.",
+   "url": "https://www.kopo.ac.kr/daejeon/index.do",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349120",
+   "title": "PAC 2026 (Physical AI Challenge)",
+   "host": "스마트크리에이터",
+   "hostType": "기타",
+   "cat": "아이디어·기획",
+   "start": "2026-08-17",
+   "deadline": "2026-09-27",
+   "prizeTotal": 30000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "3000만 원",
+   "topPrize": "시상규모 3000만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-08-17 ~ 2026-09-27. 공모분야 과학/공학.",
+   "url": "https://linkareer.com/activity/349120",
+   "tags": [
+    "과학",
+    "공학"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349058",
+   "title": "제2회 ZYXCAD AX 경진대회",
+   "host": "직스테크놀로지",
+   "hostType": "기타",
+   "cat": "데이터·알고리즘",
+   "start": "2026-08-31",
+   "deadline": "2026-10-18",
+   "prizeTotal": 10000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "1000만 원",
+   "topPrize": "시상규모 1000만 원",
+   "who": "청소년, 대학생",
+   "whoType": "청소년·어린이",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-10-18. 공모분야 학술 과학/공학.",
+   "url": "https://linkareer.com/activity/349058",
+   "tags": [
+    "학술",
+    "과학",
+    "공학"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349047",
+   "title": "2026년「국가정책연구포털 AI 쇼츠 영상공모전」",
+   "host": "경제인문사회연구회",
+   "hostType": "기타",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-07",
+   "deadline": "2026-10-31",
+   "prizeTotal": 4200000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "420만 원",
+   "topPrize": "시상규모 420만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-07 ~ 2026-10-31. 공모분야 사진/영상/UCC 기획/아이디어.",
+   "url": "https://www.nkis.re.kr/commonBoard_view.do",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [
+    "prize"
+   ],
+   "source": "linkareer",
+   "alsoFrom": [
+    "linkareer"
+   ]
+  },
+  {
+   "id": "linkareer-349024",
+   "title": "2026 해운·항만·물류 AX 아이디어 공모전",
+   "host": "한국해양진흥공사",
+   "hostType": "정부·공공",
+   "cat": "아이디어·기획",
+   "start": "2026-09-07",
+   "deadline": "2026-10-30",
+   "prizeTotal": 11000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "1100만 원",
+   "topPrize": "시상규모 1100만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-07 ~ 2026-10-30. 공모분야 기획/아이디어 과학/공학.",
+   "url": "https://www.kobc.or.kr/ebz/kor/main.do",
+   "tags": [
+    "기획",
+    "아이디어",
+    "과학"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-348982",
+   "title": "[데이콘] 블랙박스 사고·딥보이스·법령 위반 탐지 AI 경진대회 (~9/30)",
+   "host": "데이콘 주식회사",
+   "hostType": "기타",
+   "cat": "데이터·알고리즘",
+   "start": "2026-09-01",
+   "deadline": "2026-09-30",
+   "prizeTotal": 126000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "1억 2600만 원",
+   "topPrize": "시상규모 1억 2600만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-09-30. 공모분야 기획/아이디어 과학/공학.",
+   "url": "https://linkareer.com/activity/348982",
+   "tags": [
+    "기획",
+    "아이디어",
+    "과학"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-348958",
+   "title": "2026 AI 창업 경진대회 참가자 모집",
+   "host": "마이스플랜즈",
+   "hostType": "기타",
+   "cat": "데이터·알고리즘",
+   "start": "2026-09-07",
+   "deadline": "2026-09-30",
+   "prizeTotal": 107000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "1억 700만 원",
+   "topPrize": "시상규모 1억 700만 원",
+   "who": "직장인/일반인",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-07 ~ 2026-09-30. 공모분야 기획/아이디어 창업.",
+   "url": "https://ai-startup-competition.kr/",
+   "tags": [
+    "기획",
+    "아이디어",
+    "창업"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-348854",
+   "title": "시니어·가족 공감 AI 영상 제작대회",
+   "host": "과학기술정보통신부",
+   "hostType": "정부·공공",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-07",
+   "deadline": "2026-09-30",
+   "prizeTotal": 10500000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "1050만 원",
+   "topPrize": "시상규모 1050만 원",
+   "who": "직장인/일반인",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-07 ~ 2026-09-30. 공모분야 사진/영상/UCC.",
+   "url": "https://linkareer.com/activity/348854",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-348850",
+   "title": "2026년 충청남도 데이터 분석 아이디어 공모전",
+   "host": "충청남도",
+   "hostType": "정부·공공",
+   "cat": "데이터·알고리즘",
+   "start": "2026-09-07",
+   "deadline": "2026-09-23",
+   "prizeTotal": 3000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "300만 원",
+   "topPrize": "1등 50만원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-07 ~ 2026-09-23. 공모분야 기획/아이디어.",
+   "url": "https://linkareer.com/activity/348850",
+   "tags": [
+    "기획",
+    "아이디어"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-348838",
+   "title": "AI와 소방안전의 융합, 일상을 지키는 재난안전 숏폼 공모전",
+   "host": "세종사이버대학교 소방방재학과·소방행정학과",
+   "hostType": "기타",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-07",
+   "deadline": "2026-10-31",
+   "prizeTotal": 1100000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "110만 원",
+   "topPrize": "시상규모 110만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-07 ~ 2026-10-31. 공모분야 사진/영상/UCC.",
+   "url": "https://linkareer.com/activity/348838",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-348561",
+   "title": "AI 노출지수&카나리아 대시보드 네이밍 공모전",
+   "host": "고용노동부",
+   "hostType": "정부·공공",
+   "cat": "아이디어·기획",
+   "start": "2026-09-07",
+   "deadline": "2026-09-27",
+   "prizeTotal": 2000000,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "200만 원",
+   "topPrize": "시상규모 200만 원",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "아이패드, 갤럭시 워치 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-07 ~ 2026-09-27. 공모분야 네이밍/슬로건.",
+   "url": "https://linkareer.com/activity/348561",
+   "tags": [
+    "네이밍",
+    "슬로건"
+   ],
+   "verify": [],
+   "source": "linkareer"
+  },
+  {
    "id": "linkareer-348351",
    "title": "[김포시] 2026년 김포시 AI로 만드는 기후대응 숏폼 공모전",
    "host": "김포시청",
    "hostType": "지자체",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-31",
+   "start": "2026-09-01",
    "deadline": "2026-09-28",
    "prizeTotal": 4600000,
    "prizeMin": null,
@@ -274,7 +860,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-28. 공모분야 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-09-28. 공모분야 사진/영상/UCC.",
    "url": "https://www.gimpo.go.kr/portal/index.do",
    "tags": [
     "사진",
@@ -290,7 +876,7 @@ window.KR_DATA = {
    "host": "한국가스안전공사",
    "hostType": "정부·공공",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-02",
+   "start": "2026-08-03",
    "deadline": "2026-09-18",
    "prizeTotal": 14100000,
    "prizeMin": null,
@@ -303,7 +889,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-02 ~ 2026-09-18. 공모분야 기획/아이디어 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-08-03 ~ 2026-09-18. 공모분야 기획/아이디어 사진/영상/UCC.",
    "url": "https://www.kgs-aicontest.com/",
    "tags": [
     "기획",
@@ -314,130 +900,12 @@ window.KR_DATA = {
    "source": "linkareer"
   },
   {
-   "id": "linkareer-345299",
-   "title": "2026년 제6회 K-인공지능 제조데이터 분석 경진대회",
-   "host": "중소벤처기업부",
-   "hostType": "정부·공공",
-   "cat": "데이터·알고리즘",
-   "start": "2026-08-23",
-   "deadline": "2026-09-17",
-   "prizeTotal": 38000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "3800만 원",
-   "topPrize": "시상규모 3800만 원",
-   "who": "대학생, 직장인/일반인",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-23 ~ 2026-09-17. 공모분야 과학/공학.",
-   "url": "https://linkareer.com/activity/345299",
-   "tags": [
-    "과학",
-    "공학"
-   ],
-   "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "linkareer"
-   ]
-  },
-  {
-   "id": "linkareer-347433",
-   "title": "AI와 함께하는 교통문제 해결을 위한 데이터 분석 공모전",
-   "host": "재단법인 숲과나눔",
-   "hostType": "정부·공공",
-   "cat": "데이터·알고리즘",
-   "start": "2026-08-17",
-   "deadline": "2026-10-22",
-   "prizeTotal": 3400000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "340만 원",
-   "topPrize": "시상규모 340만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-17 ~ 2026-10-22. 공모분야 기획/아이디어 학술.",
-   "url": "https://koreashe.org/board/?mode=view&board_id=22&post_id=95427",
-   "tags": [
-    "기획",
-    "아이디어",
-    "학술"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-342895",
-   "title": "2026 한화솔루션 AI 영상 공모전",
-   "host": "스튜디오플레이",
-   "hostType": "기타",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-17",
-   "deadline": "2026-09-15",
-   "prizeTotal": 10000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "1000만 원",
-   "topPrize": "시상규모 1000만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-17 ~ 2026-09-15. 공모분야 기획/아이디어 사진/영상/UCC.",
-   "url": "https://linkareer.com/activity/342895",
-   "tags": [
-    "기획",
-    "아이디어",
-    "사진"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-341495",
-   "title": "[하나손해보험] 2026 하나손해보험 AI영상 공모전",
-   "host": "하나손해보험 주식회사",
-   "hostType": "대기업",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-11",
-   "deadline": "2026-09-08",
-   "prizeTotal": 12000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "1200만 원",
-   "topPrize": "시상규모 1200만 원",
-   "who": "대학생, 직장인/일반인",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-11 ~ 2026-09-08. 공모분야 사진/영상/UCC 광고/마케팅.",
-   "url": "https://www.hanainsure.co.kr/w/benefit/event/ongoingEventDetail?nSeq=19",
-   "tags": [
-    "사진",
-    "영상",
-    "UCC"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
    "id": "linkareer-347946",
    "title": "[2026 디지털헤리티지페스타] AI 헤리티지 공모전",
    "host": "주식회사 케이런",
    "hostType": "기타",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-09-04",
+   "start": "2026-09-05",
    "deadline": "2026-09-30",
    "prizeTotal": 8100000,
    "prizeMin": null,
@@ -450,7 +918,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-09-04 ~ 2026-09-30. 공모분야 디자인/순수미술/공예 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-09-05 ~ 2026-09-30. 공모분야 디자인/순수미술/공예 사진/영상/UCC.",
    "url": "https://dh-festa.com/",
    "tags": [
     "디자인",
@@ -466,7 +934,7 @@ window.KR_DATA = {
    "host": "국립식량과학원, 대한지역사회영양학회",
    "hostType": "정부·공공",
    "cat": "데이터·알고리즘",
-   "start": "2026-08-20",
+   "start": "2026-08-21",
    "deadline": "2026-09-30",
    "prizeTotal": 1700000,
    "prizeMin": null,
@@ -479,7 +947,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-20 ~ 2026-09-30. 공모분야 기획/아이디어.",
+   "note": "링커리어 자동 수집. 접수 2026-08-21 ~ 2026-09-30. 공모분야 기획/아이디어.",
    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156776159",
    "tags": [
     "기획",
@@ -494,7 +962,7 @@ window.KR_DATA = {
    "host": "서울관광재단",
    "hostType": "정부·공공",
    "cat": "데이터·알고리즘",
-   "start": "2026-09-01",
+   "start": "2026-09-02",
    "deadline": "2026-09-14",
    "prizeTotal": 5000000,
    "prizeMin": null,
@@ -507,7 +975,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-09-14. 공모분야 기획/아이디어.",
+   "note": "링커리어 자동 수집. 접수 2026-09-02 ~ 2026-09-14. 공모분야 기획/아이디어.",
    "url": "https://linkareer.com/activity/347765",
    "tags": [
     "기획",
@@ -525,7 +993,7 @@ window.KR_DATA = {
    "host": "과학기술정보통신부",
    "hostType": "정부·공공",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-31",
+   "start": "2026-09-01",
    "deadline": "2026-10-31",
    "prizeTotal": 34000000,
    "prizeMin": null,
@@ -538,7 +1006,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-10-31. 공모분야 기획/아이디어 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-10-31. 공모분야 기획/아이디어 사진/영상/UCC.",
    "url": "https://aichallenge4all.or.kr/competitions/case-contest",
    "tags": [
     "기획",
@@ -549,41 +1017,12 @@ window.KR_DATA = {
    "source": "linkareer"
   },
   {
-   "id": "linkareer-347582",
-   "title": "[춘천시] 2026 춘천 반려동물 AI 숏폼 공모전",
-   "host": "춘천시",
-   "hostType": "기타",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-31",
-   "deadline": "2026-09-13",
-   "prizeTotal": 3200000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "320만 원",
-   "topPrize": "시상규모 320만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-13. 공모분야 사진/영상/UCC 기타.",
-   "url": "https://www.chuncheon.go.kr/cityhall/administrative-info/notice-info/municipal-news/?bbsId=BBSMSTR_000000000151&nttId=527929&flag=view",
-   "tags": [
-    "사진",
-    "영상",
-    "UCC"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
    "id": "linkareer-347520",
    "title": "THE GREAT GWANGJU AI 영상 공모전",
    "host": "광주신세계",
    "hostType": "지자체",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-19",
+   "start": "2026-08-20",
    "deadline": "2026-09-27",
    "prizeTotal": 5000000,
    "prizeMin": null,
@@ -596,7 +1035,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-19 ~ 2026-09-27. 공모분야 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-08-20 ~ 2026-09-27. 공모분야 사진/영상/UCC.",
    "url": "https://crowlly.xyz/competitions/gwangju-shinsegae-the-great-gwangju-ai-video-contest-2026",
    "tags": [
     "사진",
@@ -607,36 +1046,33 @@ window.KR_DATA = {
    "source": "linkareer"
   },
   {
-   "id": "linkareer-347448",
-   "title": "2026 데이터+AI 혁신챌린지 데이터안심구역 경진대회",
-   "host": "과학기술정보통신부",
+   "id": "linkareer-347433",
+   "title": "AI와 함께하는 교통문제 해결을 위한 데이터 분석 공모전",
+   "host": "재단법인 숲과나눔",
    "hostType": "정부·공공",
    "cat": "데이터·알고리즘",
-   "start": "2026-08-31",
+   "start": "2026-08-18",
    "deadline": "2026-10-22",
-   "prizeTotal": 27500000,
+   "prizeTotal": 3400000,
    "prizeMin": null,
    "prizeMax": null,
    "prizeApprox": false,
-   "prizeBucket": "2750만 원",
-   "topPrize": "시상규모 2750만 원",
+   "prizeBucket": "340만 원",
+   "topPrize": "시상규모 340만 원",
    "who": "대상 제한 없음",
    "whoType": "전국민",
    "bonus": [
-    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-10-22. 공모분야 과학/공학 학술.",
-   "url": "https://dsz.kdata.or.kr/contest/introduce/main.do",
+   "note": "링커리어 자동 수집. 접수 2026-08-18 ~ 2026-10-22. 공모분야 기획/아이디어 학술.",
+   "url": "https://koreashe.org/board/?mode=view&board_id=22&post_id=95427",
    "tags": [
-    "과학",
-    "공학",
+    "기획",
+    "아이디어",
     "학술"
    ],
    "verify": [],
-   "source": "linkareer",
-   "alsoFrom": [
-    "linkareer"
-   ]
+   "source": "linkareer"
   },
   {
    "id": "linkareer-347280",
@@ -644,7 +1080,7 @@ window.KR_DATA = {
    "host": "산림청",
    "hostType": "정부·공공",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-31",
+   "start": "2026-09-01",
    "deadline": "2026-09-30",
    "prizeTotal": 2800000,
    "prizeMin": null,
@@ -657,7 +1093,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-30. 공모분야 사진/영상/UCC 기타.",
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-09-30. 공모분야 사진/영상/UCC 기타.",
    "url": "https://www.forest.go.kr/kfsweb/kfs/idx/Index.do",
    "tags": [
     "사진",
@@ -668,30 +1104,30 @@ window.KR_DATA = {
    "source": "linkareer"
   },
   {
-   "id": "linkareer-347194",
-   "title": "2026 제12회 동편제국악축제 포스터 디자인 공모전",
-   "host": "케이아츠크리에이티브",
+   "id": "linkareer-347195",
+   "title": "2026 데이터+AI 혁신챌린지 ‘데이터안심구역 경진대회’ 참가자 모집 안내",
+   "host": "데이터안심구역",
    "hostType": "기타",
-   "cat": "AI 이미지·아트",
-   "start": "2026-08-31",
-   "deadline": "2026-09-13",
-   "prizeTotal": 1000000,
+   "cat": "데이터·알고리즘",
+   "start": "2026-09-01",
+   "deadline": "2026-10-22",
+   "prizeTotal": 27500000,
    "prizeMin": null,
    "prizeMax": null,
    "prizeApprox": false,
-   "prizeBucket": "100만 원",
-   "topPrize": "시상규모 100만 원",
+   "prizeBucket": "2750만 원",
+   "topPrize": "시상규모 2750만 원",
    "who": "대상 제한 없음",
    "whoType": "전국민",
    "bonus": [
-    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-13. 공모분야 디자인/순수미술/공예.",
-   "url": "https://kartsvillage.kr/2026-contest/",
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-10-22. 공모분야 기획/아이디어 기타.",
+   "url": "https://dsz.kdata.or.kr/contest/introduce/main.do",
    "tags": [
-    "디자인",
-    "순수미술",
-    "공예"
+    "기획",
+    "아이디어",
+    "기타"
    ],
    "verify": [],
    "source": "linkareer"
@@ -731,7 +1167,7 @@ window.KR_DATA = {
    "host": "전남대학교(여수) 전남 앵커 사업단",
    "hostType": "지자체",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-25",
+   "start": "2026-08-26",
    "deadline": "2026-09-23",
    "prizeTotal": 4000000,
    "prizeMin": null,
@@ -744,7 +1180,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-25 ~ 2026-09-23. 공모분야 기획/아이디어.",
+   "note": "링커리어 자동 수집. 접수 2026-08-26 ~ 2026-09-23. 공모분야 기획/아이디어.",
    "url": "https://linkareer.com/activity/347106",
    "tags": [
     "기획",
@@ -759,7 +1195,7 @@ window.KR_DATA = {
    "host": "코리아세븐",
    "hostType": "기타",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-31",
+   "start": "2026-09-01",
    "deadline": "2026-09-21",
    "prizeTotal": 20000000,
    "prizeMin": null,
@@ -772,7 +1208,7 @@ window.KR_DATA = {
    "bonus": [
     "선착순 참여 시 추가 혜택 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-21. 공모분야 기획/아이디어 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-09-21. 공모분야 기획/아이디어 사진/영상/UCC.",
    "url": "https://linkareer.com/activity/347086",
    "tags": [
     "기획",
@@ -788,7 +1224,7 @@ window.KR_DATA = {
    "host": "부산광역시",
    "hostType": "지자체",
    "cat": "AI 이미지·아트",
-   "start": "2026-08-31",
+   "start": "2026-09-01",
    "deadline": "2026-09-30",
    "prizeTotal": 13000000,
    "prizeMin": null,
@@ -801,7 +1237,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-30. 공모분야 디자인/순수미술/공예.",
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-09-30. 공모분야 디자인/순수미술/공예.",
    "url": "https://linkareer.com/activity/346974",
    "tags": [
     "디자인",
@@ -817,7 +1253,7 @@ window.KR_DATA = {
    "host": "(주)직스테크놀로지",
    "hostType": "기타",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-30",
+   "start": "2026-08-31",
    "deadline": "2026-10-18",
    "prizeTotal": 10000000000,
    "prizeMin": null,
@@ -830,7 +1266,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-30 ~ 2026-10-18. 공모분야 사진/영상/UCC 건축/건설/인테리어.",
+   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-10-18. 공모분야 사진/영상/UCC 건축/건설/인테리어.",
    "url": "https://zyx.co.kr/ZYXAWARDS",
    "tags": [
     "사진",
@@ -846,7 +1282,7 @@ window.KR_DATA = {
    "host": "한국식품안전관리인증원",
    "hostType": "정부·공공",
    "cat": "데이터·알고리즘",
-   "start": "2026-08-30",
+   "start": "2026-08-31",
    "deadline": "2026-09-30",
    "prizeTotal": 6000000,
    "prizeMin": null,
@@ -859,7 +1295,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-30 ~ 2026-09-30. 공모분야 과학/공학.",
+   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-30. 공모분야 과학/공학.",
    "url": "https://www.loud.kr/contest/view/210256/brief",
    "tags": [
     "과학",
@@ -874,7 +1310,7 @@ window.KR_DATA = {
    "host": "주식회사 공감오래콘텐츠",
    "hostType": "기타",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-23",
+   "start": "2026-08-24",
    "deadline": "2026-09-30",
    "prizeTotal": 2000000,
    "prizeMin": null,
@@ -887,7 +1323,7 @@ window.KR_DATA = {
    "bonus": [
     "인제대 총장상,수상작 전시 등 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-23 ~ 2026-09-30. 공모분야 사진/영상/UCC 디자인/순수미술/공예.",
+   "note": "링커리어 자동 수집. 접수 2026-08-24 ~ 2026-09-30. 공모분야 사진/영상/UCC 디자인/순수미술/공예.",
    "url": "https://ai-art-contest-2026.gonggamore.co.kr/",
    "tags": [
     "사진",
@@ -903,7 +1339,7 @@ window.KR_DATA = {
    "host": "(주)원티드랩",
    "hostType": "정부·공공",
    "cat": "해커톤·개발",
-   "start": "2026-08-23",
+   "start": "2026-08-24",
    "deadline": "2026-09-18",
    "prizeTotal": 17000000,
    "prizeMin": null,
@@ -916,98 +1352,11 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-23 ~ 2026-09-18. 공모분야 기획/아이디어.",
+   "note": "링커리어 자동 수집. 접수 2026-08-24 ~ 2026-09-18. 공모분야 기획/아이디어.",
    "url": "https://linkareer.com/activity/346405",
    "tags": [
     "기획",
     "아이디어"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-346351",
-   "title": "[총상금 $100K+·참가비 무료] GWDC 2026 AI×Web3 48시간 해커톤",
-   "host": "주식회사 커넥트에이아이",
-   "hostType": "기타",
-   "cat": "해커톤·개발",
-   "start": "2026-08-27",
-   "deadline": "2026-11-26",
-   "prizeTotal": 13800000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "1380만 원",
-   "topPrize": "시상규모 1380만 원",
-   "who": "대학생",
-   "whoType": "대학생",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-27 ~ 2026-11-26. 공모분야 기획/아이디어 과학/공학.",
-   "url": "https://www.connectai.biz/",
-   "tags": [
-    "기획",
-    "아이디어",
-    "과학"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-346024",
-   "title": "[경남로봇랜드재단] 경남 마산로봇랜드 테마파크 AI영상 제작 공모전",
-   "host": "경남로봇랜드재단",
-   "hostType": "지자체",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-13",
-   "deadline": "2026-09-13",
-   "prizeTotal": 4500000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "450만 원",
-   "topPrize": "시상규모 450만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-13 ~ 2026-09-13. 공모분야 사진/영상/UCC.",
-   "url": "https://robot-land.co.kr/bbs/board.php?bo_table=notice&admin_mode=&wr_id=385&&admin_mode=",
-   "tags": [
-    "사진",
-    "영상",
-    "UCC"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-345635",
-   "title": "2026년 부산교통공사 AI 이미지 공모전",
-   "host": "부산교통공사",
-   "hostType": "지자체",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-23",
-   "deadline": "2026-09-13",
-   "prizeTotal": 500000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "50만 원",
-   "topPrize": "시상규모 50만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-23 ~ 2026-09-13. 공모분야 사진/영상/UCC 디자인/순수미술/공예.",
-   "url": "https://www.humetro.busan.kr/homepage/default/board/view.do?board_no=2608BL0J20&c_page=1&conf_no=80&geulmeori&keyword&menu_no=1001040101&search_key&utm_source=chatgpt.com",
-   "tags": [
-    "사진",
-    "영상",
-    "UCC"
    ],
    "verify": [],
    "source": "linkareer"
@@ -1018,7 +1367,7 @@ window.KR_DATA = {
    "host": "주식회사 앤다",
    "hostType": "기타",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-23",
+   "start": "2026-08-24",
    "deadline": "2026-09-21",
    "prizeTotal": 30000000,
    "prizeMin": null,
@@ -1031,7 +1380,7 @@ window.KR_DATA = {
    "bonus": [
     "문화체육관광부장관상 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-23 ~ 2026-09-21. 공모분야 기획/아이디어 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-08-24 ~ 2026-09-21. 공모분야 기획/아이디어 사진/영상/UCC.",
    "url": "https://linkareer.com/activity/345489",
    "tags": [
     "기획",
@@ -1047,7 +1396,7 @@ window.KR_DATA = {
    "host": "한국지능정보사회진흥원",
    "hostType": "정부·공공",
    "cat": "데이터·알고리즘",
-   "start": "2026-08-20",
+   "start": "2026-08-21",
    "deadline": "2026-09-30",
    "prizeTotal": 30000000,
    "prizeMin": null,
@@ -1060,7 +1409,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-20 ~ 2026-09-30. 공모분야 기획/아이디어.",
+   "note": "링커리어 자동 수집. 접수 2026-08-21 ~ 2026-09-30. 공모분야 기획/아이디어.",
    "url": "https://devcontest-digitalsolveup.kr/",
    "tags": [
     "기획",
@@ -1075,7 +1424,7 @@ window.KR_DATA = {
    "host": "빠나나AI",
    "hostType": "기타",
    "cat": "AI 이미지·아트",
-   "start": "2026-08-23",
+   "start": "2026-08-24",
    "deadline": "2026-09-18",
    "prizeTotal": 5000000,
    "prizeMin": null,
@@ -1088,7 +1437,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-23 ~ 2026-09-18. 공모분야 캐릭터/만화/게임.",
+   "note": "링커리어 자동 수집. 접수 2026-08-24 ~ 2026-09-18. 공모분야 캐릭터/만화/게임.",
    "url": "https://www.threads.com/@bbanana.ai/post/DcaAvHeCBdD",
    "tags": [
     "캐릭터",
@@ -1099,40 +1448,12 @@ window.KR_DATA = {
    "source": "linkareer"
   },
   {
-   "id": "linkareer-344979",
-   "title": "[기상청] AI로 만드는 기상과학 로고송 챌린지",
-   "host": "기상청",
-   "hostType": "정부·공공",
-   "cat": "AI 이미지·아트",
-   "start": "2026-08-12",
-   "deadline": "2026-09-13",
-   "prizeTotal": 390000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "39만 원",
-   "topPrize": "시상규모 39만 원",
-   "who": "청소년",
-   "whoType": "청소년·어린이",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-12 ~ 2026-09-13. 공모분야 예체능/패션.",
-   "url": "https://www.weather.go.kr/w/index.do",
-   "tags": [
-    "예체능",
-    "패션"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
    "id": "linkareer-344874",
    "title": "2026 재생에너지의 날 기념 AI 숏폼 공모전",
    "host": "기후에너지환경부",
    "hostType": "정부·공공",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-20",
+   "start": "2026-08-21",
    "deadline": "2026-09-28",
    "prizeTotal": 4500000,
    "prizeMin": null,
@@ -1145,7 +1466,7 @@ window.KR_DATA = {
    "bonus": [
     "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-20 ~ 2026-09-28. 공모분야 기획/아이디어 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-08-21 ~ 2026-09-28. 공모분야 기획/아이디어 사진/영상/UCC.",
    "url": "https://linkareer.com/activity/344874",
    "tags": [
     "기획",
@@ -1154,380 +1475,6 @@ window.KR_DATA = {
    ],
    "verify": [],
    "source": "linkareer"
-  },
-  {
-   "id": "linkareer-344553",
-   "title": "[한국사회보장정보원] AI·디지털 기반 사회보장 서비스 혁신 아이디어 공모전",
-   "host": "한국사회보장정보원",
-   "hostType": "정부·공공",
-   "cat": "아이디어·기획",
-   "start": "2026-08-19",
-   "deadline": "2026-09-16",
-   "prizeTotal": 1700000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "170만 원",
-   "topPrize": "시상규모 170만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-19 ~ 2026-09-16. 공모분야 기획/아이디어 기타.",
-   "url": "https://www.ssis.or.kr/index.do",
-   "tags": [
-    "기획",
-    "아이디어",
-    "기타"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-344250",
-   "title": "Meta와 함께하는 AI 페스티벌 – AI로 그려낸 가족 이야기",
-   "host": "디지털리터러시협회",
-   "hostType": "정부·공공",
-   "cat": "AI 이미지·아트",
-   "start": "2026-06-30",
-   "deadline": "2026-10-31",
-   "prizeTotal": 20600000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "2060만 원",
-   "topPrize": "1등 500만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-06-30 ~ 2026-10-31. 공모분야 캐릭터/만화/게임 문학/시나리오.",
-   "url": "https://linkareer.com/activity/344250",
-   "tags": [
-    "캐릭터",
-    "만화",
-    "게임"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-344237",
-   "title": "[안양시] 2026년 안양시 공공데이터·AI 활용 대학생 경진대회",
-   "host": "안양시",
-   "hostType": "기타",
-   "cat": "데이터·알고리즘",
-   "start": "2026-08-09",
-   "deadline": "2026-09-21",
-   "prizeTotal": 5500000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "550만 원",
-   "topPrize": "시상규모 550만 원",
-   "who": "대학생",
-   "whoType": "대학생",
-   "bonus": [
-    "- 공유하기 이메일 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-09 ~ 2026-09-21. 공모분야 과학/공학 창업.",
-   "url": "https://www.anyang.go.kr/main/selectEminwonView.do?&notAncmtSeCode=01,04&not_ancmt_mgt_no=84498&pageUnit=10&pageIndex=2&searchCnd=all&key=4101&ofr_pageSize=10",
-   "tags": [
-    "과학",
-    "공학",
-    "창업"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-344172",
-   "title": "제 1회 AI금융빅데이터플랫폼 소비데이터 활용 분석·아이디어 공모전",
-   "host": "비씨카드 주식회사",
-   "hostType": "기타",
-   "cat": "데이터·알고리즘",
-   "start": "2026-08-21",
-   "deadline": "2026-09-22",
-   "prizeTotal": 2000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "200만 원",
-   "topPrize": "1등 100\n만원",
-   "who": "대학생, 직장인/일반인",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-21 ~ 2026-09-22. 공모분야 기획/아이디어.",
-   "url": "https://abp.bccard.com",
-   "tags": [
-    "기획",
-    "아이디어"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-344041",
-   "title": "AI ART AWARD 'NEXT ART AI' 2026",
-   "host": "(재)호반문화재단",
-   "hostType": "정부·공공",
-   "cat": "AI 이미지·아트",
-   "start": "2026-08-31",
-   "deadline": "2026-09-30",
-   "prizeTotal": 21000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "2100만 원",
-   "topPrize": "시상규모 2100만 원",
-   "who": "직장인/일반인",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-30. 공모분야 디자인/순수미술/공예.",
-   "url": "https://linkareer.com/activity/344041",
-   "tags": [
-    "디자인",
-    "순수미술",
-    "공예"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-344039",
-   "title": "2026 NAIS AI Hackathon",
-   "host": "국가과학기술연구회(NST)",
-   "hostType": "기타",
-   "cat": "해커톤·개발",
-   "start": "2026-08-18",
-   "deadline": "2026-09-07",
-   "prizeTotal": 1700000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "170만 원",
-   "topPrize": "시상규모 170만 원",
-   "who": "직장인/일반인",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-18 ~ 2026-09-07. 공모분야 기획/아이디어.",
-   "url": "https://linkareer.com/activity/344039",
-   "tags": [
-    "기획",
-    "아이디어"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-344034",
-   "title": "2026년 당진시 AI 아이디어 제안 공모전",
-   "host": "당진시",
-   "hostType": "기타",
-   "cat": "아이디어·기획",
-   "start": "2026-08-18",
-   "deadline": "2026-09-09",
-   "prizeTotal": 4000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "400만 원",
-   "topPrize": "시상규모 400만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-18 ~ 2026-09-09. 공모분야 기획/아이디어.",
-   "url": "https://linkareer.com/activity/344034",
-   "tags": [
-    "기획",
-    "아이디어"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-343841",
-   "title": "(iM뱅크) 2026 AI Blockchain 경진대회 (~9/20)",
-   "host": "아이엠뱅크",
-   "hostType": "기타",
-   "cat": "데이터·알고리즘",
-   "start": "2026-08-13",
-   "deadline": "2026-09-20",
-   "prizeTotal": 14000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "1400만 원",
-   "topPrize": "1등 500\n만원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-13 ~ 2026-09-20. 공모분야 기획/아이디어 과학/공학.",
-   "url": "http://www.im-challenge.com/",
-   "tags": [
-    "기획",
-    "아이디어",
-    "과학"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-343794",
-   "title": "[데이콘] 나라장터 자체입찰 공고 법령 위반사항 모니터링 AI 경진대회(~9/30)",
-   "host": "데이콘 주식회사",
-   "hostType": "기타",
-   "cat": "데이터·알고리즘",
-   "start": "2026-08-17",
-   "deadline": "2026-09-29",
-   "prizeTotal": 42000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "4200만 원",
-   "topPrize": "시상규모 4200만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-17 ~ 2026-09-29. 공모분야 과학/공학.",
-   "url": "https://dacon.io/competitions/official/236754/overview/description",
-   "tags": [
-    "과학",
-    "공학"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-343092",
-   "title": "내 AI와 만드는 웹사이트 공모전",
-   "host": "위븐",
-   "hostType": "기타",
-   "cat": "아이디어·기획",
-   "start": "2026-08-13",
-   "deadline": "2026-09-18",
-   "prizeTotal": 3000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "300만 원",
-   "topPrize": "시상규모 300만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-13 ~ 2026-09-18. 공모분야 기획/아이디어 창업.",
-   "url": "https://wv1786597995791982.zaemit.ai/",
-   "tags": [
-    "기획",
-    "아이디어",
-    "창업"
-   ],
-   "verify": [
-    "prize"
-   ],
-   "source": "linkareer",
-   "alsoFrom": [
-    "linkareer"
-   ]
-  },
-  {
-   "id": "linkareer-342935",
-   "title": "제1회 대경대학교 엔터테크과 청소년 AI 영화·영상 공모전",
-   "host": "대경대학교 엔터테크",
-   "hostType": "기타",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-12",
-   "deadline": "2026-09-20",
-   "prizeTotal": 1000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "100만 원",
-   "topPrize": "시상규모 100만 원",
-   "who": "청소년",
-   "whoType": "청소년·어린이",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-12 ~ 2026-09-20. 공모분야 사진/영상/UCC.",
-   "url": "https://linkareer.com/activity/342935",
-   "tags": [
-    "사진",
-    "영상",
-    "UCC"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-342916",
-   "title": "2026 OYE AI 숏드라마 챌린지: EP. 01",
-   "host": "에코네스트에이아이 주식회사",
-   "hostType": "기타",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-11",
-   "deadline": "2026-09-13",
-   "prizeTotal": 20000000,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "2000만 원",
-   "topPrize": "시상규모 2000만 원",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-11 ~ 2026-09-13. 공모분야 기획/아이디어 사진/영상/UCC.",
-   "url": "https://linkareer.com/activity/342916",
-   "tags": [
-    "기획",
-    "아이디어",
-    "사진"
-   ],
-   "verify": [],
-   "source": "linkareer"
-  },
-  {
-   "id": "aifactory-2026-국립공원-위성-모니터링-ai-챌린지-주제-1-구상나무-고사-탐지-및-분",
-   "title": "2026 국립공원 위성 모니터링 AI 챌린지 — 주제 1: 구상나무 고사 탐지 및 분포 분석",
-   "host": "인공지능팩토리 제휴",
-   "hostType": "정부·공공",
-   "cat": "데이터·알고리즘",
-   "start": "2026-08-31",
-   "deadline": "2026-09-21",
-   "prizeTotal": 6000000,
-   "prizeBucket": null,
-   "topPrize": "600만원",
-   "who": "전국 누구나 (공고 확인)",
-   "whoType": "전국민",
-   "bonus": [],
-   "note": "인공지능팩토리 자동 수집. 대회 기간 2026-08-31 ~ 2026-09-21. 표기된 날짜는 대회 기간이며 접수 마감과 다를 수 있습니다.",
-   "url": "https://aifactory.space/ko/competition",
-   "tags": [
-    "알고리즘",
-    "데이터"
-   ],
-   "verify": [
-    "deadline"
-   ],
-   "source": "aifactory"
   },
   {
    "id": "aifactory-2026-국립공원-위성-모니터링-ai-챌린지-주제-2-산사태-붕괴지-탐지-및-위",
@@ -1605,12 +1552,105 @@ window.KR_DATA = {
    "source": "aifactory"
   },
   {
+   "id": "linkareer-349876",
+   "title": "중소기업 AX 우수사례 공모전",
+   "host": "중소벤처기업부",
+   "hostType": "정부·공공",
+   "cat": "아이디어·기획",
+   "start": "2026-09-01",
+   "deadline": "2026-09-21",
+   "prizeTotal": null,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "-",
+   "topPrize": "시상규모 -",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-09-21. 공모분야 과학/공학 기획/아이디어.",
+   "url": "https://linkareer.com/activity/349876",
+   "tags": [
+    "과학",
+    "공학",
+    "기획"
+   ],
+   "verify": [
+    "prize"
+   ],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-349739",
+   "title": "2026 AI 단편영화 창작 지원 프로그램 (청소년/청년)",
+   "host": "재단법인 스마일게이트 퓨처랩",
+   "hostType": "정부·공공",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-10",
+   "deadline": "2026-10-12",
+   "prizeTotal": null,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "-",
+   "topPrize": "시상규모 -",
+   "who": "청소년, 대학생",
+   "whoType": "청소년·어린이",
+   "bonus": [
+    "팀 창작지원금, 전문가 멘토링 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-10 ~ 2026-10-12. 공모분야 사진/영상/UCC 기타.",
+   "url": "https://futurelab.center",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [
+    "prize"
+   ],
+   "source": "linkareer"
+  },
+  {
+   "id": "linkareer-348621",
+   "title": "2026 남이섬 AI 영상 광고 숏폼 가을 공모전",
+   "host": "(주)남이섬",
+   "hostType": "기타",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-09-05",
+   "deadline": "2026-09-30",
+   "prizeTotal": null,
+   "prizeMin": null,
+   "prizeMax": null,
+   "prizeApprox": false,
+   "prizeBucket": "-",
+   "topPrize": "시상규모 -",
+   "who": "대상 제한 없음",
+   "whoType": "전국민",
+   "bonus": [
+    "나미나리안 여권 2개 + 숙박 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
+   ],
+   "note": "링커리어 자동 수집. 접수 2026-09-05 ~ 2026-09-30. 공모분야 사진/영상/UCC.",
+   "url": "https://www.namisum.com/36/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173754408&t=board",
+   "tags": [
+    "사진",
+    "영상",
+    "UCC"
+   ],
+   "verify": [
+    "prize"
+   ],
+   "source": "linkareer"
+  },
+  {
    "id": "linkareer-347616",
    "title": "ICT이노베이션스퀘어 확산산업 AI MEET-UP",
    "host": "대구 AI hub",
    "hostType": "지자체",
    "cat": "아이디어·기획",
-   "start": "2026-09-01",
+   "start": "2026-09-02",
    "deadline": "2026-09-14",
    "prizeTotal": null,
    "prizeMin": null,
@@ -1623,7 +1663,7 @@ window.KR_DATA = {
    "bonus": [
     "사전참가시 소정의 기념품 제공 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-09-01 ~ 2026-09-14. 공모분야 과학/공학 기타.",
+   "note": "링커리어 자동 수집. 접수 2026-09-02 ~ 2026-09-14. 공모분야 과학/공학 기타.",
    "url": "https://linkareer.com/activity/347616",
    "tags": [
     "과학",
@@ -1636,43 +1676,12 @@ window.KR_DATA = {
    "source": "linkareer"
   },
   {
-   "id": "linkareer-347321",
-   "title": "[WAVE 2026 울산세계미래산업박람회 AI 숏폼 공모전]",
-   "host": "울산세계미래산업박람회(WAVE2026) 운영사무국",
-   "hostType": "지자체",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-31",
-   "deadline": "2026-09-09",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "-",
-   "topPrize": "시상규모 -",
-   "who": "대상 제한 없음",
-   "whoType": "전국민",
-   "bonus": [
-    "- 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-31 ~ 2026-09-09. 공모분야 기획/아이디어 사진/영상/UCC.",
-   "url": "https://linkareer.com/activity/347321",
-   "tags": [
-    "기획",
-    "아이디어",
-    "사진"
-   ],
-   "verify": [
-    "prize"
-   ],
-   "source": "linkareer"
-  },
-  {
    "id": "linkareer-344683",
    "title": "AI 달인 100 챌린지",
    "host": "과학기술정보통신부",
    "hostType": "정부·공공",
    "cat": "AI영상·콘텐츠",
-   "start": "2026-08-20",
+   "start": "2026-08-21",
    "deadline": "2026-11-05",
    "prizeTotal": null,
    "prizeMin": null,
@@ -1685,74 +1694,12 @@ window.KR_DATA = {
    "bonus": [
     "기프트카드 20만원권 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
    ],
-   "note": "링커리어 자동 수집. 접수 2026-08-20 ~ 2026-11-05. 공모분야 사진/영상/UCC.",
+   "note": "링커리어 자동 수집. 접수 2026-08-21 ~ 2026-11-05. 공모분야 사진/영상/UCC.",
    "url": "https://linkareer.com/activity/344683",
    "tags": [
     "사진",
     "영상",
     "UCC"
-   ],
-   "verify": [
-    "prize"
-   ],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-343931",
-   "title": "[아모레퍼시픽] 에코-뷰티 AI 크리에이터 대작전 (~9/13)",
-   "host": "(주)아모레퍼시픽",
-   "hostType": "기타",
-   "cat": "AI영상·콘텐츠",
-   "start": "2026-08-09",
-   "deadline": "2026-09-13",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "-",
-   "topPrize": "시상규모 -",
-   "who": "대학생, 직장인/일반인",
-   "whoType": "전국민",
-   "bonus": [
-    "아모레퍼시픽 명의 상장 수여 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-09 ~ 2026-09-13. 공모분야 광고/마케팅 사진/영상/UCC.",
-   "url": "https://www.apgroup.com/",
-   "tags": [
-    "광고",
-    "마케팅",
-    "사진"
-   ],
-   "verify": [
-    "prize"
-   ],
-   "source": "linkareer"
-  },
-  {
-   "id": "linkareer-343445",
-   "title": "2026 AI 캐릭터창작공모전",
-   "host": "(사)캐릭터디자인협회",
-   "hostType": "정부·공공",
-   "cat": "AI 이미지·아트",
-   "start": "2026-08-17",
-   "deadline": "2026-11-16",
-   "prizeTotal": null,
-   "prizeMin": null,
-   "prizeMax": null,
-   "prizeApprox": false,
-   "prizeBucket": "-",
-   "topPrize": "시상규모 -",
-   "who": "대학생, 직장인/일반인",
-   "whoType": "전국민",
-   "bonus": [
-    "상금 및 공모전 혜택 참조 공유하기 홈페이지 지원 스크랩 0 스크랩한 사용자 전체보기 ( 0"
-   ],
-   "note": "링커리어 자동 수집. 접수 2026-08-17 ~ 2026-11-16. 공모분야 캐릭터/만화/게임 기획/아이디어.",
-   "url": "https://www.kocda.org/blank-14",
-   "tags": [
-    "캐릭터",
-    "만화",
-    "게임"
    ],
    "verify": [
     "prize"
