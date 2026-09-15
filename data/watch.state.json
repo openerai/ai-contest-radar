@@ -1151,8 +1151,120 @@
   "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTWF6VEtYb1J6OEZaNDc2Z0JTMk1lRFhyLTBaaVVpR1pPbE1DR3ZQRnR0YlJCMmpwc0J4VFpuLVE5Y2pyYjZXV25NVVZGUkRJTTZSZlNndzJkWW5jQUZlYzVpM1dBRURYZmFEeXZSaWJCVkg3Q2UydmdUM1lsNjNoTnUxODVaREJwSUctU1ZvOVdMejhBQ1NPcnZacWZWNjF5YkEzblpNZldQOFBCaGZZN0V0TWY4bzZVNkI5YmlNTzh6S0XSAcgBQVVfeXFMUDdINFpfcWg0a2paNEtIdEM2d1VjcEh6bUY1UFFUamxkbDZFVkFSRXlhQXFmZGtOTmwzZ2pIMVdnTDVyeHIxQUhFekNvbjY5ZEQ1cTZjNUVVR25Hb0NJZTZKaWhCTzJCeUpHRHlKV09ZaklLMWdLRjlxUWpUOGk4V0lfNS1fZm1XMlJWcDVxZVpJbTZudTRZdXpuWGItdE00RVVyOVVGMy00T3M0T1NsZUpvM1pfekUwdFdMRTU4T3hlYmRUdllZaWQ?oc=5": {
    "first": "2026-09-11",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/64962b74db37463f5f8b88982960": {
+   "first": "2026-09-15",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/a17b9f5b7c024f440dd7100787e5": {
+   "first": "2026-09-15",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/c1f72d51dae7d0ae39873af5afec": {
+   "first": "2026-09-15",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/e40e1281a6e719c5b1455bd59cc1": {
+   "first": "2026-09-15",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/en/contest/user-ange-en-dentelle": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-autumn-camping": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-bowism": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-cow-print": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-encounter-with-gemstones": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-girl-holding-a-weapon": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-glasses-girl-contest": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-september-s-long-rain": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-the-unseen-charm": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-yoshikage-kira": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-yoshiki": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-your-forest": {
+   "first": "2026-09-15",
+   "brand": "PixAI"
+  },
+  "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEZwaDl1Ymc5VXBBU1lqbmU0VmEwTUdfQkxPa3o0RVRQd1JGS2xfd085TFRTZjhPZzhORi1wWS1ZQnpCRlRCdjdRWFNjcTJGS2NtUlR4TU9ZSWxqTmNLdUg5ZTQ1NHZ0VmNXS3FlV0MxdzEwNWdoZVdMWWY5UW1xOHBCcDUxQUk0REJaQzM0UHg4RjhoTzQ0cEh6YURNcGZMTnZNalNFOXk?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaExOZnhiTFlHU0NfVUU4TXp6cVliRFF0ektJUUdJRFZuSDV2bm1SZzBTSTJyM1ZENjhTQUw1QjRTRHhiN0MydHZvNENhMzJsRjZmQ3VnNlRZNDNRWmg2OWZ1UWZQNTJnOS1vdFNpNmVuYlBuQWpFc3V4d2J6QU1idEhaNUtHZEFSWUpMNl9DRmlpLW4wNHZBbUxYUlZTdU9OQ0VjY2M1TG11LWs?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVkliVnREbFItMGhsU0p1azhpdnIxZkRDMlJpa2IzQ3dOWVh6dm5URVpMWDE3dkdEMVlXeGVEbkgxSm5FQkN2bXFGTnVoZkJUbUpDd1AyY241amFZb2NXUnRUM0ZRLVRlb0dHLXlOQ3NOWHRVSDBOY3JaMDNIQzhvQTU3NWVTME4yaEZza2xGX0daUVdvWFpvSXJMS0dBZ1VSNkN0alRZZVVITkpCS29zSVNYaWxoMnNkYTNuZw?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYTV2UDdqcm5STVJ0OEh6RXAtSHBGd2lwNTZVQjFueTVOejZDVWxSN01KY0gwd2FDUzFpeTdLUHZUc1VYcFNLUWRqYkxWajNNZTR3RnhpS3hBaHh0dzFYSlBCTnN1dnVVV0ZNdXFIRTNRbHZFT2ZtenU0aWF2bVg3UFRJQkl5QXZ3RUkxQm8waTFPOEZnY00wZ1ln?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFV5cVRxeXgtejEwS18tRFhudENDdC1TYUtBeWU1OUwxSHplVzFZbHNvN095M1kzcnBab3lPT3NKRFFuaS1aeEtuLWRYR2laVmExeVhoZmxydnlFNjBybHVWZlhGS0k3TXpnT3ZJVEVGYnBmdFhpNmtFZzJfbVMyT2J6LUotWHFaTjdVaXhfZW4tb2FjYXc?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMm1MY3h5OEZ2YkhaWGJ5UDFfdzRzYUlkYkswMGdQNlNGMXJFdThONTFHUXVHaTEwb3VDWjN4ZDhjdXE0bTJiVUVleDJpcktJUW5vQl9GQ3UzbU1oQUN3ZG9ZZ2dZREl5aUZIeVY3R0V6WXgtWUxZNHdTdm1qRGxFVjNVZk1NY2g4bXFpUWxR?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVHBiWTA0SE5Cbl9mNk9fU3RLTS1xUm9RRnZvWWVsbW5JTWZxTzlfTnRrcHJwR0xKODN5YU1yR2t0a1FLNWhtVkdER29ZMzFZcXpwUlRuZzMtZjhOV0NUc3RIb2pwaTRVVTFRc1RMV3ZDTHhVOFVnU1JkNEdjN0QycVJJWnk2T2JSVmRLZ1hSd2dyQ3R1WjA2ZkxiMVBuR3V1Tl95UFNn0gGuAUFVX3lxTE9xRjI2TTRFVHUyNUpoSi1acDduV1djN0E2VGhQUHVUMV82aEx6WmlvMXNUUFpJZ3pBclN0aE10aThrOGtPdE44MmtxSmNCZFRYZE1ya191ZHJWOUVZSEZsX2E5TDVMMXVDeDdDUmk2Q25aYWFYZ0tadmVqRURsRGZCWGlDMUk1a29CcUI5bDVSWU5pdkdMX0c2Mmx5QkxXQjcyZ2M5OUJ4OE5ndUZEQQ?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yVTJQcjlJUEtmT0NXS0ZGcDFnRDJSTmlWUW5xNFlHQTNOMWNsdk1oNW80eko4bTZGMXdoOGFTNkN6bDJJUVpBUUV4SmJSSUgteEhyQTB5YjFVRHZ2WGpKZS1jM3FzTXBfTGc?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMTBFd2RYekZWZDRfMTBRNkVZVW9DSlFqYWEzYkFYZjFBYy1pRUFSTkx1UmJfUzBkQmRRLV9WX1lXaFJCREhpdm1rNWVZNnNtT09TSUwyZFktWk9WdDVRTl9kanJGMEsxOE5VSHhRM25iR0xxcV9VSV9RSDNFQzFLTEkwdndNcnl2QlV0NTllRUdBdjhweGZ2NG5tUzUyLThoaXg0RzkwVTVoR2xH?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CZ0JtWldsSW0zSjkxMHZpSjY3QWlqSHo4THZuS0xvSVhwbjN4YmVHemRvOFFfSVA5NGZCRE5PMld2akU4UGp1TlZEWW0tbTVJMmxpOUczaEVXeDRNZEVrUDRXQXZBUUZJU2JuSnpHb2tnbnMxU0h3V1EtWWM?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3dINXRkYzE0M3hvY0YzdTNEMkkxZ0JRZFVwSTZSZG9XaURjOGVNUnBmYUZKcTc1NnJmYzNMNGFSVGxieHYtaVJiSmtZLUhDYVJqV0JKaGtCQUk4OGJpYzlrWkotc3FMTExkRklhYjZKY002SXVMMEdhSXFOdDlUU0ZuWE8wQUw3SWQ0U1JQaFRIQmhESnFvd21HUVpGNURybGZ2RS1hU1oza2FXbjdyUg?oc=5": {
+   "first": "2026-09-15",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-09-11T23:05:43+00:00",
- "seenCount": 272
+ "updatedAt": "2026-09-15T23:29:31+00:00",
+ "seenCount": 299
 }
