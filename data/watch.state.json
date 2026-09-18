@@ -1263,8 +1263,112 @@
   "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY3dINXRkYzE0M3hvY0YzdTNEMkkxZ0JRZFVwSTZSZG9XaURjOGVNUnBmYUZKcTc1NnJmYzNMNGFSVGxieHYtaVJiSmtZLUhDYVJqV0JKaGtCQUk4OGJpYzlrWkotc3FMTExkRklhYjZKY002SXVMMEdhSXFOdDlUU0ZuWE8wQUw3SWQ0U1JQaFRIQmhESnFvd21HUVpGNURybGZ2RS1hU1oza2FXbjdyUg?oc=5": {
    "first": "2026-09-15",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/204d0cb15b6cd92709ac0f434b68": {
+   "first": "2026-09-18",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/53427fe68ebb71012d8ec28c3198": {
+   "first": "2026-09-18",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/faa71c15519fd15318caabeb2643": {
+   "first": "2026-09-18",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/en/contest/pixai-nasu": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/pixai-tsubaki-3": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-beyond-imagination": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-celestial-reverie": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-dreaming-fairy-tale-festival": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-funny-valentine": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-retro-festival": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-six-wing-back-view-challenge": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-the-1st-how-did-it-come-to-this-cup": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-the-fantasy-city": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-wonderland-dream": {
+   "first": "2026-09-18",
+   "brand": "PixAI"
+  },
+  "https://civitai.com/articles/35315/civitai-h3-contest-2-million-buzz-and-half-price-h3-generation": {
+   "first": "2026-09-18",
+   "brand": "Civitai"
+  },
+  "https://civitai.com/articles/35316/the-civitai-h3-training-contest": {
+   "first": "2026-09-18",
+   "brand": "Civitai"
+  },
+  "https://app.klingai.com/global/activity-zone#kreatecontest58fantasticalfashionadsshowyourimaginativefashionadsideaswithklingai": {
+   "first": "2026-09-18",
+   "brand": "Kling AI",
+   "via": "render"
+  },
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTE8wVEg3MFBXZ09SczE1M1RrX3Q4X3MwWmpZdXItQURqV2pOSzlYSWlXN3c5T3h3QVJ0SURMeGVOVXNpSDZEcVdSRE5oaF9zUG14TFhPbkhHQkZxYkpjZXllc3BWYm5yTWNySGVFd3lTbWc4TWZQN1JFTnhkUQ?oc=5": {
+   "first": "2026-09-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMipwJBVV95cUxORGhuMVkyWkMwTFg4enNPMWRxbk9KY2FuREF2aTdPeU1FM0pvcXF1RUdEZ2JITlZVOFFDOUx5WDJYZHFmT1ZGT3dyU25oS05nOUNRTm1DMHNscTI4empVdmI1eTdrUS1BUU1LckZxcGF2UmVCQUZzbmJuZm5aR1U4SUVjSll2M1BHVFlINVpGUjFQTk5la1VOQXRUNjN5SUF4eEFmWVdoZGtmTjRNZUdnd3IzUllLcnprX0d0MHZzV1FuX0lIQTdPSGp0ZHVGVDByV2xnUFVaZC1zaTNZNWl6ekdZZmpyWXlVNk5fUEFnMEVteERwbTVTTVoxR2xzTGE3RGlaakk5QVY4WVRNZllxWkZRZ1FaT0pJSTlpNmphSzFfeld2MDNJ?oc=5": {
+   "first": "2026-09-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbV9RdzMwaFVmQVdUcDlLdGMta2dFN1FvMTdmSEJFWnJZVEtsZU0zSWl3RHpaVlB1REZ2LTM1Nm1JZmhYeFFWTVpFMzZEdkdzVjQ4aTlmVXpRdXlzeTB0elpiNG4zMENTMXZUeWdqaTRNNkhoS2VrVzdlb2ZZYTY2d1pNOA?oc=5": {
+   "first": "2026-09-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYmdUT3FtNDNseERHekJuZzNOcS1NRzVFUEtqelowWW1GelJrcy1oNUl1SzhwV2pqamtpUUhpQ1NoUnFfby02dHpvMVNPWTQ2OWZ5UW5EWWFjVFU2Z1JoT3R4QnJzY0ppdllXOHhkRTliY1M3RGlwRmdwSHBwQllyUVE5b1RSZUUwOVM1QklYR3RabVJWSVk2YzlBd1JDY2Z3V2c4YmE3VFptLUdnTTh1UDJ2M3A4dXljUERPM20tSUJObW5nTFNrTGRRNW95emp2MmRzMnlPZw?oc=5": {
+   "first": "2026-09-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uN3Q1ZjN2aGZWNFd6Q053UXhZV3RVaEpjRUtiQ0ZMTXR6UFRoa0I0QWtUaTFCWVpiVm5ZMlMwR1Z4RE14eHR1OVd0TGlLUTZaWjViY21aWQ?oc=5": {
+   "first": "2026-09-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xT2tja0R4ek9OdndodTdlQl9SZU9yUjdKODRFQ0VRR29uTlF6V2o3Y2VqTnFHX3N4d1VBN1hfVEFFV2VYX3l6QzBBYUc1NlZEUGNBb1NPUHJHdUE2UkRlazVzZ05kRFB1djk3ZTJyMHhSZkU4?oc=5": {
+   "first": "2026-09-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTDZ0R1ZyaXZoN2Yzb21IclIxa1NTdGZ4cGZFU0poN3BZZEZreWxQX0k4d1NGb3hOSjdaZWItbzFsMzF0eXlwd3NOd2VuOHAzQ3h4d1VaOERIUW5xODUtZUpZNzNqbU55ZnJGaDBROFBmODVsLVVoUnRITnNKdDczbU5EZkRsUDVSaktWbVJUVndlZzY0TTRBX0c1c254SFVZUmpzcVQ5ekNvOWJGSTM1SlNPX05ZdGlmWEdxUml30gHYAUFVX3lxTFBmZ0ZYZVJPOGJ4Z2lTQ1d4cjRiNTdKZTZqWFBJTFJKLW1HZXpJZFVwTzR2WVhsMGdOQkNYMU5CMFZ4eTRFdHphM1NiQ29oWFpsY2pMNTJuRm5BZ3p2bFNpQ3F2bzNjRGQzVEIzanhkZHQ2dlJUNEFnTWFURThEU2dxdWpjUjJ2bDYwMnhBUUtCSGJsdHVZTklPOGwwY3R6RUs0d05ldkptb2NsX0wxTmNPNzZQNkNrTFZMRnJFS2M4dHZjOUxJejZCV2pLalgzeVRUdzFQUWZXdA?oc=5": {
+   "first": "2026-09-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOX2hqaGk2TkhlSmVmeWZVUnJXZjdfVjBsZ05vZ1FZdjJsdjQzYmVfNWkxMU1RRGx6NVpGbmx2QWkwa3BUWXMwTWZWZVBiRXBLYmg3bzBVWVhzM3FjdGdnM3d6Mk05dWw5enZqZG5BRXNlU21kd0p4alZvYi12a2dQMzl0YnNaYVl5TUZSM0Fyd2xfd1M2SVNsRFdlSVRtdXdZZ21FOVI2bkxGbnlLbXBXN1EydXA2WkRFTHVzbUdCRXBoVnhGRHVyS2VKV2x6NkRXMnFsU0ZETFZsbFotREtLNDRzb09JXzkxSnF3TXVmemIwNmRlelNzZWhVWUdWNVBNcUpRX0ctYk53WnfSAY8CQVVfeXFMUFJvenhpN3FYcmxXY1dfMXI1RTFvWXZJTlM1R0E1Mjl0bWZTNVZfdFRtYkNka0JQQzZuMFh6cVZiWEg2QUNLU3B6MHY5bnpoODc1QWhtWER4UzFJOFJNRzlqRzRNYUxiZTdmYVNQZHBLdjBET2E5aFQ4QzVFQTNCLVM5dEpmemRRaV8zd3hmMS15ZU1yN3I0ekpLQWJmUVRWZWE1cTJ6SEQ4WlFuY0o1UkNjZnktU1FObnNhR0tYQXliTUpoQVR4SFNacEkyZXNXdmZuMU1oVVl6UWM5YVZhQTZnazlsY1ZZaHlNOWM2aVpFS2dlRzZaNU95bGdLLUFwZFJ2aWpEc0VqVEVfQVVaVQ?oc=5": {
+   "first": "2026-09-18",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-09-15T23:29:31+00:00",
- "seenCount": 299
+ "updatedAt": "2026-09-18T23:09:21+00:00",
+ "seenCount": 324
 }
