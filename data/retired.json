@@ -148,6 +148,46 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-09-06 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "hf-gff",
+   "title": "Higgsfield Global Film Festival",
+   "url": "https://higgsfield.ai/contests/higgsfield-global-film-festival",
+   "source": "manual",
+   "retiredAt": "2026-09-20",
+   "reason": "ended",
+   "why": "JSON-LD Event.endDate 2026-07-30 (과거)",
+   "cross": []
+  },
+  {
+   "id": "afc-higgsfield-action-scene-2026",
+   "title": "Higgsfield: Make Your Action Scene Contest",
+   "url": "https://higgsfield.ai/contests/make-your-action-scene",
+   "source": "aifilmcontests",
+   "retiredAt": "2026-09-20",
+   "reason": "ended",
+   "why": "JSON-LD Event.endDate 2026-03-01 (과거) · 종료 문구 'Winners announced'",
+   "cross": []
+  },
+  {
+   "id": "afc-taiff-turkiye-international-ai-film-festival-2026",
+   "title": "TAIFF — Türkiye International AI Film Festival (3rd Edition)",
+   "url": "https://filmmakers.festhome.com/en/festival/turkiye-international-ai-film-festival",
+   "source": "aifilmcontests",
+   "retiredAt": "2026-09-20",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2024-12-14 (이미 과거) · 종료 문구 'Festival closed'",
+   "cross": []
+  },
+  {
+   "id": "mel-rome-ai-film-festival-2026",
+   "title": "Rome AI Film Festival 2026",
+   "url": "https://raif.it.com/",
+   "source": "melies",
+   "retiredAt": "2026-09-20",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-09-19 (이미 과거)",
+   "cross": []
   }
  ]
 }
