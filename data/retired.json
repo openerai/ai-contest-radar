@@ -188,6 +188,16 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-09-19 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "mel-illuminate-film-festival-2026",
+   "title": "Illuminate Film Festival 2026",
+   "url": "https://illuminatefilmfestival.com/",
+   "source": "melies",
+   "retiredAt": "2026-09-27",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-09-26 (이미 과거)",
+   "cross": []
   }
  ]
 }
