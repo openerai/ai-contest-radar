@@ -1534,8 +1534,88 @@
   "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRjBqS0hNOHpzamFuSVo1RHN2alVYUC1DYUFDazh4UWZGSzJtWnpXbElsdExmT0RyaDFDcXhvTE02blJ5QlV4bkw2VkM4MFdpZTBoYkFvYnRGOEU4aWkzVFJtZmNQMVJ0MW9BcVpzd1lpcFpOTzYwZG5iOXAwN0NmUVlIcUxlWk9hSnNQRWdKRXFNWDUtSTlmWF9lc3g5MkVqVG5yNUEyNnc0S2IzeGxKMC1mTjdRNEFiZi1oS3NrOEE0aFUxdHBsY1llakMzTG9XQkJxeWJOazd2UnFtaGxhLUYxSnZtb1V6RGI0?oc=5": {
    "first": "2026-09-25",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/3731b30a013a49ebe98e47967b4b": {
+   "first": "2026-09-30",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/50651ec54eaf74b53acfc499d34e": {
+   "first": "2026-09-30",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/dbe2b2bd6ed517498166b69f50d2": {
+   "first": "2026-09-30",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/fd3a3e7853c4296c19f19f5f9aa0": {
+   "first": "2026-09-30",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/en/contest/user-animal-outfits": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-autumn-ai-reading": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-bloomers-contest": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-easy-apocalypse": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-half-lidded-eyes-grand-prix": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-idol-world": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-magical-girls-magical-boys": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-spirit-animal": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-world-tour": {
+   "first": "2026-09-30",
+   "brand": "PixAI"
+  },
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zcWNPUHJWT0FYXzd1ZU5XRkxKX0k1Yml3UUVDUTBKZnVDZGNNRkF3SXlfc2h4czY2dkZkVlpQa2tmVDVXRHhkcjVpc2MzZmFGUVl1ZThYWFJLbWNBX1ItTWEwb1llNDk1d1VfZUtVendpcXc?oc=5": {
+   "first": "2026-09-30",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMibkFVX3lxTFBlTmlJdmpUMGQtaGQ4VDJqNXlfSEZMNFNyMjRiSkJIb1lMN3VsYjJPNjZ3NW1iRGRTWXhmUXVDcUQtRF81SUMtTERlMEx1bzhkMWxpNFh6dHZhXzBjUHJwMnlUYXFVdnc5T3RrMlRB?oc=5": {
+   "first": "2026-09-30",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMia0FVX3lxTE40UkczSnNqMW9RckQ1cl9mY1ZfbU1SbmpFVW1wSDQxd0F3dEQ5cWxMYk4wRXJETE1Id05JWVU5TUJueVBVRTBycjdoZDI3SXRrZFRxTC0zMUhLWUEzV1M2OURvNk5jQUZzUHNB?oc=5": {
+   "first": "2026-09-30",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mNVVVS1FNamF3c29QVS1kQ2t5RWlQMVFYb3ZpckxyZXlWSzBnOUV3Q2p3OW4wOVFpMHdpekRrTEFZcHFIalR0ODFBbTJ1TUZfVkhnLWJoQVVHRk1kV2ZMOEVkRmJtVjlydDZBNUFSZXY?oc=5": {
+   "first": "2026-09-30",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BQjEwLTVCd1ZiX2VIWF84dVN2NS1hUXpMTUN0M1ROZ0dPTVFib0hMLVFISlNvdFdoRGpSSXNTWTB0Vm1DSVJpMmlmemNIbkV2SnBOMElqSUJzQQ?oc=5": {
+   "first": "2026-09-30",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTFdWSUlBMmJVMTlPYnFVcTd2RnlMMzlqMVdSOXBaYWFvUkhoOVpfbFZ2dkRlNms3OGhaVVFleE5uaGNFVmNvTzN2cWJndUVtZnZqeGw4cUFHVkw3OUMtSzhYU04tSWhzZGtzTWtQWXNGV1NGekJsYTd0aEJkNkpWS1J6SldRc3BOaVV6V0Vn?oc=5": {
+   "first": "2026-09-30",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-09-25T23:55:41+00:00",
- "seenCount": 364
+ "updatedAt": "2026-09-30T00:09:46+00:00",
+ "seenCount": 383
 }
