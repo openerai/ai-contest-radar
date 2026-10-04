@@ -198,6 +198,26 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-09-26 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "afc-project-odyssey-ai-film-championship-2026",
+   "title": "Project Odyssey — AI Film Championship",
+   "url": "https://www.projectodyssey.ai/",
+   "source": "aifilmcontests",
+   "retiredAt": "2026-10-04",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2025-11-17 (이미 과거)",
+   "cross": []
+  },
+  {
+   "id": "mel-astana-ai-film-festival-aaiff-2026",
+   "title": "Astana AI Film Festival (AAIFF) 2026",
+   "url": "https://www.aaiff.ai/",
+   "source": "melies",
+   "retiredAt": "2026-10-04",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-10-03 (이미 과거) · 종료 문구 'Submissions closed'",
+   "cross": []
   }
  ]
 }
