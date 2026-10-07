@@ -1730,8 +1730,113 @@
   "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdG5UMkd6dXNJLWVsaDFIUVA4NVAxZGJyaTVOdFhwc251ZkdkN3FiQ0JJSnJZbHVZbkhIMkRDcmNrbTB3bmgwQndYUmNtak1RQUdyUUhyUWVjZkRMbWRUQ1hGMlU3N2syNnhRWGVIWWdHbkdXTFFnc3BnQ1lUOTJIMFMxMA?oc=5": {
    "first": "2026-10-03",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/83f573c5d43ea24704d0f306bd06": {
+   "first": "2026-10-07",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/a09ce3d86961f93e6c20e1026056": {
+   "first": "2026-10-07",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/c2bf09ea0f69310d182aba8020fa": {
+   "first": "2026-10-07",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/e6f508d4bdacdacb38b1a01a132d": {
+   "first": "2026-10-07",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://civitai.com/articles/36159/photo-real-beauty-bounty-viii-awards": {
+   "first": "2026-10-07",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://pixai.art/en/contest/user-a-world-of-unusual-heads": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-blue-archive-blunder-championship": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-detail-unleashed-3": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-frans-curry-time": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-gap-moe": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-girls-und-panzer-ooarai": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-long-rains-and-reading": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-norwegian-girl": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-promise-with-scylla": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-reincarnated-as-a-sword": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-shizuka-in-gyaru-style": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/en/contest/user-wuling-running-festival": {
+   "first": "2026-10-07",
+   "brand": "PixAI"
+  },
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNXJYVWZiRjBGVGpfb0l2UTl5VkJHQ2kteFdKbkFVRkhEeWtXSXNodTBQaEhlMU51emxZZnJVOHpMYkdvTTlDVllDZ0s3RlZwRkd5d05ScXVKWE5hVlVxelJfRHpXRU1XODdESFVLWkhROFhrWExsb3NVSXlrVWlyVFR4d2s2TmZtMmFBZENmVy0yMjIwVUhIVWxDYVlrdTBoX1ZuMkhtS0txZw?oc=5": {
+   "first": "2026-10-07",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT0d5T0RVczR4THJmbWFaRjhYclp2dFhCUmw0aEVXMk1GckVvLWtTYkhCV3o0R1dTME9zM3RuVF9YVHFwbUp2c2thX3dvaldQNXFNWU5TMnQ4enVkejlnc29yMHFMLXJxWHFzSjNOeUpIcnBmZ2tPMXNVTHgxYjMySTVQTHZlcWhFWVJCLW5R?oc=5": {
+   "first": "2026-10-07",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnIzNzRoZkNBZnM1NUthUGl5MEx5dUNobjJIVmVCdTF6Q3NWMF81Ti1iSTF4NjFBSFFKTF9nN05CeFFFZmVlNlVYWGoxZDZESVZRcGNJZlpHVl9QQkFBYnhiOGJxUDRyLUZhUmVEdF9saEcwVVFETG5wd2pIR1hsQVhaZlRsdndnMjhJSDAwQVE1TC0wYlZqaENDTHZRN0dxZ0wtaUVidko4dFhPLVRmOFc1MGdXSWF6Z2w00gHAAUFVX3lxTE9mb0VSUTNiaG1xclJXanpibTE1emhNNFVVY2tMVFVwWlpKRGo5YTRwWV9SZ3cwR0tVQjRlUWlWWDU0WEJiS3RVZGNVdnU5d3lNSWhpN1QzcVVrNmVmUU4zb25TMzgwbEJTa0h4Z3ZWdmQ2WW9vbUJIeFlheHZIWXh6UHVqNGVGUVFOZklfTlJlYkhQRWdTVnItbWRLMXVTbmQ4ZElTVElaZmpvVy1wVERzakZYYTV5b1RUZDdKNVdXNA?oc=5": {
+   "first": "2026-10-07",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdHlFZ0hldjFDRGtYYjNLRWVYd19pY29hZ0ZnUXZYY2VZZE92MGJLR014TlVoSmMxM0lvTzNQTW85Z0E3ZEpId3MxMXl4bXZTU1RCM1hSdHpxWWt5YzJpcWNTX3pkMnhYRGZQSDBhdDR3aGNtdndJakdzQ2tEb19nMTdMc04xbUtIRmw5UWhhMW9xY1d3RWEzNnFjWU1aMFdqY25GZ3JQWkhoS3lOVXB5V3RBLUF5RlNScGE0V3J0OXBzSjYwbW8yVXpvT1VLR0doNnpLdFh2RkpPU0NxbTNZZmVlenVSUGM?oc=5": {
+   "first": "2026-10-07",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVGIwbENmQmpSdTNzYjd5VWF4c1RkVS01dFZsc295ai0tR0gzZF9NRXJHMkV6WkgwcFhRNU96eklqRGpra0ZKNlk3MGVZMDg0Y2FRWFp3V3owSHdLSGtOeTNFQ1NfRzI5YjlYSkF0bHI0RVN3a0dvajhuODYxd0hocFZZN3dsSUowb1NiY2UwQUVoRjJvVkZ3YUpZSi1XVFdPQm5ReUhXdk80MXZCcXloN1JRYmZXdTQ5Sko5UHdoVTNfMXBLcFpaVlN0akFjV2RPLXdvb1Mxemw?oc=5": {
+   "first": "2026-10-07",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeFBNLUJwYWJmWEQzNVZpNnUtYkVYYUZibkVkOUJOR3lSbWpyYVFrNmM0X3NOaUJWNDJlQmpZLTdtUGE0TVZ1bmNyZVAzeDNYSGlrWm9zYVpMT0p4VENBTVFSVVNqOS0tLW9ITEtsck0wZVNrQ3JxNFpYdEIxSWhTZ1dUbzkxWWhpc3RfczIydVp0M251RWp0Sjd6Q18yQnlxanVSTFhVampvMXpPdGFBbzBkOUtoM1JXTWfSAc4BQVVfeXFMTXNrM1NsOHVtOXZiYUg0Y20zT2lCd0J6YlhwREVTajltSHpzQUR2NGlzQURRZWY5Y1lQQVNjcy1SWk5UUzBLRm1KV0gwbVU1RHNZMkNmd1ptSUhPSWFsMHktMzJPQ3QtZXBkSWxQOU1kVU45cXNRcDhBVEJEU1h0T0pxRmZoLXhPTWI5SWE5R0RhRGY4S3pjXzVROHdIaGJqSmxiVmYydzR1bmdhRllJYkFGaXo3T3dxOGsyemFkajU4c3Z4UnRGN0VlRnByY0E?oc=5": {
+   "first": "2026-10-07",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPemRwRmlpbDE5SnYyZF8yT1VSOGwtaUtlTlVxeVI1N05PNldjZ2xYdDhHdmVQdThiT3A2c2YtYkFwNm53bDFEZVhIMDFNS0wyUGR6elF3bG9WSzh0Q2lWNWtNNmpDdWlhZ19CYUtnQi1xQ0t6Zm1hQ1lub0xQYml1Tm1iRUdib0kwZzVmZ2JHMER6UGxuTzJVQUlnN2o0ZWE1enlKY2x2U2tCalZwb1VQbWU3X0hkYXFKWkZJZWdfejBQTUZNU3BrRmJkdkJyb1g3MW40eFpBU2h5N3VjY1VfYV9UdFRXUV93VTJRWEV4XzlOb0llenFBc3Jn0gH6AUFVX3lxTE96ZHBGaWlsMTlKdjJkXzJPVVI4bC1pS2VOVXF5UjU3Tk82V2NnbFh0OEd2ZVB1OGJPcDZzZi1iQXA2bndsMURlWEgwMU1LTDJQZHp6UXdsb1ZLOHRDaVY1a002akN1aWFnX0JhS2dCLXFDS3pmbWFDWW5vTFBiaXVObWJFR2JvSTBnNWZnYkcwRHpQbG5PMlVBSWc3ajRlYTV6eUpjbHZTa0JqVnBvVVBtZTdfSGRhcUpaRkllZ196MFBNRk1TcGtGYmR2QnJvWDcxbjR4WkFTaHk3dWNjVV9hX1R0VFdRX3dVMlFYRXhfOU5vSWV6cUFzcmc?oc=5": {
+   "first": "2026-10-07",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeEZFMFRNMktNOWU1WVVaQVlFbGZPYkxnMmdyVEpRMVlwNWQ1T1lWNURyUWRsRy1ncFlaY3ZkSXdHVzc2ZWt3RGRmb1RiSHJ1RDgxaU9OUW1TNW1pbEFoajRjLXk3UkdLMTQ0TUNuN2dwUWdzWld3akM2ZXc3S3FZbmgtekxtVGpGMmc?oc=5": {
+   "first": "2026-10-07",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-10-03T00:16:51+00:00",
- "seenCount": 411
+ "updatedAt": "2026-10-07T00:29:34+00:00",
+ "seenCount": 436
 }
