@@ -6,7 +6,7 @@
   "\"status\": \"done\" 으로 표시하면 다음 실행 때 빠집니다.",
   "마감일이 지난 항목, 마감일을 못 뽑은 채 30일이 지난 항목은 자동으로 빠집니다."
  ],
- "updatedAt": "2026-10-07T00:29:34+00:00",
+ "updatedAt": "2026-10-10T00:35:41+00:00",
  "items": [
   {
    "discovered": "2026-09-04",
@@ -167,45 +167,6 @@
   {
    "discovered": "2026-09-11",
    "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/user-eastern-spirit-industrial-fantasy",
-   "title": "Eastern Spirit Industrial Fantasy | PixAI Contest - 2,000,000 Credits | PixAI",
-   "deadline": "2026-10-09",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-eastern-spirit-industrial-fantasy",
-    "title": "Eastern Spirit Industrial Fantasy | PixAI Contest - 2,000,000 Credits | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-10-09",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 2000000,
-    "prizeText": "플랫폼 크레딧 2,000,000",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "**Cultivation World × Industrial Revolution × Modernization of an Eastern Empire = Eastern Spiritual Qi Industrial Fantasy**\n\nShenjing is a thousand-year-old imperial capital.\n\nImperial palaces and se",
-    "url": "https://pixai.art/en/contest/user-eastern-spirit-industrial-fantasy",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": []
-   }
-  },
-  {
-   "discovered": "2026-09-11",
-   "brand": "PixAI",
    "url": "https://pixai.art/en/contest/user-himawari-chan-s-adventures",
    "title": "Himawari-chan's Adventures in Another World | PixAI Contest - 50,000 Credits | PixAI",
    "deadline": "2026-10-11",
@@ -236,45 +197,6 @@
     "bonus": [],
     "note": "The theme of this contest is **\"Himawari-chan's Adventures in Another World\"**\n\nHimawari-chan is my OC, she comes from the 90s, and her trademark is a straw hat.\n\nBut now, she no longer wants to be al",
     "url": "https://pixai.art/en/contest/user-himawari-chan-s-adventures",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": []
-   }
-  },
-  {
-   "discovered": "2026-09-11",
-   "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/user-morgan",
-   "title": "Let's generate lots of Morgans. | PixAI Contest - 65,000 Credits | PixAI",
-   "deadline": "2026-10-08",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-morgan",
-    "title": "Let's generate lots of Morgans. | PixAI Contest - 65,000 Credits | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-10-08",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 65000,
-    "prizeText": "플랫폼 크레딧 65,000",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Plain and simple, please submit lots of Morgan from the *Fate* series. Feel free to decide the background, situation, clothing, etc.",
-    "url": "https://pixai.art/en/contest/user-morgan",
     "tags": [
      "플랫폼"
     ],
@@ -431,45 +353,6 @@
     "bonus": [],
     "note": "Tsubaki.3 is finally here!\n\nThe theme of this contest is \"Explore Tsubaki.3.\"\n\nCharacter illustrations, manga panels, or something entirely different, there are no restrictions on genre or style. \n\nLe",
     "url": "https://pixai.art/en/contest/pixai-tsubaki-3",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": []
-   }
-  },
-  {
-   "discovered": "2026-09-18",
-   "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/user-beyond-imagination",
-   "title": "「Let Your Imagination Run Wild with Your Own Character!」 | PixAI Contest - 50,000 Credits | PixAI",
-   "deadline": "2026-10-09",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-beyond-imagination",
-    "title": "「Let Your Imagination Run Wild with Your Own Character!」 | PixAI Contest - 50,000 Credits | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-10-09",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 50000,
-    "prizeText": "플랫폼 크레딧 50,000",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "What would your character look like in your imagination?\n\n**Feel free to create a story featuring your own character as the protagonist!**\n\nYou can freely express your imagination—whether it’s ordinar",
-    "url": "https://pixai.art/en/contest/user-beyond-imagination",
     "tags": [
      "플랫폼"
     ],
@@ -760,45 +643,6 @@
   {
    "discovered": "2026-09-22",
    "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/user-hirose-koichi",
-   "title": "A Little Courage Becomes Great Strength | PixAI Contest - 50,000 Credits | PixAI",
-   "deadline": "2026-10-07",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-hirose-koichi",
-    "title": "A Little Courage Becomes Great Strength | PixAI Contest - 50,000 Credits | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-10-07",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 50000,
-    "prizeText": "플랫폼 크레딧 50,000",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Beneath the warm sunset of Morioh, Koichi Hirose reaches forward with a trace of nervousness, yet refuses to step back. \n\nHe begins as an ordinary boy, without overwhelming strength or the presence of",
-    "url": "https://pixai.art/en/contest/user-hirose-koichi",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": []
-   }
-  },
-  {
-   "discovered": "2026-09-22",
-   "brand": "PixAI",
    "url": "https://pixai.art/en/contest/user-recommended-music",
    "title": "Recommended Music🎶 | PixAI Contest - 50,000 Credits | PixAI",
    "deadline": "2026-11-20",
@@ -955,84 +799,6 @@
   {
    "discovered": "2026-09-25",
    "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/user-monster-mash",
-   "title": "Monster Mash | PixAI Contest - 125,000 Credits | PixAI",
-   "deadline": "2026-10-09",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-monster-mash",
-    "title": "Monster Mash | PixAI Contest - 125,000 Credits | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-10-09",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 125000,
-    "prizeText": "플랫폼 크레딧 125,000",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Halloween is coming up, so I thought it would be fun to do a little challenge. \n\nTake some of your favorite characters and put them in Halloween outfits or use some of their official alternate outfits",
-    "url": "https://pixai.art/en/contest/user-monster-mash",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": []
-   }
-  },
-  {
-   "discovered": "2026-09-25",
-   "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/user-sisters",
-   "title": "Close Sisters | PixAI Contest - 500,000 Credits | PixAI",
-   "deadline": "2026-10-07",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-sisters",
-    "title": "Close Sisters | PixAI Contest - 500,000 Credits | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "앱·개발",
-    "deadline": "2026-10-07",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 500000,
-    "prizeText": "플랫폼 크레딧 500,000",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Please submit illustrations of close sisters.\nAny situation is welcome, whether the sisters are happily sightseeing together, sharing a meal, or anything else! (((o(*ﾟ▽ﾟ*)o)))♡\n\nNot only actual sister",
-    "url": "https://pixai.art/en/contest/user-sisters",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": []
-   }
-  },
-  {
-   "discovered": "2026-09-25",
-   "brand": "PixAI",
    "url": "https://pixai.art/en/contest/user-tokyo-psychic-record",
    "title": "A Supernatural Ability Battle Set in Tokyo! | PixAI Contest - 100,000 Credits | PixAI",
    "deadline": "2026-10-26",
@@ -1063,45 +829,6 @@
     "bonus": [],
     "note": "**TOKYO × PSYCHIC**\n\nTokyo × Psychic Battle Character Design Contest\n\nThis is a contest themed around the stories of psychics set on the stage of Tokyo!\n\nWe are currently producing an AI scenario set",
     "url": "https://pixai.art/en/contest/user-tokyo-psychic-record",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": []
-   }
-  },
-  {
-   "discovered": "2026-09-25",
-   "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/user-true-love",
-   "title": "COUPLES & SHIPPING ART CONTEST — A BOND WORTH SEEING | PixAI Contest - 200,000 Credits | PixAI",
-   "deadline": "2026-10-07",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-true-love",
-    "title": "COUPLES & SHIPPING ART CONTEST — A BOND WORTH SEEING | PixAI Contest - 200,000 Credits | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-10-07",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 200000,
-    "prizeText": "플랫폼 크레딧 200,000",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "“Some stories are written in words. Others are written in the way two people look at each other.”\n\nLove, friendship, rivalry, devotion, or something that defies definition—every great relationship has",
-    "url": "https://pixai.art/en/contest/user-true-love",
     "tags": [
      "플랫폼"
     ],
@@ -1609,45 +1336,6 @@
     "bonus": [],
     "note": "We need more hope in this cruel world, so I am asking you all to illustrate it.\n\nWhat is hope for you? \n\n**RULES:**\n- Absolutely no nsfw or immoral pictures.\n- Please, no clickbait pictures (exaggerat",
     "url": "https://pixai.art/en/contest/user-hope",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": []
-   }
-  },
-  {
-   "discovered": "2026-10-03",
-   "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/user-original-character",
-   "title": "940 (Memorial) ~ Sleeping Original Characters ~ | PixAI Contest - 94,000 Credits | PixAI",
-   "deadline": "2026-10-09",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-original-character",
-    "title": "940 (Memorial) ~ Sleeping Original Characters ~ | PixAI Contest - 94,000 Credits | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-10-09",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 94000,
-    "prizeText": "플랫폼 크레딧 94,000",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "This is an original LoRA I created some time ago, but even I have no idea what to create with it.\n\nSo, I’d be delighted if you could use it to create something fun and interesting in my place!",
-    "url": "https://pixai.art/en/contest/user-original-character",
     "tags": [
      "플랫폼"
     ],
@@ -2379,9 +2067,575 @@
      "prize"
     ]
    }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "Higgsfield",
+   "url": "https://higgsfield.ai/blog/higgsfield-discord-200k-contest",
+   "title": "Higgsfield Discord 200K Contest:                                                                               How to Enter, Rules, and 200,000 Credits in Prize",
+   "deadline": "2026-10-14",
+   "deadlineGuess": null,
+   "deadlineEvidence": "and make a video of up to 60 seconds in a contest project in Cinema Studio. Entries close October 14, 2026, at 5:00 PM UTC. After",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "higgsfield-higgsfield-discord-200k-contest",
+    "title": "Higgsfield Discord 200K Contest:                                                                               How to Enter, Rules, and 200,000 Credits in Prize",
+    "org": "Higgsfield",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "AI 필름",
+    "deadline": "2026-10-14",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 200000,
+    "prizeText": "플랫폼 크레딧 200,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "sub",
+    "feeText": "Higgsfield 구독 필요",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Enter the Higgsfield Discord 200K Contest: recreate a viral video format in Cinema Studio and compete for 200,000 credits. Rules, dates, and voting.",
+    "url": "https://higgsfield.ai/blog/higgsfield-discord-200k-contest",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": []
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-cool-boy",
+   "title": "⚡Cool Boys Contest⚡ | PixAI",
+   "deadline": "2026-11-07",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-cool-boy",
+    "title": "⚡Cool Boys Contest⚡ | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-07",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "⚡ Cool Boy Contest ⚡ Why not freely illustrate your ideal \"Cool Boy\"? 🖤 Cool and stylish boys, strong and reliable boys, wild boys, mysterious and charming…",
+    "url": "https://pixai.art/en/contest/user-cool-boy",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-cool-girl",
+   "title": "⛓️Cool Girls Contest⛓️ | PixAI",
+   "deadline": "2026-11-07",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-cool-girl",
+    "title": "⛓️Cool Girls Contest⛓️ | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-07",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "⛓️ Cool Girls Contest ⛓️ Why not freely create your idea of a \"cool girl\"? 🖤 Cool and dignified girls, strong and reliable girls, boyish girls, dark and…",
+    "url": "https://pixai.art/en/contest/user-cool-girl",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-cotton-candy-colors",
+   "title": "Cute Cotton Candy Colors (Pastel Colors Only!) | Contest | PixAI",
+   "deadline": "2026-10-16",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-cotton-candy-colors",
+    "title": "Cute Cotton Candy Colors (Pastel Colors Only!) | Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-10-16",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "I am craving some cotton candy colors! Mainly pastel blues and pastel pinks, but pastel purples, pastel yellows, and pastel greens are okay too! Some softness…",
+    "url": "https://pixai.art/en/contest/user-cotton-candy-colors",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-cute-boy",
+   "title": "💝Cute Boy Contest💝 | PixAI",
+   "deadline": "2026-11-07",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-cute-boy",
+    "title": "💝Cute Boy Contest💝 | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-07",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "💝 Cute Boys Contest 💝 Would you like to try freely depicting the \"cute boy\" of your imagination? 💕 Whether it's a soft and adorable boy, a boy with a sweet…",
+    "url": "https://pixai.art/en/contest/user-cute-boy",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-cyberpunk-edgerunners",
+   "title": "The Other Side of the Lens | Contest | PixAI",
+   "deadline": "2026-10-23",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-cyberpunk-edgerunners",
+    "title": "The Other Side of the Lens | Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-10-23",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Create a poster inspired by Cyberpunk: Edgerunners Season 2 around the theme “The Other Side of the Lens”. The central figure may be Roman, shown as a quiet…",
+    "url": "https://pixai.art/en/contest/user-cyberpunk-edgerunners",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-cyberpunk-edgerunners-season-2",
+   "title": "Only Revenge Remains | Contest | PixAI",
+   "deadline": "2026-10-24",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-cyberpunk-edgerunners-season-2",
+    "title": "Only Revenge Remains | Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-10-24",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "This poster contest centers on D from Cyberpunk: Edgerunners Season 2, portraying the moment when revenge becomes the only force left driving him forward.…",
+    "url": "https://pixai.art/en/contest/user-cyberpunk-edgerunners-season-2",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-dantmix-promotion",
+   "title": "DanTMIX Promotional Contest | PixAI",
+   "deadline": "2026-12-08",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-dantmix-promotion",
+    "title": "DanTMIX Promotional Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-12-08",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "DIT Models are easy to use and incredibly responsive, but they also have quite steep generation costs which make them very hard to use to anyone not spending…",
+    "url": "https://pixai.art/en/contest/user-dantmix-promotion",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-magazine-contest",
+   "title": "Magazine Contest | PixAI",
+   "deadline": "2026-10-15",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-magazine-contest",
+    "title": "Magazine Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-10-15",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Generate the most beautiful magazine!🌟 Character restrictions: None! Try using fanart, original characters (OCs), and more! LoRA restrictions: None! Feel free…",
+    "url": "https://pixai.art/en/contest/user-magazine-contest",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-malfoid-trend-spreads-to-pixai",
+   "title": "Malfoid Trend Spreads to PixAI! | Contest | PixAI",
+   "deadline": "2026-10-24",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-malfoid-trend-spreads-to-pixai",
+    "title": "Malfoid Trend Spreads to PixAI! | Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 광고",
+    "deadline": "2026-10-24",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "We're not wasting time. The Malfoids have spread everywhere! Make your own Malfoid for the contest. You can use any model, as long as it represents that…",
+    "url": "https://pixai.art/en/contest/user-malfoid-trend-spreads-to-pixai",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-onimai-testing-ground",
+   "title": "Onimai Testing Ground | Contest | PixAI",
+   "deadline": "2026-10-24",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-onimai-testing-ground",
+    "title": "Onimai Testing Ground | Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-10-24",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "ℹ️ Event Info The goal is to perfectly replicate the ONIMAI style and fully test the LoRA. Experiment with characters, scenarios, and outfits in the signature…",
+    "url": "https://pixai.art/en/contest/user-onimai-testing-ground",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-sami-girl",
+   "title": "The 3rd LoRA Promotion Contest! | PixAI",
+   "deadline": "2026-11-07",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-sami-girl",
+    "title": "The 3rd LoRA Promotion Contest! | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "이미지·아트",
+    "deadline": "2026-11-07",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "I've made another freshly baked LoRA for the third time. I would be happy if you could create images as you like, themed around the Sámi, who could be…",
+    "url": "https://pixai.art/en/contest/user-sami-girl",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-10-10",
+   "brand": "PixAI",
+   "url": "https://pixai.art/en/contest/user-the-apology-room",
+   "title": "The Apology Room | Contest | PixAI",
+   "deadline": "2026-10-17",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-the-apology-room",
+    "title": "The Apology Room | Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-10-17",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "“I apologize... I ate snacks in the middle of the night...” Yes, you’ve entered “The Apology Room.” This is the place to confess whatever you feel the need to…",
+    "url": "https://pixai.art/en/contest/user-the-apology-room",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
   }
  ],
  "news": [
+  {
+   "title": "iQIYI Advances Professional AI Filmmaking with Launch of Global AI Creator Challenge Powered by NadouPro and Alibaba's Wan3.0 - PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNMU1IQTEzVVdzeWNWNlpjZzJxUHJKZDF4ZEVWNUxTbkZCOWRlYXBMdDBybUdvdW04SlBvcnFXZkdvUG1XekthSDRsRi1CdTNhX0d4TnQwYjdCWnRCcHB2c1VSTWlpQWtCVV9kaTJSbTRUY2s0RmhZYWtydEFYbFlDdnh1bmI3TXhPdWtBRXVGRHZmVWhma1FjQVBNYkE3dEFwV1pJVzVocjVqVU1CdGNUcUdGeHA3cVA2b0VIY1Y2c0JadlVUOEtmY0IwZk5NQ0R6eE9vcFRSRVZvcFp2N0RvM0lzQTBmeGV5T2tEd2wyTVhrR3c4Zl9iMkVkV21RTmZjMklPTmttZk1uMHdvX0E?oc=5",
+   "pub": "Thu, 10 Sep 2026",
+   "query": "\"AI video\" (challenge OR contest) prize",
+   "discovered": "2026-10-10"
+  },
+  {
+   "title": "롯데렌탈 T car, 숏폼 영상 공모전 개최…“브랜드 접점 확대” - 헤럴드경제",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5POFc2dl96VWtLbVpFcURBUmVmY0lGOFNKWmV3SGVreGpIb2RsNW5ZOGxUaDY1M1V4VWFpLUo4X3oxQWlDZ0NKUjFhLWZSWDNQS2k4S2p3?oc=5",
+   "pub": "Wed, 07 Oct 2026",
+   "query": "AI 영상 챌린지 상금 공모",
+   "discovered": "2026-10-10"
+  },
+  {
+   "title": "West Bengal Lok Bhavan announces essay competition for school, college students, prizes up to Rs 1 lakh - Moneycontrol.com",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPYWpwcGV0bWVnS3JfRGs4WDlWVDUwVmFPd1hVLWY5WG1HZldkUldza3RGQk4yRzVIUm96V09CZUk4T0hqUk9BcFBUdXg2cFRMS0lWejZCcmVJQjJ2SjhncEFjY1hzaTJtUzlHOHFrMUJBd24xNEN1cUdVNjliVDFCaS1pc3pRUU1ScGxtMEFDUDR4anBCWlFEVUQ0SGgtVTlCRl9hWHJMcUdQaldhdG9ZalZaakhpRjN6TFlXQ29BZFBSNGxVUFhYYU45OU5uQXZhUmtNeHFxRGRlZHd6Z2lQcm4yQ1JmMlNoNGRVeXdyWjhoSGpQ0gH6AUFVX3lxTE96ZHBGaWlsMTlKdjJkXzJPVVI4bC1pS2VOVXF5UjU3Tk82V2NnbFh0OEd2ZVB1OGJPcDZzZi1iQXA2bndsMURlWEgwMU1LTDJQZHp6UXdsb1ZLOHRDaVY1a002akN1aWFnX0JhS2dCLXFDS3pmbWFDWW5vTFBiaXVObWJFR2JvSTBnNWZnYkcwRHpQbG5PMlVBSWc3ajRlYTV6eUpjbHZTa0JqVnBvVVBtZTdfSGRhcUpaRkllZ196MFBNRk1TcGtGYmR2QnJvWDcxbjR4WkFTaHk3dWNjVV9hX1R0VFdRX3dVMlFYRXhfOU5vSWV6cUFzcmc?oc=5",
+   "pub": "Tue, 06 Oct 2026",
+   "query": "(\"Tensor.Art\" OR \"Ideogram\" OR \"Recraft\" OR \"Adobe Firefly\" OR \"Canva\" OR \"Grok Imagine\") (challenge OR contest OR competition) prize",
+   "discovered": "2026-10-10"
+  },
+  {
+   "title": "Guwahati to Hold Swachh Durga Puja Contest from October 16 to 21 - Guwahati Plus News",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQUxfNmZlNW9pc1ZpWUlfQjJ5LWVtRk5tRnNwSzY3LVNiVTlyLXl5SnBKOXNJVVR1RHVoVTB1aDM4R3lYTHp0WXBneHpITG9hQzVBZVY0X1dweHBJUTFFY3ZxVjBmeUw4TFNwblNjMUo0UmF3dXlHVm1JTlJvcVo5ZEhpZ1EtT3JSNnNPUzhITkdvV1ZDc2ozRA?oc=5",
+   "pub": "Fri, 09 Oct 2026",
+   "query": "(\"Tensor.Art\" OR \"Ideogram\" OR \"Recraft\" OR \"Adobe Firefly\" OR \"Canva\" OR \"Grok Imagine\") (challenge OR contest OR competition) prize",
+   "discovered": "2026-10-10"
+  },
+  {
+   "title": "Audrey Tromp Wins Schmidt Vocal Arts Illinois Regional Competition - OperaWire",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTC1QSnZTcjd5VElQVEw4WGU3c1dRWWk1OG95RUI1WEpvZUhqQ1g3Nm9fSko4cEo4ZHpDbHB2Qy14aURUNG9WSWtpdU5ydkh3TDBrdUtEeVV6Y0VCeG9QbFd4U091RHZ6bzBOeUNwY09zZVl6MVByZUVmdGRzQ3BpMmR0NG10TE95SkxoWE9lN2ppSVE?oc=5",
+   "pub": "Fri, 09 Oct 2026",
+   "query": "(\"Sora\" OR \"Google Veo\" OR \"CapCut\" OR \"Dreamina\" OR \"Krea\" OR \"Seedream\") (challenge OR contest OR competition) prize",
+   "discovered": "2026-10-10"
+  },
   {
    "title": "The Dogist announces finalists for People's \"World's Cutest Rescue Dog\" contest - CBS News",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNXJYVWZiRjBGVGpfb0l2UTl5VkJHQ2kteFdKbkFVRkhEeWtXSXNodTBQaEhlMU51emxZZnJVOHpMYkdvTTlDVllDZ0s3RlZwRkd5d05ScXVKWE5hVlVxelJfRHpXRU1XODdESFVLWkhROFhrWExsb3NVSXlrVWlyVFR4d2s2TmZtMmFBZENmVy0yMjIwVUhIVWxDYVlrdTBoX1ZuMkhtS0txZw?oc=5",
@@ -2829,34 +3083,6 @@
    "pub": "Fri, 11 Sep 2026",
    "query": "(\"Sora\" OR \"Google Veo\" OR \"CapCut\" OR \"Dreamina\" OR \"Krea\" OR \"Seedream\") (challenge OR contest OR competition) prize",
    "discovered": "2026-09-11"
-  },
-  {
-   "title": "REPLY: A Face Only A Mother Could Love by Robert Gaudette Wins the Reply AI Film Festival 2026, the International Competition Exploring the Intersection of Cinema and Artificial Intelligence - 01net",
-   "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPWnRBc0tNU1dCcHZ4cFNlc1hFU3VZbVF2cHNVdTlXVWxGM3N5OGdhemdSZGtyRjF1UUMxMnJuNGxKR0xFdm5obHJ4Qjc5UFdhb2oxblFOQTQ3UW9XOVhQbngyb0NhVTdOSFFBclUxTlhiZnhmUzZLdDVnYklSLXhYbkZxbWR3SjBSY1BVdXBGUEdCUWkwYkJPc3ZaNTd3TlppN0YyMkVESjVtaHlYSnZUOFBHeEt4dlVBcVJKYVRpOFh5NFQ0RDRwMmc1YU1qRzZSR1BQUkZ6RHEzQXExLWc5clMxZUx5MVZnNF9icElJMDlDeE5xZXVINklMZFZwVnJJTjAzcXBhbTVDSjBLcTAyeElTRV9JWlMxblFyLWZkSVhDSVlNSEVpQlk2VFdhRVIxN2pWUg?oc=5",
-   "pub": "Mon, 07 Sep 2026",
-   "query": "\"AI film\" (contest OR competition) submissions prize",
-   "discovered": "2026-09-08"
-  },
-  {
-   "title": "Morgan Stanley Private Briefing: MiniMax and Zhipu AI See Surge in ARR; Model Competition to Enter a Tiered Elimination Phase - 富途牛牛",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRUI3dnNiclkwdndDNzhybDhUNW10b01qaE1XbzhEOWE4QUNXVTMwVE5HVUo2M1dqMng2UHNWa1NUcVJQV3Y3clF0Q2w5XzY0Mzh2VDdJMjFBdFFVWGppdTRiUVFaSnBSQ3p3MVlKX0dmREMwV1Z1Z044NDJZdmtVaGlIeVJvdWowOUlyMHhENUxrRTZDZ2FndTF6bXJRbTlOT2dyMnN3?oc=5",
-   "pub": "Sat, 05 Sep 2026",
-   "query": "(\"Midjourney\" OR \"Leonardo AI\" OR \"Freepik\" OR \"Kling AI\" OR \"Hailuo\" OR \"MiniMax\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-09-08"
-  },
-  {
-   "title": "German designer Jon Liesenfeld wins the Redress Design Award 2026 as global competition targets circular design gaps - Fashion United",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMWdfb3UtZUtTdkQ5Y05oMURvWnkwdkNCaHFDRlFUQXN6cGJjbHRqTjVTSU00bHJmZ3g4NXlGSnZlS1d5RHY4N29TSkpfbEgwWlNhYzZlWlgyQ3pTeFFPb1NLVEFUNXZ2Q3VVMl9sa3N3cWVNVFJPVzRJZmM1WlFhM04zNV90MHU0WVh1bDBaSV9ReW9ibHpKamJFOXNMM1FDTlZYeGhyOFVqbWItYW03RDBDRFRaYVR3bURycnRzNkZGUmV5QkdfYzQtVm1lM3F5VU54ekQ1TkpYYzdMRXU1T0k3WFZ3bUZrYkI0MTRYa3BXak9scmx1ejM2RQ?oc=5",
-   "pub": "Mon, 07 Sep 2026",
-   "query": "(\"Vidu\" OR \"Luma AI\" OR \"Pika Labs\" OR \"Runway\" OR \"OpenArt\" OR \"NightCafe\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-09-08"
-  },
-  {
-   "title": "Redress Design Award Winner Inspires Consumers To Demand More Sustainable Fashion Choices - DagangNews",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPM3FmWTFoaFZ4cER5RUVvNFJnbEhBR29ja29Yd0Z5azRkeWRHcDNEZ1NxYWhBaGd4dTdMVUtJYWRFeFV6MkROWEV6SXZRbHNSRHVXdHQ1dnBRd1ZYTkNVZk9Fcm01bjV4SGF5bnZ3RTl5bkg0LWJJbVE5Y1ZKYUw3VVZrMDBpV3d1Vkh1NGFkRHlzSmtHVldteG9ZVXV2MUx0MWgwR0t2Vmsza3FERWwyUTNnZEZYbk1KZUlCd2JyQy1VSHJkYlhKb1NSdTZwTXFG?oc=5",
-   "pub": "Fri, 04 Sep 2026",
-   "query": "(\"Vidu\" OR \"Luma AI\" OR \"Pika Labs\" OR \"Runway\" OR \"OpenArt\" OR \"NightCafe\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-09-08"
   },
   {
    "title": "Hoban Group's Hoban Cultural Foundation will hold an international AI art contest \"Next Art AI\" in S.. - 매일경제",
