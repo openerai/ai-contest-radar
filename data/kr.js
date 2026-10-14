@@ -5,10 +5,10 @@ window.KR_DATA = {
  "generatedAt": "2026-10-04T23:58:28+00:00",
  "_meta": {
   "autoCount": 89,
-  "finalCount": 82,
-  "manualCount": 11,
+  "finalCount": 83,
+  "manualCount": 12,
   "bySource": {
-   "manual": 6,
+   "manual": 7,
    "linkareer": 59,
    "aifactory": 2,
    "wevity": 15
@@ -2370,6 +2370,34 @@ window.KR_DATA = {
     "prize"
    ],
    "source": "wevity"
+  },
+  {
+   "id": "manual-aikive-sansaram-otaku-ai-mv-2026",
+   "title": "산사람 「진짜 오타쿠」 AI MV 챌린지",
+   "host": "산사람 (과나) · ㈜스튜디오프리윌루전 (AI-Kive)",
+   "hostType": "기타",
+   "cat": "AI영상·콘텐츠",
+   "start": "2026-10-14",
+   "deadline": "2026-11-11",
+   "prizeTotal": 1000000,
+   "topPrize": "1등 60만원 · 2등 20만원 · 3등 20만원",
+   "who": "만 14세 이상 대한민국 국민 (개인 또는 팀, PASS 본인인증 필수)",
+   "whoType": "전국민",
+   "bonus": [
+    "AI-Kive 전시"
+   ],
+   "note": "11/11 23:59(KST) 마감, AI-Kive 제출. 생성형 AI를 활용한 16:9 뮤직비디오, 30초~4분 30초, MP4·FHD 이상·2GB 이하. 제공 원곡 사용 필수(구간 선택·반복만 허용, 리믹스·템포 변경 금지), 멤버 이미지 활용은 선택. 생성형 AI 제작 문구 표시 필수, 참가자 식별 정보·AI 도구 워터마크 금지. 관객평가 100점+멤버 가산점 10점, 11/17 발표. 다른 공모전 중복 출품 금지.",
+   "url": "https://aikive.com/event/207f776111a4416a9bf9c5130e1d8f93",
+   "tags": [
+    "AI영상",
+    "생성형AI",
+    "뮤직비디오",
+    "과나",
+    "산사람"
+   ],
+   "verify": [],
+   "checkedAt": "2026-10-14",
+   "source": "manual"
   }
  ]
 };
