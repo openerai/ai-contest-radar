@@ -1,9 +1,10 @@
-name: 공모전 데이터 주간 갱신
+name: 공모전 데이터 격일 갱신
 
 on:
   schedule:
-    # 일요일 21:00 UTC = 월요일 06:00 KST (한국 시간 월요일 아침)
-    - cron: "0 21 * * 0"
+    # 매일 21:00 UTC = 다음 날 06:00 KST. 아래에서 격일 여부를 판정한다.
+    # */2 일자 cron은 월말에 간격이 달라지므로 고정 기준일을 사용한다.
+    - cron: "0 21 * * *"
   workflow_dispatch:          # Actions 탭에서 수동 실행 가능
     inputs:
       linkareer_pages:
@@ -25,7 +26,30 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - name: 격일 실행 여부 확인 (수동 실행은 항상 허용)
+        id: check
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import date, datetime, timedelta, timezone
+
+          today = datetime.now(timezone(timedelta(hours=9))).date()
+          elapsed_days = (today - date(2026, 10, 14)).days
+          should_run = os.environ["GITHUB_EVENT_NAME"] != "schedule" or elapsed_days % 2 == 0
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              print(f"should_run={str(should_run).lower()}", file=output)
+          print(f"한국 날짜: {today}, 갱신 실행: {should_run}")
+          PY
+
   update:
+    needs: schedule
+    if: ${{ needs.schedule.outputs.should_run == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
 
