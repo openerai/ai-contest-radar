@@ -218,6 +218,26 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-10-03 (이미 과거) · 종료 문구 'Submissions closed'",
    "cross": []
+  },
+  {
+   "id": "pixverse-pixlight",
+   "title": "PixVerse PixLight 글로벌 AI 필름 공모",
+   "url": "https://pixverse.ai/en/blog/pixverse-kicks-off-pixlight-global-ai-film-competition",
+   "source": "manual",
+   "retiredAt": "2026-10-15",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-10-09 (이미 과거) · 종료 문구 'winners announced'",
+   "cross": []
+  },
+  {
+   "id": "afc-orhena-ai-contest-2026",
+   "title": "orhena AI Contest 2026",
+   "url": "https://orhena.com/contest",
+   "source": "aifilmcontests",
+   "retiredAt": "2026-10-15",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-10-11 (이미 과거)",
+   "cross": []
   }
  ]
 }
