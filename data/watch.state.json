@@ -2057,8 +2057,138 @@
   "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGtGajlxZWpsbm91MWhDcGRBSGdhb0dhN3l4cUQxZ3FhcEdXZHZIUDlhWk9DQkVCdE1Pemx0X2VaTVdoUC1CNnBGU1JMNTJwOTQxNlJadExiLVJwdVcwNnNuWUlpSXhTamRwb3JSdmd2UmZNMHduQldwakVkYW52OEN1WXdqMGJDUjVxYUhkWQ?oc=5": {
    "first": "2026-10-14",
    "brand": "news"
+  },
+  "https://pixai.art/contest/community": {
+   "first": "2026-10-16",
+   "brand": "PixAI",
+   "dup": true
+  },
+  "https://pixai.art/contest/official": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-entering-y2k": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-hask": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-ice-pop-paradise": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-mios-birthday-gift": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-nasu": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-npc-awakens": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-pet-humanization": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-pixaimovieposters": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-pixaispringechoes": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-recipe": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-summer-embers": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/pixai-tsubaki-3": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-a-wish-upon-stardust": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-bouquet-meanings": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-everybody-cut-footloose": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-g-raha-tia": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-gothic-night": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-halloween-week": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-my-story": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-noble-phantasm-pelease": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-radio-never-dies": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-sho-smol": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-thick-thighs": {
+   "first": "2026-10-16",
+   "brand": "PixAI"
+  },
+  "https://app.klingai.com/global/activity-zone#kling40epicscenecreationchallengejointhechallengetowincashandcredits": {
+   "first": "2026-10-16",
+   "brand": "Kling AI",
+   "via": "render"
+  },
+  "https://news.google.com/rss/articles/CBMidkFVX3lxTE9scXNsbXBjaHhuWUthLVVRd3VNRjdHY2F3bWhGSnkweHl2b3pWUTkxOGMxNkc2cGNyRktBQ3JXa0tSeEVwS3RtamxrRl9zZXdmNU9wdWlaMGtrUV9JVURqVk0zcC0tcWY0Yk00d2U5U1NMczB5MHc?oc=5": {
+   "first": "2026-10-16",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVl5N21xUGFadmZraGRrUlV3OVlfU3ZPVnRtNFB0TWFKSlBtbUVBd245dUVVVWlsVmwzZndWRWk4T3Z5ZHVGUUE3LXdmaFFsTml6eF8yZzVRZTNYYWhCMzNBTEszZ1dEWGZMWi1IUWp1eEFoNl9OWU9helQwNzZvc2hnNFN6enVhNEM3aFlOeHVoVEZLTnB1bVhPa0FBRVBaUVQ3WU15SXo4Qm9EQUh6Ug?oc=5": {
+   "first": "2026-10-16",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdERaeTRUbUVPejBJakdjSzVLZWN2UzVGOUxlYzRWVjBZOHRoTHdxeGdFeUdrcWxnR1daODlWYWR5WFhfV25HMGdDSTk0Nkc0a0RHaU9naUpHRVVtNm5TUFhCRTRCX3VBbjdNcUtlQnhINEZUWGJOR1QzczRCdlBxSjhRN0lFSTlNVzFLYzFQMjVEdTA?oc=5": {
+   "first": "2026-10-16",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tS2JNS2k0VExCWng0M2FkaDRIdmMxLWFKbHZUSlZMckJ6QjhBOTc1Q0ZZV3Zibk9hUU1EOHdCclpNdkdhWXV4T0ZfdGc5akw1YlFxRy1fNkhRMElndDRJaE5tX2xxZFJ1cnN6ZENqZ0g?oc=5": {
+   "first": "2026-10-16",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQmU3cmQycDNjQ1VvR0txNnpuT3c2VWpESjJJREZQal9paWhSamxDRWpEbkhYcll1YWZKRFl6a0lqTEJUbWUyLURwVWNUT0hKSm9rLWxyVXFqNkVYWHBrZDUxdXhHcWtpY3ZtR3NNbEFjTDBqTFFieXNLXzEtM2tmSGMtaUg3ZE53eU9xZ2JKcw?oc=5": {
+   "first": "2026-10-16",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaWdtbjZ3UWk2TFU2b04zYzJBMkZNcEhXUDNUOEtfMmxqSnBpNWNDZ05hNDhGRDNvRXNxT0JXd1FKc2ROeDRsUmRSMXZ4LTloQ2xJWkFDb2VIUGpwdnlpSHBoRVRiMzZBM2hXZUFVZVFOcFk3ZkIyeV9JMF9jcG13X2xBUDJNV2FubUJ4akFMQ2o5Q0k?oc=5": {
+   "first": "2026-10-16",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-10-14T00:13:47+00:00",
- "seenCount": 489
+ "updatedAt": "2026-10-16T23:21:32+00:00",
+ "seenCount": 521
 }
