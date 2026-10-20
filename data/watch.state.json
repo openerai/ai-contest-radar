@@ -2187,8 +2187,97 @@
   "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaWdtbjZ3UWk2TFU2b04zYzJBMkZNcEhXUDNUOEtfMmxqSnBpNWNDZ05hNDhGRDNvRXNxT0JXd1FKc2ROeDRsUmRSMXZ4LTloQ2xJWkFDb2VIUGpwdnlpSHBoRVRiMzZBM2hXZUFVZVFOcFk3ZkIyeV9JMF9jcG13X2xBUDJNV2FubUJ4akFMQ2o5Q0k?oc=5": {
    "first": "2026-10-16",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/34ab16c6bf1992208bee6b57d714": {
+   "first": "2026-10-20",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/c2f52866be804bf558d91a16de16": {
+   "first": "2026-10-20",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/e48607d6b5a7c74aaceed005044f": {
+   "first": "2026-10-20",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/e780b988b0be974e2a5304fdd840": {
+   "first": "2026-10-20",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://elevenlabs.io/blog/chroma-awards-season-two-announcement": {
+   "first": "2026-10-20",
+   "brand": "ElevenLabs"
+  },
+  "https://pixai.art/contest/user-a-vivid-neon-world": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-autumn-food": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-autumn-vibes": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-chibi-characters-at-work": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-flu-season-is-here": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-id-photo": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-lofi-dream": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-oversized-star-hoodie": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-photo-studio-contest": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-the-beauty-of-the-qipao": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-the-winter-ball": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-yuri-kiss": {
+   "first": "2026-10-20",
+   "brand": "PixAI"
+  },
+  "https://app.klingai.com/global/activity-zone#holidaysparks10": {
+   "first": "2026-10-20",
+   "brand": "Kling AI",
+   "via": "render"
+  },
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2NFT3c5N3Bjc2VxVVNGN1pqb2Rub0lHVVBoZ3c0TEFuSHVVV0FjUHlhNTZkSEQ1Tk85clN2Wllqb0c4b3Fvb1k0LV9wYV9GT05EQjN1WnkxZnB3ektCZFVNUEFIMmJyWTV6eXM2YjNubnFCQ1lpQURvNWFYUzBYTFJxMlg0UVBjQjFUXy1qeTZ6X2ludWdYUVJfYWRRaFZwNmlvcXF0dzVzR29vMGNHc3d2b01Sdw?oc=5": {
+   "first": "2026-10-20",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04QjlxTkhVZWQ4ZjBDREoxaU5KNThabjNrUTFFaXloWDZ3enRZZ1VZZ3Y5SkhjeDczUlZoQnFDRzBPOGdrdzVnYU11aTB0SHRIazZyQ2hOM3dFbFdtMnVvcFUyRjcwd9IBakFVX3lxTE4tYnpnTzZQZmJXY0VqR1BDbUlVNnZ5N0JmSERMRU9NWDdtbnBBQ3VKQWNRb3dGOE5zMnlWZUVwWlA1Yl9KTTFrc0pxeDAzckwzWkFYU29LbXRyUnF0TmlXNk50cWpuQUZPQ0E?oc=5": {
+   "first": "2026-10-20",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMib0FVX3lxTE80dFJjeWFjeGhwNmkyUy1BS0NUeEpzeXFUVEI2ZHYzY3dzNzdBSUJRRDFPSWxCYnlqQlBjZ19LUE9wb1NDQVBZNm96Q0FadlVzWm5rYi1uYWhzTU1FQ0pBRVRScU1OS0NhME4tQ3BPSQ?oc=5": {
+   "first": "2026-10-20",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-10-16T23:21:32+00:00",
- "seenCount": 521
+ "updatedAt": "2026-10-20T23:44:59+00:00",
+ "seenCount": 542
 }
