@@ -2276,8 +2276,107 @@
   "https://news.google.com/rss/articles/CBMib0FVX3lxTE80dFJjeWFjeGhwNmkyUy1BS0NUeEpzeXFUVEI2ZHYzY3dzNzdBSUJRRDFPSWxCYnlqQlBjZ19LUE9wb1NDQVBZNm96Q0FadlVzWm5rYi1uYWhzTU1FQ0pBRVRScU1OS0NhME4tQ3BPSQ?oc=5": {
    "first": "2026-10-20",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/05adb2ffa5fc8c58eaf3be46642d": {
+   "first": "2026-10-23",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/6b18d08dad8dfbcb07560256b7fa": {
+   "first": "2026-10-23",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/7ffe7d9baea904de1e5ed707a52d": {
+   "first": "2026-10-23",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/contest/pixai-zeta-oc": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-all-about-twintails": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-autumn": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-calling-all-the-magical-girls-2": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-calling-all-the-magical-girls-3": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-colorful-boys": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-cool-pose-you-think": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-daily-life": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-material-reality-fusion": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-rain-dragonkin-form": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-rain-human-form": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-rough-sketch": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-sudanese-girl": {
+   "first": "2026-10-23",
+   "brand": "PixAI"
+  },
+  "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDSjlTSER0aGE3blVtNnBRR0RwUzhHY1ZzSE52cDhSTUQ0X1UyeC1CYzNxNUNGakZPNTZILURkOWRqcXpEMXdVQmtta0JJaUM4UHFhWWdVNXV6WG4zV0t5ZEpfUkdRb2JfMVI4R2dJSXN2N0FuUDl3ai04ZDJyTXM?oc=5": {
+   "first": "2026-10-23",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR0MwTEZWWFRhZW1XdDJIYnh3N000RmJ3Zkp1eHdwMjBHcXNLQkkzMGVDUUxiNHdla3VwWEdNeG1aTVBzeENEb2h5ZUJtVDE1Q1Q0ZVhPcXZ1ZU1iZllzU3ZpSTYyR3ZxWDQ5RzFJemV2bHJ0cFJVMmdkYWFCbW9VTnZYbUlaU1hiX2JkS1ZBTHl6Tmlnc0xRTmdYUkcyejNTY215ZkdISzk2dEhLamNKcEt2UDnSAbQBQVVfeXFMTU40eGtIQzVHTzhoSi1qMTNPa0NNbXJ4UnJ4OW1KcjN3NERsUkJ3SDFnaUpVd1F2NnpMVDRqWXR1N0RqaWZmTGg0bnR3aWFudGJQRXIzd0xKdXN2cU1kRUYwSWlJVGZPM3pEdFA3aUswdXdSS1RhLUFhLTV4UVhLMkVjS0dneFZCTFN4OU1rZjhqWlFxRGFtc1JMaDlpakU4c1JBaGprenVScW43QmlTVE1KN0tm?oc=5": {
+   "first": "2026-10-23",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2pDYkhvN1BObXFZazZOclVzM1Nnc1BzMUpXd2VXdm8zUk1JQ0VBTDhpc0gySGYwOWdobzVjVXdNZ1RCWnZBQ0tqbjYwdWhWOVdPczFESXBRZkhqaHhvTGZ4MlpVY1kwWDl0YXJPZmRORk1Ia1gtcjlfZEcxbm94bmo4S3YzVDg4SlZJNVQ3NGdhZnpHZWExYkZZWW0zcFNjUEJRZ3l2UVJOd0JWTFhwYUtB?oc=5": {
+   "first": "2026-10-23",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdnE0aE1SbTlPZkhWZlBCdlNZOUtPaXp4U0EyRi1ZcFhWQjE3eG9QaVBnNUhwYUVmZzhJVWxfblFFMm0wZzFmTGViTERXUHQ2RkxkaVJVT0FpVUl4RnVUc2tfX05iLUZoZXRqRVdGT0dxanRyM1lwTlBacjdTeDY3SnNBeDhDZldnUnBxemVScmNod1N1b05BaExLVVFLbGNMSlBCNEYxdGpOT2VGbUFVQVJnY2F2NmvSAbwBQVVfeXFMTWFlemhPU1YtbXRnS0FPdmNhcG0yenNnZnpuZkZ2NU1qSEpTQUhNS1c4Q0JsdVhjS05SMUNUbVo2RnpPVVppU0hEb1ZxWm1BYWV6NlNMUVBIWmdsVzBINTY2U096VEpmRlhFSktleVNvVVdocDYyQUhDbVZaX0NDZ1l6ZGRyYU12amZmMUJMdVVkMV9nNzJlcWxHZThMZ1NuZ2pydmJpZmtGQlp2d2YwYlk5TXFlMm1uTFNfMnI?oc=5": {
+   "first": "2026-10-23",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ReTMyRmdVdVJteURpYVNDSl9vTFFrS0pRLXFZLTZIS1Z4ZjFUVnZ3clNERWFqLVVYcElMZGpvX3VaTjNTbzdZb19INWk5ODFQeEVHM3NKQW9kQm1Nd1ZISGxGaWFHaWR3?oc=5": {
+   "first": "2026-10-23",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kVFdoTHQ0dmkyWWJtS1o0enE1VGVDNzEyODVuRzFISjdFaHZqT19yd2JQcFpMZkVzakNLSjFHTlExTmJPREoyTGQzWEFSNFNIY2huWjEwczFrODA0Q05IcWdGU2E0WXFYbGJfcDF6VUtNdlXSAXdBVV95cUxQV0hCbnlrWEdQeV9hMnpPcnQ1Wk8yS3BETmtnejUwM3RvV2JKZTlwUU1ySHZXemVkajNBZGMzVDhLMllMd2tBWW4yX1MyZElWdl85ZGN4VnBEaklXSXRhek5YQnZUd2dXNnZuODdVcEpPaU1OSzR0OA?oc=5": {
+   "first": "2026-10-23",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYVZ1RlRLMWI3cHNYYkRCbldpX1c1TW1MWVZtNlhMLWNJWkxTUFJrNFJxSGpIWW9kMm55TmFLNy1lSF9hd3BzU0p2dHlwS1pxb1dQbXZXd0txeHVYR2t2YkhxZ052Z3lMWnRfbTdmOF91NWNpUUR5OHpxazVZeHZLZU5qU2U5dFZnY2l2WUFMY0xRR2Jk?oc=5": {
+   "first": "2026-10-23",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdzBoTUFnVUJFLXhMakp5TTdkd0MxdzBuc3Y1T0dvU2N2MDdxT01NdEJJMi1mSmVYLU1FdWdSZUgwSThtejBLN252YXFrSTIyTm5BY2RXQ2o2OHFEeFVwTjJNbTlyUkR5UWxROF9YWFBTTDhWZlozNXVkVktFOXhvdkFnNEhMNXhGdUpGLUp6dDRXOUh6b3pURzdwd095Vl9weVY2d2VHaw?oc=5": {
+   "first": "2026-10-23",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-10-20T23:44:59+00:00",
- "seenCount": 542
+ "updatedAt": "2026-10-23T23:49:11+00:00",
+ "seenCount": 566
 }
