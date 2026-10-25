@@ -2,14 +2,14 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.GLOBAL_DATA = {
- "generatedAt": "2026-10-22T00:00:07+00:00",
+ "generatedAt": "2026-10-25T23:07:35+00:00",
  "_meta": {
-  "autoCount": 91,
-  "finalCount": 86,
+  "autoCount": 85,
+  "finalCount": 82,
   "manualCount": 23,
   "bySource": {
    "manual": 9,
-   "aifilmcontests": 74,
+   "aifilmcontests": 70,
    "melies": 3
   },
   "warnings": [
@@ -50,7 +50,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "pixverse-cpp",
@@ -85,7 +85,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "runway-fund",
@@ -121,7 +121,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "nightcafe-daily",
@@ -157,7 +157,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "pixai-official",
@@ -194,7 +194,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "kling-kreate",
@@ -228,7 +228,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "seaart-daily",
@@ -263,7 +263,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "civitai-daily",
@@ -298,7 +298,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "aifilmfest-monthly",
@@ -336,7 +336,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "manual",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-all-is-prompt-ai-film-festival-2026",
@@ -363,7 +363,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-atlanta-ai-ad-fest-2026",
@@ -390,7 +390,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-opencv-ai-competition-2026",
@@ -417,7 +417,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-pixlight-2026",
@@ -444,7 +444,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-creativity-awards-2026",
@@ -471,7 +471,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-1-billion-ai-film-award-2027",
@@ -498,7 +498,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-cine-prague-ai-film-festival-2026",
@@ -525,7 +525,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-zone-intl-2026",
@@ -560,7 +560,7 @@ window.GLOBAL_DATA = {
    "alsoFrom": [
     "melies"
    ],
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-artefact-ai-film-festival-2026",
@@ -587,10 +587,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "alsoFrom": [
-    "aifilmcontests"
-   ],
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-curious-refuge-holiday-2026",
@@ -617,7 +614,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-berlin-ai-film-festival-2026",
@@ -644,7 +641,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ia-play-international-film-festival-madrid-2027",
@@ -671,7 +668,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-cannes-film-awards-ai-2027",
@@ -698,7 +695,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-kcaif-2027",
@@ -725,7 +722,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-metamorph-ai-film-award-2027",
@@ -752,123 +749,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-unreal-ai-film-festival-2026",
-   "title": "(UN)REAL AI Film Festival 2026",
-   "org": "(UN)REAL Film Festival — Feat. Ventures / CAIA Consulting",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 광고",
-   "deadline": "2026-10-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · €50 per submitted work",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "An Italian festival for cinema made with or through artificial intelligence, held at Feat. House in Turin on November 27-28, 2026. Six categories (features, shorts up to 20 minutes, animation & motion, documentary, advertising, video art & experimental). Deadline October 31, finalists announced November 14. English SRT subtitles required.",
-   "url": "https://unrealfilmfestival.com",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-aiffa-africa-2026",
-   "title": "AI Film Festival Africa (AIFFA)",
-   "org": "LeCinema",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-10-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "A festival for filmmakers worldwide who use AI to imagine Africa's future, built around the 2026 challenge \"What does Africa look like in 2063?\"",
-   "url": "https://filmfreeway.com/AIFilmFestivalAfrica",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-visionaria-rome-2026",
-   "title": "VISIONARIA — International Festival of AI Cinema & Creativity",
-   "org": "Visionaria",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-10-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · See FilmFreeway",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "First-year Rome festival for films where AI plays a significant creative or production role, screening across six award categories with talks, masterclasses and immersive installations.",
-   "url": "https://filmfreeway.com/Visionaria-festival",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-wandura-drama-challenge-2026",
-   "title": "Wandura Drama Challenge",
-   "org": "Wandura",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-10-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Make a short AI drama episode (any genre) in Wandura's Drama Studio and Cinema Studio, up to 90 seconds, judged by Wandura's team and an expert panel.",
-   "url": "https://www.wandura.ai/contests/film-challenge",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-video-hackers-film-festival-2026",
@@ -897,7 +778,94 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-wandura-drama-challenge-2026",
+   "title": "Wandura Drama Challenge",
+   "org": "Wandura",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": "2026-10-31",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "Make a short AI drama episode (any genre) in Wandura's Drama Studio and Cinema Studio, up to 90 seconds, judged by Wandura's team and an expert panel.",
+   "url": "https://www.wandura.ai/contests/film-challenge",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-aiffa-africa-2026",
+   "title": "AI Film Festival Africa (AIFFA)",
+   "org": "LeCinema",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": "2026-10-31",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "A festival for filmmakers worldwide who use AI to imagine Africa's future, built around the 2026 challenge \"What does Africa look like in 2063?\"",
+   "url": "https://filmfreeway.com/AIFilmFestivalAfrica",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-visionaria-rome-2026",
+   "title": "VISIONARIA — International Festival of AI Cinema & Creativity",
+   "org": "Visionaria",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": "2026-10-31",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "paid",
+   "feeText": "참가비 있음 · See FilmFreeway",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "First-year Rome festival for films where AI plays a significant creative or production role, screening across six award categories with talks, masterclasses and immersive installations.",
+   "url": "https://filmfreeway.com/Visionaria-festival",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-korea-ai-cinema-festival-2026",
@@ -926,7 +894,36 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-unreal-ai-film-festival-2026",
+   "title": "(UN)REAL AI Film Festival 2026",
+   "org": "(UN)REAL Film Festival — Feat. Ventures / CAIA Consulting",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 광고",
+   "deadline": "2026-10-31",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "paid",
+   "feeText": "참가비 있음 · €50 per submitted work",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "An Italian festival for cinema made with or through artificial intelligence, held at Feat. House in Turin on November 27-28, 2026. Six categories (features, shorts up to 20 minutes, animation & motion, documentary, advertising, video art & experimental). Deadline October 31, finalists announced November 14. English SRT subtitles required.",
+   "url": "https://unrealfilmfestival.com",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-m0v1e-film-festival-2026",
@@ -955,36 +952,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-turkiye-intl-ai-film-festival-2026",
-   "title": "Türkiye International AI Film Festival (T-AIFF) 2026 — 3rd Edition",
-   "org": "Türkiye International AI Film Festival",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "이미지·아트",
-   "deadline": "2026-11-01",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · Paid entry via FilmFreeway",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "2,000+ submissions from over 100 countries and still growing — T-AIFF's 3rd edition judges AI films across the whole production stack, with awards for Best AI Director, Cinematographer, Editing, Sound Design, Music, VFX, Animation and Documentary. All submission-fee revenue is redistributed back to filmmakers as prize money. Deadline Nov 1, screenings at Istanbul's historic Yeşilçam Cinema Dec 7–9",
-   "url": "https://filmfreeway.com/T-AIFF",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-iasff-2026",
@@ -1013,7 +981,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-new-york-awards-2026",
@@ -1042,7 +1010,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-waiff-london-2026",
@@ -1071,36 +1039,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-cue-christmas-26-ai-film-competition-2026",
-   "title": "Cue Christmas '26",
-   "org": "AFRO TV / Cue Film Fest",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-11-20",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "free",
-   "feeText": "무료",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Filmmakers must create original AI short films using generative AI video tools, with a Christmas theme. Finalists screen during the December 12, 2026 festival and live awards ceremony, broadcast nationwide on AFRO TV and streamed on NOW TV.",
-   "url": "https://www.businesswire.com/news/home/20261005540198/en/AFRO-TV-Brings-AI-Filmmaking-to-National-TV-With-Cue-Film-Fest-Submissions-Open-for-Cue-Christmas-26",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-cue-film-fest-xmas-2026",
@@ -1129,16 +1068,16 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
-   "id": "afc-veritas-ai-film-festival-2026",
-   "title": "Veritas AI Film Festival",
-   "org": "Veritas AIFF",
+   "id": "afc-svaiiff-korea-2026",
+   "title": "SVAIFF Korea 2026",
+   "org": "이파크 에이아이 주식회사, 한국AI마케팅연구소",
    "orgType": "영화제",
    "orgTier": "mid",
    "cat": "AI 필름",
-   "deadline": "2026-11-30",
+   "deadline": "2026-11-25",
    "tz": "현지",
    "recur": "once",
    "cash": 0,
@@ -1146,19 +1085,18 @@ window.GLOBAL_DATA = {
    "prizeText": "상금 정보는 공고 확인",
    "who": "전 세계 창작자 누구나",
    "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · $9",
+   "fee": "free",
+   "feeText": "무료",
    "entry": "영화제 폼 제출",
    "career": "festival",
    "bonus": [],
-   "note": "Canada's first film festival dedicated to AI filmmaking: a one-day, one-screening showcase of 16 AI-made short films at Torontos Carlton Cinema.",
-   "url": "https://filmfreeway.com/VeritasAIFF",
+   "note": "The SVAIFF Korea 2026 invites submissions for AI-generated films and videos, focusing on various categories including narrative, animation, and documentary. The festival aims to connect Korean creators with the international stage, showcasing innovative storytelling through AI. Winners will be awarded in multiple categories, with a total prize pool of 30 million KRW.",
+   "url": "https://n.news.naver.com/mnews/article/029/0003054981",
    "tags": [],
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "source": "aifilmcontests"
   },
   {
    "id": "afc-ai-for-the-future-cop31-2026",
@@ -1187,15 +1125,15 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
-   "id": "afc-kerala-international-ai-film-festival-2027",
-   "title": "International AI Film Festival of Kerala (AIFFK) 2027",
-   "org": "School of Storytelling",
+   "id": "afc-veritas-ai-film-festival-2026",
+   "title": "Veritas AI Film Festival",
+   "org": "Veritas AIFF",
    "orgType": "영화제",
    "orgTier": "mid",
-   "cat": "AI 광고",
+   "cat": "AI 필름",
    "deadline": "2026-11-30",
    "tz": "현지",
    "recur": "once",
@@ -1205,18 +1143,18 @@ window.GLOBAL_DATA = {
    "who": "전 세계 창작자 누구나",
    "whoType": "전세계 누구나",
    "fee": "paid",
-   "feeText": "참가비 있음 · None",
+   "feeText": "참가비 있음 · $9",
    "entry": "영화제 폼 제출",
    "career": "festival",
    "bonus": [],
-   "note": "Third edition of Kerala's AI film festival (formerly branded KIAFF), for AI-generated and AI-assisted audiovisual short works across six award categories including Best AI Film and Best Cinematography, held in Kochi January 22-24, 2027. Official site lists the deadline as \"31 Nov 2026\" (recorded here as Nov 30, the nearest valid date).",
-   "url": "https://sostorytelling.com/ai-film-festival/",
+   "note": "Canada's first film festival dedicated to AI filmmaking: a one-day, one-screening showcase of 16 AI-made short films at Torontos Carlton Cinema.",
+   "url": "https://filmfreeway.com/VeritasAIFF",
    "tags": [],
    "verify": [
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-artist-festival-s6-2026",
@@ -1245,65 +1183,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-jiff-world-ai-cinema-competition-2026",
-   "title": "Jaipur International Film Festival — World AI Cinema Competition",
-   "org": "Jaipur International Film Festival (JIFF)",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-12-05",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · AI Feature Film $100-150; AI Short $30-60 depending on tier",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "A dedicated AI competition within the 19th Jaipur International Film Festival, open to AI-driven and AI-assisted storytelling across all formats, genres and languages.",
-   "url": "https://www.jiffindia.org/entryform.html",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-waicf-india-2026",
-   "title": "World AI Cinema & Creativity Festival (WAICF) – India",
-   "org": "Film Dais / Jaipur International Film Festival Trust",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-12-05",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · $35–$55 (short film), $70–$100 (feature), depending on deadl",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "A Jaipur-based global AI film festival from the JIFF/Film Dais ecosystem, accepting AI-generated, AI-assisted and AI-enhanced films across eight competition categories plus separate AI innovation awards.",
-   "url": "https://filmfreeway.com/WORLDAICINEMAandCREATIVITYFESTIVALWAICF-INDIA",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-jiff-world-ai-cinema-2027",
@@ -1332,7 +1212,36 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-waicf-india-2026",
+   "title": "World AI Cinema & Creativity Festival (WAICF) – India",
+   "org": "Film Dais / Jaipur International Film Festival Trust",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": "2026-12-05",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "paid",
+   "feeText": "참가비 있음 · $35–$55 (short film), $70–$100 (feature), depending on deadl",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "A Jaipur-based global AI film festival from the JIFF/Film Dais ecosystem, accepting AI-generated, AI-assisted and AI-enhanced films across eight competition categories plus separate AI innovation awards.",
+   "url": "https://filmfreeway.com/WORLDAICINEMAandCREATIVITYFESTIVALWAICF-INDIA",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-turquoise-ai-film-festival-ankara-2027",
@@ -1361,7 +1270,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-florence-ai-festival-2026",
@@ -1390,7 +1299,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-gossip-goblin-showrunner-competition-2026",
@@ -1419,7 +1328,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-slop-2027",
@@ -1448,36 +1357,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-akool-ai-film-challenge-2026",
-   "title": "AKOOL AI Film Challenge",
-   "org": "AKOOL",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "앱·개발",
-   "deadline": "2026-12-20",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · No entry fee stated on the official page",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "AKOOL's AI Film Challenge has three categories: Coming Never (an original 30 to 90 second trailer for a film that does not exist), AI Short Film, and Impossible (ideas that could not have been made before AI). Other tools are allowed, but AKOOL must be meaningfully used in the final film. Apply via AKOOL's form, publish the film tagging @AKOOL with #AKOOLFilmChallenge, then submit and explain how ",
-   "url": "https://akool.com/aifilmchallenge",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-laaimpa-la-2026",
@@ -1506,7 +1386,64 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-akool-ai-film-challenge-2026",
+   "title": "AKOOL AI Film Challenge",
+   "org": "AKOOL",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "앱·개발",
+   "deadline": "2026-12-20",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "paid",
+   "feeText": "참가비 있음 · No entry fee stated on the official page",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "AKOOL's AI Film Challenge has three categories: Coming Never (an original 30 to 90 second trailer for a film that does not exist), AI Short Film, and Impossible (ideas that could not have been made before AI). Other tools are allowed, but AKOOL must be meaningfully used in the final film. Apply via AKOOL's form, publish the film tagging @AKOOL with #AKOOLFilmChallenge, then submit and explain how ",
+   "url": "https://akool.com/aifilmchallenge",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-nexmuse-ai-music-video-contest-2027",
+   "title": "NEXMUSE AI Music Video Contest 2027",
+   "org": "AI Art Co., Ltd. (NEXMUSE)",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "음악·MV",
+   "deadline": "2026-12-28",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "free",
+   "feeText": "무료",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "An international AI music video contest where entrants build an original AI-made song and video around one of 24 AI idol-hopeful characters NEXMUSE provides, with winning tracks getting a professional re-arrangement and an official idol-album debut.",
+   "url": "https://www.nexmuse.kr",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests"
   },
   {
    "id": "afc-metamorph-tapnow-winter-2027",
@@ -1535,7 +1472,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-film-ads-awards-india-2026",
@@ -1564,65 +1501,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-ai-film-awards-las-vegas-2026",
-   "title": "AI Film Awards Las Vegas",
-   "org": "AI Film Awards",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 광고",
-   "deadline": "2026-12-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · See FilmFreeway",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "The AI Film Awards franchise expands to Las Vegas — designed to elevate and celebrate cinematic work created with AI in one of the world's most iconic entertainment destinations. Submissions via FilmFreeway. Positions your AI film in a Vegas-branded awards circuit that already runs in Bali and Cannes.",
-   "url": "https://filmfreeway.com/AI_Film_Awards_LasVegas",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-waiff-africa-abidjan-2027",
-   "title": "WAIFF Africa — Abidjan 2027",
-   "org": "World AI Film Festival (WAIFF) / Institut EuropIA",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-12-31",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · Not published",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Pan-African regional edition of the World AI Film Festival based in Abidjan, open to creators from ten Francophone West/Central African countries; the five jury-selected films advance to the WAIFF Cannes 2027 Road to Cannes Selection.",
-   "url": "https://worldaifilmfestival.com/abidjan/",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-neocinema-ai-film-festival-2026",
@@ -1651,7 +1530,36 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-ai-film-awards-las-vegas-2026",
+   "title": "AI Film Awards Las Vegas",
+   "org": "AI Film Awards",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 광고",
+   "deadline": "2026-12-31",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "paid",
+   "feeText": "참가비 있음 · See FilmFreeway",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "The AI Film Awards franchise expands to Las Vegas — designed to elevate and celebrate cinematic work created with AI in one of the world's most iconic entertainment destinations. Submissions via FilmFreeway. Positions your AI film in a Vegas-branded awards circuit that already runs in Bali and Cannes.",
+   "url": "https://filmfreeway.com/AI_Film_Awards_LasVegas",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-artiver-ai-art-awards-2026",
@@ -1680,7 +1588,36 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-waiff-africa-abidjan-2027",
+   "title": "WAIFF Africa — Abidjan 2027",
+   "org": "World AI Film Festival (WAIFF) / Institut EuropIA",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": "2026-12-31",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "paid",
+   "feeText": "참가비 있음 · Not published",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "Pan-African regional edition of the World AI Film Festival based in Abidjan, open to creators from ten Francophone West/Central African countries; the five jury-selected films advance to the WAIFF Cannes 2027 Road to Cannes Selection.",
+   "url": "https://worldaifilmfestival.com/abidjan/",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-global-ai-music-video-awards-2027",
@@ -1709,7 +1646,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-hollywood-ai-short-film-awards-2027",
@@ -1738,7 +1675,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-waiff-la-2026",
@@ -1767,94 +1704,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-waiff-la-usa-2026",
-   "title": "WAIFF Los Angeles 2026 — World AI Film Festival USA",
-   "org": "World AI Film Festival (WAIFF) / Institut EuropIA",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "음악·MV",
-   "deadline": "2027-01-20",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · Variable (FilmFreeway tiers)",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Hollywood's biggest AI cinema moment of 2026. The U.S. edition of the World AI Film Festival lands in Los Angeles in late March 2027, and the top five films advance to the WAIFF Cannes 2027 Grand Finale at the Palais des Festivals. Nine categories — Live Action Short, Feature, Animated, Doc, Vertical/Mobile, Music Video, Ad, AR/VR/XR, Gaming. Submit before the LA cut-off and your film could be on ",
-   "url": "https://worldaifilmfestival.us/",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-lundinstudio-ai-film-festival-2027",
-   "title": "LundinStudio AI Film Festival 2027 (Australia's First)",
-   "org": "LundinStudio",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2027-01-21",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · Tiered: Earlybird $25 (May 14) through Final $55 (Jan 21, 20",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "Australia's first AI film festival — rolling monthly deadlines through January 2027 mean you can submit on your timeline. Win cash back on your submission fee plus pro subscriptions to Saga and Melies. Live screening in Sydney, March 18-19, 2027.",
-   "url": "https://www.lundinstudio.com/aifilmfestival",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-ai-film-festival-imdb-2027",
-   "title": "Ai Film Festival — IMDb-Qualifying Screening 2027",
-   "org": "Ai Film Festival",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2027-01-21",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · $5–$25 (FilmFreeway tiers)",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "IMDb-qualifying AI festival run by LundinStudio with staged monthly cutoffs (Oct 15, Nov 19, Dec 17 and a final deadline of 21 January 2027) leading to a screening event on 18-19 March 2027. Best AI Short Film requires an original script with AI-generated shots in every scene, 1-10 minutes including credits.",
-   "url": "https://filmfreeway.com/AifilmFestival",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-expo-ai-film-festival-dubai-2027",
@@ -1883,11 +1733,11 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
-   "id": "afc-ai-film-festival-lundinstudio-2027",
-   "title": "Ai Film Festival 2027 (LundinStudio)",
+   "id": "afc-lundinstudio-ai-film-festival-2027",
+   "title": "LundinStudio AI Film Festival 2027 (Australia's First)",
    "org": "LundinStudio",
    "orgType": "영화제",
    "orgTier": "mid",
@@ -1901,26 +1751,26 @@ window.GLOBAL_DATA = {
    "who": "전 세계 창작자 누구나",
    "whoType": "전세계 누구나",
    "fee": "paid",
-   "feeText": "참가비 있음 · See FilmFreeway",
+   "feeText": "참가비 있음 · Tiered: Earlybird $25 (May 14) through Final $55 (Jan 21, 20",
    "entry": "영화제 폼 제출",
    "career": "festival",
    "bonus": [],
-   "note": "LundinStudio's third annual AI short film festival; ten finalists are showcased via a live event stream and judged on storytelling, character consistency, pacing, cinematography and production value.",
-   "url": "https://www.aifilmfestival.com.au/",
+   "note": "Australia's first AI film festival — rolling monthly deadlines through January 2027 mean you can submit on your timeline. Win cash back on your submission fee plus pro subscriptions to Saga and Melies. Live screening in Sydney, March 18-19, 2027.",
+   "url": "https://www.lundinstudio.com/aifilmfestival",
    "tags": [],
    "verify": [
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
-   "id": "afc-ai-cinema-festival-quebec-2027",
+   "id": "afc-ai-cinema-quebec-city-2027",
    "title": "AI Cinema Festival Québec City 2027",
-   "org": "AI Cinema Festival",
+   "org": "AI Cinema Festival Network",
    "orgType": "영화제",
    "orgTier": "mid",
-   "cat": "이미지·아트",
+   "cat": "AI 필름",
    "deadline": "2027-01-24",
    "tz": "현지",
    "recur": "once",
@@ -1934,17 +1784,14 @@ window.GLOBAL_DATA = {
    "entry": "영화제 폼 제출",
    "career": "festival",
    "bonus": [],
-   "note": "Québec City opens submissions for the first-ever regional AI cinema festival — a three-day event Feb 19–21, 2027, judged on point of view, image, sound, editing, story, consent, responsibility and emotional impact. Hybrid human + AI or fully AI-generated works both welcome. Deadline: Jan 24, 2027.",
+   "note": "A bilingual Québec City festival for hybrid human+AI and fully AI-generated films, judged on cinematic craft, story and ethics rather than the tools used.",
    "url": "https://quebec.aicinemafestival.com/",
    "tags": [],
    "verify": [
     "prize"
    ],
    "source": "aifilmcontests",
-   "alsoFrom": [
-    "aifilmcontests"
-   ],
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-20"
   },
   {
    "id": "afc-ia-play-panama-2027",
@@ -1973,36 +1820,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
-  },
-  {
-   "id": "afc-ai-cinema-funamis-montreal-2027",
-   "title": "AI CINEMA — Independent AI Film Festival (Montréal) 2027",
-   "org": "Funamis",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2027-02-05",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · See FilmFreeway",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "An independent Montréal AI film festival screening works from micro-shorts to features that use AI as a meaningful creative tool, with 25+ award categories from Grand Prize to Best Prompt.",
-   "url": "https://iamcinemafestival.com/",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-cinema-festival-montreal-2027",
@@ -2031,7 +1849,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-waiff-cannes-2027",
@@ -2060,7 +1878,35 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-milan-ai-festival-2027",
+   "title": "Milan AI Festival — First Edition",
+   "org": "VIA — Visual Innovation Awards",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": "2027-02-15",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "paid",
+   "feeText": "참가비 있음 · From $5 (Earlybird) to $15 (Extended) per category, with a r",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "A new AI film and design competition in Milan with eight categories spanning fashion film, design, architecture and narrative shorts, from the team behind the Rome and Florence AI Festivals. Winners screen live in Milan on April 15, 2027.",
+   "url": "https://filmfreeway.com/MilanAIFestival",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests"
   },
   {
    "id": "afc-world-film-festival-cannes-rtf-2027",
@@ -2089,7 +1935,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-prompt-festival-toronto-2027",
@@ -2118,7 +1964,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-uk-film-ai-awards-2027",
@@ -2147,7 +1993,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-horizons-ia-punta-del-este-2027",
@@ -2176,7 +2022,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-seoul-ai-film-festival-2027",
@@ -2205,7 +2051,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-sin-camara-festival-cortos-ia-2027",
@@ -2234,7 +2080,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-nyc-indie-cinema-and-ai-2027",
@@ -2263,7 +2109,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-london-ai-independent-2027",
@@ -2292,7 +2138,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-cinema-festival-nyc-2027",
@@ -2321,7 +2167,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-cinema-festival-cannes-2027",
@@ -2350,7 +2196,36 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
+  },
+  {
+   "id": "afc-kerala-international-ai-film-festival-2027",
+   "title": "Kerala International AI Film Festival (KIAFF) 2027 — Kochi",
+   "org": "School of Storytelling (KIAFF)",
+   "orgType": "영화제",
+   "orgTier": "mid",
+   "cat": "AI 필름",
+   "deadline": "2027-02-15",
+   "tz": "현지",
+   "recur": "once",
+   "cash": 0,
+   "credit": 0,
+   "prizeText": "상금 정보는 공고 확인",
+   "who": "전 세계 창작자 누구나",
+   "whoType": "전세계 누구나",
+   "fee": "paid",
+   "feeText": "참가비 있음 · Not published — check official site",
+   "entry": "영화제 폼 제출",
+   "career": "festival",
+   "bonus": [],
+   "note": "A premier AI film festival in Kochi, India uniting filmmakers, technologists and artists to showcase audiovisual short-format works that demonstrate innovative use of AI. Six award categories including Best AI Film and Best Experimental Film.",
+   "url": "https://sostorytelling.com/ai-film-festival/",
+   "tags": [],
+   "verify": [
+    "prize"
+   ],
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-metamorph-tapnow-spring-2027",
@@ -2379,7 +2254,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-bengaluru-short-film-festival-ai-2027",
@@ -2408,7 +2283,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-ai-for-good-film-festival-2027",
@@ -2442,7 +2317,7 @@ window.GLOBAL_DATA = {
    "alsoFrom": [
     "melies"
    ],
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "afc-metamorph-tapnow-summer-2027",
@@ -2470,7 +2345,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "mel-ai-film-ads-awards-bali-2026",
@@ -2502,7 +2378,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "mel-turkey-international-ai-film-festival-t-",
@@ -2534,7 +2410,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   },
   {
    "id": "mel-ai-cinema-festival-nyc-2027",
@@ -2566,7 +2442,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "melies",
-   "checkedAt": "2026-10-21"
+   "checkedAt": "2026-10-25"
   }
  ]
 };
