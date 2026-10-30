@@ -238,6 +238,16 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-10-11 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "afc-opencv-ai-competition-2026",
+   "title": "OpenCV AI Competition 2026",
+   "url": "https://www.prnewswire.com/news-releases/opencv-launches-new-ai-competition-powered-by-amazon-web-services-302858453.html",
+   "source": "aifilmcontests",
+   "retiredAt": "2026-10-30",
+   "reason": "ended",
+   "why": "페이지의 마지막 날짜가 2026-10-26 (이미 과거)",
+   "cross": []
   }
  ]
 }
