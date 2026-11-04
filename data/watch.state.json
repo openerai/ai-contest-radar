@@ -2588,8 +2588,116 @@
   "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUXRxTUJiWlFYTFFqZkdteWV0dkEyMWNscGJWZXNqRnloV2d6UmFNZkh1SWN0NEREdlg2ZWlvaUhqS1lJRGw2LXFlUm5DUUgwYU82R1NTamhNOFpHbGhLSE9ZNTdyeTM0Ump1YWppVkdsUWFsYXplUXJlZkFDYWQ2SERnVlRMRlNrTl9sMHdWbmF5b2xVQUN0a00tdHhYa1NEZWp0VF9zNEdMUTZs?oc=5": {
    "first": "2026-10-31",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/1ceee67802162a9d6d2a1d61d555": {
+   "first": "2026-11-04",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/a57076f61bdf1dfd8ba27e4c4766": {
+   "first": "2026-11-04",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/b478b52820477bb0de01c9e0a625": {
+   "first": "2026-11-04",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/c6413b7c3ef751222fdbb96a5fbd": {
+   "first": "2026-11-04",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://pixai.art/contest/user-backlogged-images": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-freestyle-creating": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-halloween-in-talos-ii": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-original-tarot-cards": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-pixai-retro-anime": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-pixel-wonderland": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-poster-creation": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-salt-splash": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-siren-curse": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-top-pick": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-uniform-design-exhibition": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-what-you-love-your-way-3": {
+   "first": "2026-11-04",
+   "brand": "PixAI"
+  },
+  "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlSTZXMHc0emt2OHVRckl4RmRLQ0I4d25JQ1llZjI0YVA3WF9PZFJKbGU3aFVhNkstNTJPeTM3cXgxSk5mQWw0Ql84ejh3UmZIWHh3OWpR?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc2x2WVU5RGc0ZzZTWGFtV3BuYThXUkdUbmdOSVhNeVRUN0VaWEROdFNnRWkyMGlQLXlLWHBUT1liU0xTSHBSYnhaRHMxVTYyNk5YRmJaZlR3MlVPSUF1cEg2UFdYMFg2MDRWb1plT1NnMWlXdVREODdGMlJmUEZkckZJSmlfRzR3RVBfVQ?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00elE1cU5RazlpU0lsb25TdVZqenVtRWhncE13SjBaaHV5aEJBeVlwY0RBbEotSHV1elV4dHdNZWg3bzVpRDUxRXhCdEZaV3E5ZGNyTlcteXZYZFd1QUd6Tw?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMickFVX3lxTE9oai1leHpWMGgwZ2xaaWZTbl94bV9Gd0JtZ19MU0pObk10cExEYjVWV2Fuc3lkRDJEX2FvSFZXdjFTUVlqWncwZ1ZqNFVaSnh0NFhHc253b011c2dFQ0dTTTlJUkdBQmVDVmplclBiRlB5Zw?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Nd3kwR01FZHBFY2QteUtEajF2bHRNYmRoVUZ3QUpMZ3k0b252WHRvaTNhd2JwY3ZDcXBrbG84LW96b2NuVUFxRUs1TW1QVzRydUhJLWhLUThZSGNUeGo3Y1FTVThybE5OLWtzVHFLNGNUR3BiQ3FISNIBeEFVX3lxTE9Nd3kwR01FZHBFY2QteUtEajF2bHRNYmRoVUZ3QUpMZ3k0b252WHRvaTNhd2JwY3ZDcXBrbG84LW96b2NuVUFxRUs1TW1QVzRydUhJLWhLUThZSGNUeGo3Y1FTVThybE5OLWtzVHFLNGNUR3BiQ3FISA?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SQVF4amIySDVLM09UbDhTVlBvdnZVZzk2QWRHQ25CY1FDc0YxNGFQY3FGRG1yMjI0ZGU0bTVreU9kbWNnbV8wZFV6ZHl5Qm9KQmh2bFlYdThyc3BSanE5QThDanRJWmUwb2Fzd2ptTWo?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiakFVX3lxTE92aXMydTBzeVJjcml1REk0WU5ZbW9wWExSdWdRV3V2V1d0MTF4SWg0b2pJOUlTUVB0WGM2VzdNZ2FPZzRkSVBKZUY2UUt0QzRfY1RkajFFbnhCY1Bvd0F6S0RuUEMxNW1VV3c?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQm5zbG1XcnJPb3FfakNDNFUzdFA4bHJLNDFZSktSMUl0X2ZySlNLS1oxenZyREJ2XzBBZEI0bjViWHQzTm5HMl9mbkN2RklZc0szT3Y1a1EzNlRmU1U4TWI3MGtnaDVpMm9WWFhMbDkzT29CRlBETzRXWEplbHgzVndvdEtoSkIxVlkwZnRHNmFNcVBHYnZKdTlJZzYzR1FKZHVUd1hpNnhUdHdmNlJ0cVBsY0Q?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWVlTZnkxSy1takJlRDF5SUJOd280bUgwUFFpbEFKY0RlRzU0RkxqSElNY0ZTOHpWb0hhQ2VpU1N5YVJ5dVRIcWxJWkZNUFBnTXlMWXJONDd0MmZaaDBUaHRQOGkzLU9IZHNOdnlHTWdqaVBtTmVKOVFocGFDMWFDMlV0TE95NlNVdy11MTM4cmRXd0VLWEV3SEczRGk?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYnN0WEpGNWZCdVpGeHM0dnk2aHpYVjNsbVlWS2VzOEtKeGlMMllYVTFGcWhRRTVQVG0tSXprdmtBRUYtZ2J1bnF1ZjE0Z1AySlY2amkxUEI4Y0E1c2dKeXNrLVlsczNhMG00VWxzeXhQYmdGdjJmbWJsT1dCSENiSXpad2M?oc=5": {
+   "first": "2026-11-04",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-10-31T00:35:01+00:00",
- "seenCount": 617
+ "updatedAt": "2026-11-04T01:09:06+00:00",
+ "seenCount": 643
 }
