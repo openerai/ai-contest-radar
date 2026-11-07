@@ -22,7 +22,7 @@ permissions:
   issues: write               # 새 챌린지를 찾으면 이슈로 알린다
 
 concurrency:
-  group: challenge-watch
+  group: contest-data-writer-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -32,6 +32,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -73,6 +76,18 @@ jobs:
           cat watch.log >> $GITHUB_STEP_SUMMARY || true
           echo '```' >> $GITHUB_STEP_SUMMARY
 
+      # Keep the collected evidence even if publication is interrupted.
+      - name: 감시 결과 보관
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: challenge-watch-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            data/watch.state.json
+            data/review.queue.json
+            watch.log
+          retention-days: 14
+
       - name: 커밋 & 푸시
         shell: bash
         run: |
@@ -85,7 +100,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/watch.state.json data/review.queue.json
           git commit -m "chore: 챌린지 감시 큐 갱신 ($(date -u +%Y-%m-%d))"
-          git push
+          bash scripts/push_with_retry.sh
 
       # 확인이 필요한 새 챌린지가 있을 때만 이슈를 연다.
       # (메일 알림을 받기 위한 것 — 이슈가 성가시면 이 스텝만 지우면 된다)
@@ -123,3 +138,4 @@ jobs:
           gh issue create \
             --title "확인 필요: 새 AI 플랫폼 챌린지 ${{ steps.count.outputs.new }}건 ($(date -u +%Y-%m-%d))" \
             --body-file issue.md
+
