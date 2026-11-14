@@ -6,7 +6,7 @@
   "\"status\": \"done\" 으로 표시하면 다음 실행 때 빠집니다.",
   "마감일이 지난 항목, 마감일을 못 뽑은 채 30일이 지난 항목은 자동으로 빠집니다."
  ],
- "updatedAt": "2026-11-11T01:10:04+00:00",
+ "updatedAt": "2026-11-14T01:22:26+00:00",
  "items": [
   {
    "discovered": "2026-09-18",
@@ -204,48 +204,6 @@
     ],
     "verify": [
      "prize"
-    ]
-   }
-  },
-  {
-   "discovered": "2026-10-14",
-   "brand": "PixAI",
-   "url": "https://pixai.art/en/contest/community",
-   "title": "Community Contests | PixAI",
-   "deadline": null,
-   "deadlineGuess": null,
-   "deadlineEvidence": "",
-   "confidence": "none",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-community",
-    "title": "Community Contests | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": null,
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 0,
-    "prizeText": "상금 정보는 공고 확인",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Enter contests, show off your creativity, compete with the community, and win big rewards!",
-    "url": "https://pixai.art/en/contest/community",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": [
-     "prize",
-     "deadline"
     ]
    }
   },
@@ -746,47 +704,6 @@
   },
   {
    "discovered": "2026-10-20",
-   "brand": "PixAI",
-   "url": "https://pixai.art/contest/user-photo-studio-contest",
-   "title": "Photo Studio Contest📷 | PixAI",
-   "deadline": "2026-11-13",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-photo-studio-contest",
-    "title": "Photo Studio Contest📷 | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "이미지·아트",
-    "deadline": "2026-11-13",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 0,
-    "prizeText": "상금 정보는 공고 확인",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Come visit the photo studio with your favorite character! 💕 From stunning photoshoots to cute and lovely photos, any style is welcome. Create your own special…",
-    "url": "https://pixai.art/contest/user-photo-studio-contest",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": [
-     "prize"
-    ]
-   }
-  },
-  {
-   "discovered": "2026-10-20",
    "brand": "Kling AI",
    "url": "https://app.klingai.com/global/activity-zone",
    "title": "Holiday Sparks #10",
@@ -1026,47 +943,6 @@
     "bonus": [],
     "note": "I just want to see some furries! I don't mind whether they're female or male characters, what poses they strike, or what the background looks like. I started…",
     "url": "https://pixai.art/contest/user-fur-party",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": [
-     "prize"
-    ]
-   }
-  },
-  {
-   "discovered": "2026-10-28",
-   "brand": "PixAI",
-   "url": "https://pixai.art/contest/user-hatsune-miku-senbonzakura",
-   "title": "Senbonzakura – AI Art Contest | PixAI",
-   "deadline": "2026-11-11",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-hatsune-miku-senbonzakura",
-    "title": "Senbonzakura – AI Art Contest | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-11-11",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 0,
-    "prizeText": "상금 정보는 공고 확인",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "This poster contest is themed around Hatsune Miku’s iconic Japanese-style song “Senbonzakura,” portraying her as a dazzling songstress within a dramatic world…",
-    "url": "https://pixai.art/contest/user-hatsune-miku-senbonzakura",
     "tags": [
      "플랫폼"
     ],
@@ -1404,88 +1280,6 @@
    }
   },
   {
-   "discovered": "2026-10-31",
-   "brand": "PixAI",
-   "url": "https://pixai.art/contest/user-tan-lines",
-   "title": "The Magic of the Sun – AI Art Contest | PixAI",
-   "deadline": "2026-11-12",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-tan-lines",
-    "title": "The Magic of the Sun – AI Art Contest | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-11-12",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 0,
-    "prizeText": "상금 정보는 공고 확인",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Tan lines are the boundaries and memories that summer sunlight leaves on our skin. Use AI to depict tan lines formed by swimsuits, short sleeves, or the shade…",
-    "url": "https://pixai.art/contest/user-tan-lines",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": [
-     "prize"
-    ]
-   }
-  },
-  {
-   "discovered": "2026-10-31",
-   "brand": "PixAI",
-   "url": "https://pixai.art/contest/user-wet-see-through-clothing",
-   "title": "The Magic of Water – AI Art Contest | PixAI",
-   "deadline": "2026-11-11",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-wet-see-through-clothing",
-    "title": "The Magic of Water – AI Art Contest | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-11-11",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 0,
-    "prizeText": "상금 정보는 공고 확인",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Explore the theme of “wet see-through clothing” ,focusing on the sheer quality, nuances of translucency, and damp atmosphere created when rain and splashes…",
-    "url": "https://pixai.art/contest/user-wet-see-through-clothing",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": [
-     "prize"
-    ]
-   }
-  },
-  {
    "discovered": "2026-11-04",
    "brand": "PixAI",
    "url": "https://pixai.art/contest/user-freestyle-creating",
@@ -1600,47 +1394,6 @@
     "bonus": [],
     "note": "Do you share a passion for 80s and 90s anime aesthetics, 2000s moe style, film grain, cel animation, CRT lines? Create your retro anime artwork on PixAI for a…",
     "url": "https://pixai.art/contest/user-pixai-retro-anime",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": [
-     "prize"
-    ]
-   }
-  },
-  {
-   "discovered": "2026-11-04",
-   "brand": "PixAI",
-   "url": "https://pixai.art/contest/user-pixel-wonderland",
-   "title": "Pixel Wonderland – AI Art Contest | PixAI",
-   "deadline": "2026-11-13",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-pixel-wonderland",
-    "title": "Pixel Wonderland – AI Art Contest | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-11-13",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 0,
-    "prizeText": "상금 정보는 공고 확인",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "Build a magical world, one tiny pixel at a time! Whether it's an adorable character, a nostalgic video game scene, colorful little objects, or a pixel-style…",
-    "url": "https://pixai.art/contest/user-pixel-wonderland",
     "tags": [
      "플랫폼"
     ],
@@ -2092,47 +1845,6 @@
     "bonus": [],
     "note": "📖 Once Upon a Dream — Become the Hero of a Fairytale Step into the magical fairytale world you once dreamed of, and become the main character of your own…",
     "url": "https://pixai.art/contest/user-fairy-tale-contest",
-    "tags": [
-     "플랫폼"
-    ],
-    "verify": [
-     "prize"
-    ]
-   }
-  },
-  {
-   "discovered": "2026-11-07",
-   "brand": "PixAI",
-   "url": "https://pixai.art/contest/user-military-dress-contest",
-   "title": "🎖️ MILITARY DRESS — Military Uniform × Dress — 🎖️ – AI Art Contest | PixAI",
-   "deadline": "2026-11-12",
-   "deadlineGuess": null,
-   "deadlineEvidence": "JSON-LD Event.endDate",
-   "confidence": "high",
-   "cashUsd": 0,
-   "status": "new",
-   "draft": {
-    "id": "pixai-user-military-dress-contest",
-    "title": "🎖️ MILITARY DRESS — Military Uniform × Dress — 🎖️ – AI Art Contest | PixAI",
-    "org": "PixAI",
-    "orgType": "플랫폼",
-    "orgTier": "mid",
-    "cat": "AI 필름",
-    "deadline": "2026-11-12",
-    "tz": "현지",
-    "recur": "once",
-    "cash": 0,
-    "credit": 0,
-    "prizeText": "상금 정보는 공고 확인",
-    "who": "공고 확인 필요",
-    "whoType": "전세계 누구나",
-    "fee": "free",
-    "feeText": "무료(확인 필요)",
-    "entry": "플랫폼 제출",
-    "career": "platform",
-    "bonus": [],
-    "note": "The theme of this contest is “Military Uniform × Dress”! Why not create your own original outfit by combining the sharp, stylish look of military uniforms with…",
-    "url": "https://pixai.art/contest/user-military-dress-contest",
     "tags": [
      "플랫폼"
     ],
@@ -2753,9 +2465,662 @@
      "prize"
     ]
    }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "Higgsfield",
+   "url": "https://higgsfield.ai/blog/higgsfield-talent-contest",
+   "title": "Higgsfield Talent Contest: $1,000,000 in Cash Prizes for AI Films",
+   "deadline": "2026-11-26",
+   "deadlineGuess": null,
+   "deadlineEvidence": "s can enter solo or in teams with films running three to seven minutes. Submissions close November 26, 2026, at 7:00 PM UTC, with",
+   "confidence": "high",
+   "cashUsd": 1000000,
+   "status": "new",
+   "draft": {
+    "id": "higgsfield-higgsfield-talent-contest",
+    "title": "Higgsfield Talent Contest: $1,000,000 in Cash Prizes for AI Films",
+    "org": "Higgsfield",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "AI 필름",
+    "deadline": "2026-11-26",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 1000000,
+    "credit": 0,
+    "prizeText": "현금 약 $1,000,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "sub",
+    "feeText": "Higgsfield 구독 필요",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Higgsfield Talent Contest: $1,000,000 in cash prizes for original 3- to 7-minute AI films. Eligibility, rules, prizes, grants, judging and key dates.",
+    "url": "https://higgsfield.ai/blog/higgsfield-talent-contest",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": []
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "Higgsfield",
+   "url": "https://higgsfield.ai/contests/talent-contest",
+   "title": "Higgsfield Talent Contest | $1,000,000 AI Film Contest",
+   "deadline": "2026-11-26",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 1000000,
+   "status": "new",
+   "draft": {
+    "id": "higgsfield-talent-contest",
+    "title": "Higgsfield Talent Contest | $1,000,000 AI Film Contest",
+    "org": "Higgsfield",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "AI 필름",
+    "deadline": "2026-11-26",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 1000000,
+    "credit": 0,
+    "prizeText": "현금 약 $1,000,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "sub",
+    "feeText": "Higgsfield 구독 필요",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Create a 3–7 minute AI film on any theme and compete for $1,000,000 in cash prizes. Join the Higgsfield Talent Contest and bring your story to life.",
+    "url": "https://higgsfield.ai/contests/talent-contest",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": []
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "Higgsfield",
+   "url": "https://higgsfield.ai/talent-contest",
+   "title": "Higgsfield Talent Contest",
+   "deadline": null,
+   "deadlineGuess": "2027-03-20",
+   "deadlineEvidence": "lowing 457 Views 71 Likes Dash Digital Studio Ras Al Khaimah, United Arab Emirates Joined March 2025 Congratulations! Your project",
+   "confidence": "low",
+   "cashUsd": 1000000,
+   "status": "new",
+   "draft": {
+    "id": "higgsfield-talent-contest",
+    "title": "Higgsfield Talent Contest",
+    "org": "Higgsfield",
+    "orgType": "플랫폼",
+    "orgTier": "top",
+    "cat": "AI 필름",
+    "deadline": null,
+    "tz": "현지",
+    "recur": "once",
+    "cash": 1000000,
+    "credit": 0,
+    "prizeText": "현금 약 $1,000,000",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "sub",
+    "feeText": "Higgsfield 구독 필요",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Create with Higgsfield AI, share your work with the community, and take part in the Higgsfield Talent Contest.",
+    "url": "https://higgsfield.ai/talent-contest",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "deadline"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-86-lena",
+   "title": "86 -EIGHTY SIX- Vladilena Milizé – AI Art Contest | PixAI",
+   "deadline": "2026-11-27",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-86-lena",
+    "title": "86 -EIGHTY SIX- Vladilena Milizé – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-27",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "An illustration event featuring Vladilena Milizé from 86 -EIGHTY SIX- 🕊🎖 Original outfits, alternative costumes, and original designs are all welcome! From…",
+    "url": "https://pixai.art/contest/user-86-lena",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-a-fantasy-world-you-want-your-favorite-character-to-explore",
+   "title": "Let’s Explore a Fantasy World!! – AI Art Contest | PixAI",
+   "deadline": "2026-11-27",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-a-fantasy-world-you-want-your-favorit",
+    "title": "Let’s Explore a Fantasy World!! – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-27",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "When you hear “fantasy,” many of you probably imagine extraordinary landscapes and characters. So, for this theme, could you show us your vision of “a fantasy…",
+    "url": "https://pixai.art/contest/user-a-fantasy-world-you-want-your-favorite-character-to-explore",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-anastasya",
+   "title": "Coronation Beneath a Frozen Moon ❄️ Anastasya Art Contest | PixAI",
+   "deadline": "2027-01-11",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-anastasya",
+    "title": "Coronation Beneath a Frozen Moon ❄️ Anastasya Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2027-01-11",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "Beneath a cold moon, bring Anastasya’s extraordinary presence to life. ❄️ Create an artwork starring Anastasya from Genshin Impact! Capture an aloof and…",
+    "url": "https://pixai.art/contest/user-anastasya",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-blue-tsunami",
+   "title": "Blue Tsunami – AI Art Contest | PixAI",
+   "deadline": "2026-11-20",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-blue-tsunami",
+    "title": "Blue Tsunami – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "이미지·아트",
+    "deadline": "2026-11-20",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "\"Blue\" is the theme and the requirement. All images must feature something blue as a main object or character.",
+    "url": "https://pixai.art/contest/user-blue-tsunami",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-calligraphy-contest",
+   "title": "Calligraphy Contest | PixAI",
+   "deadline": "2026-12-12",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-calligraphy-contest",
+    "title": "Calligraphy Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "앱·개발",
+    "deadline": "2026-12-12",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "There’s only a little over a month left in the year. Something that happened this year, your aspirations for next year, or even a doodle. Anything goes! Have…",
+    "url": "https://pixai.art/contest/user-calligraphy-contest",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-chess-master",
+   "title": "Chess and a Gothic Girl – AI Art Contest | PixAI",
+   "deadline": "2026-11-26",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-chess-master",
+    "title": "Chess and a Gothic Girl – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-26",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "This is to celebrate the creation of my very first original character LoRA. The character is a Gothic Lolita girl with chess-themed elements, set against a…",
+    "url": "https://pixai.art/contest/user-chess-master",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-kurosaki-ichigo",
+   "title": "Blood for Protection – AI Art Contest | PixAI",
+   "deadline": "2026-11-28",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-kurosaki-ichigo",
+    "title": "Blood for Protection – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-28",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "This poster contest focuses on Ichigo Kurosaki during the final battles of BLEACH: Thousand-Year Blood War, portraying the moment when he accepts every part of…",
+    "url": "https://pixai.art/contest/user-kurosaki-ichigo",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-lolita-fashion",
+   "title": "🎀 Lolita Fashion 🎀 – AI Art Contest | PixAI",
+   "deadline": "2026-11-19",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-lolita-fashion",
+    "title": "🎀 Lolita Fashion 🎀 – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-19",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "🎀 Lolita Fashion 🎀 Welcome to the enchanting world of Lolita fashion, adorned with frills, lace, and ribbons! All styles are welcome, including Sweet Lolita,…",
+    "url": "https://pixai.art/contest/user-lolita-fashion",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-peering-into-a-fantasy-world",
+   "title": "Fantasy World – AI Art Contest | PixAI",
+   "deadline": "2026-11-19",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-peering-into-a-fantasy-world",
+    "title": "Fantasy World – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-19",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "This illustration contest celebrates beautiful, fantastical worlds. You must use the specified LoRAs. They may be used in combination or individually.",
+    "url": "https://pixai.art/contest/user-peering-into-a-fantasy-world",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-the-apothecary-diaries-contest",
+   "title": "Your OC in The Apothecary Diaries – AI Art Contest | PixAI",
+   "deadline": "2026-11-30",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-the-apothecary-diaries-contest",
+    "title": "Your OC in The Apothecary Diaries – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-30",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "We all know the The Apothecary Diaries. But have you ever considered what it would be like if your OC were a part of it? What would your OC be, and who would…",
+    "url": "https://pixai.art/contest/user-the-apothecary-diaries-contest",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-vox-all-eyes-on-me",
+   "title": "All Eyes on Me – AI Art Contest | PixAI",
+   "deadline": "2026-11-27",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-vox-all-eyes-on-me",
+    "title": "All Eyes on Me – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-27",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "This poster contest places Vox at the center of a massive infernal broadcast, capturing the moment when all of Hell finally turns its attention toward him.…",
+    "url": "https://pixai.art/contest/user-vox-all-eyes-on-me",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
+  },
+  {
+   "discovered": "2026-11-14",
+   "brand": "PixAI",
+   "url": "https://pixai.art/contest/user-wanderer-genshin-impact",
+   "title": "This Time, I Choose. – AI Art Contest | PixAI",
+   "deadline": "2026-11-28",
+   "deadlineGuess": null,
+   "deadlineEvidence": "JSON-LD Event.endDate",
+   "confidence": "high",
+   "cashUsd": 0,
+   "status": "new",
+   "draft": {
+    "id": "pixai-user-wanderer-genshin-impact",
+    "title": "This Time, I Choose. – AI Art Contest | PixAI",
+    "org": "PixAI",
+    "orgType": "플랫폼",
+    "orgTier": "mid",
+    "cat": "AI 필름",
+    "deadline": "2026-11-28",
+    "tz": "현지",
+    "recur": "once",
+    "cash": 0,
+    "credit": 0,
+    "prizeText": "상금 정보는 공고 확인",
+    "who": "공고 확인 필요",
+    "whoType": "전세계 누구나",
+    "fee": "free",
+    "feeText": "무료(확인 필요)",
+    "entry": "플랫폼 제출",
+    "career": "platform",
+    "bonus": [],
+    "note": "This poster contest focuses on the Wanderer at the moment he finally begins to move forward by his own will, after a life defined by names, roles, and…",
+    "url": "https://pixai.art/contest/user-wanderer-genshin-impact",
+    "tags": [
+     "플랫폼"
+    ],
+    "verify": [
+     "prize"
+    ]
+   }
   }
  ],
  "news": [
+  {
+   "title": "Winners Announced: 4th Quarter Volume 43 Writers and Illustrators of the Future Contests - The Des Moines Register",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOLU9Pc1NjLXpqeFBVczBhUTFfU2laQ2Vta2hQeE1IN1FCX0l3cURxTV8wQ2YtX0NfSVByckU4Rjg5OGNjWEVKTDBIQVBWS250eWVROTZneEtXWG1NaTFOcmRjbWJZYmg2cDgtZm4zVUZsRmstN0dnU3dFNUVCeWJRdTlMOTJQZEpRTHdQc256dDZCdXZQTjJWc0tReDZDSGI5MEZ6NEpzYU1yVHhlRXdta3ZIb2NwMTNCYUlUWVJ5U1k3MEFmUjJRT2JBWm1mc2JUaXJvZ2xOWjFLM1p5RmowYzF0cw?oc=5",
+   "pub": "Thu, 12 Nov 2026",
+   "query": "\"AI video\" (challenge OR contest) prize",
+   "discovered": "2026-11-14"
+  },
+  {
+   "title": "Nitaipukhuri Youth Shines at International AI Film Competition, Palashjyoti Dutta’s ‘Lachit’ Secures Place Among Top 15 - NKTV",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcjhQZFpOTnVycl9PcUJvVEpTVHB3YnJpUHRVSU1QVUVnNUxZcDFfQUtkellpZUVLU294b3VFSUtoRFkzUGpiMkxoRnVOcnE4aTYzT1JHcVU3YTZCZDA1ZDIzclpOd0JmWjRaX1BSNHM3VFdIcXI3Z0UzbVpsZDg5aGpVMHFfRERvNlNReGc5V0otUENLbW1nZlNXdUxQU1NuS3ZDRFE3VFQ0R1FqYkt3TkJCWG43emdJNmtpc1E2azlaZ196XzN6NmE5LThDQXZEY0E?oc=5",
+   "pub": "Sun, 08 Nov 2026",
+   "query": "\"AI film\" (contest OR competition) submissions prize",
+   "discovered": "2026-11-14"
+  },
+  {
+   "title": "British AI Filmmakers Win Four Awards as Chicken Takes Double Victory at International Festival - SoaplandTV",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbmVwelRuOVg3Y2VaclZaSmRiaTFnOUQwWXNKQ1FvNldkTE5meGdWM0xmclVUa3l2dkwzWmt1OEFOTzVFUl9OMGZJR0Jvc3hYT0NJSHlEQ1NIeU8yU3Q2T08zSzZpUVJvSy1vM296anFwbDdzQkVPRXluNUVfbS1XWEMybVQ1bmJuYXc3eThCVVJfUEM4R0VfbDFOWVZoaERFY0Z2Z2JMOWRtS29qc0ZmUjUtajMybklVMmlWVkVhWElmSHF1cXp3?oc=5",
+   "pub": "Tue, 03 Nov 2026",
+   "query": "\"AI film\" (contest OR competition) submissions prize",
+   "discovered": "2026-11-14"
+  },
+  {
+   "title": "성평등가족부, ‘2026 성평등 AI 벤치마크 챌린지’ 개최…AI 안전성 강화 아이디어 공모 - 데브타임즈",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlNTJVRllxVW9VaVdXb3pZYlh0emdnUUFtTDNKVmRHVGNOcXJKWnVrZ1FOOFVzQmFNdmlmb3lMNWk1ckdJVU1zZnA1ODBTYVk?oc=5",
+   "pub": "Thu, 12 Nov 2026",
+   "query": "AI 영상 챌린지 상금 공모",
+   "discovered": "2026-11-14"
+  },
+  {
+   "title": "부여군 ‘부여 어때? 쇼트폼 공모전’ 개최 - 금강일보",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oNkxYWnFIOTd2ay1nRG1qQmVUcHFqNXIzY3NrenZtR3RldXczWXpMV3VVbG1QSllYNG56NDlFQ1dkQU9ydXIwei1MZ1dETEtEWUgwZnVhdlkyYWtWUWZHaFVXQkl6dzZxdUE?oc=5",
+   "pub": "Mon, 02 Nov 2026",
+   "query": "AI 영상 챌린지 상금 공모",
+   "discovered": "2026-11-14"
+  },
+  {
+   "title": "9 S'pore singing competition prize winners allegedly have not received S$22,000 prize money after 4 months - Mothership",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVFQyNmNwWjljTHBGTGNEOFpGOTkwTENOTzBBTGZmUE5tTWZmYXVJSGs2TEJlTjBrSjQwMzhzMDg1d25XN09SZHVoTHJPQ19KTGp5SHk2SlFvWGFkcEhVMm5va2IwekJNclFLVVVQRG1CLTFMamI2akF6VklPa292TG1ndzYzeFdVMHdMWVRmYkQtMUI0SkYyTlFQQjB0QjhYTTdnU3V6RnRJUjVuQ21NcTJ5Yw?oc=5",
+   "pub": "Mon, 09 Nov 2026",
+   "query": "(\"Tensor.Art\" OR \"Ideogram\" OR \"Recraft\" OR \"Adobe Firefly\" OR \"Canva\" OR \"Grok Imagine\") (challenge OR contest OR competition) prize",
+   "discovered": "2026-11-14"
+  },
   {
    "title": "대전일자리진흥원, ‘AI를 활용한 3분 숏츠 챌린지’ 공모전 - 쿠키뉴스",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SdUtIbi1lUXdkRDVEaGpJRk9wNGdiSXA4TUpmWkx5bjBZWkdBdW84VURTTDVfcnZfUmgzdUYycUVkanNTSi1QT2JvY0VCSmRsTVNBaVdDT1pOWW1TVExTTjJiZw?oc=5",
@@ -3119,90 +3484,6 @@
    "pub": "Thu, 01 Oct 2026",
    "query": "(\"Sora\" OR \"Google Veo\" OR \"CapCut\" OR \"Dreamina\" OR \"Krea\" OR \"Seedream\") (challenge OR contest OR competition) prize",
    "discovered": "2026-10-16"
-  },
-  {
-   "title": "iQIYI Advances AI Filmmaking with Launch of Global AI Creator Challenge Powered by NadouPro and Alibaba Wan3.0 - ANTARA News",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTVNRaGd5WnVCRXJBR0lxRmxVVTRVMnIzNTdUaUNxeG0tWnZqd3FGMkFlTUNabld3ZzFWSmtMWHlRNE1hYmkzWDQ5QzBIZEp2Zzgway1WNkRNR204UVlxTTJ4NllqNWZUM213blk5N1diNTJxWEV5a1VkbDEtSjViRlNWdktnVF93U1VpVllBcE1nOVFncDBHX3FVYTJxMVkxWkpERkEzdDY5ci1nNnM1WW5YeU1UTTBmenVSWmFsQnoySWFWaVROM25heERSU282bnFWYTUyYmZJakVWVGI1Y9IB5gFBVV95cUxORGJqS0RadmM1X1VQektpZkFjZ0lRb2luT0tud1NEc2szNVpkNTBaTXJJTDhHR194UGlQa1ZiVGsyUDlybEZ4aURVdUV2ZlRZdHVXUWw0dmkwckhuQ0xlNG0wbEg1OS1vX0c3YVdBeXJSay11QUJXYzB3SnFxZHYxNHBoTk93VjhucnJpUFgtRl9SRjJYbFdYcUhNeUNzekpXdjBqWjdrbndQTUYtb0NYVDI3MWJ2V1J4UjAwYVRBNERVVDBzanpMNjNLblZYNEY3Z0RDcUtQb1lfeVZEODRhak1qQ1pxQQ?oc=5",
-   "pub": "Fri, 25 Sep 2026",
-   "query": "\"AI video\" (challenge OR contest) prize",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "Award-winning video of child’s lungs sparks AI controversy: What gave it away, and how did it differ fro - The Times of India",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZkhOX21IVV94VkF6Xy1lSUszTGtjLUR6WGVyU1ExY1lMeExlSVZwcXd1VVJ3VXlkdk1uUzU4S09PYUZDMUlGQUIzaEczTHBGei1mMXAxLTNNQmd4TVJoN0hBOWtpOUNoeWtRNWhnUnFKZkw4UjVsTzVXTVY2Tm1XWERpMnNJQ1Q2OG5Qd1BqZmdZYWxKSjdHV0NLd3ZqOHIwTEJsdjMzdzRLdDFtLTRaSTFrUU4tTlZzWlpFSnNkNnpUSlJmQTM0TmwzQWFoajhRTm9FVFVHUWRrMVNuM05mTjgzQktvb0dub1daUVZnQlZYNkw4Ui03Y2pJNTlSODBZblNlU3QzcG0zMzBWV1dkZzh2MVJyY3dpVTlwXzJB0gGjAkFVX3lxTE45aHkwSGU1Q3lsOUliUl93Z1pqT2p1dmNNUnp2WnE3LWd0aXVxNWZaMEQxQVFyUkJhM05NZVRRc0dYbDNKbG1qc0pxQ0pzY3lWNUs0TWlKQzBxSWpWcVVlQ1RKQzdodDZmZ2Y2NnNtcjczN0ZXVURNb1c3TW4tNVRDd0ZDcWR0VEZkZzVqbnBqRXNwNlNOVHFNZFowTWlpT05mZ2hIMGlwZFVFNDZKaVZFczJQWGRsRXVlaVkwMi1QbEs3aThnaDc3NDRtQUQ2djMxU3pkekdfZEZtRHFrWnhvREpzaGVqcXl3T0txb0ZpR3gtRDI4OUxHSmk5NFpTSER4dFBfRnZtcldzSlF0TUVUZTN0OHMwS25yUTRFUURoRDZjWQ?oc=5",
-   "pub": "Mon, 12 Oct 2026",
-   "query": "\"AI video\" (challenge OR contest) prize",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "Second edition of $1m AI Film Award opens for entries - Gulf News",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdERaeTRUbUVPejBJakdjSzVLZWN2UzVGOUxlYzRWVjBZOHRoTHdxeGdFeUdrcWxnR1daODlWYWR5WFhfV25HMGdDSTk0Nkc0a0RHaU9naUpHRVVtNm5TUFhCRTRCX3VBbjdNcUtlQnhINEZUWGJOR1QzczRCdlBxSjhRN0lFSTlNVzFLYzFQMjVEdTDSAaMBQVVfeXFMUFY2OU1HR2tkZDFkVXdtMFNvcWk5VUdiMXZfSnpxWFlGSElNOTB4OXZQNUZuRzh1VjFfQndhUEFqQmhpa3hlNk11Z1FCSDBPcTFkYllZTDAyVVYxMnV6NkFhdlVVQTFheXBRQTJsQ3VGZEZyLVYxcmI1bklOYlR0MlJ4NWx1aFA5ZDRxbGpyMVdOV3FPZ3B0WEtBdFZHdHRzMDhGbw?oc=5",
-   "pub": "Tue, 13 Oct 2026",
-   "query": "(\"Sora\" OR \"Google Veo\" OR \"CapCut\" OR \"Dreamina\" OR \"Krea\" OR \"Seedream\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "강화군, '2026년 강화군 영상 공모전' 개최…농특산품 홍보 숏폼 공모 - 연합뉴스",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jdnBRQWN4VkdjTzBPdUs2dy1FLUpUSFV2ZWItem9zdXdxYzJwT3d6MkRaVHhYQTMwOWlNM2lXWlJjMkNNNnUyY0tva0JibG9XbDJMVHlTaE56Tmc?oc=5",
-   "pub": "Tue, 13 Oct 2026",
-   "query": "AI 영상 챌린지 상금 공모",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "2026년 강화군 영상 공모… 농특산품 홍보 숏폼 - 미디어인천신문",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUdE55S3FZVUJCakNLZ192UHVHQjhHbzkwdFVKaHhzODJzNWN5ZGhLeWR5MG9IQXhzRTd6OF9JVmFaVXZVUFFCbmRoR0d1c1pqODl0RE95N2dsNDZSSXZ0YkR5R1ZfS3BJckhN?oc=5",
-   "pub": "Tue, 13 Oct 2026",
-   "query": "AI 영상 챌린지 상금 공모",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "인천 강화군, '2026년 강화군 영상 공모전' 개최… 농 특산품 홍보 숏폼 공모 - 기호일보",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VZ1JzdGRDVld4V2k1Ri1tZlJuT1VyQXZ1UDFvY25PQVg3OENUU3d6a1NGWjBnRDE3aHVvZGxNdUptVmFWX243dloyU0xhREk5bW9KbGJUY09yU3F2M3dRanpETmk1dWpEeU9VZXJtTQ?oc=5",
-   "pub": "Tue, 13 Oct 2026",
-   "query": "AI 영상 챌린지 상금 공모",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "강화군, 농특산품 홍보 숏폼 공모… 총상금 1천만 원 - 애드뉴스인천",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQeTY2NXNYbWJEZi1IMXFvaVpkMjhLMkRVdjBwV09hZ1E0NEsyall4T3ctSURmVzBScU00eG9ZQTNhNU1oeW9HVzdUT3VHNElialFmTWFabDRYRjVHdVNxUXRqb2FFelR4bEtR?oc=5",
-   "pub": "Tue, 13 Oct 2026",
-   "query": "AI 영상 챌린지 상금 공모",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "News Nuggets: Endangered list, ArtsConnect prize, Curebound Cancer Challenge, more - San Diego Union-Tribune",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZDRsMG10MkluclhuQnZMNlVVbmJPLXNTdk5iUHZoQVF2dlVHbDhzUHJRbHp2eEJwSXUtLW4xYW5kVldFQlk0VDhNZ2tQZnJYMWtrNTZIUTFwQmUtUzd0dllkTFlrZWIwRWlzWGVfS0c5aElQTll4LWg2WW1OYVV3NTF6d1pEUmhhVmlobUF5RGM4dlVzaEdaRFFiVld0NEJmOFktNmQzQUJTbU5iY1pOZlNZZmgya1VsMWZMSm91YWg5c2RBUHc?oc=5",
-   "pub": "Tue, 13 Oct 2026",
-   "query": "(\"Vidu\" OR \"Luma AI\" OR \"Pika Labs\" OR \"Runway\" OR \"OpenArt\" OR \"NightCafe\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "The '2026 Golden Age Awards' grandly opened its curtain.. Finalists take the 'Runway of Passion' [Star On-Site] - 스타뉴스",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX1BMYUo4YW0xaGR0SDRya2dlRnVzYkZaYkdUZ1JiZUZHN0p0Tk9OU3ppOXBwblNnNUhHUkNoNGpxYzAtNlBFTXRzS2JhOUVJQ2xVTHVBbmpadkxtVjdCVWQ2dHFaR3pMakhOeFFzS2FVQTlxcHpKZzFRMEs2VERWdVdDZ3g?oc=5",
-   "pub": "Thu, 08 Oct 2026",
-   "query": "(\"Vidu\" OR \"Luma AI\" OR \"Pika Labs\" OR \"Runway\" OR \"OpenArt\" OR \"NightCafe\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "'Profoundly Scottish' poetry competition reveals international winners - The Scotsman",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRy1RaVFPbzlCTmF0bnVXRlNTbVhVdG02QnRsSmdwbnI3anJGTzFLTlB5S2xVeTFDWjZoZjFwOUxTRE5WdW9idkoyaGhfSTY2WmFXMDNETkZ3ZlZoUzNxSXNNbE9SRGtLMm5LVC1PSGNSNHBtZ0Z1Y1MwUThubWRRZUVNSEtfdzBlNnpyVFNFZC1TTGxtUjA4MWxiQ1JtR2pJV3JwbEoydGl0SlQxRkhGclFaa2UtRk54b3c?oc=5",
-   "pub": "Fri, 02 Oct 2026",
-   "query": "(\"Vidu\" OR \"Luma AI\" OR \"Pika Labs\" OR \"Runway\" OR \"OpenArt\" OR \"NightCafe\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "Guwahati to Hold Swachh Durga Puja Contest from October 16 to 21 - Guwahati Plus News",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLVFIQTBRZ2tBWE0tc1JBdm5FblV6aVdxVDVxUWt3Z1FwTmJObXF0ZG9kX2JHVzlBZXVDOVFwUkFtWlI1M2ZoOTBobUZzSmN2QnFWSUpoTDNiN3Q2aTNaVHZMVnR4RWlLTnNvYllDeDB5dW0xM0d2VDFwRjg3Y0V6THJ2YXlqdHFCNVdZZGVDX0xkM1R5R001d2tqZy1ST1dvS2NXbQ?oc=5",
-   "pub": "Fri, 09 Oct 2026",
-   "query": "(\"Tensor.Art\" OR \"Ideogram\" OR \"Recraft\" OR \"Adobe Firefly\" OR \"Canva\" OR \"Grok Imagine\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-10-14"
-  },
-  {
-   "title": "AI-R Studio Wins Higgsfield’s AI Adathon Competition - ADWEEK",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGtGajlxZWpsbm91MWhDcGRBSGdhb0dhN3l4cUQxZ3FhcEdXZHZIUDlhWk9DQkVCdE1Pemx0X2VaTVdoUC1CNnBGU1JMNTJwOTQxNlJadExiLVJwdVcwNnNuWUlpSXhTamRwb3JSdmd2UmZNMHduQldwakVkYW52OEN1WXdqMGJDUjVxYUhkWQ?oc=5",
-   "pub": "Wed, 16 Sep 2026",
-   "query": "(\"Higgsfield\" OR \"PixVerse\" OR \"Civitai\" OR \"Artlist\") (challenge OR contest OR competition) prize",
-   "discovered": "2026-10-14"
   },
   {
    "title": "Hoban Group's Hoban Cultural Foundation will hold an international AI art contest \"Next Art AI\" in S.. - 매일경제",
