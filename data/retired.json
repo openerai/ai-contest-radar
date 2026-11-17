@@ -248,6 +248,16 @@
    "reason": "ended",
    "why": "페이지의 마지막 날짜가 2026-10-26 (이미 과거)",
    "cross": []
+  },
+  {
+   "id": "afc-upstream-ai-short-film-festival-2027",
+   "title": "Upstream AI Short Film Festival",
+   "url": "https://upstreamfilmfest.wixsite.com/upstream",
+   "source": "aifilmcontests",
+   "retiredAt": "2026-11-17",
+   "reason": "dead",
+   "why": "페이지 없음 (HTTP 404)",
+   "cross": []
   }
  ]
 }
