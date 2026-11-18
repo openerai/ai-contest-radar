@@ -2960,8 +2960,114 @@
   "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVFQyNmNwWjljTHBGTGNEOFpGOTkwTENOTzBBTGZmUE5tTWZmYXVJSGs2TEJlTjBrSjQwMzhzMDg1d25XN09SZHVoTHJPQ19KTGp5SHk2SlFvWGFkcEhVMm5va2IwekJNclFLVVVQRG1CLTFMamI2akF6VklPa292TG1ndzYzeFdVMHdMWVRmYkQtMUI0SkYyTlFQQjB0QjhYTTdnU3V6RnRJUjVuQ21NcTJ5Yw?oc=5": {
    "first": "2026-11-14",
    "brand": "news"
+  },
+  "https://www.artbreeder.com/contests/7602aef1e8c08de4686c65a12e70": {
+   "first": "2026-11-18",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/89cfe11177fb98922c13d4329182": {
+   "first": "2026-11-18",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/afb3c52627666f887ee68351d9ee": {
+   "first": "2026-11-18",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://www.artbreeder.com/contests/fb054e0d9db0e5d19d9f4cea4116": {
+   "first": "2026-11-18",
+   "brand": "Artbreeder",
+   "skipped": "제목 없음/수상 소식"
+  },
+  "https://civitai.com/articles/38971/when-ai-doesnt-listen-the-challenges-of-image-generation": {
+   "first": "2026-11-18",
+   "brand": "Civitai",
+   "skipped": "noisy"
+  },
+  "https://pixai.art/contest/user-aha-arrives-let-the-elation-begin": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-ai-autumn-nights": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-crossing-the-burning-snowfield-with-talulah": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-escape": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-fox-mama-illustration-contest": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-into-a-mysterious-world": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-navy-sailor-uniform": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-nurse-verse-contest": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-reunite-with-si": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-ribbons-and-frills": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-tales-of-rain": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://pixai.art/contest/user-winter-wonderland": {
+   "first": "2026-11-18",
+   "brand": "PixAI"
+  },
+  "https://app.klingai.com/global/activity-zone#klingimage408kcreativechallengeeverydetailstandsuptomagnificationtakeonthechallenge": {
+   "first": "2026-11-18",
+   "brand": "Kling AI",
+   "via": "render"
+  },
+  "https://news.google.com/rss/articles/CBMinwJBVV95cUxOQWNjVHk1YXc3cFpMc2VYQ253b1FhUVBLX21aTTVFMmpyakdBVTlrMi1NT0JNRnA2c3BmajUyRVVzWUViNVRqdWVtdTBWc2JlcTVaeWV6dGpNNlRKTDA5d0hiQ0F5S0o5QXZnX0pYTlhuaVpvb0o5czhHb2swUDJBOEJYZFBpQTJ6aEZ6SUhlMHpnYVZhMnV1emVMS2ZQSmxnNFFrUS1QZGdmSTcyZTZfNUtNcm4tZTZtNk5QaDFOeTM3Z2RKR2lnTV9ZbWU4QUpYcUZ2MFlSTk93SHBjS2lBaEY0SjFGZm5uc2s4ZXZiZmNKWFNMTWZrLWFMZmFwR0NLOXBLTUpnaFNmLUQ0SmVTbUhMOU92Njhjc1RCWDNYbw?oc=5": {
+   "first": "2026-11-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMizgJBVV95cUxNNEpaaXhoLVpkbndUTjYzYVE3YXBOYXdES3VDdVJZN2g4V0VTbnRfQ3pmTkdOelZlZXFnSjZZMVF1Nk9NU2E4YUZMRW4zVEtIOGJtek90OW12eVU2RTl5Z3hsZ2pEbEdZMjJxaDdLVGxobFF5TzQ2RVVDdmk2MldVdl9zXy11Q1htMmZxVml0ZWxacFk2VG9jMFJ2YjJyQURURDBHRTJIOW9ZRGVfRmhiM08wRVlJUXduUEZXd1Joc1hvTk80bU9FRjhFQXNIcVVTTVRubE1mYjlobHJaR3AxZ0syYVhmbkR0bzdWOWp1azZ0cHJ1c1EybWtUcXhLSUktU3RocW1IbldJcGxQUkctSXRERjdGS3NvVmRiQUhaS3hkYy04UzFSWUtkb3UwcjVSQVI3MmlrbEJ5RVFBMTNRc1djaGYyWTgydTc3QVRn?oc=5": {
+   "first": "2026-11-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMlYzQndqVVFJOE9jbHJRejRoUURWVXhROTNOWWN6MHU0LUUtQzZUdzFnV0tXTnhmb21XRERRb256Z2JYOVJMeDVoNXNST0M1d0ZrNEtKRmRWZVlrUlo3UklCdFoxVEVRQ2J1XzlpLTYwdzBqQWZFbVk5QVVvOExSSldiZXplVHY1LUdzOFdwVm5KTDBnOERQQlJTN21oTDJGOGo0MlNpYXdkRDZRR3RNeEhZQQ?oc=5": {
+   "first": "2026-11-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbG1UTDhGUUt3b0c5QnNQSEJLdWRDQXVrQWI5bmlYSEpicVV3N0Q1OGhRTlRBVW9LdVRmX3Z3WmQxN3p3cVpYaTRaS2toWVFkSUFncERGZGUtb3FLM0JDWEt2ZzdtTDhVajdKQU5PYnNEbDdTdFJFMFVrZEQxN1B6eEdlYzlNZVRzdFFPQnNHTDFGTWRqenpocmhkMnhSOTFLa0FraG15MGZka2s1Ny1hbEx1UWJ0Tko2V25aOGw4ZXd2SXdEcVFPRG5raWlUYmhtdVE?oc=5": {
+   "first": "2026-11-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQVFnX210Wi1IYU1PZ3ZnRkZ0cXJ5U3dDMExoWC1LdElJVWRkeklrQmJ6bFNzYkpIb1RvSFU5aEowX3daSWEyTWhjX1pTNU9WT1JST25zbkVjQ0xXZ2FEZVR4UFg0YUE4eTBlN1FodFpGdjRaZ1p2MGF6YnZBTURpTlhmNFFVSVJpRk02amJZWGs?oc=5": {
+   "first": "2026-11-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdU9EWXN4bEdneTU5VG1FMmFSb1NjSm9kajMyRU1jdjdwbDdSTWtMY05BN2g1RGwzWElRT3otTm9UYmduMnJsVUdRcFA3Q1FYd2p3a3VtSEFuaWFGRGotNUJLRGlrVy1XNm5mcU9CWFNBcThpdUJsZmM3bWRTOWJDd0owSGo1ZjItN2NzR2Nnczk3eWJVNEUyWTY3WXhXZU0xNW92VzJsbjhfb0sxQ214NXpQTloxV1lSand1N2pHNlY4aW9nb1BmMy1UcW5SdXhRV1lVLVFDMDVjUQ?oc=5": {
+   "first": "2026-11-18",
+   "brand": "news"
+  },
+  "https://news.google.com/rss/articles/CBMingFBVV95cUxOWTFrQ2g3elBHWmJNaG5oZW5ILWJRODJyeEFSakREbmNKLUJJS0UyM3JFNGc2QTNNOTF1NW1oOWxmQmxVVGI2NXJGTmdUWFFmMTk1VXRUS2RzU1FTcTJtdl9rMDh3dnVsV2t3TE5Fa0hFeEloSS1obkRCNnROQ3Q3WC1pN1JoWmpaSWRDeGJKOHhYbTJBZk0ycWxOSDVpZw?oc=5": {
+   "first": "2026-11-18",
+   "brand": "news"
   }
  },
- "updatedAt": "2026-11-14T01:22:26+00:00",
- "seenCount": 706
+ "updatedAt": "2026-11-18T02:49:30+00:00",
+ "seenCount": 731
 }
