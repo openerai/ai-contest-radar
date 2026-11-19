@@ -2,14 +2,14 @@
    사람이 관리하는 값은 data/manual.*.json 에 넣고
    `python scripts/update_contests.py` 를 다시 실행하세요. */
 window.GLOBAL_DATA = {
- "generatedAt": "2026-11-17T03:28:57+00:00",
+ "generatedAt": "2026-11-19T02:18:30+00:00",
  "_meta": {
-  "autoCount": 84,
-  "finalCount": 82,
+  "autoCount": 82,
+  "finalCount": 80,
   "manualCount": 23,
   "bySource": {
    "manual": 9,
-   "aifilmcontests": 73
+   "aifilmcontests": 71
   },
   "warnings": [
    "인공지능팩토리 카드 112개 중 접수중 0건 (또는 파싱 실패)",
@@ -49,7 +49,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "pixverse-cpp",
@@ -84,7 +84,7 @@ window.GLOBAL_DATA = {
    ],
    "verify": [],
    "source": "manual",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "runway-fund",
@@ -120,7 +120,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "nightcafe-daily",
@@ -156,7 +156,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "pixai-official",
@@ -193,7 +193,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "kling-kreate",
@@ -227,7 +227,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "seaart-daily",
@@ -262,7 +262,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "civitai-daily",
@@ -297,7 +297,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "manual",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "aifilmfest-monthly",
@@ -335,34 +335,7 @@ window.GLOBAL_DATA = {
     "deadline"
    ],
    "source": "manual",
-   "checkedAt": "2026-11-17"
-  },
-  {
-   "id": "afc-cine-prague-ai-film-festival-2026",
-   "title": "Cine Prague AI Film Festival 2026",
-   "org": "Cine Prague AI Film Festival",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-11-18",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 1000,
-   "credit": 0,
-   "prizeText": "현금 약 $1,000",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · $38.50-$50 (extended), see Festhome for early/standard tiers",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "International AI short film festival in Prague welcoming AI-generated, AI-assisted and traditional short films up to 5 minutes; finalists screen at Kino Edison with a $1,000 Grand Prix awarded December 1, 2026.",
-   "url": "https://filmfreeway.com/CinePrague",
-   "tags": [],
-   "verify": [],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-jingrui-ai-creation-contest-2026",
@@ -389,7 +362,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-1-billion-ai-film-award-2027",
@@ -416,7 +389,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-higgsfield-talent-contest-2026",
@@ -442,7 +415,8 @@ window.GLOBAL_DATA = {
    "url": "https://higgsfield.ai/contests/talent-contest?tab=rules",
    "tags": [],
    "verify": [],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-zone-intl-2026",
@@ -477,7 +451,7 @@ window.GLOBAL_DATA = {
    "alsoFrom": [
     "melies"
    ],
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-artefact-ai-film-festival-2026",
@@ -504,7 +478,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-curious-refuge-holiday-2026",
@@ -531,7 +505,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-nextale-award-2026",
@@ -558,7 +532,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-berlin-ai-film-festival-2026",
@@ -585,7 +559,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ia-play-international-film-festival-madrid-2027",
@@ -612,7 +586,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-cannes-film-awards-ai-2027",
@@ -639,7 +613,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-kursaal-ai-film-festival-san-sebastian-2027",
@@ -666,7 +640,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-hong-kong-ai-international-film-festival-2027",
@@ -693,7 +667,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-kcaif-2027",
@@ -720,7 +694,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-metamorph-ai-film-award-2027",
@@ -747,7 +721,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-short-way-ai-narrative-short-2027",
@@ -774,36 +748,7 @@ window.GLOBAL_DATA = {
    "tags": [],
    "verify": [],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
-  },
-  {
-   "id": "afc-waiff-london-2026",
-   "title": "WAIFF London 2026 — World AI Film Festival UK",
-   "org": "World AI Film Festival (WAIFF) UK edition",
-   "orgType": "영화제",
-   "orgTier": "mid",
-   "cat": "AI 필름",
-   "deadline": "2026-11-17",
-   "tz": "현지",
-   "recur": "once",
-   "cash": 0,
-   "credit": 0,
-   "prizeText": "상금 정보는 공고 확인",
-   "who": "전 세계 창작자 누구나",
-   "whoType": "전세계 누구나",
-   "fee": "paid",
-   "feeText": "참가비 있음 · £45 early bird (to Sep 1) / £55 regular (Sep 27) / £75 late ",
-   "entry": "영화제 폼 제출",
-   "career": "festival",
-   "bonus": [],
-   "note": "The UK edition of the World AI Film Festival, held November 24, 2026 at Bloomsbury Big Top in London. Open to UK-based creators aged 13 and up across eight categories, from live-action shorts and features to vertical micro-series and 3D Worlds. From 11 winners, a jury selects 5 works to advance to the WAIFF Cannes 2027 Grand Finale, and one is named WAIFF London Grand Prix.",
-   "url": "https://filmfreeway.com/WAIFFLondon",
-   "tags": [],
-   "verify": [
-    "prize"
-   ],
-   "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-cue-film-fest-xmas-2026",
@@ -832,7 +777,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-m-ai-international-ai-short-film-festival-2026",
@@ -861,7 +806,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-svaiiff-korea-2026",
@@ -890,7 +835,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-aiffa-africa-2026",
@@ -919,7 +864,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-veritas-ai-film-festival-2026",
@@ -948,7 +893,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-for-the-future-cop31-2026",
@@ -977,7 +922,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-artist-festival-s6-2026",
@@ -1006,7 +951,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-waicf-india-2026",
@@ -1035,7 +980,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-jiff-world-ai-cinema-2027",
@@ -1064,7 +1009,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-turquoise-ai-film-festival-ankara-2027",
@@ -1093,7 +1038,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-florence-ai-festival-2026",
@@ -1122,7 +1067,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-gossip-goblin-showrunner-competition-2026",
@@ -1151,7 +1096,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-slop-2027",
@@ -1180,7 +1125,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-laaimpa-la-2026",
@@ -1209,7 +1154,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-akool-ai-film-challenge-2026",
@@ -1238,7 +1183,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-nexmuse-ai-music-video-contest-2027",
@@ -1267,7 +1212,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-metamorph-tapnow-winter-2027",
@@ -1296,7 +1241,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-reel-sessions-black-ai-film-festival-2026",
@@ -1325,7 +1270,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-film-awards-las-vegas-2026",
@@ -1354,7 +1299,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-film-ads-awards-india-2026",
@@ -1383,7 +1328,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-neocinema-ai-film-festival-2026",
@@ -1412,7 +1357,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-waiff-africa-abidjan-2027",
@@ -1441,7 +1386,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-csfcca-intl-ai-film-festival-2026",
@@ -1470,7 +1415,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-global-ai-music-video-awards-2027",
@@ -1499,7 +1444,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-montreal-ai-indie-festival-2027",
@@ -1528,7 +1473,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-hollywood-ai-short-film-awards-2027",
@@ -1557,7 +1502,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-indian-pixels-ai-film-festival-2027",
@@ -1586,7 +1531,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-waiff-la-2026",
@@ -1615,7 +1560,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-expo-ai-film-festival-dubai-2027",
@@ -1644,7 +1589,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-lundinstudio-ai-film-festival-2027",
@@ -1673,7 +1618,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-cinema-quebec-city-2027",
@@ -1702,7 +1647,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-chicago-ai-film-festival-2027",
@@ -1731,7 +1676,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-altera-festival-2027",
@@ -1759,7 +1704,8 @@ window.GLOBAL_DATA = {
    "verify": [
     "prize"
    ],
-   "source": "aifilmcontests"
+   "source": "aifilmcontests",
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ia-play-panama-2027",
@@ -1788,7 +1734,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-cinema-festival-montreal-2027",
@@ -1817,7 +1763,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-waiff-cannes-2027",
@@ -1846,7 +1792,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-milan-ai-festival-2027",
@@ -1875,7 +1821,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-hkust-ai-film-festival-2027",
@@ -1904,7 +1850,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-twin-rivers-ai-film-festival-2027",
@@ -1933,7 +1879,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-world-film-festival-cannes-rtf-2027",
@@ -1962,7 +1908,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-prompt-festival-toronto-2027",
@@ -1991,7 +1937,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-uk-film-ai-awards-2027",
@@ -2020,7 +1966,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-horizons-ia-punta-del-este-2027",
@@ -2049,7 +1995,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-seoul-ai-film-festival-2027",
@@ -2078,7 +2024,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-sin-camara-festival-cortos-ia-2027",
@@ -2107,7 +2053,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-toronto-genre-awards-2027",
@@ -2136,7 +2082,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-london-ai-independent-2027",
@@ -2165,7 +2111,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-nyc-indie-cinema-and-ai-2027",
@@ -2194,7 +2140,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-cinema-festival-nyc-2027",
@@ -2223,7 +2169,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-independent-montreal-festival-2027",
@@ -2252,7 +2198,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-cinema-festival-cannes-2027",
@@ -2281,7 +2227,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-kerala-international-ai-film-festival-2027",
@@ -2310,7 +2256,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-metamorph-tapnow-spring-2027",
@@ -2339,7 +2285,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-bengaluru-short-film-festival-ai-2027",
@@ -2368,7 +2314,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-ai-for-good-film-festival-2027",
@@ -2402,7 +2348,7 @@ window.GLOBAL_DATA = {
    "alsoFrom": [
     "melies"
    ],
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   },
   {
    "id": "afc-metamorph-tapnow-summer-2027",
@@ -2431,7 +2377,7 @@ window.GLOBAL_DATA = {
     "prize"
    ],
    "source": "aifilmcontests",
-   "checkedAt": "2026-11-17"
+   "checkedAt": "2026-11-19"
   }
  ]
 };
