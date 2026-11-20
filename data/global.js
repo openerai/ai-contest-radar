@@ -24,8 +24,8 @@ window.GLOBAL_DATA = {
    "orgType": "플랫폼",
    "orgTier": "top",
    "cat": "AI 필름",
-   "deadline": "2026-12-31",
-   "tz": "UTC",
+   "deadline": "2027-01-08",
+   "tz": "KST",
    "recur": "once",
    "cash": 175000,
    "credit": 1000000,
@@ -40,8 +40,8 @@ window.GLOBAL_DATA = {
     "주요 AI 툴 기업 공동 주최",
     "글로벌 노출"
    ],
-   "note": "접수 2026.06.01 ~ 12.31. 크레딧 규모가 압도적이라 다음 해 제작비를 통째로 확보할 수 있는 급. 여러 툴 기업이 공동 주최해 특정 플랫폼 종속이 없습니다.",
-   "url": "https://aifilmcontests.com/",
+   "note": "공식 접수 기간: 2026-10-19 12:00 Pacific ~ 2027-01-07 23:45 Pacific. 한국 마감은 2027-01-08 16:45 KST (07:45 UTC). 상금·체험 혜택 구성은 공식 안내에서 별도 확인해야 합니다.",
+   "url": "https://chromaawards.com/terms",
    "tags": [
     "크레딧초대형",
     "무료",
